@@ -1,4 +1,13 @@
 # Bundli-Frontend
 Bundli-Frontend is a repo which contains different code of frontend Development which i have to make during my learning of frontend dev
 
-![Bundli-Frontend](https://socialify.git.ci/Ayush7614/Bundli-Frontend/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
+<h1 align=center> Bundli-Frontend </h1>
+<p align="center">
+  <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/images/up.png" width=800px height=700px /></a> 
+</p>
+ 
+ <p align="center">
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/images/forkit.gif" width=600px height=400px /></a> 
+</p>
+
+  
