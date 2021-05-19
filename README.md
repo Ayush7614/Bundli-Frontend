@@ -38,15 +38,19 @@ You can refer to the following articles on the basics of Git and Github and also
 - Fork the Repo and create a Branch for any Issue that you are working upon.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
-- Having difficulty in contributing? Read the [Contribution Guide](https://github.com/HarshCasper/Rotten-Scripts/blob/master/CONTRIBUTING.md) for a detailed explanation.
+- Having difficulty in contributing? Read the [Contribution Guide](https://github.com/Ayush7614/Bundli-Frontend/blob/main/CONTRIBUTING.md) for a detailed explanation.
 
 ## 💻 Languages used in this project
 
-- [Python](https://github.com/HarshCasper/Rotten-Scripts/tree/master/Python)
-- [JavaScript](https://github.com/HarshCasper/Rotten-Scripts/tree/master/JavaScript)
-- [GoLang](https://github.com/HarshCasper/Rotten-Scripts/tree/master/Go)
-- [Bash](https://github.com/HarshCasper/Rotten-Scripts/tree/master/Bash)
-- [PowerShell](https://github.com/HarshCasper/Rotten-Scripts/tree/master/PowerShell)
+- [HTML5](https://github.com/Ayush7614/Bundli-Frontend)
+- [CSS3](https://github.com/Ayush7614/Bundli-Frontend)
+- [JAVASCRIPT](https://github.com/Ayush7614/Bundli-Frontend)
+
+## 💻 Frameworks and libraries used in this project
+
+- [Bootstrap](https://github.com/Ayush7614/Bundli-Frontend)
+- [ReactJS](https://github.com/Ayush7614/Bundli-Frontend)
+- [AngularJS](https://github.com/Ayush7614/Bundli-Frontend)
 
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
@@ -54,5 +58,20 @@ You can refer to the following articles on the basics of Git and Github and also
 ## Stargazers over time 🤗
 
 [![Stargazers over time](https://starchart.cc/Ayush7614/Bundli-Frontend.svg)](https://starchart.cc/Ayush7614/Bundli-Frontend)
+
+<h1 align=center> Project Admin ❤️ </h1>
+<p align="center">
+  <a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width=150px height=150px /></a> 
+    
+<p align="center">
+  <a target="_blank"href="https://www.linkedin.com/in/ayush-kumar-%F0%9F%87%AE%F0%9F%87%B3-984443191/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a target="_blank"href="https://twitter.com/AyushKu38757918"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:ayushknj3@gmail.com?subject=Hello%20Harsh,%20From%20Github"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.instagram.com/ayush_msdian/"><img src="https://img.shields.io/badge/instagram-%23D14836.svg?&style=for-the-badge&logo=instagram&logoColor=pink" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://Ayush7614.hashnode.dev/"><img src="https://img.shields.io/badge/hashnode-%27D1203.svg?&style=for-the-badge&logo=hashnode&logoColor=blue" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+
+<h1 align=center>Happy Coding 👨‍💻 </h1>
 
 
