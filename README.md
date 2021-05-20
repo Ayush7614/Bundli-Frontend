@@ -104,6 +104,16 @@ You can refer to the following articles on the basics of Git and Github and also
     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/JS%20%2B%20CSS%20clock.png" /></a> 
 </p>
 
+### 11 . Form Wave
+<p align="center">
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Form%20Wave.png" /></a> 
+</p>
+
+### 12 . Drink Water
+<p align="center">
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Drink%20Water.png" /></a> 
+</p>
+
 
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
