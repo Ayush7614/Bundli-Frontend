@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Hi thanks for creating your first issue at Bundali-Frontend, hope you followed the guidelines.'
+        pr-message: 'Congratulations!! for making your first PR at Bundali-Frontend, our mentors will review it soon.'
