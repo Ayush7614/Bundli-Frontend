@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoWin Slot Notifier</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <div class="Heading"><h1>CoWin Vaccination Slot Finder For 18+</h1></div>
+    <div class="input">
 
+        <label for="date">
+            <h2>Select Date:</h2>
+        </label>
+        <input type="date" id="date" ><br>
+
+
+        <h2>Enter State name:</h2>
+        <input type="text" class="state" placeholder="Enter State name" list="states" required><br>
+        
+        <datalist id="states">
+            <div class="statesoutput">
+             </div>
+        </datalist>
+
+        
+
+        <h2>Enter district name:</h2>
+        <input type="text" class="districtname" placeholder="Enter district name" list="districts" required><br>
+        
+        <datalist id="districts">
+            <div class="districtnames">
+            </div>
+        </datalist>
+
+        <input type="submit" value="Search" class="submit">
+
+        <div class="display">
+            <p class="content"></p><br>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
