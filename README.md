@@ -1,5 +1,5 @@
 # Bundli-Frontend
-Bundli-Frontend is a repo which contains different code of frontend Development which i have to make during my learning of frontend dev
+Bundli-Frontend is a open source project which contains different code of frontend Development with HTML, CSS, JS, REACT, ANGULAR and APIs etc. which makes your life easier for learning frontend and make your intrest more in frontend.
 
  <p align="center">
     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/images/forkit.gif" /></a> 
