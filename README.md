@@ -96,7 +96,7 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ### 9 . Dads Joke
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Dads%20Joke.png" /></a> 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/dads%20jokes.png" /></a> 
 </p>
 
 ### 10 . JS + CSS Clock
