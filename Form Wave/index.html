@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale:1.0">
+	<title>Login</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<video autoplay muted loop id="myVideo">
+		<source src="videos/bg.mp4" type="video/mp4">
+	  </video>
+		<div class="card">
+			<div class="card-title">             
+				<h3><i class="fa fa-user-circle-o" aria-hidden="true"></i> User <span id="action_title">Login</span></h3>
+			</div>
+			<div class="card-body">             
+				<div class="card-body-top">
+					<button id="login" class="btn" name="login" onclick="login()">login</button>
+					<button id="register" class="btn" name="register" onclick="register()">register</button>
+					<div id="pointer-btn"></div>
+				</div>
+				<div class="card-body-login">
+					<form id="login-form" action="bg.mp4" method="post"> 
+					<div class="fields">            
+						<input class="input-form" type="email" name ="username" required>
+						<label>Email</label>
+					</div>
+						<br><br>
+					<div class="fields">
+						<input class="input-form" type="password" name ="password" required>
+						<label>Password</label>
+                    </div>
+						<br>
+						<p style="color: rgb(176, 207, 207);">Don't have an account?<a href="#" onclick="register()">Register</a></p>
+						<br><br>
+						<input class="submit-form" name="submit" type="submit" value="Login">
+					</form>
+					<form id="register-form"  method="post"> 
+						<div class="fields"> 
+						<input class="input-form" type="text" name="fullname" required>
+						<label>Full Name</label>
+					    </div>
+						<br><br>
+						<div class="fields"> 
+						<input class="input-form" type="email" name="email" required>
+						<label>Email</label>
+					    </div>
+						<br><br>
+						<div class="fields"> 
+						<input class="input-form" type="password" name="password" required>
+						<label>Password</label>
+					    </div>
+						<p style="color: rgb(176, 207, 207);">Already have an account?<a href="#" onclick="login()">Login</a></p>
+						<br>
+						<input class="submit-form" type="submit" value="Register">
+					</form>
+				</div>
+			</div>
+		</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
