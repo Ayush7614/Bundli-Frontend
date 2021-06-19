@@ -61,6 +61,10 @@ body {
     color: white;
 }
 
+#alert1 {
+    z-index: 10;
+}
+
 .badge3 {
     font-size: 1.5em;
     color: black;
@@ -70,6 +74,7 @@ body {
 }
 
 #clue {
+    display: none;
     font-size: 1.5em;
     color: black;
     background-color: rgb(255, 158, 47);
@@ -178,6 +183,10 @@ p {
     -khtml-border-radius: 5px;
     border: solid 1px #fff;
     border-radius: 10px;
+}
+
+.rights {
+    font-size: 100%;
 }
 
 #alphabet li:hover {

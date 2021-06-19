@@ -77,11 +77,34 @@ window.onload = function() {
     comments = function() {
         showLives.innerHTML = "You have " + lives + " lives";
         if (lives < 1) {
+
+            document.getElementById("mylives").style.backgroundColor = "red";
             showLives.innerHTML = "Game Over";
+            swal({
+                    title: "GAME OVER!",
+                    text: "Better Luck Next Time, Press ok to Play Again",
+                    icon: "error",
+                    buttons: true,
+                    dangerMode: true,
+                })
+                .then((willDelete) => {
+                    if (willDelete) {
+                        correct.parentNode.removeChild(correct);
+                        letters.parentNode.removeChild(letters);
+                        showClue.innerHTML = "";
+                        document.getElementById("clue").style.display = "none";
+                        document.getElementById("mylives").style.backgroundColor = "rgb(255, 158, 47)";
+                        context.clearRect(0, 0, 400, 400);
+                        play();
+                    }
+                });
         }
         for (var i = 0; i < geusses.length; i++) {
             if (counter + space === geusses.length) {
+                document.getElementById("mylives").style.backgroundColor = "green";
+                swal("You Won!", "Press Play Again!", "success");
                 showLives.innerHTML = "You Win!";
+
             }
         }
     }
@@ -219,7 +242,8 @@ window.onload = function() {
 
         var catagoryIndex = categories.indexOf(chosenCategory);
         var hintIndex = chosenCategory.indexOf(word);
-        showClue.innerHTML = "Clue: - " + hints[catagoryIndex][hintIndex];
+        showClue.innerHTML = "Clue: " + hints[catagoryIndex][hintIndex];
+        document.getElementById("clue").style.display = "inline-block";
     };
 
     // Reset
@@ -227,7 +251,9 @@ window.onload = function() {
     document.getElementById('reset').onclick = function() {
         correct.parentNode.removeChild(correct);
         letters.parentNode.removeChild(letters);
-        showClue.innerHTML = "Clue:";
+        showClue.innerHTML = "";
+        document.getElementById("clue").style.display = "none";
+        document.getElementById("mylives").style.backgroundColor = "rgb(255, 158, 47)";
         context.clearRect(0, 0, 400, 400);
         play();
     }
