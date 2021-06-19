@@ -79,7 +79,7 @@ body {
 }
 
 #hold {
-    font-size: 30px;
+    font-size: 220%;
 }
 
 .wrappper {
@@ -137,7 +137,7 @@ h3 {
 }
 
 h1 {
-    font-size: 2.em;
+    font-size: 3em;
 }
 
 h2 {
@@ -231,12 +231,52 @@ p {
 
 @media (max-width: 767px) {
     #alphabet {
-        padding: 0 0 0 15px;
+        padding: 0;
+    }
+    #my-word li {
+        position: relative;
+        list-style: none;
+        margin: 0;
+        display: inline-block;
+        padding: 0 10px;
+        font-size: 1.2em;
+    }
+    #hint {
+        background-color: #170a46;
+        width: 90px;
+        font-size: 100%;
+        color: white;
+    }
+    #reset {
+        background-color: #170a46;
+        width: 90px;
+        font-size: 100%;
+        color: white;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     #alphabet {
-        padding: 0 0 0 25px;
+        padding: 0;
+    }
+    .badge1 {
+        font-size: 1em;
+    }
+    .badge2 {
+        font-size: 1em;
+        color: white;
+    }
+    .badge3 {
+        font-size: 1em;
+        color: black;
+        background-color: rgb(255, 158, 47);
+        width: 10em;
+        border-radius: 25px;
+    }
+    canvas {
+        color: white;
+        border: black solid 2px;
+        padding: 15px;
+        background-color: white;
     }
 }
