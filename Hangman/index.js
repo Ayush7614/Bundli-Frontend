@@ -102,7 +102,15 @@ window.onload = function() {
         for (var i = 0; i < geusses.length; i++) {
             if (counter + space === geusses.length) {
                 document.getElementById("mylives").style.backgroundColor = "green";
-                swal("You Won!", "Press Play Again!", "success");
+
+                swal({
+                    title: "You Won!",
+                    text: "Press ok to Play Again",
+                    icon: "success",
+                    buttons: true,
+                    dangerMode: true,
+                })
+
                 showLives.innerHTML = "You Win!";
 
             }
