@@ -122,11 +122,15 @@ You can refer to the following articles on the basics of Git and Github and also
 ### 14 . Doremon Css
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Doremon%20Css/Doremon.png" /></a>
-</p>   
+</p> 
 
+### 15 . JS Calculator
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/PadminiRai/Bundli-Frontend/blob/main/Screenshots/JS%20Calculator.JPG" /></a>
+</p> 
 ### 15 . Hangman In Js
 <p align="center">
-     <a href="https://github.com/pranjay-poddar"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/hangman/Screenshots/hangman.PNG" /></a>
+     <a href="https://github.com/pranjay-poddar"><img src="./screenshots/hangman.png" /></a>
 </p> 
 
 
