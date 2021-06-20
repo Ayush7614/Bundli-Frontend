@@ -124,7 +124,7 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Doremon%20Css/Doremon.png" /></a>
 </p> 
 
-### 14 . JS Calculator
+### 15 . JS Calculator
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/PadminiRai/Bundli-Frontend/blob/main/Screenshots/JS%20Calculator.JPG" /></a>
 </p> 
