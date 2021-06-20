@@ -66,6 +66,12 @@ td {
     font-size: 80px;
     color: #ffffff;
     border-radius: 10px 10px 10px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+td:hover {
+    transform: scale(1.1);
+    background-color: #301097;
 }
 
 #turn {
