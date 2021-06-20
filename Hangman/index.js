@@ -43,11 +43,11 @@ window.onload = function() {
     // Select Catagory
     var selectCat = function() {
         if (chosenCategory === categories[0]) {
-            catagoryName.innerHTML = "The Chosen Category Is Premier League Football Teams";
+            catagoryName.innerHTML = "Premier League Football Teams";
         } else if (chosenCategory === categories[1]) {
-            catagoryName.innerHTML = "The Chosen Category Is Films";
+            catagoryName.innerHTML = "Films";
         } else if (chosenCategory === categories[2]) {
-            catagoryName.innerHTML = "The Chosen Category Is Cities";
+            catagoryName.innerHTML = "Cities";
         }
     }
 
@@ -108,8 +108,18 @@ window.onload = function() {
                     text: "Press ok to Play Again",
                     icon: "success",
                     buttons: true,
-                    dangerMode: true,
-                })
+                    successMode: true,
+                }).then((q) => {
+                    if (q) {
+                        correct.parentNode.removeChild(correct);
+                        letters.parentNode.removeChild(letters);
+                        showClue.innerHTML = "";
+                        document.getElementById("clue").style.display = "none";
+                        document.getElementById("mylives").style.backgroundColor = "rgb(255, 158, 47)";
+                        context.clearRect(0, 0, 400, 400);
+                        play();
+                    }
+                });
 
                 showLives.innerHTML = "You Win!";
 

@@ -54,11 +54,23 @@ body {
 
 .badge1 {
     font-size: 1.5em;
+    background-color: rgb(255, 158, 47);
+    border-radius: 25px;
+    padding: 0 5px 0 5px;
 }
 
 .badge2 {
     font-size: 1.5em;
     color: white;
+    text-transform: uppercase;
+    background-color: #170a46;
+}
+
+.badge4 {
+    font-size: 1.5em;
+    color: black;
+    text-transform: uppercase;
+    display: inline-block;
 }
 
 #alert1 {
@@ -269,10 +281,11 @@ p {
         padding: 0;
     }
     .badge1 {
-        font-size: 1em;
+        font-size: 1.2em;
+        border-radius: 5px;
     }
     .badge2 {
-        font-size: 1em;
+        font-size: 1.3em;
         color: white;
     }
     .badge3 {
