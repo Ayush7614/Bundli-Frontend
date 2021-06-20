@@ -128,7 +128,7 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/PadminiRai/Bundli-Frontend/blob/main/Screenshots/JS%20Calculator.JPG" /></a>
 </p> 
-### 15 . Hangman In Js
+### 16 . Hangman In Js
 <p align="center">
      <a href="https://github.com/pranjay-poddar"><img src="./screenshots/hangman.png" /></a>
 </p> 
