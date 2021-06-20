@@ -42,13 +42,18 @@ body {
     background-color: #ececec;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url('./images/background.png');
-    background-size: auto;
-    background-repeat: round;
-    opacity: 0.9;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
 }
 
 .head {
     padding: 5px 10px;
+    margin-top: 2vh;
+    background-color: #ececec;
 }
 
 table {
@@ -71,4 +76,11 @@ td {
 
 #tictactoe {
     margin: 5vh 0px;
+}
+
+.rights {
+    color: black;
+    padding: 5px;
+    font-size: 0.9em;
+    background-color: #ececec;
 }
