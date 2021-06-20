@@ -125,7 +125,7 @@ You can refer to the following articles on the basics of Git and Github and also
 </p>   
 ### 15 . Hangman In Js
 <p align="center">
-     <a href="https://github.com/pranjay-poddar"><img src="./screenshots/hangman.png" /></a>
+     <a href="https://github.com/pranjay-poddar"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/hangman/Screenshots/hangman.PNG" /></a>
 </p> 
 
 
