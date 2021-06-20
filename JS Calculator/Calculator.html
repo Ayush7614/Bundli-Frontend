@@ -85,6 +85,7 @@ input[type=text] {
     <div class="display">
       <input type="text" placeholder="0" name="displayResult" id="txtb" readonly/>
     </div>
+      /* various rows in calculator for numbers and operations */
       <div class="buttons">
         <div class="rowsincalc">
         <input type="button" name="b7" value="7" onClick="calcNumbers(b7.value)">
@@ -114,8 +115,8 @@ input[type=text] {
           <input type="button" class="red" value="=" onClick="displayResult.value=eval(displayResult.value)">
         </div>
         <br>   
-        <div>
-                   
+        /* clear button in calculator */
+        <div>                   
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button style="width:45% ; background-color: #5856ac;font-size: larger;" onclick="calclear()"><b>Clear</b></button>
         </div>
@@ -124,6 +125,7 @@ input[type=text] {
     </form>
   </div>
 </body>
+    /* functions called on button click of HTML elements */
 <script>
     function calcNumbers(result){
     form.displayResult.value=form.displayResult.value+result;
