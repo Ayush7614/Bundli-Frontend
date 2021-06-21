@@ -126,7 +126,7 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ### 15 . Doremon Css
 <p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/master/Screenshots/Doremon.png" /></a>
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/Flappy-bird/Screenshots/flappybird.png" /></a>
 </p>    
 
 
