@@ -124,9 +124,9 @@ You can refer to the following articles on the basics of Git and Github and also
     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/master/Screenshots/Vaccine%20Slot.png" /></a>
 </p>
 
-### 15 . Doremon Css
+### 15 . Flappy Bird
 <p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/Flappy-bird/Screenshots/flappybird.png" /></a>
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/Flappy-bird/Screenshots/flappybird.png" /></a>
 </p>    
 
 
