@@ -6,7 +6,11 @@ window.onload = function() {
         'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
         't', 'u', 'v', 'w', 'x', 'y', 'z'
     ];
-
+    // right click disable start-------------------------
+    document.addEventListener("contextmenu", function(e) {
+        e.preventDefault();
+    }, false);
+    // right click disable end -------------------------------
     var categories; // Array of topics
     var chosenCategory; // Selected catagory
     var getHint; // Word getHint
