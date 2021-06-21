@@ -1,18 +1,6 @@
 /*
  * Tic Tac Toe
- *
- * A Tic Tac Toe game in HTML/JavaScript/CSS.
- *
- * @author: Vasanth Krishnamoorthy
- */
-var N_SIZE = 3,
-    EMPTY = "&nbsp;",
-    boxes = [],
-    turn = "X",
-    score,
-    moves;
 
-/*
  * Initializes the Tic Tac Toe board and starts the game.
  */
 function init() {
