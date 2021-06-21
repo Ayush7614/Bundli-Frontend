@@ -6,7 +6,11 @@ var N_SIZE = 3,
     moves;
 var x = document.getElementById("myAudio");
 var y = document.getElementById("win");
-
+// right click disable start-------------------------
+document.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+}, false);
+// right click disable end -------------------------------
 function init() {
     var board = document.createElement('table');
     board.setAttribute("border", 1);
