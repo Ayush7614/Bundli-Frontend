@@ -1,8 +1,12 @@
-/*
- * Tic Tac Toe
+var N_SIZE = 3,
+    EMPTY = "&nbsp;",
+    boxes = [],
+    turn = "X",
+    score,
+    moves;
+var x = document.getElementById("myAudio");
+var y = document.getElementById("win");
 
- * Initializes the Tic Tac Toe board and starts the game.
- */
 function init() {
     var board = document.createElement('table');
     board.setAttribute("border", 1);
@@ -61,6 +65,7 @@ function win(clicked) {
     for (var i = 0; i < memberOf.length; i++) {
         var testClass = '.' + memberOf[i];
         var items = contains('#tictactoe ' + testClass, turn);
+        x.play();
         // winning condition: turn == N_SIZE
         if (items.length == N_SIZE) {
             return true;
@@ -87,9 +92,11 @@ function set() {
     moves += 1;
     score[turn] += this.identifier;
     if (win(this)) {
+        y.play();
         swal('Winner: Player ' + turn);
         startNewGame();
     } else if (moves === N_SIZE * N_SIZE) {
+        y.play();
         swal("Draw");
         startNewGame();
     } else {
