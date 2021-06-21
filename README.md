@@ -126,13 +126,45 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ### 15 . JS Calculator
 <p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/PadminiRai/Bundli-Frontend/blob/main/Screenshots/JS%20Calculator.JPG" /></a>
-</p> 
-### 15 . Hangman In Js
-<p align="center">
-     <a href="https://github.com/pranjay-poddar"><img src="./screenshots/hangman.png" /></a>
+     <a href="https://github.com/Ayush7614" ><img src="https://github.com/PadminiRai/Bundli-Frontend/blob/main/Screenshots/JS%20Calculator.JPG" /></a>
 </p> 
 
+### 16. Drum-kit
+<p align="center">
+<a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/3592862421df7f5b61f06398d718596c522f073c/Screenshots/Drum-kit.png"></a>
+</p>
+
+
+### 15 . Flappy Bird
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/Flappy-bird/Screenshots/flappybird.png" /></a>
+</p>    
+
+### 17 . Hangman In Js
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Hangman/images/Web%20view.PNG" /></a>
+</p> 
+
+
+### 17 . Memory Game In Js
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Memory%20Game.png" /></a>
+</p> 
+
+### 18 . Connect Four Game In Js
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Connect%20Four.png" /></a>
+</p> 
+
+### 19. Simon Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/6537c834fa19c845eefeae5c5afd316a82c6ddef/Screenshots/Simon_game.png  " /></a>
+</p> 
+
+### 20. Color Flipper in JS
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Color%20Flipper.png" /></a>
+</p> 
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
