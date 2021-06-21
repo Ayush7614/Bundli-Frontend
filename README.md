@@ -96,7 +96,7 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ### 9 . Dads Joke
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Dads%20Joke.png" /></a> 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/modify_dads_jokes/Screenshots/dads%20jokes.png" /></a> 
 </p>
 
 ### 10 . JS + CSS Clock
@@ -119,17 +119,42 @@ You can refer to the following articles on the basics of Git and Github and also
     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Todo%20App.png" /></a>
 </p>
 
-### 14 . Vaccine Slot Finder
+### 14 . Doremon Css
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/master/Screenshots/Vaccine%20Slot.png" /></a>
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Doremon%20Css/Doremon.png" /></a>
+</p> 
+
+### 15 . JS Calculator
+<p align="center">
+     <a href="https://github.com/Ayush7614" ><img src="https://github.com/PadminiRai/Bundli-Frontend/blob/main/Screenshots/JS%20Calculator.JPG" /></a>
+</p> 
+
+### 16. Drum-kit
+<p align="center">
+<a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/3592862421df7f5b61f06398d718596c522f073c/Screenshots/Drum-kit.png"></a>
 </p>
+
 
 ### 15 . Flappy Bird
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/Flappy-bird/Screenshots/flappybird.png" /></a>
 </p>    
 
+### 17 . Hangman In Js
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Hangman/images/Web%20view.PNG" /></a>
+</p> 
 
+
+### 17 . Memory Game In Js
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Memory%20Game.png" /></a>
+</p> 
+
+### 18 . Connect Four Game In Js
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Connect%20Four.png" /></a>
+</p> 
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
