@@ -166,12 +166,13 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Color%20Flipper.png" /></a>
 </p> 
+
 ### 24 . Vaccine Slot Finder
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/slot_finder/Screenshots/vaccineslotfinder.png" /></a>
 </p>  
 
-### 21.Dice Game
+### 25.Dice Game
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/1bcfce8c60445c0934467d21eb6864ef907a29c6/Screenshots/Dice-game.jpg" /></a>
 </p> 
