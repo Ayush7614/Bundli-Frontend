@@ -134,8 +134,6 @@ You can refer to the following articles on the basics of Git and Github and also
 <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/3592862421df7f5b61f06398d718596c522f073c/Screenshots/Drum-kit.png"></a>
 </p>
 
-
-
 ### 17 . Flappy Bird
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/Flappy-bird/Screenshots/flappybird.png" /></a>
@@ -146,37 +144,41 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Hangman/images/Web%20view.PNG" /></a>
 </p> 
 
-
 ### 19 . Memory Game In Js
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Memory%20Game.png" /></a>
 </p> 
 
-### 21 . Connect Four Game In Js
+### 20. Connect Four Game In Js
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Connect%20Four.png" /></a>
 </p> 
 
-### 22. Simon Game
+### 21. Simon Game
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/6537c834fa19c845eefeae5c5afd316a82c6ddef/Screenshots/Simon_game.png  " /></a>
 </p> 
 
-### 23. Color Flipper in JS
+### 22. Color Flipper in JS
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Color%20Flipper.png" /></a>
 </p> 
 
-### 24 . Vaccine Slot Finder
+<<<<<<< HEAD
+### 23. Vaccine Slot Finder
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/slot_finder/Screenshots/vaccineslotfinder.png" /></a>
 </p>  
 
-### 25.Dice Game
+### 24.Dice Game
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/1bcfce8c60445c0934467d21eb6864ef907a29c6/Screenshots/Dice-game.jpg" /></a>
 </p> 
 
+### 25. Responsive Profile Card View
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Profile%20Card%20View.png" /></a>
+</p> 
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
