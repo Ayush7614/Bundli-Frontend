@@ -59,7 +59,7 @@ submit.addEventListener("click",function(){
     .then(data=>{
         var i,j,flag=0;
         content.innerHTML="";
-        content.innerHTML+="<h2>Slots Available:</h2><hr><br>"
+        content.innerHTML+="<h1>Slots Available:</h1><hr><br>"
         for(i=0;i<data["centers"]["length"];i++)
         {
             var no_of_sessions=data["centers"][i]["sessions"]["length"];
