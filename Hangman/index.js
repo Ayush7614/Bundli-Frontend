@@ -1,10 +1,16 @@
 window.onload = function() {
-
+    var x = document.getElementById("myAudio");
+    var y = document.getElementById("win"); //win
+    var z = document.getElementById("lost"); //lost
     var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
         'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
         't', 'u', 'v', 'w', 'x', 'y', 'z'
     ];
-
+    // right click disable start-------------------------
+    document.addEventListener("contextmenu", function(e) {
+        e.preventDefault();
+    }, false);
+    // right click disable end -------------------------------
     var categories; // Array of topics
     var chosenCategory; // Selected catagory
     var getHint; // Word getHint
@@ -80,6 +86,7 @@ window.onload = function() {
 
             document.getElementById("mylives").style.backgroundColor = "red";
             showLives.innerHTML = "Game Over";
+            z.play();
             swal({
                     title: "GAME OVER!",
                     text: "Better Luck Next Time, Press ok to Play Again",
@@ -102,7 +109,7 @@ window.onload = function() {
         for (var i = 0; i < geusses.length; i++) {
             if (counter + space === geusses.length) {
                 document.getElementById("mylives").style.backgroundColor = "green";
-
+                y.play();
                 swal({
                     title: "You Won!",
                     text: "Press ok to Play Again",
@@ -131,6 +138,7 @@ window.onload = function() {
     var animate = function() {
         var drawMe = lives;
         drawArray[drawMe]();
+        x.play();
     }
 
 
