@@ -164,7 +164,6 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Color%20Flipper.png" /></a>
 </p> 
 
-<<<<<<< HEAD
 ### 23. Vaccine Slot Finder
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/slot_finder/Screenshots/vaccineslotfinder.png" /></a>
