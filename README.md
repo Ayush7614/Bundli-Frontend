@@ -151,7 +151,7 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ### 20. Connect Four Game In Js
 <p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Connect%20Four.png" /></a>
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/connect-four/Screenshots/connect-four.PNG" /></a>
 </p> 
 
 ### 21. Simon Game
