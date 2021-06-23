@@ -2,6 +2,8 @@
 
 A simple BMI Calculator built using React and Tailwindcss.
 
+![](https://github.com/shvam0000/Bundli-Frontend/blob/5-BMI-Calculator-in-JS/BMI%20Calculator/assets/BMI%20Cal.png)
+
 ## How to get started
 
 Clone the repository to your local machine
