@@ -186,7 +186,7 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ### 27. Quiz App In Js
 <p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/tic-tac-toe/Screenshots/tictactoe.PNG" /></a>
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/SubhamChoudhury/Bundli-Frontend/blob/Quiz_App/Quiz%20App/demo_ss.png" /></a>
 </p> 
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
