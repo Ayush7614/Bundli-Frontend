@@ -189,6 +189,12 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/93ab3839f506fda363b6a1bacf9bb32d1e51ad03/Screenshots/animation.gif" /></a>
 </p> 
 
+### 28. BMI Calculator
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/shvam0000/Bundli-Frontend/blob/5-BMI-Calculator-in-JS/BMI%20Calculator/assets/BMI%20Cal.png" /></a>
+</p> 
+
+
 >>>>>>> 0a6debc8201c9ecdd9473c1ebb4e3750d142b652
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
