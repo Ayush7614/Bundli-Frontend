@@ -131,7 +131,7 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ### 31 . Brick Breakout Game
 <p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/Brick-Breakout-game/Screenshots/brickbreakout.png" /></a>
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/Brick-Breakout-game/Screenshots/brickbreakout%20game.png" /></a>
 </p>   
 
 
