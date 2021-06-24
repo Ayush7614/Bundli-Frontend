@@ -96,7 +96,7 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ### 9 . Dads Joke
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Dads%20Joke.png" /></a> 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/modify_dads_jokes/Screenshots/dads%20jokes.png" /></a> 
 </p>
 
 ### 10 . JS + CSS Clock
@@ -119,20 +119,95 @@ You can refer to the following articles on the basics of Git and Github and also
     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Todo%20App.png" /></a>
 </p>
 
-### 14 . Vaccine Slot Finder
+### 14 . Doremon Css
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/master/Screenshots/Vaccine%20Slot.png" /></a>
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Doremon%20Css/Doremon.png" /></a>
+</p> 
+
+### 15 . JS Calculator
+<p align="center">
+     <a href="https://github.com/Ayush7614" ><img src="https://github.com/PadminiRai/Bundli-Frontend/blob/main/Screenshots/JS%20Calculator.JPG" /></a>
+</p> 
+
+### 16. Drum-kit
+<p align="center">
+<a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/3592862421df7f5b61f06398d718596c522f073c/Screenshots/Drum-kit.png"></a>
 </p>
 
-### 15 . Doremon Css
+### 17 . Flappy Bird
 <p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/master/Screenshots/Doremon.png" /></a>
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/Flappy-bird/Screenshots/flappybird.png" /></a>
+</p>    
+
+### 18 . Hangman In Js
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Hangman/images/Web%20view.PNG" /></a>
+</p> 
+
+### 19 . Memory Game In Js
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Memory%20Game.png" /></a>
+</p> 
+
+### 20. Connect Four Game In Js
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/connect-four/Screenshots/connect-four.PNG" /></a>
+</p> 
+
+### 21. Simon Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/6537c834fa19c845eefeae5c5afd316a82c6ddef/Screenshots/Simon_game.png  " /></a>
+</p> 
+
+### 22. Color Flipper in JS
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Color%20Flipper.png" /></a>
+</p> 
+
+### 23. Vaccine Slot Finder
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/slot_finder/Screenshots/vaccineslotfinder.png" /></a>
+</p>  
+
+### 24.Dice Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/1bcfce8c60445c0934467d21eb6864ef907a29c6/Screenshots/Dice-game.jpg" /></a>
+</p> 
+
+### 25. Responsive Profile Card View
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Profile%20Card%20View.png" /></a>
+</p> 
+
+### 26 . Tic-Tac-Toe Game In Js
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/tic-tac-toe/Screenshots/tictactoe.PNG" /></a>
+</p> 
+
+### 27. Carousel In Vanilla JS
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Carousel.png" /></a>
+</p> 
+
+### 28. Loading Animation 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/93ab3839f506fda363b6a1bacf9bb32d1e51ad03/Screenshots/animation.gif" /></a>
+</p> 
+
+### 29. Quiz App In Js
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/SubhamChoudhury/Bundli-Frontend/blob/Quiz_App/Quiz%20App/demo_ss.png" /></a>
+</p> 
+
+### 30. BMI Calculator
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/shvam0000/Bundli-Frontend/blob/5-BMI-Calculator-in-JS/BMI%20Calculator/assets/BMI%20Cal.png" /></a>
 </p> 
 
 ### 31 . Brick Breakout Game
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/Brick-Breakout-game/Screenshots/brickbreakout%20game.png" /></a>
-</p>   
+</p> 
 
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
