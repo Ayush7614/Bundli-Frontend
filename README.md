@@ -127,7 +127,8 @@ You can refer to the following articles on the basics of Git and Github and also
 ### 15 . Doremon Css
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/master/Screenshots/Doremon.png" /></a>
-</p>    
+</p> 
+
 ### 31 . Brick Breakout Game
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/Brick-Breakout-game/Screenshots/brickbreakout.png" /></a>
