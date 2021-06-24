@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+.page-title {
+  font-size: 2.5rem;
+}
+
+hr {
+  border-style: none;
+  background-color: #40cdf7;
+  height: 5px;
+  width: 110px;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  box-shadow: 3px -6px 1px #40cdf7;
+  border-right: 5px solid #40cdf7;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.card {
+  padding: 40px 30px;
+  background-color: white;
+  max-width: 325px;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px grey;
+}
+
+.title {
+  letter-spacing: 1.5px;
+  font-size: 1.5rem;
+}
+
+.job-title {
+  color: #40cdf7;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.description {
+  text-align: center;
+  font-size: 0.9rem;
+  color: grey;
+  line-height: 1.5;
+}
+
+.next-prev-btn {
+  margin-top: 20px;
+}
+
+.left , .right {
+  color: #40cdf7;
+  margin: 0 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.left:hover , .right:hover {
+  color: #0d8eb5;
+  cursor: pointer;
+}
+
+.btn {
+  margin-top: 20px;
+  border: 2px solid #40cdf7;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #40cdf7;
+  font-size: 0.9rem;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.btn:hover {
+  background-color: #40cdf7;
+  color:  white;
+  transition: 0.7s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
