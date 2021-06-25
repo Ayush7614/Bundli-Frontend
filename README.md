@@ -199,12 +199,12 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/SubhamChoudhury/Bundli-Frontend/blob/Quiz_App/Quiz%20App/demo_ss.png" /></a>
 </p> 
 
-### 29. BMI Calculator
+### 30. BMI Calculator
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/shvam0000/Bundli-Frontend/blob/5-BMI-Calculator-in-JS/BMI%20Calculator/assets/BMI%20Cal.png" /></a>
 </p> 
 
-### 30. Social Media Dashboard
+### 31. Social Media Dashboard
 <table>
  <tr>
   <td>
@@ -220,11 +220,15 @@ You can refer to the following articles on the basics of Git and Github and also
  </tr>
 </table>
 
-### 30. Glassmorphism animation 
+### 32. Glassmorphism animation 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/0878261f86599b93a9d9371a09526b69565ac378/Screenshots/Glassmorphism.gif" /></a>
 </p> 
 
+### 33 . Brick Breakout Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/Brick-Breakout-game/Screenshots/brickbreakout%20game.png" /></a>
+</p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
