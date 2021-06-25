@@ -243,11 +243,17 @@ You can refer to the following articles on the basics of Git and Github and also
 ### 36. Online Code Editor
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Online%20Code%20Editor/Images/Output7.png" /></a>
-=======
+</p> 
 ### 37. Password_Generator
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Password_Generator/pass_G.png" /></a>
 </p>
+
+### 38. Snake Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Snake%20Game/Images/Output4.png" /></a>
+</p>
+
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
