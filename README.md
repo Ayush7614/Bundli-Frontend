@@ -199,9 +199,14 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/SubhamChoudhury/Bundli-Frontend/blob/Quiz_App/Quiz%20App/demo_ss.png" /></a>
 </p> 
 
-### 29. BMI Calculator
+### 30. BMI Calculator
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/shvam0000/Bundli-Frontend/blob/5-BMI-Calculator-in-JS/BMI%20Calculator/assets/BMI%20Cal.png" /></a>
+</p> 
+
+### 31. Type Racer Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Type%20Racer/type_racer_game.png" /></a>
 </p> 
 
 
