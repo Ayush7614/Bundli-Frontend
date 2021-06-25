@@ -230,7 +230,12 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/Brick-Breakout-game/Screenshots/brickbreakout%20game.png" /></a>
 </p>
 
-### 34. Type Racer Game
+### 34. Spin Wheel
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Spin%20Wheel/Images/Output2.png" /></a>
+</p>
+
+### 35. Type Racer Game
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Type%20Racer/type_racer_game.png" /></a>
 </p>
