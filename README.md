@@ -184,30 +184,51 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/tic-tac-toe/Screenshots/tictactoe.PNG" /></a>
 </p> 
 
-### 27. Loading Animation 
+### 27. Carousel In Vanilla JS
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Carousel.png" /></a>
+</p> 
+
+### 28. Loading Animation 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/93ab3839f506fda363b6a1bacf9bb32d1e51ad03/Screenshots/animation.gif" /></a>
 </p> 
 
-### 28. Quiz App In Js
+### 29. Quiz App In Js
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/SubhamChoudhury/Bundli-Frontend/blob/Quiz_App/Quiz%20App/demo_ss.png" /></a>
 </p> 
 
-### 29. BMI Calculator
+### 30. BMI Calculator
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/shvam0000/Bundli-Frontend/blob/5-BMI-Calculator-in-JS/BMI%20Calculator/assets/BMI%20Cal.png" /></a>
 </p> 
 
-### 30. Spin Wheel
+### 31. Spin Wheel
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Spin%20Wheel/Images/Output2.png" /></a>
 </p>
 
-### 31. Snake Game
-<p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Snake%20Game/Images/Output4.png" /></a>
+### 32. Social Media Dashboard
+<table>
+ <tr>
+  <td>
+   <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Social%20Media%20Dashboard%20-%20Dark%20Mode.png" /></a>
 </p>
+  </td>
+  <td>
+   <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Social%20Media%20Dashboard%20-%20Light%20Mode.png" /></a>
+</p>
+  </td>
+ </tr>
+</table>
+
+### 33. Glassmorphism animation 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/0878261f86599b93a9d9371a09526b69565ac378/Screenshots/Glassmorphism.gif" /></a>
+</p> 
 
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
