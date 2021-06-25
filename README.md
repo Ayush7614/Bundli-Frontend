@@ -207,6 +207,27 @@ You can refer to the following articles on the basics of Git and Github and also
 ### 31. Type Racer Game
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Type%20Racer/type_racer_game.png" /></a>
+</p>
+
+### 32. Social Media Dashboard
+<table>
+ <tr>
+  <td>
+   <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Social%20Media%20Dashboard%20-%20Dark%20Mode.png" /></a>
+</p>
+  </td>
+  <td>
+   <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Social%20Media%20Dashboard%20-%20Light%20Mode.png" /></a>
+</p>
+  </td>
+ </tr>
+</table>
+
+### 33. Glassmorphism animation 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/0878261f86599b93a9d9371a09526b69565ac378/Screenshots/Glassmorphism.gif" /></a>
 </p> 
 
 
