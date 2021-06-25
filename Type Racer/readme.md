@@ -1,6 +1,7 @@
 ## Type Racer Game
 
 Game to beat the clock by typing random words fast 
+
 A lightweight type-racer game built with HTML5,CSS3 and JavaScript that can be played in a browser itself (Requires no installation, internet-connection!).
 
 ## How to play the game
