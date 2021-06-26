@@ -49,18 +49,17 @@ body {
 
 #title {
     font-size: 220%;
-    font-family: sans-serif;
     color: rgb(255, 255, 255);
     text-shadow: #1e3770;
 }
 
 header {
-    background-color: #1e3770;
+    background-color: rgb(30, 55, 112, 0.7);
     border-radius: 50px 50px 0px 0px;
 }
 
 form {
-    background-color: rgba(19, 18, 18, 0.9);
+    background-color: rgba(19, 18, 18, 0.7);
     border-radius: 0px 0px 50px 50px;
 }
 
