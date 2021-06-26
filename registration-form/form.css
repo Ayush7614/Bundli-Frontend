@@ -75,3 +75,56 @@ a {
     padding: 3%;
     margin-right: 13%;
 }
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+@media (max-width: 800px) {
+    #title {
+        color: #1e3770;
+        ;
+        font-size: 150%;
+    }
+    .form-group {
+        margin-top: 7%;
+        margin-left: 5%;
+    }
+    label {
+        font-size: 100%;
+    }
+    .container {
+        min-width: 80%;
+    }
+    .form-control {
+        width: 90%;
+    }
+}
+
+
+/*-------------------------------------------------------------------------------*/
+
+@media (max-width: 400px) {
+    #title {
+        color: white;
+        font-size: 150%;
+    }
+    .form-group {
+        margin-top: 4%;
+        margin-left: 5%;
+    }
+    label {
+        font-size: 80%;
+    }
+    .container {
+        min-width: 90%;
+    }
+    .form-control {
+        width: 90%;
+    }
+    .sub {
+        margin-right: 7%;
+    }
+    .submit-button {
+        width: 40%;
+    }
+}
