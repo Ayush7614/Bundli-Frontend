@@ -1,0 +1,77 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(ubuntu.ttf);
+}
+
+body {
+    background-image: url('./logo/background.jpg');
+}
+
+#title {
+    font-size: 220%;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: #1e3770;
+}
+
+header {
+    background-color: #1e3770;
+    border-radius: 50px 50px 0px 0px;
+}
+
+form {
+    background-color: rgba(19, 18, 18, 0.9);
+    border-radius: 0px 0px 50px 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+label,
+p,
+a {
+    color: white;
+    font-family: myFirstFont;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container {
+    width: 60%;
+    margin: 3.125rem auto 0 auto;
+}
+
+.form-control {
+    display: block;
+    width: 85%;
+    height: 2.375rem;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.50rem;
+}
+
+.form-control:hover {
+    background-color: #81a6fc;
+}
+
+.form-group {
+    margin-left: 100px;
+}
+
+.submit-button {
+    background-color: #1e3770;
+    display: block;
+    width: 30%;
+    padding: 0.75rem;
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.sub {
+    padding: 3%;
+    margin-right: 13%;
+}
