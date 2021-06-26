@@ -36,6 +36,7 @@ function strleng(inputtxt) {
 }
 //---email check-----------------------------------------------------------------------------------------
 function ValidateEmail(inputText) {
+    var x = document.getElementById("click");
     var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if (inputText.value.match(mailformat)) {
         document.form1.email.focus();
@@ -43,6 +44,7 @@ function ValidateEmail(inputText) {
     } else {
         setTimeout(() => {
             swal("You have entered an invalid email address!");
+            x.play();
         }, 500);
 
         document.form1.email.focus();
@@ -52,12 +54,14 @@ function ValidateEmail(inputText) {
 //----------password check----------------------------------------------------------//
 
 function checkPassword() {
+    var x = document.getElementById("click");
     var password = document.getElementById("password1").value;
     var confirmPassword = document.getElementById("password2").value;
 
     if (password != confirmPassword || (password == '' && confirmPassword == "")) {
         setTimeout(() => {
             swal("Passwords do not match!Please try again...");
+            x.play();
             return false;
         }, 1000);
 
@@ -65,12 +69,13 @@ function checkPassword() {
     } else {
         setTimeout(() => {
             swal('Thank You! Information Submitted Successfully');
+            x.play();
         }, 3000);
     }
     return true;
 }
 
 
-// document.addEventListener("contextmenu", function(e) {
-//     e.preventDefault();
-// }, false);
+document.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+}, false);
