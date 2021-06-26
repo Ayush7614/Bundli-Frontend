@@ -49,3 +49,28 @@ function ValidateEmail(inputText) {
         return false;
     }
 }
+//----------password check----------------------------------------------------------//
+
+function checkPassword() {
+    var password = document.getElementById("password1").value;
+    var confirmPassword = document.getElementById("password2").value;
+
+    if (password != confirmPassword || (password == '' && confirmPassword == "")) {
+        setTimeout(() => {
+            swal("Passwords do not match!Please try again...");
+            return false;
+        }, 1000);
+
+
+    } else {
+        setTimeout(() => {
+            swal('Thank You! Information Submitted Successfully');
+        }, 3000);
+    }
+    return true;
+}
+
+
+document.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+}, false);
