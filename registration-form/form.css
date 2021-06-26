@@ -35,6 +35,14 @@
 
 /* scrollbar end  */
 
+.grow {
+    transition: all 0.3s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
 body {
     background-image: url('./logo/background.jpg');
 }
@@ -78,14 +86,24 @@ a {
     display: block;
     width: 85%;
     height: 2.375rem;
-    color: black;
     background-color: white;
     border: 1px solid black;
     border-radius: 0.50rem;
+    color: #1e3770;
+    font-weight: bold;
+}
+
+.form-control:focus {
+    border: 3px solid #1e3770;
+    border-radius: 0.50rem;
+    color: #1e3770;
+    font-weight: bold;
 }
 
 .form-control:hover {
     background-color: #81a6fc;
+    color: #1e3770;
+    font-weight: bold;
 }
 
 .form-group {
