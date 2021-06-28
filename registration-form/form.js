@@ -11,11 +11,11 @@ function allLetter(inputtxt) {
     var x = document.getElementById("click");
     var letters = /^[A-Za-z]+$/;
     if (inputtxt.value.match(letters)) {
-        return true;
+
     } else {
         swal('Please input alphabet characters only without spaces for USERNAME!');
         x.play();
-        return false;
+
     }
 }
 
@@ -29,9 +29,9 @@ function strleng(inputtxt) {
         var x = document.getElementById("click");
         swal("Username must be atleast 5 characters long!");
         x.play();
-        return false;
+
     } else {
-        return true;
+
     }
 }
 //---email check-----------------------------------------------------------------------------------------
@@ -40,15 +40,15 @@ function ValidateEmail(inputText) {
     var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if (inputText.value.match(mailformat)) {
         document.form1.email.focus();
-        return true;
+
     } else {
         setTimeout(() => {
             swal("You have entered an invalid email address!");
             x.play();
         }, 500);
 
-        document.form1.email.focus();
-        return false;
+
+
     }
 }
 //----------password check----------------------------------------------------------//
@@ -62,7 +62,7 @@ function checkPassword() {
         setTimeout(() => {
             swal("Passwords do not match!Please try again...");
             x.play();
-            return false;
+
         }, 1000);
 
 
@@ -72,10 +72,5 @@ function checkPassword() {
             x.play();
         }, 3000);
     }
-    return true;
+
 }
-
-
-// document.addEventListener("contextmenu", function(e) {
-//     e.preventDefault();
-// }, false);
