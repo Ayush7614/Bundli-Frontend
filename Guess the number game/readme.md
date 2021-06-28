@@ -1,5 +1,5 @@
 ## Guess the number game
-The game is all about numbers. The player has to guess the number that the computer has thought. If the number matches the guessed number then you win else your score decreases by one for every check. The number entered should be between 1 and 20 else it will show that the number is not in range. The game is used to checck the luck, math skills, memory power of the user.
+The game is all about numbers. The player has to guess the number that the computer has thought. If the number matches the guessed number then you win else your score decreases by one for every check. The number entered should be between 1 and 20 else it will show that the number is not in range. The game is used to check the luck, math skills, memory power of the user.
 
 ## Project specification
 - The user is asked to enter a number between 1 and 20.
