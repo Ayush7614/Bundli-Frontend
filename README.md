@@ -258,8 +258,26 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/4049231cb439269d455edac957b52df5f5e0a5b9/Screenshots/Notification-button.jpg" /></a>
  <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/47b89b69aa1a5df37eb48b17048dbe520b2d5ba7/Screenshots/Notification-button2.jpg " /></a>
- 
 </p>
+
+### 44. Pricing Card Deck
+<table>
+ <tr>
+  <td>
+   <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Pricing%20Annually.png" /></a>
+</p>
+  </td>
+  <td>
+   <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Pricing%20Monthly.png" /></a>
+</p>
+  </td>
+ </tr>
+</table>
+
+
+
 
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
