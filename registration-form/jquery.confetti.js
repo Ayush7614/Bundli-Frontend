@@ -195,3 +195,10 @@
                     confettiActive = false;
                     ClearTimers();
                 }
+
+                function StopConfetti() {
+                    animationComplete = true;
+                    if (ctx == undefined) return;
+                    ctx.clearRect(0, 0, W, H);
+                    canvas.style.display = 'none';
+                }
