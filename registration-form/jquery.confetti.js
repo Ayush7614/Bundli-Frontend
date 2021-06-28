@@ -167,3 +167,31 @@
                     particle.x += Math.sin(angle);
                     particle.tilt = (Math.sin(particle.tiltAngle - (particleIndex / 3))) * 15;
                 }
+
+                function repositionParticle(particle, xCoordinate, yCoordinate, tilt) {
+                    particle.x = xCoordinate;
+                    particle.y = yCoordinate;
+                    particle.tilt = tilt;
+                }
+
+                function StartConfetti() {
+                    W = window.innerWidth;
+                    H = window.innerHeight;
+                    canvas.width = W;
+                    canvas.height = H;
+                    (function animloop() {
+                        if (animationComplete) return null;
+                        animationHandler = requestAnimFrame(animloop);
+                        return Draw();
+                    })();
+                }
+
+                function ClearTimers() {
+                    clearTimeout(reactivationTimerHandler);
+                    clearTimeout(animationHandler);
+                }
+
+                function DeactivateConfetti() {
+                    confettiActive = false;
+                    ClearTimers();
+                }
