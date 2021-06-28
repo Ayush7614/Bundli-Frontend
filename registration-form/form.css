@@ -1,6 +1,6 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(ubuntu.ttf);
+    src: url(./Ubuntu.ttf);
 }
 
 
@@ -55,12 +55,13 @@ body {
 
 header {
     background-color: rgb(30, 55, 112, 0.7);
-    border-radius: 50px 50px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 form {
-    background-color: rgba(19, 18, 18, 0.7);
-    border-radius: 0px 0px 50px 50px;
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(5px);
+    border-radius: 0px 0px 10px 10px;
 }
 
 .text-center {
@@ -107,6 +108,12 @@ a {
 
 .form-group {
     margin-left: 100px;
+}
+
+.heading {
+    text-transform: uppercase;
+    color: aliceblue;
+    margin-top: 0%;
 }
 
 .submit-button {
