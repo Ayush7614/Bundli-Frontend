@@ -74,3 +74,8 @@ function checkPassword() {
     }
 
 }
+$(document).ready(function() {
+    $(document).on('submit', '#survey-form', function() {
+        return false;
+    });
+});
