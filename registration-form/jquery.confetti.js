@@ -160,3 +160,10 @@
                         }
                     }
                 }
+
+                function stepParticle(particle, particleIndex) {
+                    particle.tiltAngle += particle.tiltAngleIncremental;
+                    particle.y += (Math.cos(angle + particle.d) + 3 + particle.r / 2) / 2;
+                    particle.x += Math.sin(angle);
+                    particle.tilt = (Math.sin(particle.tiltAngle - (particleIndex / 3))) * 15;
+                }
