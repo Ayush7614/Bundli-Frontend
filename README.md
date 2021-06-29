@@ -262,16 +262,32 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/main/Screenshots/netflix.png" /></a>
 </p>
 
+
 ### 40. Notification Button 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/4049231cb439269d455edac957b52df5f5e0a5b9/Screenshots/Notification-button.jpg" /></a>
  <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/47b89b69aa1a5df37eb48b17048dbe520b2d5ba7/Screenshots/Notification-button2.jpg " /></a>
- </p>
+</p>
  
 ### 41. Guess_The_Color
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Guess_The_Color/color.png" /></a>
 </p>
+
+### 42. Guess the Number game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Guess%20the%20number%20game/Images/Output15.png" /></a>
+</p>
+ 
+### 42. Weather App
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/PadminiRai/Bundli-Frontend/blob/weatherapp/Screenshots/JSWeatherApp.JPG" /></a>
+</p>
+
+### 43. Stop Watch
+<p align="center">
+ <a href="https://github.com/Ayush7614"><img src="https://github.com/Antara25-10/Bundli-Frontend/blob/main/Screenshots/stop watch.png" /></a>
+
 
 ### 44. Registration Form
 <p align="center">
@@ -282,6 +298,23 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Quote_Generator/Screenshot.png" /></a>
 </p>
+
+### 46. Transform Toggle  Animation 
+ <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/234aa305927755a931f8ac2dafe14b945797810f/Screenshots/Toggle.gif" /></a>
+</p>
+</p>
+
+### 47. Pricing Card Deck
+  <p align="center">
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Pricing%20Annually.png" /></a>
+   </p>
+  
+
+### 48. Neumorphic Music Player 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/varunwho/Bundli-Frontend/blob/musicPlayerJS/Screenshots/musicPlayer.png" /></a>
+ </p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
