@@ -14,6 +14,8 @@ Bundli-Frontend is a open source project which contains different code of fronte
 [![HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://github.com/Ayush7614) [![css](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/Ayush7614) [![JS](https://forthebadge.com/images/badges/uses-js.svg)](https://github.com/Ayush7614)
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
 
+### We have also take codes from Udemy,30 days of javascript and many more
+
 ## 📌 Introduction
 
 Bundli-Frontend is a repo which contains different code of frontend Development which is written in HTML5, CSS3, JAVASCRIPT and it also contains various codes of frontend libraries like React, Angular and so on.
