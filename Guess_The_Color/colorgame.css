@@ -1,0 +1,88 @@
+body{
+	background-color: #232323;
+	font-family: "Avenir", "Helvetica";
+	margin: 0;
+	padding: 0;
+}
+#container{
+	padding: 20px 0 0 0;
+	max-width: 600px;
+	margin: 0 auto;  //center
+}
+#messageContainer{
+	background: white;
+	text-align: center;
+}
+
+/*now testing */
+progress{   
+	width: 100%;
+	display: none;
+}
+.square{
+	background: purple;
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.5%;
+	float: left;
+	border: 0px solid orange;
+	border-radius: 40%;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s
+}
+h1{
+	color: white;
+	/*background: rgb(62,1,175);*/
+	text-align: center;
+	text-transform: uppercase;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+	padding: 20px;
+	margin: 0;
+}
+#colorDisplay{
+	/*color: rgb(247, 228, 24);*/
+	color: #BFCDF1;
+	font-size: 200%;
+}
+#message{
+	color: rgb(24, 145, 200);
+	width: 15%;
+	padding: 0 0 0 0;
+	margin: 0 1.5% 0 5%;
+	display: inline-block;
+	font-size: inherit;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+button{
+	border: none;
+	background: none;
+	height: 100%;
+	padding: 10px;
+	font-size: inherit;
+	transition: all 0.4s;
+	font-weight: 500;
+	outline: none;
+	letter-spacing: 1px;
+}
+button:hover{
+	color: white;
+	background: steelblue;
+}
+.selected{
+	color: white;
+	background: steelblue;
+}
+#score{
+	color: white;
+	font-size: 300%;
+	font-weight: 500;
+	text-align: center;
+	width: inherit;
+	/*line-height: 30px;*/
+	padding: 100px;
+	transition: all 0.4s;
+}
