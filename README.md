@@ -294,29 +294,24 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/register-form/Screenshots/registration-form.png" /></a>
 </p>
 
-### 45. Transform Toggle  Animation 
+### 45.Quote_Generator
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Quote_Generator/Screenshot.png" /></a>
+</p>
+
+### 46. Transform Toggle  Animation 
  <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/234aa305927755a931f8ac2dafe14b945797810f/Screenshots/Toggle.gif" /></a>
 </p>
 </p>
 
-### 44. Pricing Card Deck
-<table>
- <tr>
-  <td>
-   <p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Pricing%20Annually.png" /></a>
-</p>
-  </td>
-  <td>
-   <p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Pricing%20Monthly.png" /></a>
-</p>
-  </td>
- </tr>
-</table>
+### 47. Pricing Card Deck
+  <p align="center">
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Pricing%20Annually.png" /></a>
+   </p>
+  
 
-### 45. Neumorphic Music Player 
+### 48. Neumorphic Music Player 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/varunwho/Bundli-Frontend/blob/musicPlayerJS/Screenshots/musicPlayer.png" /></a>
  </p>
