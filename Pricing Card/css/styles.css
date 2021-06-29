@@ -1,0 +1,159 @@
+* {
+	font-family: 'Montserrat';
+}
+
+body {
+	background-color: white;
+}
+
+.container-lg {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 100px;
+}
+
+.main-heading {
+	font-size: 2rem;
+	color: hsl(233, 13%, 49%);
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+.switch-selection {
+	align-items: center;
+	display: flex;
+	height: 40px;
+	justify-content: center;
+	margin-bottom: 60px;
+}
+
+.switch-selection h3 {
+	color: hsl(234, 14%, 74%);
+	display: inline-block;
+	margin-bottom: 0;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.form-switch {
+	align-items: center;
+	display: flex;
+	font-size: 2rem;
+	justify-content: center;
+	margin: 0;
+}
+
+.row {
+	align-items: center;
+	display: flex;
+}
+
+.card-container {
+	align-items: stretch;
+	background-color: hsl(240, 78%, 98%);
+	border-radius: 10px 0 0 10px;
+	box-shadow: 3px 4px 8px darkgrey;
+	display: flex;
+	flex-direction: column;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.card-container:nth-of-type(2) {
+	background-image: linear-gradient(to right ,  hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+	border-radius: 10px;
+	padding: 40px 30px;
+}
+
+.card-container:nth-of-type(3) {
+	border-radius: 0 10px 10px 0;
+}
+
+h1 , h2 , h3 {
+	color:  hsl(232, 13%, 33%);
+	text-align: center;
+}
+
+h1 {
+	font-size: 3.5rem;
+	margin-bottom: 20px;
+}
+
+h2 {
+	color: hsl(233, 13%, 49%);
+	font-size: 1.3rem;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+h3 {
+	color: hsl(233, 13%, 49%);
+	font-size: 1rem;
+}
+
+.mid h1 , .mid h2 , .mid h3 {
+	color: hsl(240, 78%, 98%);
+}
+
+hr {
+	color: hsl(233, 13%, 49%);	
+}
+
+.mid hr {
+	color: hsl(240, 78%, 98%);	
+}
+
+.btn {
+	background-image: linear-gradient(to right ,  hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+	color: white;
+	font-size: 1rem;
+	letter-spacing: 2px;
+	margin: 30px 10px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	background-image: none;
+	border: 1.5px solid hsl(237, 63%, 64%);
+	color: hsl(237, 63%, 64%);
+}
+
+.btn-mid {
+	background-image: linear-gradient(to right ,  hsl(240, 78%, 98%) , white);
+	color:  hsl(237, 63%, 64%);
+	height: fit-content;
+	margin-bottom: 0;
+}
+
+.btn-mid:hover {
+	color: hsl(240, 78%, 98%);
+	background-image: none;
+	border: 1.5px solid hsl(240, 78%, 98%);
+}
+
+@media (max-width: 991px) {
+	.container-lg {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	#cost-basic , #cost-pro , #cost-master {
+		font-size: 2.8rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.card-container {
+		border-radius: 8px;
+	}
+
+	.mid {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	#cost-basic , #cost-pro , #cost-master {
+		font-size: 3rem;
+	}
+}
