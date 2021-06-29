@@ -14,6 +14,8 @@ Bundli-Frontend is a open source project which contains different code of fronte
 [![HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://github.com/Ayush7614) [![css](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/Ayush7614) [![JS](https://forthebadge.com/images/badges/uses-js.svg)](https://github.com/Ayush7614)
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
 
+### We have also take codes from Udemy,30 days of javascript and many more
+
 ## 📌 Introduction
 
 Bundli-Frontend is a repo which contains different code of frontend Development which is written in HTML5, CSS3, JAVASCRIPT and it also contains various codes of frontend libraries like React, Angular and so on.
@@ -240,19 +242,46 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Type%20Racer/type_racer_game.png" /></a>
 </p>
 
-### 36. Password_Generator
+### 36. Online Code Editor
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Online%20Code%20Editor/Images/Output7.png" /></a>
+</p> 
+
+### 37. Password_Generator
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Password_Generator/pass_G.png" /></a>
 </p>
 
-### 42. Netflix
+### 38. Snake Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Snake%20Game/Images/Output4.png" /></a>
+</p>
+
+### 39. Netflix
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/main/Screenshots/netflix.png" /></a>
+</p>
+
+
+### 40. Notification Button 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/4049231cb439269d455edac957b52df5f5e0a5b9/Screenshots/Notification-button.jpg" /></a>
+ <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/47b89b69aa1a5df37eb48b17048dbe520b2d5ba7/Screenshots/Notification-button2.jpg " /></a>
+ </p>
+ 
+ ### 41. Guess_The_Color
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Guess_The_Color/color.png" /></a>
 </p>
 
 ### 43. Stop Watch
 <p align="center">
  <a href="https://github.com/Ayush7614"><img src="https://github.com/Antara25-10/Bundli-Frontend/blob/main/Screenshots/stop watch.png" /></a>
+
+
+### 44. Registration Form
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/register-form/Screenshots/registration-form.png" /></a>
 </p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
