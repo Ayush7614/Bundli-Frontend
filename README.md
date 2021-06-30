@@ -305,20 +305,9 @@ You can refer to the following articles on the basics of Git and Github and also
 </p>
 
 ### 48. Pricing Card Deck
-<table>
- <tr>
-  <td>
    <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Pricing%20Annually.png" /></a>
 </p>
-  </td>
-  <td>
-   <p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Pricing%20Monthly.png" /></a>
-</p>
-  </td>
- </tr>
-</table>
 
 ### 49. Neumorphic Music Player 
 <p align="center">
@@ -329,6 +318,17 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Coin-toss%20Game/Images/Output16.png" /></a>
 </p> 
+
+ ### 51. Car Driving Animation 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/car-animation/Screenshots/car%20animation.gif" /></a>
+ </p>
+ 
+### 52. Car_Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Car_game/car%20game.png" /></a>
+ </p>
+
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
