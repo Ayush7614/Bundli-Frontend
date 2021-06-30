@@ -279,28 +279,27 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Guess%20the%20number%20game/Images/Output15.png" /></a>
 </p>
  
-### 42. Weather App
+### 43. Weather App
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/PadminiRai/Bundli-Frontend/blob/weatherapp/Screenshots/JSWeatherApp.JPG" /></a>
 </p>
 
-### 43. Stop Watch
+### 44. Stop Watch
 <p align="center">
  <a href="https://github.com/Ayush7614"><img src="https://github.com/Antara25-10/Bundli-Frontend/blob/main/Screenshots/stop watch.png" /></a>
 
 
-### 44. Registration Form
+### 45. Registration Form
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/register-form/Screenshots/registration-form.png" /></a>
 </p>
 
-### 45. Transform Toggle  Animation 
+### 46. Transform Toggle  Animation 
  <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/234aa305927755a931f8ac2dafe14b945797810f/Screenshots/Toggle.gif" /></a>
 </p>
-</p>
 
-### 44. Pricing Card Deck
+### 47. Pricing Card Deck
 <table>
  <tr>
   <td>
@@ -316,10 +315,20 @@ You can refer to the following articles on the basics of Git and Github and also
  </tr>
 </table>
 
-### 45. Neumorphic Music Player 
+### 48. Neumorphic Music Player 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/varunwho/Bundli-Frontend/blob/musicPlayerJS/Screenshots/musicPlayer.png" /></a>
  </p>
+ 
+ ### 49. Quote_Generator
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Quote_Generator/Screenshot.png" /></a>
+</p>
+ 
+ ## 50. Coin-toss game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Coin-toss%20Game/Images/Output16.png" /></a>
+</p> 
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
