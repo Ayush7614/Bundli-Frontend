@@ -327,6 +327,11 @@ You can refer to the following articles on the basics of Git and Github and also
 ### 52. Car_Game
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Car_game/car%20game.png" /></a>
+</p>
+
+### 53. Rock-Paper-Scissors
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Rock-Paper-Scissors%20game/Images/Output23.png" /></a>
  </p>
 
 
