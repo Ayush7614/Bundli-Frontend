@@ -322,7 +322,7 @@ You can refer to the following articles on the basics of Git and Github and also
  ### 51. Car Driving Animation 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/car-animation/Screenshots/car%20animation.gif" /></a>
- </p>
+</p>
  
 ### 52. Car_Game
 <p align="center">
@@ -332,6 +332,11 @@ You can refer to the following articles on the basics of Git and Github and also
 ### 53. Rock-Paper-Scissors
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Rock-Paper-Scissors%20game/Images/Output23.png" /></a>
+ </p>
+
+### 53. Tetris_Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Tetris_Game/tetris.png" /></a>
  </p>
 
 
