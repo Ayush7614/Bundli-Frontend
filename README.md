@@ -328,7 +328,7 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Car_game/car%20game.png" /></a>
  </p>
- ### 52. Glassmorphisam Profile Card
+ ### 53. Glassmorphisam Profile Card
 <p align="center">
      <a href="https://github.com/Umang2002"><img src="https://github.com/Umang2002/Bundli-Frontend/blob/main/Glassmorphisam-Profile%20Cards/Screenshot%20(36).png" /></a>
  </p>
