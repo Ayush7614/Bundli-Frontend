@@ -365,6 +365,11 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Umang2002"><img src="https://github.com/Umang2002/Bundli-Frontend/blob/main/Glassmorphisam-Profile%20Cards/Screenshot%20(36).png" /></a>
 </p>
 
+### 58. Colourful smoke effect
+<p align="center">
+     <a href="https://github.com/Umang2002"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Colourful%20smoke%20effect/smoke%20effect.gif" /></a>
+</p>
+
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
