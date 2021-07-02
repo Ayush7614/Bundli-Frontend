@@ -60,35 +60,61 @@ You can refer to the following articles on the basics of Git and Github and also
 
 # Screenshots
 
-### 1 .  Drawing App
-<p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Drawing%20app.png" /></a> 
-</p>
+<table>
+ <tr>
+  <thead>
+   <th>1. Drawing App</th>
+   <th>2. GitHub Profiles</th>
+  </thead>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Drawing%20app.png"/></td>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Github%20Profiles.png"/></td>
+ </tr> 
+ <tr>
+  <thead>
+   <th>3. Insect Catching Game</th>
+   <th>4. Kinectic Loader</th>
+  </thead>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Insect%20Game.png"/></td>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Kinectic%20Loader.png" /></td>
+ </tr>
+ 
+ <tr>
+  <thead>
+   <th>5. Movie App</th>
+   <th>6. Theme Clock</th>
+  </thead>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Movie%20App.png"/></td>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Theme%20Clock.png"/></td>
+ </tr>
+ 
+ <tr>
+  <thead>
+   <th>3. Insect Catching Game</th>
+   <th>4. Kinectic Loader</th>
+  </thead>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Insect%20Game.png"/></td>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Kinectic%20Loader.png" /></td>
+ </tr>
+ 
+ <tr>
+  <thead>
+   <th>3. Insect Catching Game</th>
+   <th>4. Kinectic Loader</th>
+  </thead>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Insect%20Game.png"/></td>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Kinectic%20Loader.png" /></td>
+ </tr>
+ 
+ <tr>
+  <thead>
+   <th>3. Insect Catching Game</th>
+   <th>4. Kinectic Loader</th>
+  </thead>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Insect%20Game.png"/></td>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Kinectic%20Loader.png" /></td>
+ </tr>
+</table>
 
-### 2 . Github Profiles
-<p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Github%20Profiles.png" /></a> 
-</p>
-
-### 3 . Insect Catching Game
-<p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Insect%20Game.png" /></a> 
-</p>
-
-### 4 . Kinectic Loader
-<p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Kinectic%20Loader.png" /></a> 
-</p>
-
-### 5 . Movie App
-<p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Movie%20App.png" /></a> 
-</p>
-
-### 6 . Theme Clock
-<p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Theme%20Clock.png" /></a> 
-</p>
 
 ### 7 . Verify Account
 <p align="center">
