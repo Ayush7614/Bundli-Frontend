@@ -343,13 +343,19 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Maze%20game/Images/Output26.png" /></a>
 </p>
 
-### 53. Tetris_Game
+### 55. Tetris_Game
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Tetris_Game/tetris.png" /></a>
  </p>
  
- ### 54. Gradient_Background_Generator
+ 
+### 56 Payment Gateway Integration 
 <p align="center">
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/3f0ae3743653f6a7426d4fb94bcf0c2eeb145185/Screenshots/Payment-integration.png" /></a>
+</p>
+
+  ### 57. Gradient_Background_Generator
+ <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/varunwho/Bundli-Frontend/blob/178af0b6ab287f25af311f4a8ef2556c2534b650/Screenshots/Background%20Generator.png" /></a>
  </p>
 
