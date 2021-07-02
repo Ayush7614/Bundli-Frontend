@@ -338,6 +338,12 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Tetris_Game/tetris.png" /></a>
  </p>
+ 
+ 
+### 54. Payment Gateway Integration 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/3f0ae3743653f6a7426d4fb94bcf0c2eeb145185/Screenshots/Payment-integration.png" /></a>
+ </p>
 
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
