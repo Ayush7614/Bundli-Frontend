@@ -337,6 +337,11 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Rock-Paper-Scissors%20game/Images/Output23.png" /></a>
  </p>
+ 
+### 54. Maze Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Maze%20game/Images/Output26.png" /></a>
+</p>
 
 ### 53. Tetris_Game
 <p align="center">
