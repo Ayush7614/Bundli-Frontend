@@ -358,6 +358,12 @@ You can refer to the following articles on the basics of Git and Github and also
  <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/varunwho/Bundli-Frontend/blob/178af0b6ab287f25af311f4a8ef2556c2534b650/Screenshots/Background%20Generator.png" /></a>
  </p>
+ 
+ 
+### 53. Glassmorphisam Profile Card
+<p align="center">
+     <a href="https://github.com/Umang2002"><img src="https://github.com/Umang2002/Bundli-Frontend/blob/main/Glassmorphisam-Profile%20Cards/Screenshot%20(36).png" /></a>
+</p>
 
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
