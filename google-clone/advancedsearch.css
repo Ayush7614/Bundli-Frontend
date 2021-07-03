@@ -1,0 +1,22 @@
+.container {
+    position: relative;
+}
+
+body {
+    font-family: arial, sans-serif;
+}
+
+.innerform-heading {
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.innerform {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    margin-left: 10px;
+    font-size: 13px;
+}
