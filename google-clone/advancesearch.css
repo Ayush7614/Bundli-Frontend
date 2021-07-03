@@ -93,3 +93,30 @@ body {
     top: 0;
     left: 0;
 }
+
+#search-button {
+    padding: 1px;
+    width: 120px;
+    margin: 2vw 1vw;
+    height: 35px;
+    border-radius: 2px;
+    background-color: #0275d8;
+    font-weight: bold;
+    font-size: 70%;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+}
+
+#button-container {
+    width: 62vw;
+    clear: both;
+    background: red;
+}
+
+#search-button:hover {
+    background-color: #034c8b;
+}
