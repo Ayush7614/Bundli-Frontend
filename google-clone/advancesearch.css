@@ -78,3 +78,18 @@ body {
     border: 1px solid #00aeff;
     border-top: 1px solid #00aeff;
 }
+
+#heading-logo {
+    width: 15vh;
+    position: fixed;
+}
+
+#header-grey {
+    background: #f1f1f1;
+    position: absolute;
+    height: 60px;
+    width: 100vw;
+    display: block;
+    top: 0;
+    left: 0;
+}
