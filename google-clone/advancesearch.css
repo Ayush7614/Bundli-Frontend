@@ -139,3 +139,52 @@ body {
 #advance-search:hover {
     text-decoration: underline;
 }
+
+
+/* For small screens */
+
+@media screen and (max-width: 810px) {
+    .textinput {
+        padding: 8px 15px;
+        width: 210%;
+        font-size: 15px;
+        margin-top: 1%;
+        font-size: 13px;
+        height: 25px;
+        padding: 1px 8px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .innerform-heading {
+        display: inline-block;
+        font-size: 13px;
+        vertical-align: middle;
+        width: 50%;
+    }
+    .innerform {
+        display: inline-block;
+        vertical-align: middle;
+        width: 50%;
+        margin-top: 5%;
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .textinput {
+        padding: 8px 15px;
+        width: 170%;
+        font-size: 15px;
+        margin-top: 5%;
+        font-size: 13px;
+        height: 25px;
+        padding: 1px 8px;
+    }
+    #images,
+    #advance-search {
+        font-size: 15px;
+    }
+    #heading-logo {
+        width: 13vh;
+        position: fixed;
+    }
+}
