@@ -15,6 +15,7 @@
         font-size: 15px;
         border-radius: 25px;
         outline: none;
+        box-shadow: 2px 2px rgb(235, 235, 235);
         border: 0.5px solid #dddddd;
         color: rgba(0, 0, 0, .87);
     }
@@ -34,8 +35,9 @@
         margin: 2% 1%;
         height: 35px;
         font-size: 85%;
+        box-shadow: 2px 2px rgb(235, 235, 235);
         border-radius: 2px;
-        background-color: #f8f9fa;
+        background-color: #f8f8f8;
         outline: none;
         border: none;
         cursor: pointer;
