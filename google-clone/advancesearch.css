@@ -1,0 +1,48 @@
+.container {
+    position: relative;
+}
+
+body {
+    font-family: arial, sans-serif;
+}
+
+.innerform-heading {
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.innerform {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.top-right {
+    position: fixed;
+    top: 25px;
+    right: 20px;
+}
+
+.form-details {
+    margin-top: 3%;
+    margin-left: 3%;
+    float: left;
+}
+
+.top-left {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.head-title {
+    color: #d93025;
+    position: relative;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 10vh;
+    margin-bottom: 1%;
+}
