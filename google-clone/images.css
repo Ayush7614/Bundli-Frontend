@@ -1,0 +1,24 @@
+.container {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+#search-field {
+    padding: 8px 15px;
+    width: 45%;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 25px;
+    outline: none;
+    margin-top: 3%;
+    border: 1px solid #e2e2e2;
+}
+
+#search-field:hover {
+    box-shadow: 1px 1px 1px #e2e2e2;
+}
