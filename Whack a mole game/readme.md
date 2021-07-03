@@ -6,7 +6,7 @@
 
 - Whack a mole is a famous game where a mole appears out in any of the 2x3 pit.
 - The user has to catch the mole by clicking on it.
-- The mole disappears in few seconds and appers in some other pit.
+- The mole disappears in few seconds and appears in some other pit.
 - This is an interesting game played in various malls and carnivals.
 - If the player clicks correctly on the mole, score increases by 1.
 - The number of times the mole appear is random.
