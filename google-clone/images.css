@@ -22,3 +22,25 @@
 #search-field:hover {
     box-shadow: 1px 1px 1px #e2e2e2;
 }
+
+#heading {
+    margin-top: 22vh;
+    width: 45vh;
+}
+
+#search-button {
+    padding: 2px;
+    width: 10%;
+    margin: 2% 1%;
+    height: 35px;
+    background-color: #f8f9fa;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    border: 0.5px solid #e2e2e2;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #e2e2e2;
+}
