@@ -1,6 +1,10 @@
 # Bundli-Frontend
 Bundli-Frontend is a open source project which contains different code of frontend Development with HTML, CSS, JS, REACT, ANGULAR and APIs etc. which makes your life easier for learning frontend and make your intrest more in frontend.
 
+This is website look of the project
+![image](https://user-images.githubusercontent.com/67006255/124228106-50c28700-db29-11eb-9cc5-cce221ba2e6a.png)
+
+
  <p align="center">
     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/images/forkit.gif" /></a> 
 </p>
@@ -322,7 +326,7 @@ You can refer to the following articles on the basics of Git and Github and also
  ### 51. Car Driving Animation 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/car-animation/Screenshots/car%20animation.gif" /></a>
- </p>
+</p>
  
 ### 52. Car_Game
 <p align="center">
@@ -339,11 +343,31 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Maze%20game/Images/Output26.png" /></a>
 </p>
 
-### 55. Whack a mole game
+### 55. Tetris_Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Tetris_Game/tetris.png" /></a>
+</p>
+ 
+ ### 56 Payment Gateway Integration 
+<p align="center">
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/3f0ae3743653f6a7426d4fb94bcf0c2eeb145185/Screenshots/Payment-integration.png" /></a>
+</p>
+
+### 57. Gradient_Background_Generator
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/varunwho/Bundli-Frontend/blob/178af0b6ab287f25af311f4a8ef2556c2534b650/Screenshots/Background%20Generator.png" /></a>
+</p>
+ 
+ 
+### 58. Glassmorphisam Profile Card
+<p align="center">
+     <a href="https://github.com/Umang2002"><img src="https://github.com/Umang2002/Bundli-Frontend/blob/main/Glassmorphisam-Profile%20Cards/Screenshot%20(36).png" /></a>
+</p>
+
+### 59. Whack a mole game
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Whack%20a%20mole%20game/Images/Output32.png" /></a>
 </p>
-
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 

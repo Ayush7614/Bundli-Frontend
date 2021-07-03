@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    background: #f0f0f0;
+    overflow-x: hidden;
+}
+.main__navbar {
+    top: 0;
+    z-index: 999;
+    position: sticky;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+    background: #ffffff;
+
+    .navbar__logo {
+        height: 60px;
+    }
+
+    a {
+        background: #9c4668;
+        padding: 0.25rem 1.5rem;
+        border-radius: 50px;
+        text-decoration: none;
+        color: white;
+        transition: all ease-in-out 250ms;
+
+        h4 {
+            font-size: 1.1em;
+            font-weight: 500;
+            &:before {
+                content: "Contribute on ";
+            }
+            @media screen and (max-width: 720px) {
+                &:before {
+                    content: "";
+                }
+            }
+            i {
+                margin-left: 0.2rem;
+            }
+        }
+
+        &:hover {
+            padding: 0.25rem 1.75rem;
+            font-size: 1.1em;
+            background: #444444;
+        }
+    }
+}
+
+.hero__wrapper {
+    display: flex;
+    background: #ffffff;
+    overflow: hidden;
+    max-height: 500px;
+
+    .hero__title {
+        padding-left: 2em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        width: 75%;
+        h3 {
+            font-size: 3em;
+            font-weight: 600;
+        }
+        h5 {
+            color: #9c4668;
+            margin-top: 1em;
+            font-size: 1em;
+            letter-spacing: 0.05rem;
+            i {
+                color: red;
+            }
+        }
+
+        @media screen and (max-width: 720px) {
+            padding-left: 1.5em;
+            padding-right: 1.5em;
+            padding-bottom: 2.5em;
+            justify-content: center;
+            width: 100%;
+            h3 {
+                font-size: 2em;
+            }
+            h5 {
+                font-size: 0.8em;
+            }
+        }
+    }
+    .hero__image {
+        opacity: 0.25;
+        max-width: 50%;
+        transform: rotate(0deg);
+        display: block;
+        object-fit: contain;
+        object-position: top;
+
+        @media screen and (max-width: 720px) {
+            display: none;
+        }
+        @media screen and (max-width: 1080px) {
+            display: none;
+        }
+    }
+}
+
+.courses__wrapper {
+    position: relative;
+    padding: 5em 5em;
+    overflow-x: hidden;
+
+    @media screen and (max-width: 720px) {
+        padding: 0;
+    }
+
+    .courses__list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        justify-items: center;
+
+        @media screen and (max-width: 720px) {
+            grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        }
+
+        .courses__card {
+            width: 400px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 1rem 1rem;
+            background: white;
+            position: relative;
+
+            @media screen and (max-width: 720px) {
+                width: 100%;
+                margin: 1rem 0;
+            }
+
+            .course__image {
+                min-height: 220px;
+                max-height: 220px;
+                display: block;
+                object-fit: cover;
+                width: 100%;
+            }
+
+            .course__info {
+                padding: 1rem 1rem;
+
+                .course__tags {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex: 1;
+                    margin-bottom: 0.5rem;
+                    a{
+                        text-decoration: none;
+                    }
+                    .course__tag {
+                        flex: 0;
+                        margin: .3rem ;
+                        width: max-content;
+                        border-radius: 1px;
+                        font-size: 0.75rem;
+                        background: #9c4668;
+                        padding: 0.1rem 0.4rem;
+                        color: white;
+                    }
+                }
+
+                .course__name {
+                    font-size: 1.5em;
+                    font-weight: bold;
+                }
+
+                .course__description {
+                    font-size: 1em;
+                    font-weight: 300;
+                    color: #797979;
+                }
+
+                .course__instructor {
+                    color: #444444;
+                    padding-bottom: 0.2rem;
+                    &::before {
+                        content: "by";
+                        margin-right: 0.25rem;
+                        color: #949494;
+                    }
+                }
+            }
+            .course__call_to_action {
+                margin-top: 1rem;
+                border: 1px solid #9c4668;
+                display: flex;
+                justify-content: center;
+                text-decoration: none;
+                color: #9c4668;
+                padding: 0.5rem 0;
+                text-align: center;
+                width: 100%;
+                transition: all ease-in-out 250ms;
+
+                &:hover {
+                    background: #9c4668;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    // Pagination CSS
+
+    .pagination {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pagination a {
+        color: black;
+        padding: 8px 16px;
+        text-decoration: none;
+        margin: 5px;
+        transition: 0.2s;
+    }
+
+    .pagination a.active {
+        background-color: #9c4668;
+        color: white;
+    }
+
+    .pagination a:hover:not(.active) {
+        background-color: #ddd;
+    }
+}
+
+.filter__message {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    margin-bottom: 25px;
+
+    &--tagname {
+        text-decoration: underline;
+    }
+}
