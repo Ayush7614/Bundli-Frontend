@@ -1,0 +1,20 @@
+.container{
+    position: relative;
+    }
+    
+    .top-right{
+    position:absolute;
+    top: 8px;
+    right: 16px;
+    }
+    
+    #search-field{
+        padding :8px 15px;
+        width: 45%;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 25px;
+        outline:none;
+        border:0.5px solid #dddddd;
+        color: rgba(0,0,0,.87);
+    }
