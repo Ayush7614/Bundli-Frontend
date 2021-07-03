@@ -69,6 +69,7 @@ You can refer to the following articles on the basics of Git and Github and also
   <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Drawing%20app.png"/></td>
   <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Github%20Profiles.png"/></td>
  </tr> 
+ 
  <tr>
   <thead>
    <th>3. Insect Catching Game</th>
@@ -89,82 +90,49 @@ You can refer to the following articles on the basics of Git and Github and also
  
  <tr>
   <thead>
-   <th>3. Insect Catching Game</th>
-   <th>4. Kinectic Loader</th>
+   <th>7. Verify Account</th>
+   <th>8. 3d Boxes Background</th>
   </thead>
-  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Insect%20Game.png"/></td>
-  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Kinectic%20Loader.png" /></td>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Verify%20UI.png"/></td>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/3d%20Boxes.png"/></td>
  </tr>
  
  <tr>
   <thead>
-   <th>3. Insect Catching Game</th>
-   <th>4. Kinectic Loader</th>
+   <th>9. Dads Joke</th>
+   <th>10. JS + CSS Clock</th>
   </thead>
-  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Insect%20Game.png"/></td>
-  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Kinectic%20Loader.png" /></td>
+  <td align="center" width="50%"><img height="300" src="https://github.com/menakinako/Bundli-Frontend/blob/modify_dads_jokes/Screenshots/dads%20jokes.png"/></td>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/JS%20%2B%20CSS%20clock.png"/></td>
  </tr>
  
  <tr>
   <thead>
-   <th>3. Insect Catching Game</th>
-   <th>4. Kinectic Loader</th>
+   <th>11. Form Wave</th>
+   <th>12. Drink Water</th>
   </thead>
-  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Insect%20Game.png"/></td>
-  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Kinectic%20Loader.png" /></td>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Form%20Wave.png"/></td>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Drink%20Water.png"/></td>
+ </tr>
+ 
+  <tr>
+  <thead>
+   <th>13. Todo App</th>
+   <th>14. Doremon Css</th>
+  </thead>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Todo%20App.png"/></td>
+  <td align="center" width="50%"><img height="300" src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Doremon%20Css/Doremon.png"/></td>
+ </tr>
+ 
+  <tr>
+  <thead>
+   <th>15. JS Calculator</th>
+   <th>16. Drum-kit</th>
+  </thead>
+  <td align="center" width="50%"><img height="300" src="https://github.com/PadminiRai/Bundli-Frontend/blob/main/Screenshots/JS%20Calculator.JPG"/></td>
+  <td align="center" width="50%"><img height="300" src="https://github.com/siddhi-244/Bundli-Frontend/blob/3592862421df7f5b61f06398d718596c522f073c/Screenshots/Drum-kit.png"/></td>
  </tr>
 </table>
-
-
-### 7 . Verify Account
-<p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Verify%20UI.png" /></a> 
-</p>
-
-### 8 . 3d Boxes Background
-<p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/3d%20Boxes.png" /></a> 
-</p>
-
-### 9 . Dads Joke
-<p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/modify_dads_jokes/Screenshots/dads%20jokes.png" /></a> 
-</p>
-
-### 10 . JS + CSS Clock
-<p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/JS%20%2B%20CSS%20clock.png" /></a> 
-</p>
-
-### 11 . Form Wave
-<p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Form%20Wave.png" /></a> 
-</p>
-
-### 12 . Drink Water
-<p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Drink%20Water.png" /></a> 
-</p>
-
-### 13 . Todo App
-<p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Todo%20App.png" /></a>
-</p>
-
-### 14 . Doremon Css
-<p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Doremon%20Css/Doremon.png" /></a>
-</p> 
-
-### 15 . JS Calculator
-<p align="center">
-     <a href="https://github.com/Ayush7614" ><img src="https://github.com/PadminiRai/Bundli-Frontend/blob/main/Screenshots/JS%20Calculator.JPG" /></a>
-</p> 
-
-### 16. Drum-kit
-<p align="center">
-<a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/3592862421df7f5b61f06398d718596c522f073c/Screenshots/Drum-kit.png"></a>
-</p>
 
 ### 17 . Flappy Bird
 <p align="center">
