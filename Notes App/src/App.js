@@ -12,9 +12,7 @@ function App() {
     setIsLoading(true);
     setError(null);
     try {
-      const response = await fetch(
-        'https://react-http-5ef87-default-rtdb.firebaseio.com/'
-      );
+      const response = await fetch(process.env.FIREBASE_DATABASE_URL);
 
       if (!response.ok) {
         throw new Error('Request failed!');
