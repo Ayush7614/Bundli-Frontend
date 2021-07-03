@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Gradient Background </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body id="gradient">
+        <div class="container">
+            <div class="card">
+                <h1> Background Generator </h1>
+                <p>Click on the colors to change them!</p>
+                <div>
+                    <input class="color1" type="color" name="color1" value="#c31432">
+                    <input class="color2" type="color" name="color2" value="#240b36">
+                </div>
+                <!-- <p>Color-1:</p><p id="colora">#c31432</p></h3><br> -->
+                <!-- <p>Color-2:</p><p id="colorb">#240b36</p></h3> -->
+                <h2> Current CSS Background </h2>
+                <textarea>linear-gradient(to right, rgb(195,20,50), rgb(36, 11, 54));</textarea>
+                <p id="bottom">(Click to copy the CSS code of this gradient)</p>
+                <button id="btnCopy">Copy</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

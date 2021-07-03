@@ -1,6 +1,10 @@
 # Bundli-Frontend
 Bundli-Frontend is a open source project which contains different code of frontend Development with HTML, CSS, JS, REACT, ANGULAR and APIs etc. which makes your life easier for learning frontend and make your intrest more in frontend.
 
+This is website look of the project
+![image](https://user-images.githubusercontent.com/67006255/124228106-50c28700-db29-11eb-9cc5-cce221ba2e6a.png)
+
+
  <p align="center">
     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/images/forkit.gif" /></a> 
 </p>
@@ -13,6 +17,8 @@ Bundli-Frontend is a open source project which contains different code of fronte
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 [![HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://github.com/Ayush7614) [![css](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/Ayush7614) [![JS](https://forthebadge.com/images/badges/uses-js.svg)](https://github.com/Ayush7614)
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
+
+### We have also take codes from Udemy,30 days of javascript and many more
 
 ## 📌 Introduction
 
@@ -184,18 +190,182 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/tic-tac-toe/Screenshots/tictactoe.PNG" /></a>
 </p> 
 
-### 27. Loading Animation 
+### 27. Carousel In Vanilla JS
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Carousel.png" /></a>
+</p> 
+
+### 28. Loading Animation 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/93ab3839f506fda363b6a1bacf9bb32d1e51ad03/Screenshots/animation.gif" /></a>
 </p> 
 
-### 28. BMI Calculator
+### 29. Quiz App In Js
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/SubhamChoudhury/Bundli-Frontend/blob/Quiz_App/Quiz%20App/demo_ss.png" /></a>
+</p> 
+
+### 30. BMI Calculator
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/shvam0000/Bundli-Frontend/blob/5-BMI-Calculator-in-JS/BMI%20Calculator/assets/BMI%20Cal.png" /></a>
 </p> 
 
+### 31. Social Media Dashboard
+<table>
+ <tr>
+  <td>
+   <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Social%20Media%20Dashboard%20-%20Dark%20Mode.png" /></a>
+</p>
+  </td>
+  <td>
+   <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Social%20Media%20Dashboard%20-%20Light%20Mode.png" /></a>
+</p>
+  </td>
+ </tr>
+</table>
 
->>>>>>> 0a6debc8201c9ecdd9473c1ebb4e3750d142b652
+### 32. Glassmorphism animation 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/0878261f86599b93a9d9371a09526b69565ac378/Screenshots/Glassmorphism.gif" /></a>
+</p> 
+
+### 33 . Brick Breakout Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/Brick-Breakout-game/Screenshots/brickbreakout%20game.png" /></a>
+</p>
+
+### 34. Spin Wheel
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Spin%20Wheel/Images/Output2.png" /></a>
+</p>
+
+### 35. Type Racer Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Type%20Racer/type_racer_game.png" /></a>
+</p>
+
+### 36. Online Code Editor
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Online%20Code%20Editor/Images/Output7.png" /></a>
+</p> 
+
+### 37. Password_Generator
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Password_Generator/pass_G.png" /></a>
+</p>
+
+### 38. Snake Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Snake%20Game/Images/Output4.png" /></a>
+</p>
+
+### 39. Netflix
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/main/Screenshots/netflix.png" /></a>
+</p>
+
+
+### 40. Notification Button 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/4049231cb439269d455edac957b52df5f5e0a5b9/Screenshots/Notification-button.jpg" /></a>
+ <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/47b89b69aa1a5df37eb48b17048dbe520b2d5ba7/Screenshots/Notification-button2.jpg " /></a>
+</p>
+ 
+### 41. Guess_The_Color
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Guess_The_Color/color.png" /></a>
+</p>
+
+### 42. Guess the Number game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Guess%20the%20number%20game/Images/Output15.png" /></a>
+</p>
+ 
+### 43. Weather App
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/PadminiRai/Bundli-Frontend/blob/weatherapp/Screenshots/JSWeatherApp.JPG" /></a>
+</p>
+
+### 44. Stop Watch
+<p align="center">
+ <a href="https://github.com/Ayush7614"><img src="https://github.com/Antara25-10/Bundli-Frontend/blob/main/Screenshots/stop watch.png" /></a>
+
+
+### 45. Registration Form
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/register-form/Screenshots/registration-form.png" /></a>
+</p>
+
+### 46.Quote_Generator
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Quote_Generator/Screenshot.png" /></a>
+</p>
+
+### 47. Transform Toggle  Animation 
+ <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/234aa305927755a931f8ac2dafe14b945797810f/Screenshots/Toggle.gif" /></a>
+</p>
+
+### 48. Pricing Card Deck
+   <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Pricing%20Annually.png" /></a>
+</p>
+
+### 49. Neumorphic Music Player 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/varunwho/Bundli-Frontend/blob/musicPlayerJS/Screenshots/musicPlayer.png" /></a>
+ </p>
+ 
+### 50. Coin-toss game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Coin-toss%20Game/Images/Output16.png" /></a>
+</p> 
+
+ ### 51. Car Driving Animation 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/car-animation/Screenshots/car%20animation.gif" /></a>
+</p>
+ 
+### 52. Car_Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Car_game/car%20game.png" /></a>
+</p>
+
+### 53. Rock-Paper-Scissors
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Rock-Paper-Scissors%20game/Images/Output23.png" /></a>
+ </p>
+ 
+### 54. Maze Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Maze%20game/Images/Output26.png" /></a>
+</p>
+
+### 55. Tetris_Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Tetris_Game/tetris.png" /></a>
+ </p>
+ 
+ 
+### 56 Payment Gateway Integration 
+<p align="center">
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/3f0ae3743653f6a7426d4fb94bcf0c2eeb145185/Screenshots/Payment-integration.png" /></a>
+</p>
+
+  ### 57. Gradient_Background_Generator
+ <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/varunwho/Bundli-Frontend/blob/178af0b6ab287f25af311f4a8ef2556c2534b650/Screenshots/Background%20Generator.png" /></a>
+ </p>
+ 
+ 
+### 53. Glassmorphisam Profile Card
+<p align="center">
+     <a href="https://github.com/Umang2002"><img src="https://github.com/Umang2002/Bundli-Frontend/blob/main/Glassmorphisam-Profile%20Cards/Screenshot%20(36).png" /></a>
+</p>
+
+
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
 ## Stargazers over time 🤗
