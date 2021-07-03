@@ -46,3 +46,35 @@ body {
     margin-top: 10vh;
     margin-bottom: 1%;
 }
+
+.head-title label {
+    margin-left: 2%;
+    margin-bottom: 1%;
+    font-size: 16%;
+    padding: 10px;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 130%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+.textinput {
+    padding: 8px 15px;
+    width: 400%;
+    font-size: 15px;
+    margin-top: 1%;
+    display: inline-block;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.textinput:hover {
+    border: 1px solid #00aeff;
+    border-top: 1px solid #00aeff;
+}
