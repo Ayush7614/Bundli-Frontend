@@ -44,3 +44,37 @@
     border-radius: 5px;
     box-shadow: 1px 1px 1px #e2e2e2;
 }
+
+
+/* For small screens */
+
+@media screen and (max-width: 790px) {
+    #search-field {
+        width: 60%;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #search-field {
+        width: 70%;
+        height: 25px;
+        font-size: 13px;
+        margin-top: 15%;
+    }
+    #heading {
+        margin-top: 30vh;
+        width: 33vh;
+    }
+    #search-button {
+        width: 110px;
+        margin: 10% 1%;
+        height: 35px;
+        font-size: 85%;
+    }
+    #images,
+    #advance-search {
+        font-size: 15px;
+        text-align: center;
+    }
+}
