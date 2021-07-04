@@ -374,11 +374,25 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Colourful%20smoke%20effect/smoke%20effect.gif" /></a>
 </p>
 
-### 62. Rising_Bars_Game
+### 61. Rising_Bars_Game
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Rising_Bars_Game/Rising%20Bars.gif" /></a>
 </p>
 
+
+### 62. Google Clone
+<p> Google Search </p>
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/google-clone/Screenshots/googleclone-1.PNG" /></a>
+</p>
+<p> Google Images Search </p>
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/google-clone/Screenshots/googleclone-2.PNG" /></a>
+</p>
+<p> Google Advanced Search </p>
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/google-clone/Screenshots/googleclone-3.PNG" /></a>
+</p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
