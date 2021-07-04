@@ -1,11 +1,27 @@
-
-
-
 ## Google Clone
 
 ### This website meets the following features.
 
+<h2> Google Search Page </h2>
+
+<p align="left">
+<img width=40% src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/google-clone/google-clone/images/search-page.PNG"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<img width=40% src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/google-clone/google-clone/images/search-result.PNG"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 
+</p>
   
+<h2> Google Image Search Page </h2>
+
+<p align="left">
+<img width=40% src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/google-clone/google-clone/images/images.PNG"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<img width=40% src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/google-clone/google-clone/images/images-result.PNG"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+</p>
+
+<h2> Google Advanced Search Page </h2>
+
+<p align="left">
+<img width=40% src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/google-clone/google-clone/images/advanced-search.PNG"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<img width=40% src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/google-clone/google-clone/images/advanced-search-result.PNG"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+</p>
 
 <h2>Pages</h2>
 
