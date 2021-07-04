@@ -371,12 +371,17 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ### 60. Colourful smoke effect
 <p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Colourful%20smoke%20effect/smoke%20effect.gif" /></a>
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Colourful%20smoke%20effect/smoke%20effect.gif" /></a>
 </p>
 
 ### 62. Rising_Bars_Game
 <p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Rising_Bars_Game/Rising%20Bars.gif" /></a>
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Rising_Bars_Game/Rising%20Bars.gif" /></a>
+</p>
+
+### 63. Simple Chatroom
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/master/Simple%20Chatroom/chatroom.png" /></a>
 </p>
 
 
