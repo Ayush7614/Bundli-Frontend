@@ -6,7 +6,7 @@ Bundli-Frontend is a open source project which contains different code of fronte
 
 <img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Open%20Source%20Programs/devincept.gif" alt="DevIncept" />
 
-<img src="http://www.pclubsummerofcode.in/" alt="DevIncept" />
+<img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Open%20Source%20Programs/1624807410186.jpg" alt="PSoC" />
 
 
 
