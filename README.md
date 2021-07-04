@@ -394,19 +394,18 @@ You can refer to the following articles on the basics of Git and Github and also
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Tetris_Game/tetris.png" /></a>
- </p>
+</p>
  
- 
-### 56 Payment Gateway Integration 
+ ### 56 Payment Gateway Integration 
 <p align="center">
     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/3f0ae3743653f6a7426d4fb94bcf0c2eeb145185/Screenshots/Payment-integration.png" /></a>
 </p>
 
 ### 57. Gradient_Background_Generator
 
- <p align="center">
+<p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/varunwho/Bundli-Frontend/blob/178af0b6ab287f25af311f4a8ef2556c2534b650/Screenshots/Background%20Generator.png" /></a>
- </p>
+</p>
  
  
 ### 58. Glassmorphisam Profile Card
@@ -414,7 +413,19 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Umang2002"><img src="https://github.com/Umang2002/Bundli-Frontend/blob/main/Glassmorphisam-Profile%20Cards/Screenshot%20(36).png" /></a>
 </p>
 
-### 59. Notes App
+### 59. Whack a mole game
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Whack%20a%20mole%20game/Images/Output32.png" /></a>
+</p>
+
+### 60. Colourful smoke effect
+
+<p align="center">
+     <a href="https://github.com/Umang2002"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Colourful%20smoke%20effect/smoke%20effect.gif" /></a>
+</p>
+
+### 61. Notes App
 
 <p align="center">
      <a href="https://github.com/shvam0000"><img src="https://raw.githubusercontent.com/shvam0000/Bundli-Frontend/7-Note-App-In_JS/Notes%20App/src/Utils/notes_app.png"s></a>
