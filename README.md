@@ -381,7 +381,7 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ### 63. Simple Chatroom
 <p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/master/Simple%20Chatroom/chatroom.png" /></a>
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Simple%20Chatroom/chatroom.png" /></a>
 </p>
 
 
