@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="Rising Bars"
+        content="Arcade Game. Dropping ball and rising bars. Move the ball to keep it within the screen.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Rising Bars</title>
+    <link rel="icon" type="image/png/ico" href="icon.png">
+
+    <style>
+        .noselect {
+            -webkit-touch-callout: none;
+            /* iOS Safari */
+            -webkit-user-select: none;
+            /* Safari */
+            -khtml-user-select: none;
+            /* Konqueror HTML */
+            -moz-user-select: none;
+            /* Firefox */
+            -ms-user-select: none;
+            /* Internet Explorer/Edge */
+            user-select: none;
+            /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+        }
+
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+            overflow: hidden;
+            background: #000000;
+            color: #A9A9A9;
+        }
+
+        /* Chrome, Safari and Opera syntax */
+        :-webkit-full-screen {
+            background-color: #000000;
+        }
+
+        /* Firefox syntax */
+        :-moz-full-screen {
+            background-color: #000000;
+        }
+
+        /* IE/Edge syntax */
+        :-ms-fullscreen {
+            background-color: #000000;
+        }
+
+        /* Standard syntax */
+        :fullscreen {
+            background-color: #000000;
+        }
+
+        button {
+            color: #A9A9A9;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="displayarea">
+        <div id="menu" style="padding-left: 0.5%;">
+            <h2 style="color: azure;">Rising Bars</h2>
+            <br><br><br><br><br><br>
+
+            <div align="center">
+                <a class="btn" id="menu_start_btn" onclick="start_from_menu()"
+                    style="font-size:200%; color:#ff0000"><b>Start</b></a><br><br>
+                <a class="btn" style="display:none" style="font-size:200%; color: #ff0000"><b>Scores</b></a>
+                <a class="btn" onclick="open_settings()"
+                    style="font-size:200%; color: #ff0000"><b>Settings</b></a><br><br>
+                <a class="btn" onclick="open_help()" style="font-size:200%; color: #ff0000"><b>Help</b></a><br><br>
+            </div>
+
+        </div>
+
+        <div id="game_display" style="display: none;">
+            <canvas id="gamecanvas" width="500" height="500" style="border:5px solid white;"></canvas>
+            <br><br><br>
+
+            <button id="toggle_game_button" onclick="controller()" class="btn noselect" unselectable="on"
+                onselectstart="return false;">Start</button>
+            <button id="close_game" onclick="go_to_menu()" class="btn">Menu</button>
+
+            <div style="float:right; font-size: 150%; padding-right: 0.5%">
+                <span>Level:</span> <span id="level_display">0</span>
+            </div>
+
+            <br>
+            <span id="info_display"></span>
+            <br>
+        </div>
+
+        <div id="settings" style="display: none; padding-left: 0.5%; color: black;">
+            <h2>Settings</h2>
+            <div class="panel-group" id="accordion">
+                <!--Controls Settings-->
+                <div class="panel panel-default">
+                    <div class="panel-heading" onclick="{document.getElementById('controls_accordion_a').click()}">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"
+                                id="controls_accordion_a">
+                                Controls</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <h3>Ball Movement:</h3>
+
+                            <div>
+                                <input type="radio" name="controlmethod" id="longpress"
+                                    onclick="control_method('longpress')" value="longpress"> <span
+                                    onclick="{document.getElementById('longpress').click()}">Long press the left or
+                                    right
+                                    side of the screen to move the ball.</span>
+                            </div><br>
+
+                            <div>
+                                <input type="radio" name="controlmethod" id="swipecontrol"
+                                    onclick="control_method('swipe')" value="swipe"> <span
+                                    onclick="{document.getElementById('swipecontrol').click()}">Swipe
+                                    to the left or to the right to move ball.</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--UI Settings-->
+                <div class="panel panel-default">
+                    <div class="panel-heading" onclick="{document.getElementById('interface_accordion_a').click()}">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"
+                                id="interface_accordion_a">
+                                Interface</a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="input-group">
+                                <span class="input-group-addon" style="width:85%">Color of Bar</span>
+                                <input type="color" style="width:150%" class="form-control" id="bar_color_picker"
+                                    onchange="change_bar_color()">
+                            </div>
+
+                            <div class="input-group">
+                                <span class="input-group-addon" style="width:85%">Color of Ball:</span>
+                                <input type="color" style="width:150%" class="form-control" id="ball_color_picker"
+                                    onchange="change_ball_color()">
+                            </div>
+
+                            <div class="input-group">
+                                <span class="input-group-addon" style="width:85%">Background Color</span>
+                                <input type="color" style="width:150%" class="form-control" id="background_color_picker"
+                                    onchange="change_background_color()">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+
+            <button id="close_settings" class="btn" onclick="go_to_menu()">Back</button>
+        </div>
+
+        <!--Help Section-->
+        <div id="help" style="display: none; padding-left: 0.5%;">
+            <br>
+            <h2>Help:</h2>
+            <div id="helptext">
+                <p>The goal is to keep the ball within the screen as long as possible.</p>
+
+                <h4>On mobile devices:</h4>
+                <p>Long press either the left/right of the screen to move the ball.</p>
+
+                <h4>On personal computers:</h4>
+                <p>Use the left or right arrow keys to move the ball to the left or right. Use escape button to pause.
+                </p>
+                <p>The speed of the bars increases gradually during gameplay</p>
+            </div>
+
+            <br>
+            <button id="close_help" class="btn" onclick="go_to_menu()">Back</button>
+        </div>
+    </div>
+
+    <!--First time user Modal -->
+    <div class="modal fade" id="first_time_user_modal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">How To Play:</h4>
+                </div>
+                <div class="modal-body" id="first_time_user_text_body">
+                    <p>The goal is to keep the ball within the screen as long as possible.</p>
+
+                    <div>
+                        <h4>On mobile devices:</h4>
+                        <h5>Default control method:</h5>
+
+                        <div>
+                            <input type="radio" name="controlmethod" id="default_longpress"
+                                onclick="control_method('longpress')" value="longpress"> Long press the left or right
+                            side of the screen to move the ball.
+                        </div>
+
+                        <div>
+                            <input type="radio" name="controlmethod" id="default_swiping"
+                                onclick="control_method('swipe')" value="swipe"> Swipe left or right to move the ball
+                            <br>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <h4>On personal computers:</h4>
+                        <p>Use the left or right arrow keys to move the ball to the left or right. Use escape button to
+                            pause.
+                        </p>
+                    </div>
+                    <p>The speed of the bars increases gradually during gameplay</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cool!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker
+                .register('sw_cached_pages.js')
+                .then(reg => console.log('Service Worker: Registered'))
+                .catch(err => console.log(`Service Worker: Error: ${err}`));
+        });
+    }
+
+    var gamecanvas = document.getElementById("gamecanvas");
+    var displayarea = document.getElementById("displayarea");
+    var info_display = document.getElementById("info_display");
+    var level_display = document.getElementById("level_display");
+    var ctx = gamecanvas.getContext("2d");
+    var toggle_game_button = document.getElementById("toggle_game_button");
+    var game_session = false; // true if the game is being played (bars and ball are moving)
+    var bar_objects = []; //container for all the bar
+
+    // dimensions of the canvas
+    if (window.innerHeight > window.innerWidth) {
+        gamecanvas.width = window.innerWidth - 10;
+        gamecanvas.height = window.innerHeight * 0.8;
+    } else {
+        gamecanvas.width = window.innerWidth * 0.5;
+        gamecanvas.height = window.innerHeight * 0.8;
+        document.getElementById("game_display").setAttribute("align", "center");
+    }
+
+    // check if it is a first time user
+    if (!localStorage.visited) {
+        $("#first_time_user_modal").modal();
+
+        //indicate that the user is no longer new
+        localStorage.visited = true;
+        document.getElementById("default_longpress").click();
+    }
+    try {
+        var control = JSON.parse(localStorage.controls);
+
+        if (control.mobile == "longpress") {
+            mobile_control_longpress();
+        } else if (control.mobile == "swipe") {
+            mobile_control_swiping();
+        }
+    } catch (error) {
+        mobile_control_longpress();
+    }
+
+
+    //stores the game controls method
+    function control_method(method) {
+
+        localStorage.controls = JSON.stringify({
+            mobile: method
+        });
+
+        if (method == "longpress") {
+            mobile_control_longpress();
+        } else if (method == "swipe") {
+            mobile_control_swiping();
+        }
+    }
+
+    function mobile_control_longpress() {
+        gamecanvas.removeEventListener("touchstart", swipe_touchstart);
+        gamecanvas.removeEventListener("touchmove", swipe_touchmove);
+        gamecanvas.removeEventListener("touchend", swipe_touchend);
+
+        gamecanvas.removeEventListener('touchstart', longpress_touchstart);
+        gamecanvas.removeEventListener('touchend', longpress_touchend);
+
+        //listen for longpress touch input
+        gamecanvas.addEventListener('touchstart', longpress_touchstart);
+        gamecanvas.addEventListener('touchend', longpress_touchend);
+    }
+
+    function mobile_control_swiping() {
+        gamecanvas.removeEventListener("touchstart", swipe_touchstart);
+        gamecanvas.removeEventListener("touchmove", swipe_touchmove);
+        gamecanvas.removeEventListener("touchend", swipe_touchend);
+
+        gamecanvas.removeEventListener('touchstart', longpress_touchstart);
+        gamecanvas.removeEventListener('touchend', longpress_touchend);
+
+        //listen for swipe input
+        gamecanvas.addEventListener('touchstart', swipe_touchstart);
+        gamecanvas.addEventListener('touchmove', swipe_touchmove);
+        gamecanvas.addEventListener('touchend', swipe_touchend);
+    }
+
+    //touchstart for longpress
+    function longpress_touchstart(e) {
+        if (event.touches[0].clientX < gamecanvas.width / 2) {
+            ball.key = 37;
+        } else if (event.touches[0].clientX > gamecanvas.width / 2) {
+            ball.key = 39;
+        }
+    }
+
+    //touchend for longpress
+    function longpress_touchend(e) {
+        ball.key = false;
+    }
+
+    var former_swiped_area;
+    //touchstart for swiping
+    function swipe_touchstart(e) {
+        former_swiped_area = e.touches[0].clientX;
+    }
+
+    //touchmove for swiping
+    function swipe_touchmove(e) {
+        if (event.touches[0].clientX < former_swiped_area - 1) {
+            ball.key = 37;
+        } else if (event.touches[0].clientX > former_swiped_area + 1) {
+            ball.key = 39;
+        }
+        former_swiped_area = event.touches[0].clientX;
+    }
+
+    //touchend for swiping
+    function swipe_touchend(e) {
+        ball.key = false;
+    }
+</script>
+<script src="controls.js"></script>
+<script src="main.js"></script>
+<script src="ui.js"></script>
+<script src="bar&ball.js"></script>
+
+</html>
