@@ -371,7 +371,12 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ### 60. Colourful smoke effect
 <p align="center">
-     <a href="https://github.com/Umang2002"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Colourful%20smoke%20effect/smoke%20effect.gif" /></a>
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Colourful%20smoke%20effect/smoke%20effect.gif" /></a>
+</p>
+
+### 61. Find the word game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Find%20the%20word/Images/Output36.png" /></a>
 </p>
 
 
