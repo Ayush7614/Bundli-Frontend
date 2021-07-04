@@ -4,7 +4,7 @@ Bundli-Frontend is a open source project which contains different code of fronte
 
 ## Open Source Programs that we are part of
 
-<img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Open%20Source%20Programs/devincept.gif" alt="DevIncept" />   <img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Open%20Source%20Programs/1624807410186.jpg" height=300px, width=500px alt="PSoC" />  <img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Open%20Source%20Programs/Header.png" height=300px, width=500px alt="PSoC" />  
+<img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Open%20Source%20Programs/devincept.gif" alt="DevIncept" />   <img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Open%20Source%20Programs/1624807410186.jpg" height=300px, width=300px alt="PSoC" />  <img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Open%20Source%20Programs/Header.png" height=300px, width=500px alt="PSoC" />  
 
 
 This is website look of the project
