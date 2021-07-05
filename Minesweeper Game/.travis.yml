@@ -1,0 +1,19 @@
+sudo: required
+language: node_js
+
+node_js:
+  - "stable"
+
+sudo: required
+addons:
+  chrome: "stable"
+
+before_install:
+  - npm install --save-dev jasmine
+  - npm install --save-dev karma
+  - npm install requirejs
+  - npm install --save-dev karma-jasmine karma-chrome-launcher
+  - npm install -g karma-cli
+
+script:
+  - cd tests/ && karma start --single-run
