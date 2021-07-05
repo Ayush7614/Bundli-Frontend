@@ -472,7 +472,7 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ### 67. Admin Dashboard
 <p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/Admin-Dashboard/Screenshots/admin_dashboard.png" /></a>
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/Admin-Dashboard/Screenshots/admin-dashboard.png" /></a>
 </p>
 
 
