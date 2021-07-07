@@ -2,17 +2,7 @@
 
 Bundli-Frontend is a open source project which contains different code of frontend Development with HTML, CSS, JS, REACT, ANGULAR and APIs etc. which makes your life easier for learning frontend and make your intrest more in frontend.
 
-## Open Source Programs that we are part of
-
-<img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Open%20Source%20Programs/devincept.gif" alt="DevIncept" />   <img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Open%20Source%20Programs/1624807410186.jpg" height=300px, width=300px alt="PSoC" />  <img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Open%20Source%20Programs/Header.png" height=300px, width=500px alt="PSoC" />  
-
-
-This is website look of the project
-![image](https://user-images.githubusercontent.com/67006255/124228106-50c28700-db29-11eb-9cc5-cce221ba2e6a.png)
-
- <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/images/forkit.gif" /></a> 
-</p>
+<img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/poster/Animated-Poster.gif" alt="Poster" />   
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Ayush7614/Bundli-Frontend?color=yellow)
 
@@ -314,7 +304,6 @@ You can refer to the following articles on the basics of Git and Github and also
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/4049231cb439269d455edac957b52df5f5e0a5b9/Screenshots/Notification-button.jpg" /></a>
- <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/47b89b69aa1a5df37eb48b17048dbe520b2d5ba7/Screenshots/Notification-button2.jpg " /></a>
 </p>
  
 ### 41. Guess_The_Color
@@ -337,6 +326,7 @@ You can refer to the following articles on the basics of Git and Github and also
 
 <p align="center">
  <a href="https://github.com/Ayush7614"><img src="https://github.com/Antara25-10/Bundli-Frontend/blob/main/Screenshots/stop watch.png" /></a>
+ </p>
 
 ### 45. Registration Form
 
@@ -369,6 +359,7 @@ You can refer to the following articles on the basics of Git and Github and also
  </p>
  
 ### 50. Coin-toss game
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Coin-toss%20Game/Images/Output16.png" /></a>
 </p>
@@ -380,6 +371,7 @@ You can refer to the following articles on the basics of Git and Github and also
 </p>
  
 ### 52. Car_Game
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Car_game/car%20game.png" /></a>
 </p>
@@ -391,6 +383,7 @@ You can refer to the following articles on the basics of Git and Github and also
  </p>
  
 ### 54. Maze Game
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Maze%20game/Images/Output26.png" /></a>
 </p>
@@ -401,7 +394,8 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Tetris_Game/tetris.png" /></a>
 </p>
  
- ### 56 Payment Gateway Integration 
+ ### 56 Payment Gateway Integration
+ 
 <p align="center">
     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/3f0ae3743653f6a7426d4fb94bcf0c2eeb145185/Screenshots/Payment-integration.png" /></a>
 </p>
@@ -414,6 +408,7 @@ You can refer to the following articles on the basics of Git and Github and also
  
  
 ### 58. Glassmorphisam Profile Card
+
 <p align="center">
      <a href="https://github.com/Umang2002"><img src="https://github.com/Umang2002/Bundli-Frontend/blob/main/Glassmorphisam-Profile%20Cards/Screenshot%20(36).png" /></a>
 </p>
@@ -452,34 +447,28 @@ You can refer to the following articles on the basics of Git and Github and also
 </p>
 
 ### 65. Google Clone
-<p> Google Search </p>
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/google-clone/Screenshots/googleclone-1.PNG" /></a>
 </p>
-<p> Google Images Search </p>
-<p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/google-clone/Screenshots/googleclone-2.PNG" /></a>
-</p>
-<p> Google Advanced Search </p>
-<p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/google-clone/Screenshots/googleclone-3.PNG" /></a>
-</p>
 
 ### 66. Minesweeper Game
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Minesweeper%20Game/minesweeper.png" /></a>
 </p>
 
 ### 67. Admin Dashboard
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/Admin-Dashboard/Screenshots/admin-dashboard.png" /></a>
 </p>
 
-### 63. Turning bulbs on and off
+### 68. Turning bulbs on and off
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Turning%20light%20on%20and%20off%20(Toggle%20button)/Images/Output42.png" /></a>
 </p>
-
 
 
 
