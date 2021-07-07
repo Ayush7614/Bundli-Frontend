@@ -52,13 +52,19 @@ You can refer to the following articles on the basics of Git and Github and also
 - Having difficulty in contributing? Read the [Contribution Guide](https://github.com/Ayush7614/Bundli-Frontend/blob/main/CONTRIBUTING.md) for a detailed explanation.
 
 ## 💻 Languages used in this project
-
+<p align="center">
+<img height="200" width ="200" src = "
+<img height="200" width ="200" src = "
+<img height="200" width ="200" src = "
 - [HTML5](https://github.com/Ayush7614/Bundli-Frontend)
 - [CSS3](https://github.com/Ayush7614/Bundli-Frontend)
 - [JAVASCRIPT](https://github.com/Ayush7614/Bundli-Frontend)
 
 ## 💻 Frameworks and libraries used in this project
-
+<p align="center">
+<img height="200" width ="200" src = "
+<img height="200" width ="200" src = "
+<img height="200" width ="200" src = "
 - [Bootstrap](https://github.com/Ayush7614/Bundli-Frontend)
 - [ReactJS](https://github.com/Ayush7614/Bundli-Frontend)
 - [AngularJS](https://github.com/Ayush7614/Bundli-Frontend)
