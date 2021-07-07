@@ -476,6 +476,11 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/6e75fa0f3865771538b0a44311bb377770b52679/Screenshots/age-calci.png"/></a>
 </p>
 
+## 70. Split_screen_effect
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Split_screen_effect/screen-split.gif" /></a>
+</p>
+
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
