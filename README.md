@@ -426,16 +426,19 @@ You can refer to the following articles on the basics of Git and Github and also
 </p>
 
 ### 61. Find the word game
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Find%20the%20word/Images/Output36.png" /></a>
 </p>
 
 ### 62. Rising_Bars_Game
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Rising_Bars_Game/Rising%20Bars.gif" /></a>
 </p>
 
 ### 63. Simple Chatroom
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Simple%20Chatroom/chatroom.png" /></a>
 </p>
@@ -470,13 +473,19 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Turning%20light%20on%20and%20off%20(Toggle%20button)/Images/Output42.png" /></a>
 </p>
 
-### 69.Age Calculator
-
+### 69.Age Calculator 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/6e75fa0f3865771538b0a44311bb377770b52679/Screenshots/age-calci.png"/></a>
 </p>
 
-## 70. Split_screen_effect
+### 70.Form validation
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/566c4d6785c8e4ad5d6ef52f7cd2f8d33ca6c211/Screenshots/Form.png" /></a>
+</p>
+
+## 71. Split_screen_effect
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Split_screen_effect/screen-split.gif" /></a>
 </p>
