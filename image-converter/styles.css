@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1 {
+    position: absolute;
+    color: #ff8882;
+    margin-top: 0;
+    font-family: "Poppins", sans-serif;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+input::-webkit-file-upload-button {
+    visibility: hidden;
+}
