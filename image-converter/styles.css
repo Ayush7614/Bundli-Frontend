@@ -1,16 +1,13 @@
 body {
-    background-color: black;
-    overflow: hidden;
-    margin: 0;
+    background-color: black !important;
+    overflow: hidden !important;
+    margin: 0 !important;
 }
 
 h1 {
-    position: absolute;
-    color: #3baf8a;
+    color: #3baf8a !important;
     margin-top: 0;
     font-family: sans-serif;
-    left: 50%;
-    transform: translateX(-50%);
     background-color: white;
     border-radius: 25px;
     padding: 10px;
@@ -46,9 +43,11 @@ input:hover::before {
 #credits {
     color: aliceblue;
     text-align: center;
+    font-size: 15px;
     position: absolute;
-    bottom: 1px;
-    left: 46%;
+    bottom: 10px;
+    left: 44%;
+    z-index: 100;
 }
 
 input:focus {
