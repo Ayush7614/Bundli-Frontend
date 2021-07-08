@@ -1,0 +1,104 @@
+* {
+	font-family: 'Lexend Deca';
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	max-width: 1000px;
+}
+
+.left-card {
+	border-radius: 8px 0 0 8px;
+	padding: 50px;
+	background-color: hsl(31, 77%, 52%);
+}
+
+.mid-card {
+	padding: 50px;
+	background-color: hsl(184, 100%, 22%);
+}
+
+.right-card {
+	border-radius: 0 8px 8px 0;
+	padding: 50px;
+	background-color: hsl(179, 100%, 13%);
+}
+
+h1 {
+	margin-top: 40px;
+	text-transform: uppercase;
+	font-family: 'Big Shoulders Display';
+	color: hsla(0, 0%, 100%, 0.75);
+	margin-bottom: 25px;
+}
+
+h4 {
+	font-size: 1rem;
+	line-height: 1.8;
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn {
+	height: 60px;
+	margin-top: 50px;
+	box-sizing: border-box;
+	font-size: 1rem;
+	padding: 15px 30px;
+	color: hsl(179, 100%, 13%);
+	background-color: hsl(0, 0%, 95%);
+	border-radius: 40px;
+}
+
+.btn:hover {
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+}
+
+
+.left-card .btn {
+	color: hsl(31, 77%, 52%);
+}
+
+.mid-card .btn {
+	color: hsl(184, 100%, 22%);
+}
+
+.left-card .btn:hover {
+	color: white;
+}
+
+.mid-card .btn:hover {
+	color: white;
+}
+
+@media (max-width:  1050px) {
+	.container {
+		width: 95vw;
+	}
+}
+
+@media (max-width:  850px){
+	.container {
+		width: 98vw;
+	}
+}
+
+@media (max-width:  767px) {
+	.left-card {
+		border-radius: 8px 8px 0 0;
+		margin-top: 80px;
+	}
+
+	.container {
+		height: 100%;
+		width: 80vw;
+	}
+
+	.right-card {
+		border-radius: 0 0 8px 8px;
+		margin-bottom: 80px;
+	}
+}
