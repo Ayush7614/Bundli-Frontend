@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="button.css" />
+    <script src="script.js" defer></script>
+    <title>The Piano</title>
+    <link rel="icon" href="..\favicon.png" type="image/gif" sizes="16x16" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="backbutton">
+      
+        <button class="play" type="button" ">
+          PLAY
+        </button>
+        <button class="start" type="button" >
+          START
+        </button>
+        <button class="restart" type="button" ">
+          RESTART
+        </button>
+        <h1 class="listen">LISTEN</h1>
+        <h1 class="startplaying hidden">START PLAYING</h1>
+
+        
+      </div>
+      </div>
+      
+      <audio class="crct" src="notes/coreect answer 2.m4a"></audio>
+      <audio class="wrng" src="notes/wrong answer.m4a"></audio>
+
+      <div class="container">
+        <div class="piano">
+          <!4th octave->
+          <div data-note="C4" class="key white"></div>
+          <div data-note="Db4" class="key black"></div>
+          <div data-note="D4" class="key white"></div>
+          <div data-note="Eb4" class="key black"></div>
+          <div data-note="E4" class="key white"></div>
+          <div data-note="F4" class="key white"></div>
+          <div data-note="Gb4" class="key black"></div>
+          <div data-note="G4" class="key white"></div>
+          <div data-note="Ab4" class="key black"></div>
+          <div data-note="A4" class="key white"></div>
+          <div data-note="Bb4" class="key black"></div>
+          <div data-note="B4" class="key white"></div>
+
+          <!5th octave->
+          <div data-note="C5" class="key white"></div>
+          <div data-note="Db5" class="key black"></div>
+          <div data-note="D5" class="key white"></div>
+          <div data-note="Eb5" class="key black"></div>
+          <div data-note="E5" class="key white"></div>
+          <div data-note="F5" class="key white"></div>
+          <div data-note="Gb5" class="key black"></div>
+          <div data-note="G5" class="key white"></div>
+          <div data-note="Ab5" class="key black"></div>
+          <div data-note="A5" class="key white"></div>
+          <div data-note="Bb5" class="key black"></div>
+          <div data-note="B5" class="key white"></div>
+          <div data-note="C6" class="key white"></div>
+        </div>
+      </div>
+
+      <audio id="C4" src="notes/C4.wav"></audio>
+      <audio id="Db4" src="notes/Db4.wav"></audio>
+      <audio id="D4" src="notes/D4.wav"></audio>
+      <audio id="Eb4" src="notes/Eb4.wav"></audio>
+      <audio id="E4" src="notes/E4.wav"></audio>
+      <audio id="F4" src="notes/F4.wav"></audio>
+      <audio id="Gb4" src="notes/Gb4.wav"></audio>
+      <audio id="G4" src="notes/G4.wav"></audio>
+      <audio id="Ab4" src="notes/Ab4.wav"></audio>
+      <audio id="A4" src="notes/A4.wav"></audio>
+      <audio id="Bb4" src="notes/Bb4.wav"></audio>
+      <audio id="B4" src="notes/B4.wav"></audio>
+
+      <audio id="C5" src="notes/C5.wav"></audio>
+      <audio id="Db5" src="notes/Db5.wav"></audio>
+      <audio id="D5" src="notes/D5.wav"></audio>
+      <audio id="Eb5" src="notes/Eb5.wav"></audio>
+      <audio id="E5" src="notes/E5.wav"></audio>
+      <audio id="F5" src="notes/F5.wav"></audio>
+      <audio id="Gb5" src="notes/Gb5.wav"></audio>
+      <audio id="G5" src="notes/G5.wav"></audio>
+      <audio id="Ab5" src="notes/Ab5.wav"></audio>
+      <audio id="A5" src="notes/A5.wav"></audio>
+      <audio id="Bb5" src="notes/Bb5.wav"></audio>
+      <audio id="B5" src="notes/B5.wav"></audio>
+      <audio id="C6" src="notes/C6.wav"></audio>
+    </div>
+    
+<div class="modal hidden">
+  <button class="again" type="button" style="background-color: #e62525">
+    AGAIN
+  </button>
+
+  <h1>You loose.......😪</h1>
+</div>
+<div class="modal hidden">
+  <button class="againWon" type="button" style="background-color: #e62525">
+    AGAIN
+  </button>
+  <h1>You won.....🥳🎉🎊</h1>
+</div>
+<div class="overlay hidden"></div>
+  </body>
+</html>
