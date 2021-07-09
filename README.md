@@ -2,7 +2,7 @@
 
 Bundli-Frontend is a open source project which contains different code of frontend Development with HTML, CSS, JS, REACT, ANGULAR and APIs etc. which makes your life easier for learning frontend and make your intrest more in frontend.
 
-<img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/poster/Animated-Poster.gif" alt="Poster" />   
+<img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/poster/Animated-Poster.gif" alt="Poster" />
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Ayush7614/Bundli-Frontend?color=yellow)
 
@@ -58,73 +58,73 @@ You can refer to the following articles on the basics of Git and Github and also
 ### 1 . Drawing App
 
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Drawing%20app.png" /></a> 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Drawing%20app.png" /></a>
 </p>
 
 ### 2 . Github Profiles
 
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Github%20Profiles.png" /></a> 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Github%20Profiles.png" /></a>
 </p>
 
 ### 3 . Insect Catching Game
 
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Insect%20Game.png" /></a> 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Insect%20Game.png" /></a>
 </p>
 
 ### 4 . Kinectic Loader
 
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Kinectic%20Loader.png" /></a> 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Kinectic%20Loader.png" /></a>
 </p>
 
 ### 5 . Movie App
 
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Movie%20App.png" /></a> 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Movie%20App.png" /></a>
 </p>
 
 ### 6 . Theme Clock
 
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Theme%20Clock.png" /></a> 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Theme%20Clock.png" /></a>
 </p>
 
 ### 7 . Verify Account
 
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Verify%20UI.png" /></a> 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Verify%20UI.png" /></a>
 </p>
 
 ### 8 . 3d Boxes Background
 
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/3d%20Boxes.png" /></a> 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/3d%20Boxes.png" /></a>
 </p>
 
 ### 9 . Dads Joke
 
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/modify_dads_jokes/Screenshots/dads%20jokes.png" /></a> 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/modify_dads_jokes/Screenshots/dads%20jokes.png" /></a>
 </p>
 
 ### 10 . JS + CSS Clock
 
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/JS%20%2B%20CSS%20clock.png" /></a> 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/JS%20%2B%20CSS%20clock.png" /></a>
 </p>
 
 ### 11 . Form Wave
 
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Form%20Wave.png" /></a> 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Form%20Wave.png" /></a>
 </p>
 
 ### 12 . Drink Water
 
 <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Drink%20Water.png" /></a> 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/Drink%20Water.png" /></a>
 </p>
 
 ### 13 . Todo App
@@ -305,8 +305,9 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/4049231cb439269d455edac957b52df5f5e0a5b9/Screenshots/Notification-button.jpg" /></a>
 </p>
- 
+
 ### 41. Guess_The_Color
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Guess_The_Color/color.png" /></a>
 </p>
@@ -316,8 +317,9 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Guess%20the%20number%20game/Images/Output15.png" /></a>
 </p>
- 
+
 ### 43. Weather App
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/PadminiRai/Bundli-Frontend/blob/weatherapp/Screenshots/JSWeatherApp.JPG" /></a>
 </p>
@@ -357,7 +359,7 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/varunwho/Bundli-Frontend/blob/musicPlayerJS/Screenshots/musicPlayer.png" /></a>
  </p>
- 
+
 ### 50. Coin-toss game
 
 <p align="center">
@@ -369,7 +371,7 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/menakinako/Bundli-Frontend/blob/car-animation/Screenshots/car%20animation.gif" /></a>
 </p>
- 
+
 ### 52. Car_Game
 
 <p align="center">
@@ -381,7 +383,7 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Rock-Paper-Scissors%20game/Images/Output23.png" /></a>
  </p>
- 
+
 ### 54. Maze Game
 
 <p align="center">
@@ -393,9 +395,9 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Tetris_Game/tetris.png" /></a>
 </p>
- 
- ### 56 Payment Gateway Integration
- 
+
+### 56 Payment Gateway Integration
+
 <p align="center">
     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/3f0ae3743653f6a7426d4fb94bcf0c2eeb145185/Screenshots/Payment-integration.png" /></a>
 </p>
@@ -405,8 +407,7 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/varunwho/Bundli-Frontend/blob/178af0b6ab287f25af311f4a8ef2556c2534b650/Screenshots/Background%20Generator.png" /></a>
 </p>
- 
- 
+
 ### 58. Glassmorphisam Profile Card
 
 <p align="center">
@@ -426,16 +427,19 @@ You can refer to the following articles on the basics of Git and Github and also
 </p>
 
 ### 61. Find the word game
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Find%20the%20word/Images/Output36.png" /></a>
 </p>
 
 ### 62. Rising_Bars_Game
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Rising_Bars_Game/Rising%20Bars.gif" /></a>
 </p>
 
 ### 63. Simple Chatroom
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Simple%20Chatroom/chatroom.png" /></a>
 </p>
@@ -470,23 +474,47 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Turning%20light%20on%20and%20off%20(Toggle%20button)/Images/Output42.png" /></a>
 </p>
 
+### 69.Age Calculator 
 
-
-### 64.Age Calculator 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/6e75fa0f3865771538b0a44311bb377770b52679/Screenshots/age-calci.png"/></a>
 </p>
 
-### 65. Form validation
+### 70. Feature Card Component
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/kiruba-r11/Bundli-Frontend/blob/feature-1/Screenshots/Feature%20Card%20Component.png" /></a>
+</p>
+
+### 71.Form validation
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/566c4d6785c8e4ad5d6ef52f7cd2f8d33ca6c211/Screenshots/Form.png" /></a>
 </p>
  
-### 66. Image To Text CSS Converter
+### 72. Image To Text CSS Converter
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/image-converter/Screenshots/image-converter.PNG" /></a>
 </p>
 
+### 73. Glassmorphism Animation Form
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/82c615ab332fb177faea40d4022a22cc5ad6e980/Screenshots/glassmorphism-form.gif" /></a>
+</p>
+
+### 74. Hotel bill tip calculator
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Hotel%20bill%20tip%20calculator/Images/Output45.png" /></a>
+</p>
+
+### 75.Piano
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="./Screenshots/piano.png" /></a>
+  </p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
@@ -496,8 +524,8 @@ You can refer to the following articles on the basics of Git and Github and also
 
 <h1 align=center> Project Admin ❤️ </h1>
 <p align="center">
-  <a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width=150px height=150px /></a> 
-    
+  <a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width=150px height=150px /></a>
+
 <p align="center">
   <a target="_blank"href="https://www.linkedin.com/in/ayush-kumar-%F0%9F%87%AE%F0%9F%87%B3-984443191/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a target="_blank"href="https://twitter.com/AyushKu38757918"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
