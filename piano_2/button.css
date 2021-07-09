@@ -1,0 +1,32 @@
+.backbutton {
+  border: none;
+  border-radius: 10px;
+  padding: 0px;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: 0.5s;
+  margin-bottom: 750px;
+  color: white;
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: 0.5s;
+  margin-top: 20px;
+  margin-left: 00%;
+  transition: 0.5s ease;
+  background-color: rgba(70, 63, 63, 0.548);
+  font-family: cursive;
+}
+
+/* h1:hover, */
+button:hover {
+  background-color: black;
+  cursor: pointer;
+  color: green;
+}
