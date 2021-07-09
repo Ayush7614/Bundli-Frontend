@@ -469,11 +469,13 @@ You can refer to the following articles on the basics of Git and Github and also
 </p>
 
 ### 68. Turning bulbs on and off
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Turning%20light%20on%20and%20off%20(Toggle%20button)/Images/Output42.png" /></a>
 </p>
 
 ### 69.Age Calculator 
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/6e75fa0f3865771538b0a44311bb377770b52679/Screenshots/age-calci.png"/></a>
 </p>
@@ -485,21 +487,30 @@ You can refer to the following articles on the basics of Git and Github and also
 </p>
 
 ### 71.Form validation
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/566c4d6785c8e4ad5d6ef52f7cd2f8d33ca6c211/Screenshots/Form.png" /></a>
 </p>
+ 
+### 72. Image To Text CSS Converter
 
-### 72. Glassmorphism Animation Form 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/image-converter/Screenshots/image-converter.PNG" /></a>
+</p>
+
+### 73. Glassmorphism Animation Form
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/82c615ab332fb177faea40d4022a22cc5ad6e980/Screenshots/glassmorphism-form.gif" /></a>
 </p>
 
-### 73. Hotel bill tip calculator
+### 74. Hotel bill tip calculator
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Hotel%20bill%20tip%20calculator/Images/Output45.png" /></a>
 </p>
 
-### 74.Piano
+### 75.Piano
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="./Screenshots/piano.png" /></a>
