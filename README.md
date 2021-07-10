@@ -521,6 +521,12 @@ You can refer to the following articles on the basics of Git and Github and also
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="./Screenshots/piano.png" /></a>
+</p>
+
+### 77.Loading Animation
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="./Screenshots/Loading Animation.gif" /></a>
  </p>
 
 ### 78. Shopping_Cart
