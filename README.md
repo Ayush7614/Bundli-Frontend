@@ -42,16 +42,17 @@ You can refer to the following articles on the basics of Git and Github and also
 - Having difficulty in contributing? Read the [Contribution Guide](https://github.com/Ayush7614/Bundli-Frontend/blob/main/CONTRIBUTING.md) for a detailed explanation.
 
 ## 💻 Languages used in this project
+<p align="center">
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/512px-HTML5_logo_and_wordmark.svg.png"></img>
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/CSS-Logo.png"></img>
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/javascript-logo-transparent-logo-javascript-images-3.png"></img>
 
-- [HTML5](https://github.com/Ayush7614/Bundli-Frontend)
-- [CSS3](https://github.com/Ayush7614/Bundli-Frontend)
-- [JAVASCRIPT](https://github.com/Ayush7614/Bundli-Frontend)
 
 ## 💻 Frameworks and libraries used in this project
-
-- [Bootstrap](https://github.com/Ayush7614/Bundli-Frontend)
-- [ReactJS](https://github.com/Ayush7614/Bundli-Frontend)
-- [AngularJS](https://github.com/Ayush7614/Bundli-Frontend)
+<p align="center">
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/2560px-Bootstrap_logo.svg.png"></img>
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/react.png"></img>
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/AngularJS-Shield.svg"></img>
 
 # Screenshots
 
@@ -539,6 +540,17 @@ You can refer to the following articles on the basics of Git and Github and also
  </tr>
 </table>
   
+### 77.Loading Animation
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="./Screenshots/Loading Animation.gif" /></a>
+ </p>
+
+### 78. Shopping_Cart
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Shopping_Cart/sh%E2%80%ADopping_cart.png" /></a>
+</p>
 
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
