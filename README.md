@@ -511,6 +511,7 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/82c615ab332fb177faea40d4022a22cc5ad6e980/Screenshots/glassmorphism-form.gif" /></a>
 </p>
 
+
 ### 75. Hotel bill tip calculator
 
 <p align="center">
@@ -521,15 +522,20 @@ You can refer to the following articles on the basics of Git and Github and also
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="./Screenshots/piano.png" /></a>
-</p>
+  </p>
+  
+### 77.Expand Button Animation 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/d0fcdd0da519dcad33427be87a64a577198feb56/Screenshots/Expand_button.gif" /></a>
+  </p>
 
-### 77.Space Invader
+### 78.Space Invader
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Space%20invader/Images/Output50.png" /></a>
  </p>
  
-### 78. Calculator
+### 79. Calculator
 
 <table>
  <tr>
@@ -546,22 +552,34 @@ You can refer to the following articles on the basics of Git and Github and also
  </tr>
 </table>
   
-### 79.Loading Animation
+### 80.Loading Animation
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="./Screenshots/Loading Animation.gif" /></a>
  </p>
 
-### 80. Shopping_Cart
+### 81. Shopping_Cart
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Shopping_Cart/sh%E2%80%ADopping_cart.png" /></a>
 </p>
 
-### 81. Background Image Slider
+### 82. Background Image Slider
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Backgroung%20Image%20Slider/Images/Output.gif" /></a>
+</p>
+
+### 83. Typewriter Animation 
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/5400cc23f08bf66ea2758c679ef3fb71ae007ad6/Screenshots/typewriter.gif" /></a>
+</p>
+  
+### 84. Testimonials_Slider
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Testimonials_Slider/testimonials.png" /></a>
 </p>
 
 
