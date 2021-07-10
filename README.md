@@ -576,6 +576,11 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Testimonials_Slider/testimonials.png" /></a>
 </p>
 
+### 85. Card Hover Effect
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="./Screenshots/card-hover-effect.gif" /></a>
+</p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
