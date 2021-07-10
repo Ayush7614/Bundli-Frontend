@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(226, 163, 108);
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+h1{
+    font-size: 45px;
+     color: rgb(0, 0, 0);
+}
+canvas{
+    /* background: ; */
+    background-color:peachpuff;
+    border: 23px solid rgb(229, 207, 186);
+    display: block;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px 15px rgb(114, 98, 84);
+}
+.btn{
+    cursor: pointer;
+    border: 0;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius:5px ;
+}
+.btn:focus{
+    outline: 0;
+}
+.btn:hover{
+    background-color: #222;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+
+.rulesbtn{
+ position: absolute;
+ top: 30px;
+ left: 30px;
+}
+.rules{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    background: rgb(145, 133, 108);
+    color: #fff;
+    min-height: 100vh;
+    width: 400px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    transform: translateX(-400px);
+    transition: transform 1s ease-in-out;
+}
+.rules.show{
+    transform: translateX(0);
+}
