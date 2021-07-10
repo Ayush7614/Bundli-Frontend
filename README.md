@@ -42,16 +42,17 @@ You can refer to the following articles on the basics of Git and Github and also
 - Having difficulty in contributing? Read the [Contribution Guide](https://github.com/Ayush7614/Bundli-Frontend/blob/main/CONTRIBUTING.md) for a detailed explanation.
 
 ## 💻 Languages used in this project
+<p align="center">
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/512px-HTML5_logo_and_wordmark.svg.png"></img>
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/CSS-Logo.png"></img>
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/javascript-logo-transparent-logo-javascript-images-3.png"></img>
 
-- [HTML5](https://github.com/Ayush7614/Bundli-Frontend)
-- [CSS3](https://github.com/Ayush7614/Bundli-Frontend)
-- [JAVASCRIPT](https://github.com/Ayush7614/Bundli-Frontend)
 
 ## 💻 Frameworks and libraries used in this project
-
-- [Bootstrap](https://github.com/Ayush7614/Bundli-Frontend)
-- [ReactJS](https://github.com/Ayush7614/Bundli-Frontend)
-- [AngularJS](https://github.com/Ayush7614/Bundli-Frontend)
+<p align="center">
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/2560px-Bootstrap_logo.svg.png"></img>
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/react.png"></img>
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/AngularJS-Shield.svg"></img>
 
 # Screenshots
 
@@ -469,11 +470,13 @@ You can refer to the following articles on the basics of Git and Github and also
 </p>
 
 ### 68. Turning bulbs on and off
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Turning%20light%20on%20and%20off%20(Toggle%20button)/Images/Output42.png" /></a>
 </p>
 
-### 69.Age Calculator 
+### 69.Age Calculator
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/6e75fa0f3865771538b0a44311bb377770b52679/Screenshots/age-calci.png"/></a>
 </p>
@@ -485,31 +488,76 @@ You can refer to the following articles on the basics of Git and Github and also
 </p>
 
 ### 71.Form validation
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/566c4d6785c8e4ad5d6ef52f7cd2f8d33ca6c211/Screenshots/Form.png" /></a>
 </p>
+ 
+### 72. Split_screen_effect
 
-### 72. Glassmorphism Animation Form 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Split_screen_effect/screen-split.gif" /></a>
+</p>
+
+### 73. 
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/image-converter/Screenshots/image-converter.PNG" /></a>
+</p>
+
+### 74. Glassmorphism Animation Form
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/82c615ab332fb177faea40d4022a22cc5ad6e980/Screenshots/glassmorphism-form.gif" /></a>
 </p>
 
-### 73. Hotel bill tip calculator
+### 75. Hotel bill tip calculator
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Hotel%20bill%20tip%20calculator/Images/Output45.png" /></a>
 </p>
 
-### 74.Piano
+### 76.Piano
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="./Screenshots/piano.png" /></a>
 </p>
 
-### 75.Space Invader
+### 77.Space Invader
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Space%20invader/Images/Output50.png" /></a>
  </p>
+ 
+### 78. Calculator
+
+<table>
+ <tr>
+  <td>
+   <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="./Screenshots/Calculator Dark Mode.png" /></a>
+</p>
+  </td>
+  <td>
+   <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="./Screenshots/Calculator Light Mode.png" /></a>
+</p>
+  </td>
+ </tr>
+</table>
+  
+### 79.Loading Animation
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="./Screenshots/Loading Animation.gif" /></a>
+ </p>
+
+### 80. Shopping_Cart
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Shopping_Cart/sh%E2%80%ADopping_cart.png" /></a>
+</p>
+
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
