@@ -42,16 +42,17 @@ You can refer to the following articles on the basics of Git and Github and also
 - Having difficulty in contributing? Read the [Contribution Guide](https://github.com/Ayush7614/Bundli-Frontend/blob/main/CONTRIBUTING.md) for a detailed explanation.
 
 ## 💻 Languages used in this project
+<p align="center">
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/512px-HTML5_logo_and_wordmark.svg.png"></img>
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/CSS-Logo.png"></img>
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/javascript-logo-transparent-logo-javascript-images-3.png"></img>
 
-- [HTML5](https://github.com/Ayush7614/Bundli-Frontend)
-- [CSS3](https://github.com/Ayush7614/Bundli-Frontend)
-- [JAVASCRIPT](https://github.com/Ayush7614/Bundli-Frontend)
 
 ## 💻 Frameworks and libraries used in this project
-
-- [Bootstrap](https://github.com/Ayush7614/Bundli-Frontend)
-- [ReactJS](https://github.com/Ayush7614/Bundli-Frontend)
-- [AngularJS](https://github.com/Ayush7614/Bundli-Frontend)
+<p align="center">
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/2560px-Bootstrap_logo.svg.png"></img>
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/react.png"></img>
+<img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/AngularJS-Shield.svg"></img>
 
 # Screenshots
 
