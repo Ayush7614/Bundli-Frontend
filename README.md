@@ -520,7 +520,26 @@ You can refer to the following articles on the basics of Git and Github and also
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="./Screenshots/piano.png" /></a>
-  </p>
+</p>
+
+### 77. Calculator
+
+<table>
+ <tr>
+  <td>
+   <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="./Screenshots/Calculator Dark Mode.png" /></a>
+</p>
+  </td>
+  <td>
+   <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="./Screenshots/Calculator Light Mode.png" /></a>
+</p>
+  </td>
+ </tr>
+</table>
+  
+
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
