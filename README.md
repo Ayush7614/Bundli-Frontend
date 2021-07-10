@@ -510,6 +510,7 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/82c615ab332fb177faea40d4022a22cc5ad6e980/Screenshots/glassmorphism-form.gif" /></a>
 </p>
 
+
 ### 75. Hotel bill tip calculator
 
 <p align="center">
@@ -520,6 +521,11 @@ You can refer to the following articles on the basics of Git and Github and also
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="./Screenshots/piano.png" /></a>
+  </p>
+  
+### 77.Expand Button Animation 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/d0fcdd0da519dcad33427be87a64a577198feb56/Screenshots/Expand_button.gif" /></a>
   </p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
