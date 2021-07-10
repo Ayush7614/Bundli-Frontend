@@ -8,6 +8,9 @@
 ## **ChatPage**
 ![ChatWiz page](chatPage.png)
 
+## **ChatLeftPage**
+![ChatWiz page](chatLeftPage.png)
+
 ## **How to get Started**
 ---
 
