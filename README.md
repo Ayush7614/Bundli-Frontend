@@ -42,13 +42,14 @@ You can refer to the following articles on the basics of Git and Github and also
 - Having difficulty in contributing? Read the [Contribution Guide](https://github.com/Ayush7614/Bundli-Frontend/blob/main/CONTRIBUTING.md) for a detailed explanation.
 
 ## 💻 Languages used in this project
+
 <p align="center">
 <img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/512px-HTML5_logo_and_wordmark.svg.png"></img>
 <img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/CSS-Logo.png"></img>
 <img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/javascript-logo-transparent-logo-javascript-images-3.png"></img>
 
-
 ## 💻 Frameworks and libraries used in this project
+
 <p align="center">
 <img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/2560px-Bootstrap_logo.svg.png"></img>
 <img height="200" width ="200" src = "https://github.com/PrathmeshMutke/Bundli-Frontend/blob/d905b07b9c2a0353d1a08f89a387654d85a21f3f/react.png"></img>
@@ -499,7 +500,7 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Split_screen_effect/screen-split.gif" /></a>
 </p>
 
-### 73. 
+### 73.
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/image-converter/Screenshots/image-converter.PNG" /></a>
@@ -510,7 +511,6 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/82c615ab332fb177faea40d4022a22cc5ad6e980/Screenshots/glassmorphism-form.gif" /></a>
 </p>
-
 
 ### 75. Hotel bill tip calculator
 
@@ -564,16 +564,35 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Shopping_Cart/sh%E2%80%ADopping_cart.png" /></a>
 </p>
 
-### 83. Typewriter Animation 
+
+### 82. Background Image Slider
 
 <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Backgroung%20Image%20Slider/Images/Output.gif" /></a>
+</p>
+
+### 83. Typewriter Animation 
+<p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/5400cc23f08bf66ea2758c679ef3fb71ae007ad6/Screenshots/typewriter.gif" /></a>
-  </p>
+</p>
   
 ### 84. Testimonials_Slider
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Testimonials_Slider/testimonials.png" /></a>
+</p>
+
+
+### 85. Wall Breaker Game
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="./Screenshots/wallbreaker.png" /></a>
+ </p>
+
+### 86. Budget_App
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Budget_App/budget_app.png" /></a>
 </p>
 
 
