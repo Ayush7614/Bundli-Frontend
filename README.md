@@ -564,19 +564,19 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Shopping_Cart/sh%E2%80%ADopping_cart.png" /></a>
 </p>
 
-### 83. Typewriter Animation
+### 82. Typewriter Animation
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/5400cc23f08bf66ea2758c679ef3fb71ae007ad6/Screenshots/typewriter.gif" /></a>
-  </p>
+</p>
   
-### 84. Testimonials_Slider
+### 83. Testimonials_Slider
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Testimonials_Slider/testimonials.png" /></a>
 </p>
 
-### 85.Wall Breaker Game
+### 84. Wall Breaker Game
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="./Screenshots/wallbreaker.png" /></a>
