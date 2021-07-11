@@ -572,6 +572,7 @@ You can refer to the following articles on the basics of Git and Github and also
 </p>
 
 ### 83. Typewriter Animation 
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/5400cc23f08bf66ea2758c679ef3fb71ae007ad6/Screenshots/typewriter.gif" /></a>
 </p>
@@ -582,25 +583,35 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Testimonials_Slider/testimonials.png" /></a>
 </p>
 
+### 85. Pong Game
 
-### 85. Wall Breaker Game
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Pong%20game/Images/Ouput.gif" /></a>
+</p>
+
+### 86. Wall Breaker Game
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="./Screenshots/wallbreaker.png" /></a>
  </p>
 
-### 86. Budget_App
+### 87. Budget_App
 
 <p align="center">
-     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Budget_App/budget_app.png" /></a>
+     <a href="https://github.com/Ayush7614"><img src="./Screenshots/card-hover-effect.gif" /></a>
 </p>
 
-### 87. Background Changer 
+### 88. Background Changer 
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/0a930bd3c4b6fcd7d7ed7db3fd7228cb4579c15c/Screenshots/background-changer.gif" /></a>
 </p>
 
+### 89. Budget_App
 
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Budget_App/budget_app.png" /></a>
+</p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
