@@ -1,0 +1,38 @@
+/* scrollbar start  */
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 50%;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: black;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(47, 120, 255);
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(53, 0, 199);
+}
+
+
+/* scrollbar end  */
+
+.grow {
+    transition: all 0.3s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
