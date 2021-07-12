@@ -500,7 +500,7 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Split_screen_effect/screen-split.gif" /></a>
 </p>
 
-### 73.
+### 73. Image to text CSS converter
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/image-converter/Screenshots/image-converter.PNG" /></a>
@@ -624,6 +624,12 @@ You can refer to the following articles on the basics of Git and Github and also
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="./Screenshots/currencyconverter.png" /></a>
+</p>
+
+### 92. Scroller
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/scroller/Screenshots/scroller.PNG" /></a>
 </p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
