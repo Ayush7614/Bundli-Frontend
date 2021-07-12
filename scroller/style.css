@@ -74,6 +74,16 @@ body {
     width: 100px;
     height: 100px;
     margin: 15vh 0;
+    background: white;
+    border-radius: 50%;
+}
+
+.scroll-img:hover {
+    width: 100px;
+    height: 100px;
+    margin: 15vh 0;
+    background: #3baf8a;
+    border-radius: 50%;
 }
 
 .row {
