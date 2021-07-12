@@ -12,3 +12,8 @@ window.scrollBy({
 });
 
 window.addEventListener("scroll", function() { var scroll_y = this.scrollY; if (scroll_y > 0) { document.querySelector("#taketotop").classList.remove("n"); } else { document.querySelector("#taketotop").classList.add("n"); } });
+
+function sound() {
+    var x = document.getElementById("click");
+    x.play();
+}
