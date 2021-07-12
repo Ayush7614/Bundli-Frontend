@@ -1,5 +1,5 @@
 ## Snake Game using Javascript
-The Snake game created using Javascript, HTML5 canvas.
+The Snake game created using Javascript, HTML5. CSS3.
 
 ## Project Specification
 - A snake will start moving once the user starts the game.
@@ -11,4 +11,6 @@ The Snake game created using Javascript, HTML5 canvas.
 - Final score is displayed once the snake hits the wall.
 
 ## Screenshots
-<p><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Snake%20Game/Images/Output4.png"></p>
+<p>
+<img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Snake%20Game/Images/Output4.png">
+</p>
