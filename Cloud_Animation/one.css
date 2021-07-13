@@ -125,7 +125,7 @@ p{
     animation: move4 20s linear infinite;
 }
 
-@keyframes move1 {
+/*@keyframes move1 {
     0%{
         transform: translateX(-1200px);
     }
@@ -291,7 +291,7 @@ p{
  animation: fly2 17s linear infinite;
 }
 
-@keyframes fly1 {
+/*@keyframes fly1 {
     0%
     {
         transform: translateX(-1200px);
@@ -316,7 +316,7 @@ p{
     100%{
         transform: translateX(800px);
     }
-}
+}*/
 @media screen and (max-width: 500px){
     .page1,.page2{
         width:200px;
@@ -427,3 +427,4 @@ p{
         animation: 3.6s linear 0s infinite normal none running flap2;
     }
 }
+
