@@ -9,3 +9,10 @@
 - It is used to keep track of some major events and history.
 - It is used by top companies to track their process.
 - In our application we have used it to track major events during World War I and World War II. 
+
+## Screenshot
+<p>
+<img width="960" alt="Timeline App" src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Timeline%20App/Images/Ouput63.png">
+
+</p>
+
