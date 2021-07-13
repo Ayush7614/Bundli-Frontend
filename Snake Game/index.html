@@ -1,32 +1,25 @@
-<!DOCTYPE HTML>
-<html>
-    
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title> Snake Game </title>
-        <style>
-            div{
-                text-align: center;
-            }
-            h1{
-                text-align: center;
-                color: blue;
-            }
-            #mycanvas{
-                width: 800px;
-                height: 500px;
-                border: 10px solid red;
-                background-color: white;
-                margin: 50px;
-        </style>
-    </head>
-    
-    <body>
-        <h1 align="center"> Snakes Game </h1>
-        <div>
-            <canvas id ="mycanvas"></canvas>
-        </div>
-        <script src="snake.js"></script>
-    </body>
-    
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css" />
+ </head>
+ <body>
+  Speed:
+  <input type="number" id="gameSpeed" value="5" min="1" max="9" step="1" />
+
+  <input type="button" value="start" id="gameStart" onclick="initialize()" />
+  <br />
+  <br />
+
+  <div>
+   <canvas id="gameArea"></canvas>
+  </div>
+
+  <script src="./script.js"></script>
+ </body>
 </html>
+
