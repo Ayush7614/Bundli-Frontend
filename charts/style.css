@@ -36,3 +36,31 @@
 .grow:hover {
     transform: scale(1.1);
 }
+
+body {
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    height: 100vh;
+    text-align: center;
+    font-size: 12px;
+}
+
+.charts {
+    margin: 5vh 0;
+}
+
+#hold {
+    font-size: 220%;
+}
+
+.wrappper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrappper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
