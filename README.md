@@ -650,13 +650,19 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/4536954375c44f3ca9e0063127c4871acae7722d/Screenshots/Bubble-Navbar.gif" /></a>
 </p>
 
-### 96. Charts
+### 96. Speech Synthesizer
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Speech%20Synthesizer/Images/Output65.png" /></a>
+  </p>
+  
+### 97. Charts
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/charts/Screenshots/Chart.PNG" /></a>
 </p>
 
-### 97. Truth_Table_Generator
+### 98. Truth_Table_Generator
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Truth_Table_Generator/truth_table.png"/></a>
