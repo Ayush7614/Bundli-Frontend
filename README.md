@@ -650,6 +650,13 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/4536954375c44f3ca9e0063127c4871acae7722d/Screenshots/Bubble-Navbar.gif" /></a>
 </p>
 
+### 96. Truth_Table_Generator
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Truth_Table_Generator/truth_table.png"/></a>
+</p>
+
+
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
 ## Stargazers over time 🤗
