@@ -86,3 +86,7 @@ p {
 .rights {
     font-size: 100%;
 }
+
+@media (max-width: 767px) {}
+
+@media (max-width: 500px) {}
