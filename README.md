@@ -674,6 +674,11 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/2048%20Game/2048.png"/></a>
 </p>
 
+### 100. Neuromorphic Calculator
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/509c462af735131c017394743fc96c6efe317d1d/Neuromorphic%20Calculator/calculator.png"/></a>
+</p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
