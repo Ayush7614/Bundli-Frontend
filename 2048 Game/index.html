@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2048 Game</title>
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous"></script>
+	<style type="text/css">
+		body{
+			background-color: rgb(146, 146, 150);
+		}
+		.container{
+			width: 800px;
+			height: 600px;
+			margin: auto;
+		}
+
+		#board{
+			width: 600px;
+			height: 600px;
+			border: 2px solid #ccc;
+			display: inline-block;
+		}
+		#info-box{
+			height: 100%;
+			background-color: #333;
+			float: right;
+			width: 190px;
+			border: 2px solid #ccc;
+			color: #fff;
+			text-align: center;
+			display: inline-block;
+		}
+
+		.row{
+			height:25%;	
+		}
+
+		.block{
+			width: 24.5%;
+			height: 98%;
+			display:inline-block;
+			background-color: #ccc;
+		}
+
+		.number{
+			font-family: Charcoal, sans-serif;
+			font-weight: bold;
+			font-size: 200%;
+			color: #fff;
+			position: absolute;
+			margin-left: 3.6%;
+			margin-top: 4%
+
+		}
+		#new_game{
+    background-color: #01a307;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 5px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div id="board">
+			<div class="row">
+				<div class="block" id="block-0">
+					<p class='number' id="blk-0"></p>
+				</div>
+				<div class="block" id="block-1">
+					<p class='number' id="blk-1"></p>
+				</div>
+				<div class="block" id="block-2">
+					<p class='number' id="blk-2"></p>
+				</div>
+				<div class="block" id="block-3">
+					<p class='number' id="blk-3"></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="block" id="block-4">
+					<p class='number' id="blk-4">4</p>
+				</div>
+				<div class="block" id="block-5">
+					<p class='number' id="blk-5"></p>
+				</div>
+				<div class="block" id="block-6">
+					<p class='number' id="blk-6"></p>
+				</div>
+				<div class="block" id="block-7">
+					<p class='number' id="blk-7"></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="block" id="block-8">
+					<p class='number' id="blk-8">fff</p>
+				</div>
+				<div class="block" id="block-9">
+					<p class='number' id="blk-9"></p>
+				</div>
+				<div class="block" id="block-10">
+					<p class='number' id="blk-10"></p>
+				</div>
+				<div class="block" id="block-11">
+					<p class='number' id="blk-11"></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="block" id="block-12">
+					<p class='number' id="blk-12"></p>
+				</div>
+				<div class="block" id="block-13">
+					<p class='number' id="blk-13"></p>
+				</div>
+				<div class="block" id="block-14">
+					<p class='number' id="blk-14"></p>
+				</div>
+				<div class="block" id="block-15">
+					<p class='number' id="blk-15"></p>
+				</div>
+			</div>
+		</div>
+		<div id="info-box">
+			<div class="moves">
+				<h2>Moves</h2>
+				<span id="total_moves">0</span>
+			</div>
+			<hr>
+			<div class="Score">
+				<h2>Score</h2>
+				<span id="total_score">0</span>
+			</div>
+			<div id="status" style="color: red; font-size: 14px">
+				
+			</div>
+			<hr>
+			<div class="moves">
+				<h2>High Score</h2>
+				<span id="high_score">0</span>
+			</div>
+			
+			<hr>
+			<div>
+				<h2>Info</h2>
+				<p>Use ← → ↑ ↓ keys</p>
+				<p>Make <b>2048</b></p>
+			</div>
+			<hr>
+			<div>
+				<button id="new_game" onclick="startNewGame();">Start New Game</button>
+			</div>
+			<hr>
+			<div style="background-color: #999">
+				Coded by <a href="https://github.com/thejaswin123"> Thejaswin</a>
+			</div>
+
+		</div>
+	</div>
+</body>
+<script src = 'script.js'></script>
+</html>

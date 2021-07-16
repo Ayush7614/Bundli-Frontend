@@ -632,11 +632,48 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/URL_Keeper/url_keeper.png" /></a>
 </p>
 
-### 93. Top-Down Scroller
+### 93. Timeline App
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Timeline%20App/Images/Ouput63.png" /></a>
+</p>
+
+### 94. Top-Down Scroller
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/scroller/Screenshots/scroller.PNG " /></a>
 </p>
+
+### 95. Navbar Bubble Animation 
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/4536954375c44f3ca9e0063127c4871acae7722d/Screenshots/Bubble-Navbar.gif" /></a>
+</p>
+
+### 96. Speech Synthesizer
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Speech%20Synthesizer/Images/Output65.png" /></a>
+  </p>
+  
+### 97. Charts
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/charts/Screenshots/Chart.PNG" /></a>
+</p>
+
+### 98. Truth_Table_Generator
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Truth_Table_Generator/truth_table.png"/></a>
+</p>
+
+### 99. 2048 Game
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/2048%20Game/2048.png"/></a>
+</p>
+
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
