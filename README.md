@@ -668,7 +668,29 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Truth_Table_Generator/truth_table.png"/></a>
 </p>
 
-### 99 . Template for Illustrator
+
+
+
+=======
+### 99. 2048 Game
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/2048%20Game/2048.png"/></a>
+</p>
+
+### 100. Glassmorphic Short Resume
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="Screenshots/Glassmorphic Short Resume.png"/></a>
+</p>
+
+### 101. Neuromorphic Calculator
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/509c462af735131c017394743fc96c6efe317d1d/Neuromorphic%20Calculator/calculator.png"/></a>
+</p>
+
+### 102 . Template for Illustrator
 
 <p align="center">
      <img src="Illustrator/images/sample.png" />
