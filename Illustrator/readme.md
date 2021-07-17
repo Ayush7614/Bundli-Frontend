@@ -2,6 +2,4 @@ It's a front end template useful for illustrators to showcase their work easily 
 
 ### 15 . Template for Illustrator
 
-<p align="center">
-     <img src="Illustrator/images/sample.png" />
-</p>
+![image](https://github.com/dilroseR/Bundli-Frontend/raw/issue-%23204/Illustrator/images/sample.png)
