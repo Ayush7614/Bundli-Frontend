@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confetti Falling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h2>Confetti Falling</h2>
+        <p>Lorem ipsum dolor sit amet
+            consectetur adipisicing elit.
+            Reprehenderit earum saepe incidunt, 
+            delectus ratione, provident perspiciatis
+            ex hic error recusandae porro? Odit voluptates
+            aliquam, ratione nostrum earum quod quibusdam nihil 
+            suscipit nemo fugiat dolore porro, quas at ut recusandae 
+            blanditiis cupiditate maxime tempora voluptatibus veritatis
+            id odio accusamus voluptate asperiores? Laboriosam molestiae 
+            repellat expedita quasi minus provident, reprehenderit suscipit, 
+            in dolores, aperiam odio? Quae voluptatibus dolor iusto quis necessitatibus 
+            commodi! Explicabo debitis ut accusamus id facere odit perferendis libero, 
+            nostrum vero dignissimos repudiandae animi assumenda repellat facilis possimus 
+            mollitia! Incidunt tempore amet molestias beatae officiis perferendis neque voluptas 
+            repellendus repellat?Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Eaque placeat expedita, at vitae blanditiis facilis sed ullam qui dolor magni sequi. Dolorem, 
+            porro possimus reprehenderit commodi nobis ipsam provident excepturi! Cupiditate nam, explicabo 
+            sint illo consequatur suscipit enim corrupti officiis quaerat reprehenderit dolorum adipisci odit 
+            saepe! Consequatur non laborum porro perspiciatis, incidunt nobis labore vitae cupiditate blanditiis 
+            illo voluptates saepe quos aut placeat beatae ipsa provident, quo odit! Aliquid doloremque sapiente 
+            reprehenderit earum eum quis et perspiciatis vel esse hic obcaecati, veritatis mollitia, accusantium 
+            animi optio nemo enim iure voluptas explicabo dolore totam quas minus. 
+            Eum maiores quidem deserunt cupiditate!</p>
+            <button class="btn">Click Here</button>
+
+            <div class="popup">
+                <h2>Your content goes here...</h2>
+                <b class="close">x</b>
+            </div>
+    </section>
+    <canvas id="my-canvas"></canvas>
+
+    <script src="index.min.js"></script>
+    <script>
+        let btn = document.querySelector('.btn');
+        let popup = document.querySelector('.popup');
+        let close = document.querySelector('.close');
+        let confe = document.querySelector('#my-canvas');
+        btn.onclick = function(){
+            popup.classList.add('active');
+            confe.classList.add('active');
+
+        }
+        close.onclick = function(){
+            popup.classList.remove('active');
+            confe.classList.remove('active');
+        }
+
+        var confettiSettings = { target: 'my-canvas' };
+        var confetti = new ConfettiGenerator(confettiSettings);
+        confetti.render();
+
+    </script>
+    
+</body>
+</html>
