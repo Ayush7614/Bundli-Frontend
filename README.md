@@ -686,7 +686,13 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/509c462af735131c017394743fc96c6efe317d1d/Neuromorphic%20Calculator/calculator.png"/></a>
 </p>
 
-### 102. Maroom - Interior Design Landing Page
+### 102. Bubble Shooter Game
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/PadminiRai/Bundli-Frontend/blob/bubble_shooter/Screenshots/Bubble%20Shooter%20Game.JPG"/></a>
+</p>
+
+### 103. Maroom - Interior Design Landing Page
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="./Screenshots/Maroom - Interior Design Landing Page.png"/></a>
