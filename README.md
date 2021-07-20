@@ -696,6 +696,17 @@ You can refer to the following articles on the basics of Git and Github and also
      <img src="Illustrator/images/sample.png" />
 </p>
 
+### 103. Bubble Shooter Game
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/PadminiRai/Bundli-Frontend/blob/bubble_shooter/Screenshots/Bubble%20Shooter%20Game.JPG"/></a>
+</p>
+
+### 104. Maroom - Interior Design Landing Page
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="./Screenshots/Maroom - Interior Design Landing Page.png"/></a>
+</p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
