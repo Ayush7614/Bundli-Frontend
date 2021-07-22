@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-	--dark-color-a: #667aff;
-	--dark-color-b: #7386ff;
-	--light-color: #e6e9ff;
+	--dark-color-a: #1e852b;
+	--dark-color-b: #6ad381;
+	--light-color: #ffffff;
 	--success-color: #5cb85c;
 	--error-color: #d9534f;
 }
@@ -36,12 +36,13 @@ a {
 	color: var(--dark-color-a);
 	border: 0;
 	font-size: 17px;
+	border-radius: 1rem;
 }
 
 /* Chat Page */
 
 .chat-container {
-	max-width: 1100px;
+	max-width: 1200px;
 	background: #fff;
 	margin: 30px auto;
 	overflow: hidden;
@@ -50,8 +51,8 @@ a {
 .chat-header {
 	background: var(--dark-color-a);
 	color: #fff;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 	padding: 15px;
 	display: flex;
 	align-items: center;
@@ -75,6 +76,7 @@ a {
 	background: rgba(0, 0, 0, 0.1);
 	padding: 10px;
 	margin-bottom: 20px;
+	border-radius: 15px;
 }
 
 .chat-sidebar h3 {
@@ -113,6 +115,8 @@ a {
 .chat-form-container {
 	padding: 20px 30px;
 	background-color: var(--dark-color-a);
+	border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .chat-form-container form {
@@ -121,14 +125,17 @@ a {
 
 .chat-form-container input[type='text'] {
 	font-size: 16px;
-	padding: 5px;
-	height: 40px;
-	flex: 1;
+    padding: 5px 16px;
+    height: 40px;
+    flex: 1;
+    border-radius: 1rem;
+    border: none;
+    margin: 0 0.5rem;
 }
 
 /* Join Page */
 .join-container {
-	max-width: 500px;
+	max-width: 700px;
 	margin: 80px auto;
 	color: #fff;
 }
@@ -137,13 +144,15 @@ a {
 	text-align: center;
 	padding: 20px;
 	background: var(--dark-color-a);
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .join-main {
-	padding: 30px 40px;
+	padding: 50px 40px;
 	background: var(--dark-color-b);
+	border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .join-main p {

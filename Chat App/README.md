@@ -1,6 +1,6 @@
 # **ChatWiz App**
 
-`Realtime chat app with websockets using Node.js, Express and Socket.io with Vanilla JS on the frontend with a custom UI.`
+`Realtime chat application using Nodejs, Express, Socket.io and vanilla JavaScript.`
 
 ## **Landing Page**
 ![ChatWiz landing page](landingPage.png)
@@ -34,6 +34,6 @@ npm install
 Run the development environment
 ```bash
 nodemon server.js
-Go to localhost:3000
+Go to localhost:80
 ```
 
