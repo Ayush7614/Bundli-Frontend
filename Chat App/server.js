@@ -8,7 +8,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
 
-const PORT = 3000 || process.env.PORT;
+const PORT = 80 || process.env.PORT;
 
 app.use(express.static("public"))
 

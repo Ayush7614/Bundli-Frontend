@@ -712,6 +712,12 @@ You can refer to the following articles on the basics of Git and Github and also
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/angular-route/Screenshots/Angular-Route.PNG"/></a>
+  </p>
+  
+### 106. Speak Number Guess
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="./Screenshots/speaknumberguess.png" /></a>
 </p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
