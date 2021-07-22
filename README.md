@@ -714,6 +714,18 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/286d5e0b4a50467f646aca0c2e97009dc0ead9c0/Water%20Drop%20Effect/image.png"/></a>
 </p>
 
+  ### 106. Angular Bootstrap Route
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/angular-route/Screenshots/Angular-Route.PNG"/></a>
+  </p>
+  
+### 107. Speak Number Guess
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="./Screenshots/speaknumberguess.png" /></a>
+</p>
+
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
 ## Stargazers over time 🤗
