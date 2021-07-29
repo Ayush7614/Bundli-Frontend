@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Convertor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+</head>
+<body style="background-color:black;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mb-4" style="color: rgba(177, 253, 78, 0.884);"><b>Length Converter</b></h1>
+            </div>
+            <div class="jumbotron mx-auto ">
+                <div class="container">
+                    
+                    <div class="input-group input-group-lg mb-5 h4">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-lg" style="background-color:#C4E538; border: 2px solid black;"><b>Meter</b></span>
+                        </div>
+                        <input type="number" min="0" class="form-control" aria-label="Large" id="meter-text" oninput="ConvMET()">
+                    </div>
+                    
+                    
+                    <div class="card mx-auto bg-dark text-white h5">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <div class="card-text">Kilometer</div>
+                            </div>
+                            <div class="card-title">
+                                <input type="number" class="card-text bg-dark text-white" id="kilom-text" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mx-auto bg-dark text-white h5 mt-4">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <div class="card-text">Inches</div>
+                            </div>
+                            <div class="card-title">
+                                <input type="number" class="card-text bg-dark text-white" id="inches-text" disabled>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                    <div class="card mx-auto bg-dark text-white h5 mt-4">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <div class="card-text">Centimeter</div>
+                            </div>
+                            <div class="card-title">
+                                <input type="number" class="card-text bg-dark text-white" id="centi-text" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mx-auto bg-dark text-white h5 mt-4">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <div class="card-text">Feet</div>
+                            </div>
+                            <div class="card-title">
+                                <input type="number" class="card-text bg-dark text-white" id="feet-text" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mx-auto bg-dark text-white h5 mt-4">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <div class="card-text">Milimeter</div>
+                            </div>
+                            <div class="card-title">
+                                <input type="number" class="card-text bg-dark text-white" id="mili-text" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
