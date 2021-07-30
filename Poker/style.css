@@ -1,0 +1,279 @@
+body {
+  background-image: url(./images/istockphoto-672545750-170667a.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Ubuntu", sans-serif;
+}
+.back img {
+  opacity: 0.3;
+  left: 250px;
+  top: 90px;
+  width: 70%;
+  position: fixed;
+}
+.tittle img {
+  width: 7%;
+  float: right;
+  border-radius: 50%;
+}
+.coins img {
+  width: 100px;
+  border: #0f7918;
+  border-width: 5px;
+}
+
+.coins {
+  position: absolute;
+  left: 470px;
+  top: 350px;
+}
+.betCoins {
+  position: relative;
+}
+.tops {
+  position: absolute;
+  top: 50px;
+  left: 470px;
+}
+.tops img {
+  width: 100px;
+}
+.tops1 {
+  position: relative;
+  bottom: 300px;
+}
+.tops1 img {
+  width: 100px;
+}
+
+.coinUp {
+  bottom: 100px;
+}
+.cpu img {
+  width: 10%;
+  position: absolute;
+  left: 300px;
+  top: 25vh;
+}
+.cpu h1 {
+  text-align: center;
+  width: 3%;
+  position: absolute;
+  left: 250px;
+  top: 25vh;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding: 10px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  background: linear-gradient(to top left, #0f7918, #ccc90b);
+}
+
+.cpu h2 {
+  text-align: center;
+  width: 7%;
+  position: absolute;
+  left: 700px;
+  top: 45vh;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding: 10px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  background: linear-gradient(to top left, #79310f, #cc0b0b);
+}
+.cpu h3 {
+  text-align: center;
+  width: 7%;
+  position: absolute;
+  left: 700px;
+  top: 45vh;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding: 10px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  background: linear-gradient(to top left, #f30337, #1bcc0b);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cards h2 {
+  text-align: center;
+  width: 5%;
+  position: absolute;
+  left: 700px;
+  top: 45vh;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding: 10px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  background: linear-gradient(to top left, #0f7918, #ccc90b);
+}
+.cpuMove {
+  padding-left: 20px;
+  position: relative;
+}
+.key img {
+  width: 10%;
+  position: absolute;
+  left: 300px;
+  top: 10vh;
+}
+.key {
+  padding-left: 20px;
+  position: relative;
+}
+.cards img {
+  width: 10%;
+  position: absolute;
+  left: 1000px;
+  top: 25vh;
+}
+.cards h1 {
+  text-align: center;
+  width: 3%;
+  position: absolute;
+  left: 950px;
+  top: 25vh;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding: 10px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  background: linear-gradient(to top left, #0f7918, #ccc90b);
+}
+.canMove {
+  padding-left: 20px;
+  position: relative;
+}
+.level {
+  text-align: center;
+  width: 10%;
+  position: absolute;
+  left: 650px;
+  top: 1vh;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding: 4px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  background: linear-gradient(to top left, #1f0f79, #0bafcc);
+  z-index: -1;
+}
+
+.button {
+  position: relative;
+  top: 85vh;
+  border-color: aqua;
+  border-width: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 0.2rem;
+  background: linear-gradient(to top left, #0f7918, #ccc90b);
+  margin-right: 24px;
+}
+.button.side-left {
+  left: 200px;
+}
+.button.side-right {
+  left: 5px;
+}
+.button:hover {
+  border-color: rgb(217, 255, 0);
+  transition-duration: 1.5s;
+}
+.hidden {
+  display: none;
+  transition: 5s;
+}
+.bet {
+  float: left;
+  margin-left: 250px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+.bet h3 {
+  padding-top: 0px;
+  margin-top: 0px;
+  background: linear-gradient(to top left, #0f7918, #ccc90b);
+  padding: 10px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+}
+
+.bet h1 {
+  padding-top: 0px;
+  margin-top: 0px;
+  background: linear-gradient(to top left, #0f7918, #ccc90b);
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.money {
+  float: right;
+  margin-right: 50px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  border: black;
+}
+.money h3 {
+  padding-top: 0px;
+  margin-top: 0px;
+  background: linear-gradient(to top left, #0f7918, #ccc90b);
+  padding: 10px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+}
+
+.money h1 {
+  padding-top: 0px;
+  margin-top: 0px;
+  background: linear-gradient(to top left, #0f7918, #ccc90b);
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.score {
+  width: 10px;
+  margin-left: 450px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  background: linear-gradient(to top left, #0f7918, #ccc90b);
+
+  border-radius: 25px;
+}
+.overly{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(74, 214, 69, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+text-align: left;
+color:rgba(1, 10, 1, 0.6); 
+
+}
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
