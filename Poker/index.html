@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div >
+      <h1 class="level">LEVEL 1</h1>
+    </div>
+
+    <div class="back">
+      <img src="./images/bgtab.png" alt="" />
+    </div>
+    <div class="tittle">
+      <img src="./images/blackjack.png" alt="" />
+
+    </div>
+    <div class="bet">
+      <h1>BET</h1>
+     <h3 class="raise">0$</h3>
+    
+    </div>
+  
+    <div class="money">
+    <h1 >MONEY</h1>
+    <h3 class="down">16600$</h3>
+
+  </div></div>
+  
+    <div class="cpu hidden">
+      <img id='s6' class="cpuMove"    src="./images/PNG/10C.png" alt="" />
+      <img id='s6' class="cpuMove" src="./images/PNG/red_back.png" alt="" />
+      <img id='s6' class="cpuMove hidden" src="./images/PNG/red_back.png" alt="" />
+      <img id='s6' class="cpuMove hidden" src="./images/PNG/red_back.png" alt="" />
+      <img id='s6' class="cpuMove hidden" src="./images/PNG/red_back.png" alt="" />
+      <img id='s6' class="cpuMove hidden" src="./images/PNG/red_back.png" alt="" />
+      <img id='s6' class="cpuMove hidden" src="./images/PNG/red_back.png" alt="" />
+      <img id='s6' class="cpuMove hidden" src="./images/PNG/red_back.png" alt="" />
+      <div><h1 class="score1">15</h1></div>
+      <div><h2 class=" lost hidden">YOU LOOSE</h2></div>
+      <div ><h3 class=" draw hidden">DRAW</h3></div>
+
+
+    </div>
+
+    <div class="cards hidden">
+      <img class="canMove" src="./images/PNG/10C.png" alt="" />
+      <img class="canMove" src="./images/PNG/10D.png" alt="" />
+      <img class="canMove hidden" src="./images/PNG/10D.png" alt="" />
+      <img class="canMove hidden" src="./images/PNG/10D.png" alt="" />
+      <img class="canMove hidden" src="./images/PNG/10D.png" alt="" />
+      <img class="canMove hidden" src="./images/PNG/10D.png" alt="" />
+      <img class="canMove hidden" src="./images/PNG/10D.png" alt="" />
+      <img class="canMove hidden" src="./images/PNG/10D.png" alt="" />
+      <div><h1 class="score2">15</h1></div>
+      <div><h2 class=" won hidden">YOU WON</h2></div>
+
+    </div>
+
+  
+
+    <div class="coins">
+     <img
+        data-note="hund"
+        class="betCoins hund"
+        src="./images/pok-100-removebg-preview.png"
+        alt=""
+      />
+      
+
+      <img
+        data-note="five"
+        class="betCoins five"
+        src="./images/pok-500-removebg-preview.png"
+        alt=""
+      />
+      <img
+        data-note="thou"
+        class="betCoins thou"
+        src="./images/pok-1000-removebg-preview.png"
+        alt=""
+      />
+      <img
+        data-note="fiveThou"
+        class="betCoins fiveThou"
+        src="./images/pok-5000-removebg-preview.png"
+        alt=""
+      />
+      <img
+        data-note="tenThou"
+        class="betCoins tenThou"
+        src="./images/pok-10000-removebg-preview.png"
+        alt=""
+      />
+    </div>
+
+    <button class="button side-right allIn">ALL IN</button>
+    <button class="button side-right deal hidden">DEAL</button>
+    <button class="button side-right allOut hidden">CANCEL</button>
+    <button class="button side-right stand hidden">STAND</button>
+    <button class="button side-right double hidden">DOUBLE</button>
+    <button class="button side-left hit hidden">HIT</button>
+    <button class="button side-left continue hidden">CONTINUE</button>
+    <button class="button side-left Start hidden">PLAY AGAIN</button>
+    <button class="button side-left reStart hidden">RESTART</button>
+    <button class="button side-left help   ">HELP</button>
+
+    <div class="overly hidden">
+      <button class="close-modal">&times;</button>
+
+      <h1> How to play??</h1>
+      <p>Step-1: Always make sure that the total of the cards should be less than or equal to 21.
+      </p>
+      <p>Step-2: If you got “Ace” the first time the value is going to be 10 but later it is considered as 1.</p>
+      <p>Step-3: The “K,J,Q” are considered as 10.
+      </p>
+      <p>Step-4: The game starts with 16600 dollars. If you lose money it will decrease into “-” values and if you win you will get multiple times of your bet money. </p>
+      <p>Step-5: You can restart the game if you feel difficulty in playing.
+      </p>
+      <p>Step-6: Double will double your bet money if you lose you will lose your complete bet money else if you win you will get double reward.</p>
+      <p>Step-7: Use coins to set your bet.
+      </p>
+      <p>Step-8: Don't lose hope keep on playing evrn thouh if you are in "-" score.</p>
+    </div>
+
+  
+    <script src="script.js"></script>
+  </body>
+</html>
