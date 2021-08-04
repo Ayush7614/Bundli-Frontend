@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #202020;
+    margin: 60px auto;
+    text-align:center;
+}
+h1{
+    font-family: cursive;
+    padding-top:100px;
+    color:#f6f8fa;
+    font-weight:100;
+}
+h3{
+    font-weight:lighter;
+    font-family: cursive;
+    padding-top:10px;
+    color:#f6f8fa;
+    font-weight:100;
+    word-spacing:1;
+}
+.inputbox{
+    border:1px solid #f6f8fa;
+    padding:10px;
+    text-indent:5px;
+    width:450px;
+    background-color:#202020;
+    margin:10px;
+    text-transform:uppercase;
+    color:#f6f8fa;
+    font-weight:lighter;
+}
+.list{
+    color:#f6f8fa;
+    font-size:20px;
+    padding-top:50px;
+}
