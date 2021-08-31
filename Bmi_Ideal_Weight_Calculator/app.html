@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+
+    <!--Imported Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--Imported CSS-->
+    <link rel="stylesheet" href="app.css">
+
+</head>
+<body>
+     <div class="jumbotron main_container mt-3">
+        <h2 class="heading"><b>Bmi Calculator</b></h2>
+        <div class="container-input mt-4">
+            <!--input section starts here-->
+
+            <!--Height Part-->
+            <div class="row mb-3">
+                <div class="col">
+                    <h4>Height (m)</h4>
+                </div>
+                <div class="col">
+                    <input class="inputs" id="h_val" type="number" min=0 required>
+                </div>
+            </div>
+
+            <!--Weight Part-->
+            <div class="row mb-3">
+                <div class="col">
+                    <h4>Weight (kg)</h4>
+                </div>
+                <div class="col">
+                    <input class="inputs" id="w_val" type="number" min=1 required>
+                </div>
+            </div>
+            
+            <!--Gender Part-->
+            <div class="row">
+                <div class="col">
+                    <h4>Gender</h4>
+                </div>
+                <div class="col">
+                    <input type="radio" value="Male" name="gender" class="radio" id="male" required><b>Male</b><br/>
+                    <input type="radio" value="Female" name="gender" class="radio" id="female" required><b>Female</b>
+                </div>
+            </div>
+
+            <br/>
+            <!--input section ends here-->
+
+            
+            <div class="card bmi_card" style="text-align: center; border-radius: 25px;">
+                <div class="card-title h4 mt-2">Your Bmi is</div>
+                <div class="card-subtitle" id="bmi_category"></div>
+                <div class="card-body">
+                    <p class="h1" id="bmi_value"></p>
+                </div>
+            </div>
+
+            <!--Ideal Weight display starts here-->
+            <h5 class="mt-3">Ideal Weight Statistics:</h5>
+            <div class="stats">
+
+                <!--Robinson's-->
+                <div class="row robin_row mb-4 mt-2">
+                    <div class="col">
+                        Robinson's
+                    </div>
+                    <div class="col">
+                        <p id="robin_val"></p>
+                    </div>
+                </div>
+
+                <!--Miller's-->
+                <div class="row miller_row">
+                    <div class="col">
+                        Miller's
+                    </div>
+                    <div class="col">
+                        <p id="miller_val"></p>
+                    </div>
+                </div>
+
+            </div>
+            <!--ideal weight display ends here-->
+
+            <!--Calculate & Get tips Button-->
+            <div class="bottom">
+                <div class="row">
+                    <div class="col">
+                        <button class="btn-warning btn mt-3 mb-1" onclick="get_bmi()">Calculate</button>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn2 mt-3 mb-1 ml-4" id="get_tips" onclick="location.href='./get_tips.html'">Get Tips!</button>
+                    </div>
+                </div>                
+                
+            </div>
+            <!--Button area ends here-->
+        </div>
+     </div>   
+
+     <script type="text/javascript" src="./app.js"></script>
+</body>
+</html>
