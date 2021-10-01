@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./viva.css">
+        <title>Temperature Converter</title>
+        <link rel="icon" href="./thermometer_temperature_medical_icon_131300.ico">
+    </head>
+
+    <body>
+        <p class="wrap">Temperature Converter using HTML and JavaScript. Use following formula
+            <br>(1°C&nbsp;×&nbsp;9/5)&nbsp;+&nbsp;32&nbsp;=&nbsp;33.8°F<br>
+            The application should convert in both ways from Celsius to Fahrenheit and from
+            Fahrenheit to Celsius. Input can be given in any of the text box.
+        </p>
+        <h1>JavaScript Celcius to Fahrenhet</h1>
+
+        <p class="form">Insert a number into one of the input fields below:</p>
+        <p class="form"><input id="c" onkeyup="convert('C')"> degrees Celsius</p>
+        <p class="form"><input id="f" onkeyup="convert('F')"> degrees Fahrenheit</p>
+        <script>
+            function convert(degree) {
+                var x;
+                if (degree == "C") {
+                    x = document.getElementById("c").value * 9 / 5 + 32;
+                    document.getElementById("f").value = x;
+                }
+                else {
+                    x = (document.getElementById("f").value - 32) * 5 / 9;
+                    document.getElementById("c").value = x;
+                }
+            }
+        </script>
+    </body>
+
+</html>
