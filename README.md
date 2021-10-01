@@ -737,6 +737,12 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/service-card/Screenshots/service-cards.PNG"/></a>
   </p>
+  
+   ### 110. Upside Left Animated Navbar
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/upside-navbar/Screenshots/upside-navbar.PNG"/></a>
+  </p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
