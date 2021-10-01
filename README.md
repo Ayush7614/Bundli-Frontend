@@ -731,6 +731,12 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/892ddbadee5ec6c3b929a0e14738042704f63664/Card%20with%20Glowing%20Border/image.png"/></a>
   </p>
+  
+   ### 109. Animated Service-Cards
+
+<p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/service-card/Screenshots/service-cards.PNG"/></a>
+  </p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
