@@ -2,6 +2,10 @@
 
 Bundli-Frontend is a open source project which contains different code of frontend Development with HTML, CSS, JS, REACT, ANGULAR and APIs etc. which makes your life easier for learning frontend and make your intrest more in frontend.
 
+<p align="center">
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/images/screenshot-hacktoberfest.digitalocean.com-2021.10.02-02_32_15.png" />
+    </a>
+
 <img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/poster/Animated-Poster.gif" alt="Poster" />
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Ayush7614/Bundli-Frontend?color=yellow)
