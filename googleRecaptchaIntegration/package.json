@@ -1,0 +1,22 @@
+{
+  "name": "mern-starter-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js && cd client && npm start",
+    "dev": "concurrently \"nodemon server.js\" \"cd client && npm start\""
+  },
+  "author": "Asmit Sirohi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^3.0.0",
+    "mongoose": "^6.0.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.12"
+  }
+}
