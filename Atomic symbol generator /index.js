@@ -231,9 +231,7 @@ function create()
     }
 
 
-    putValues(age, weight, symbol, config, fullname);
+    putValues(age, weight, height, symbol, config, fullname);
 
     
-
-
 }
