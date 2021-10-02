@@ -33,7 +33,7 @@ HTML Code
       </div>
     </div>
     <div class="footer">
-      <p>Made with <span class="heart">&hearts;</span> by <span><a class="github" href="https://github.com/amankumar11">Aman Kumar</a></span> for <span class="gwoc">GWOC'21</span></p>
+      <p>Made with <span class="heart">&hearts;</span> by <span><a class="github" href="https://github.com/amankumar11">Aman Kumar</a></span></p>
     </div>
     <script src="./sort.js"></script>
   </body>
