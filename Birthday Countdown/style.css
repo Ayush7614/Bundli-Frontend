@@ -4,9 +4,9 @@ body {
     animation: gradient 15s ease infinite;
   color: white;
   text-align:center;
-  margin-top:150px;
+  margin-top:148px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size:30px;
+  font-size:28px;
 }
 
   @keyframes gradient {
