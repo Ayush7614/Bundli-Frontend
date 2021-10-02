@@ -1,0 +1,134 @@
+.about{
+    flex-direction: column;
+}
+.about img{
+margin-left:0px;
+height:40%;
+width:80%;
+
+}
+.business div{
+    flex-direction: column;
+}
+.business img{
+    height:55%;
+    width:80%;
+}
+ .business h1{
+    margin-top:15px;
+    margin-left:0px;
+} 
+.covid{
+    height:100vh;
+    width:92vw;
+   
+    margin-top:30%;
+     margin-left: 5%; 
+     margin-bottom: 20%;;
+    
+}
+.covid h1{
+    font-size:1.7rem;
+}
+.microsoftonedrive .btn{
+    width:100px;
+    height:40px;
+}
+.icons{
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* margin-left: 50%; */
+}
+.icons h5{
+    margin-left:20%;
+} 
+ .navbar li {
+   display:none;
+}
+.navbar {
+   
+     display:flex;
+    align-content: center;
+    justify-content: center;
+} 
+
+.end{
+    flex-direction: column;
+    display:none;
+  background-color: white;
+  /* margin-top:70%; */
+}
+end ul li{
+    color:grey;
+    margin:1px;
+    padding:1px;
+    list-style:none;
+    /* font-size:3.4rem; */
+  }
+  .end div{
+      margin-left:5%;
+      font-size:2.5rem;
+  }
+  
+ 
+.microsoftonedrive::before{
+    content:" ";
+    position:absolute;
+     height:50vh;
+    width:86vw; 
+  background: url('https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3hD2k?ver=6539&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true')no-repeat center center/cover;
+  /* margin-left:30%; */
+  z-index:-1;
+  opacity: 0.65;
+ }
+ .microsoftonedrive h2{
+    font-size: medium;
+ }
+ .microsoftonedrive p{
+     font-size:0.7rem;
+     font-weight: 300;
+     
+ }
+ .microsoftonedrive .btn{
+ height:10%;
+ width:30%;
+ } 
+.home img{
+    margin:0px;
+    height:40vh;
+    width:45vw;
+    margin-left:18%;
+
+}
+
+   .home{
+       flex-direction: column;
+       background-color:#e6e6e6;
+       margin-bottom: 0px;
+       height:80vh;
+       width:80vw;
+       /* margin-top: 20%; */
+      
+   }
+   .home h1{
+       margin-top: 0px;
+       font-size:1.0rem;
+       /* margin-left: 20%; */
+   }
+   .home p{
+       font-size:0.9rem;
+       margin-bottom: 0px ;
+       margin-left:15%;
+   }
+   .home .btn{
+       display:none;
+   }
+   .business p{
+       margin: 0px;
+       padding: 0px;
+     
+   }
+    .business h2{
+       margin-top:50%;
+       padding: 0px;
+   }  

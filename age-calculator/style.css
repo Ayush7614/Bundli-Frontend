@@ -51,6 +51,17 @@ input{
 button{
 	width: 30%;
 	float: right;
+	background-color: #1eb0f4;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	opacity: 0.75;
+	transition: 0.3s;
+}
+button:hover {
+	opacity: 1;
+	cursor: pointer;
 }
 .output{
 	width: 100%;

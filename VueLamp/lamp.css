@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.hero {
+  background: #1d2026;
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 8%;
+}
+nav .menu-image {
+  width: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+nav .logo {
+  width: 160px;
+  cursor: pointer;
+}
+nav ul {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  background: #efefef;
+  height: 30px;
+  width: 60px;
+  border-radius: 60px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+button span {
+  display: block;
+  background: #999;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  margin-left: 2px;
+  transition: background 0.5s, margin-left 0.5s;
+}
+.lamp-container {
+  position: absolute;
+  top: -20px;
+  left: 22%;
+  width: 200px;
+}
+.lamp {
+  width: 100%;
+}
+.light {
+  position: absolute;
+  top: 98%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px;
+  margin-left: -10px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.text-container {
+  max-width: 600px;
+  margin-top: 7%;
+  margin-left: 50%;
+}
+.text-container h1 {
+  font-size: 5rem;
+  font-weight: 400;
+}
+.text-container a {
+  text-decoration: none;
+  background: #00986f;
+  padding: 14px 40px;
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+.active {
+  background: green;
+}
+.active span {
+  background: white;
+  margin-left: 31px;
+}
+.on {
+  opacity: 1;
+}
+@media (max-width: 900px) {
+  .text-container h1 {
+    font-size: 3rem;
+  }
+  nav ul {
+    display: none;
+  }
+  .text-container {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin-left: 10px;
+  }
+  .light {
+    position: absolute;
+    width: 430px;
+    height: 20rem;
+    left: 30%;
+  }
+  .lamp {
+    width: 57%;
+  }
+}
+
+footer {
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}

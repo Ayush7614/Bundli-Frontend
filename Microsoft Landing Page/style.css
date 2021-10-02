@@ -1,0 +1,213 @@
+*{
+   margin: 0px;
+   padding:0px;
+   
+}
+body{
+   font-family: Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.flex{
+   display:flex;
+   align-content: center;
+   justify-content: center;
+}
+
+
+ .navbar img{
+  height:10vh;
+  width:14vw;
+  margin-left:0px;
+  margin-top: 0px;
+} 
+.navbar ul li{
+   margin:1.7rem;
+   list-style: none;
+   margin-top:12px;
+   font-size:0.9rem;
+   font-family:
+"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+LINE-HEIGHT:
+normal;
+TEXT-ALIGN:
+start;
+LETTER-SPACING:
+normal;
+}
+.navbar ul li:hover{
+   text-decoration: underline;
+   cursor:pointer;
+   text-shadow: 24px;
+   transition:2s ;
+   -webkit-transition:2s ;
+   -moz-transition:2s ;
+   -ms-transition:2s ;
+   -o-transition:2s ;
+}
+.home img{
+ 
+ height:100%;
+ width:120%;
+ background-color:#e6e6e6;
+}
+.home{
+   font-family: Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif;
+   background-color:#e6e6e6;
+   width:68vw;
+   height:89vh;
+   margin-left:10%;
+}
+.home h1{
+   margin-top:30%;
+   font-size:1.6rem;
+   margin-left:10%;
+}
+.home  p{
+   font-size:1.0rem;
+   margin-top:0px;
+    margin-bottom:24px; 
+   padding:0px;
+   margin-left:10%;
+}
+ .btn{
+   color:white;
+   font-size:1.0rem;
+   font-weight: bold;
+   background-color: rgb(10, 9, 9);
+   height:6.5vh;
+   width:8.9vw;
+   cursor:pointer;
+   border:2px solid black;
+   margin-left:10%;
+}
+
+.icons {
+  margin-top:5%;
+}
+.icons i{
+  font-size:3.5rem;
+  margin-left:5.4rem;
+}
+.icons div{
+   margin:9px;
+   padding:9px;
+}
+.icons h5{
+   margin-top:1.1rem;
+   /* margin-right:1.3rem; */
+   cursor: pointer;
+   font-size:1.1rem;
+}
+
+.about img{
+ display:block;
+   height:200px;
+   width:280px;
+   margin:auto;
+}
+.about{
+   margin:45px;
+
+}
+.about p,h2{
+   margin:3px;
+   padding:2px;
+}
+.about h4{
+   color:rgb(95, 95, 236);
+   cursor:pointer;
+}
+
+.microsoftonedrive::before{
+   content:" ";
+   position:absolute;
+    height:70vh;
+   width:89vw; 
+ background: url('https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3hD2k?ver=6539&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true')no-repeat center center/cover;
+ margin-left:5%;
+ z-index:-1;
+ opacity: 0.65;
+}
+.microsoftonedrive p{
+   margin-left:10%;
+   font-weight: 600;
+
+}
+.microsoftonedrive h2{
+   margin-top:10%;
+   margin-left:10%;
+   font-weight: 500;
+
+}
+.microsoftonedrive .btn{
+   margin-left: 10%;
+   margin-top:1.4rem;
+}
+.business h4{
+   color:rgb(95, 95, 236);
+   cursor:pointer;
+}
+
+.business img{
+   display:block;
+     height:170px;
+     width:280px;
+     margin:auto;
+  }
+  .business{
+   margin:45px;
+   margin-top:12%;
+
+}
+.business h1{
+   margin:1%;
+   padding:1%;
+}
+.business p,h2{
+   margin:3px;
+   padding:2px;
+}
+.covid{
+   flex-direction: column;
+   background-color:#e6e6e6;
+   height:30vh;
+   width:96vw;
+   margin-left: 2%;
+
+}
+.covid .button{
+   font-weight:700 ;
+   cursor:pointer;
+}
+
+span:hover{
+ margin-right:7px;
+ text-decoration: underline;
+}
+holi:hover{
+margin-left: 5px;
+} 
+
+.covid div{
+   margin-left:25% ;
+}
+.covid h1{
+   font-size:2.5rem;
+}
+.end ul li{
+   color:grey;
+   margin:8px;
+   padding:4px;
+   list-style:none;
+   font-size: 0.8rem;
+ }
+ .end div{
+     margin-left:5%;
+ }
+.end{
+   margin-top:5%;
+   height:60vh;
+   width:97vw;
+   margin-left:1%;
+   background-color:#e6e6e6;
+}
+

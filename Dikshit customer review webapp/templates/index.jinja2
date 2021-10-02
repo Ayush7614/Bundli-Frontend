@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+        <link rel="stylesheet" href="/week1/static/style.css">
+        <title>Customer Review WebApp</title>
+    </head>
+
+    <body>
+        <header>
+            <div>Customer Review WebApp</div>
+            <nav>
+                <ul>
+                    <li><a href="#write" rel="noopener noreferrer"> Write a Review</a></li>
+                    <li><a href="#read" rel="noopener noreferrer"> Read Reviews</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="div-container" id="write">
+            <br><br><br><br><br><br>
+            <div class="container">
+                <form method="post">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="name">Customer Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="name" name="name" placeholder="Your name..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="product">Product Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="product" name="product" placeholder="Your product name..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="review">Valuable Review</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="review" name="review" placeholder="Write review.."
+                                style="height:200px"></textarea>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="reviews" id="read">
+            <br>
+            {% for review in reviews %}
+            <div class="borders">
+                <h3 class="name">User : {{review[0]}}</h3>
+                <h3 class="product">Product Name: {{review[1]}}</h3>
+                <h3 class="review-header">Review: </h3>
+                <p class="review">
+                    {{review[2]}}
+                </p>
+            </div><br>
+            {% endfor %}
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
