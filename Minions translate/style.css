@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+body {
+  background-color: #ffd55e;
+  font-family: "Indie Flower", cursive;
+}
+h1 {
+  text-align: center;
+  display: block;
+  color: #1a1509;
+}
+.minion-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 11.5%;
+}
+textarea {
+  width: 80%;
+  height: 10vh;
+  display: block;
+  margin-left: 10%;
+  /* padding: 10px; */
+}
+#btn-translate {
+  margin: 0 auto;
+  display: block;
+  background-color: brown; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+#btn-translate:hover {
+  background-color: #FFB6C1; 
+  color: white;
+}
+
+#output-heading {
+  font-size: larger;
+  text-align: center;
+  display: block;
+}
+#output {
+  height: 10vh;
+  border: 3px solid whitesmoke;
+  width: 80%;
+  margin-left: 10%;
+  /* padding: 1rem; */
+  display: block;
+}
