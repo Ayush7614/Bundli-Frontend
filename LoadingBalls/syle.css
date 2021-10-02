@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #002547;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+}
+h1 {
+  position: relative;
+  bottom: 10rem;
+  color: white;
+  letter-spacing: 5px;
+  font-weight: lighter;
+}
+.container {
+  position: relative;
+  width: 80%;
+  height: 20vh;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-reflect: below 0px
+    linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.158));
+}
+.circle {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  animation: animate 5s linear infinite;
+  -webkit-animation: animate 3s linear infinite;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.circle:nth-child(2) {
+  opacity: 0;
+  animation-delay: -0.4s;
+}
+.circle:nth-child(3) {
+  opacity: 0;
+  animation-delay: -0.9s;
+}
+@keyframes animate {
+  0% {
+    opacity: 1;
+    transform-origin: 400% 50%;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+  }
+  50% {
+    opacity: 1;
+    transform-origin: 400% 50%;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+  50.001% {
+    opacity: 1;
+
+    transform-origin: -300% 50%;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+  }
+  100% {
+    opacity: 1;
+
+    transform-origin: -300% 50%;
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+  }
+}
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}

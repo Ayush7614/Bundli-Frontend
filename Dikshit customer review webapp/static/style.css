@@ -1,0 +1,168 @@
+:root {
+  --blue: rgb(0, 48, 73);
+  --lightblue: rgb(0, 115, 158);
+  --pink: rgb(233, 94, 166);
+  --pink1: rgb(188, 23, 92);
+  --pink2: rgb(118, 12, 76);
+  --grey: rgb(220, 220, 220);
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html {
+  background-color: var(--grey);
+}
+body {
+  width: 98%;
+  color: white;
+  overflow-x: hidden;
+  margin: auto;
+}
+/*----------------------HEADER STARTS-------------------------*/
+header {
+  background-image: url(bg2.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  top: 0%;
+}
+header div {
+  position: relative;
+  top: 25%;
+  margin: 0rem auto;
+  font-size: 5.5rem;
+}
+header div:hover {
+  color: var(--pink1);
+}
+nav {
+  display: inline;
+  position: relative;
+  top: 30%;
+  margin: auto;
+}
+header ul {
+  display: inline;
+  list-style: none;
+}
+header li {
+  display: inline;
+  padding: 1rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+a:hover {
+  color: var(--blue);
+  background-color: white;
+  border: var(--pink1) 0.3rem solid;
+}
+
+/*----------------------HEADER ENDS-------------------------*/
+
+/*----------------------FORM STARTS-------------------------*/
+
+.div-container {
+  background-image: url(bg.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+input[type="text"],
+textarea {
+  width: 90%;
+  padding: 0.75rem;
+  border: 0.2rem solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type="text"]:hover,
+textarea:hover {
+  border: #ff0099 0.2rem solid;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: 1.3rem;
+}
+
+input[type="submit"] {
+  background-color: var(--pink1);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+  margin: auto;
+  font-size: 2rem;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--pink2);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*----------------------FORM ENDS-------------------------*/
+/*----------------------REVIEWS START-------------------------*/
+.reviews {
+  background-image: repeating-linear-gradient(
+    var(--blue),
+    var(--pink2),
+    var(--blue),
+    var(--pink2)
+  );
+  min-height: 100vh;
+}
+.borders {
+  background-color: rgba(54, 79, 107, 1);
+  color: white;
+  width: 90%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  position: relative;
+  padding: 1rem;
+}
+.name .product .review-header .review {
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
