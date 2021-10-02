@@ -21,9 +21,9 @@ body {
   border-radius: 0.25rem;
 }
 .expense-form {
-  border: 0.15rem solid var(--mainRed);
+  border: 0.16rem solid var(--mainRed);
   padding: 1rem;
-  border-radius: 0.25rem;
+  border-radius: 0.26rem;
 }
 .budget-submit {
   background: transparent;
@@ -57,7 +57,7 @@ body {
 .edit-icon {
   color: var(--mainBlue);
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 2rem;
   text-decoration: none !important;
 }
 .delete-icon {
@@ -87,7 +87,7 @@ body {
   color: var(--mainRed);
 }
 .balance {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 }
 .budget-icon,
 .expense-icon,
