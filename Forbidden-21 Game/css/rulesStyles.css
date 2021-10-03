@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@300&display=swap");
+:root {
+  --global-font-style: "Rokkitt", serif;
+  --accent-color: #ef1010;
+  --btns-accent-color: rgb(81, 119, 231);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--global-font-style);
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading-container {
+  margin-top: 5vh;
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px rgb(160, 160, 160);
+}
+.heading {
+  max-width: 1200px;
+  min-width: 300px;
+  height: 140px;
+  display: flex;
+  font-size: 3em;
+  padding: 0.5em;
+}
+.first-text {
+  align-self: flex-start;
+  font-size: 1.2em;
+}
+.mid-num {
+  font-size: 2.4em;
+  color: var(--accent-color);
+}
+.last-text {
+  align-self: flex-end;
+}
+
+/* list-block => rules-block */
+/* section => rules */
+.rules-container {
+  border-radius: 30px;
+  overflow: hidden;
+}
+.rules-heading {
+  border-radius: 30px 30px 0px 0px;
+  overflow: hidden;
+  position: relative;
+  background: var(--accent-color);
+  color: white;
+  text-align: center;
+  margin-top: 5vh;
+  padding: 10px;
+}
+.rules-block {
+  background-color: rgb(253, 232, 232);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  counter-reset: counter-name;
+  text-align: left;
+}
+
+.rules {
+  width: 60%;
+  padding: 20px;
+}
+
+.rules h3 {
+  color: #ef1010;
+  position: relative;
+}
+
+.rules h3::before {
+  counter-increment: counter-name;
+  content: counter(counter-name) " ";
+  position: absolute;
+  left: -2.5em;
+  font-size: 0.9em;
+  background-color: #ef1010;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+.rules p {
+  text-align: justify;
+}
+.btn-container {
+  border-radius: 15px;
+  margin: 20px;
+  padding: 1em 2em;
+  background: var(--btns-accent-color);
+}
+.btn-container:hover {
+  background: white;
+  box-shadow: 0px 0px 10px grey;
+}
+.play-btn {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+.btn-container:hover .play-btn {
+  color: var(--btns-accent-color);
+}
+
+@media (max-width: 600px) {
+  .heading-container {
+    position: relative;
+    top: 5vh;
+  }
+  .heading {
+    position: relative;
+    font-size: 2em;
+    height: auto;
+    flex-direction: column;
+  }
+  .mid-num {
+    position: absolute;
+    top: 40px;
+    font-size: 2em;
+    align-self: flex-end;
+    justify-self: flex-end;
+  }
+  .last-text {
+    align-self: stretch;
+  }
+  .rules-heading {
+    position: relative;
+    top: 10vh;
+  }
+  .rules-block {
+    position: relative;
+    top: 10.3vh;
+    padding-bottom: 75px;
+  }
+  .rules {
+    width: 80%;
+  }
+  .btn-container {
+    position: relative;
+    top: 10vh;
+  }
+}
