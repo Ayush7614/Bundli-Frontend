@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    /* colors */
+
+    --clr-light : #ffffff;
+    --clr-cyan : #4089f8;
+    --clr-blue  : #2e4362;
+    --clr-btn : #3d3e40;
+    --clr-black : #000000;
+
+    /* typography */
+
+    --fw-regular  : 400;
+    --fw-bold  : 700;
+    --ff  : 'Poppins' , sans-serif;
+}
+
+
+.cyan{
+    color: var(--clr-cyan);
+}
+
+.about{
+    padding: 0 2rem;
+    width: 100%;
+    background: var(--clr-blue);
+    color: var(--clr-light);
+    font-weight: var(--fw-bold);
+    
+}
+.about .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.about img{
+    width: 12rem;
+    filter : drop-shadow(7px 7px 0px var(--clr-cyan));
+    margin: 1rem 0
+}
+
+.title{
+    font-size: 2rem;
+    opacity: 0.5;
+    margin-bottom: 1rem;
+}
+
+.about-text{
+    padding: 0 0 2rem 0;
+}
+
+.about-text p{
+    padding-bottom : 1rem; 
+}
+
+
+.my-skills{
+    padding: 0 2rem;
+}
+
+.my-skills h2{
+   padding:  1rem 0;
+}
+
+.skill-header{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    opacity: 0.5;
+}
+
+
+.skill-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.s-wrapp{
+    padding-bottom: 1rem;
+}
+
+.skill-list{
+    list-style: disc;
+    text-align: left;
+}
+
+.workflow{
+    padding: 0 2rem;
+    background: var(--clr-cyan);
+}
+
+.workflow-container h1{
+    color: var(--clr-light);
+    padding : 1rem 0;    
+}
+
+.workflow-list{
+    color: var(--clr-light);
+    font-weight: var(--fw-bold);
+    font-size: 1.2rem;
+    padding: 0 2rem;
+    line-height: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.img-grid{
+    display: grid;
+    justify-content: center;
+    grid-gap: 0.5rem;
+    grid-template-columns: 8rem auto auto;
+    padding-bottom: 2rem;
+}
+
+.grid-img1{
+    width: 16rem;
+    grid-column: 1/4;
+}
+
+.grid-img2{
+    width: 8rem;
+    grid-column: 1/2;
+}
+.grid-img3{
+    width: 8rem;
+    grid-column: 2/4;
+}
+@media (min-width:760px){
+    .about .wrapper{
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+    }
+
+    .about-text{
+        font-size: 1.5rem;
+    }
+
+    .about img{
+        margin-right: 2rem;
+    }
+
+    .skill-wrapper{
+        flex-direction: row;
+        padding: 0 2rem;
+        justify-content: space-between;
+    }
+
+    .workflow .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .workflow h1{
+      font-size: 2rem;
+    }
+    
+    .workflow-list{
+        font-size: 1.5rem;
+    }
+    .img-grid{
+        padding-top: 2rem;
+    }
+}

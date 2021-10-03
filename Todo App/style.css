@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #f5f5f5;
+ background-image: url('background-design.png');
   color: #444;
   font-family: 'Poppins', sans-serif;
   display: flex;
@@ -17,10 +17,10 @@ body {
 }
 
 h1 {
-  color: rgb(179, 131, 226);
+  color: red;
   font-size: 10rem;
   text-align: center;
-  opacity: 0.4;
+  font-family: Lobster;
 }
 
 form {
@@ -28,7 +28,12 @@ form {
   max-width: 100%;
   width: 400px;
 }
-
+.somebackground{
+    background-color: bisque;
+}
+.somebackground2{
+    background-color:red;
+}
 .input {
   border: none;
   color: #444;
@@ -61,12 +66,12 @@ form {
 }
 
 .todos li.completed {
-  color: #b6b6b6;
+  color: black;
   text-decoration: line-through;
 }
 
 small {
-  color: #b5b5b5;
-  margin-top: 3rem;
+  color: black;
   text-align: center;
+  font-size: 20px;
 }

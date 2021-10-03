@@ -736,24 +736,34 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/892ddbadee5ec6c3b929a0e14738042704f63664/Card%20with%20Glowing%20Border/image.png"/></a>
   </p>
   
-   ### 109. Animated Service-Cards
+ ### 109. Animated Service-Cards
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/service-card/Screenshots/service-cards.PNG"/></a>
   </p>
   
-   ### 110. Upside Left Animated Navbar
+ ### 110. Upside Left Animated Navbar
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/upside-navbar/Screenshots/upside-navbar.PNG"/></a>
   </p>
   
-  ### 111. Image hover Effect 
+ ### 111. Image hover Effect 
   <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/3e1071c76f22efcac3306efd87525fc50bfcfd3a/Screenshots/Img_hover.jpg"/></a>
   </p>
 
-  ### 112. JS-Keyboard 
+ ### 112. Social-Media Footer
+  <p align="center">
+     <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/social-footer/Screenshots/social-footer.PNG"/></a>
+  </p>
+  
+ ### 113. Social-Media Footer
+  <p align="center">
+     <a href="https://github.com/mahesh-143"><img src="Frontend Developer portfolio site/PreviewImages/home-page-desktop-1.png"/></a>
+  </p>
+  
+ ### 114. JS-Keyboard 
   <p align="center">
      <a href="https://github.com/Ayush7614"><img src= "https://github.com/pranjay-poddar/Bundli-Frontend/blob/js_keyboard/Screenshots/js-keyboard.PNG"/></a>
   </p>

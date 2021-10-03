@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@300&display=swap");
+
+:root {
+  --global-font-style: "Rokkitt", serif;
+  --accent-color: #e22929;
+  --user-accent-color: rgb(81, 119, 231);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--global-font-style);
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.result-container {
+  position: absolute;
+  z-index: 100;
+  width: 40%;
+  padding: 2em;
+  height: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50vh;
+  background: white;
+  box-shadow: 0px 0px 20px grey;
+  border-radius: 20px;
+  background-color: rgb(223, 255, 223);
+  display: none;
+}
+.result-container h1{
+  text-align: center;
+  font-size: 3em;
+}
+.user-result{
+  color: green;
+}
+.result-desc{
+  padding: 10px 15px;
+}
+.result-btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.result-btns>*{
+  font-size: 1.5em;
+  margin: 0px 10px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  border: 1px solid red;
+}
+.result-exit-btn{
+  border: 3px solid var(--accent-color);
+}
+.result-exit-btn:hover{
+  background: var(--accent-color);
+}
+.result-exit-btn:hover a{
+  color: white;
+}
+.result-exit-btn a{
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+.result-replay-btn{
+  border: 3px solid green;
+}
+.result-replay-btn:hover{
+  background: green;
+}
+.result-replay-btn:hover a{
+  color: white;
+}
+.result-replay-btn a{
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.heading-container {
+  position: absolute;
+  top: 5vh;
+  left: 5vh;
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px rgb(160, 160, 160);
+}
+.heading {
+  max-width: 1200px;
+  min-width: 200px;
+  height: 100px;
+  display: flex;
+  font-size: 2em;
+  padding: 0.5em;
+}
+.first-text {
+  align-self: flex-start;
+  font-size: 1.2em;
+}
+.mid-num {
+  font-size: 2.4em;
+  color: var(--accent-color);
+}
+.header-btns {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  top: 7vh;
+  right: 7vh;
+  width: 25%;
+  /* border: 1px solid red; */
+}
+.header-btns > * {
+  margin: 10px;
+  padding: 1rem 2rem;
+  font-weight: 800;
+  font-size: 1.5em;
+  /* border: 1px solid blue; */
+}
+.level-indicator {
+  background: rgb(160, 255, 160);
+  border-radius: 5px;
+}
+.exit-btn {
+  border: 4px solid var(--accent-color);
+  border-radius: 30px;
+  cursor: pointer;
+}
+.exit-btn a {
+  letter-spacing: 1px;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.exit-btn:hover {
+  background: var(--accent-color);
+}
+.exit-btn:hover .exit {
+  color: white;
+}
+.turn-indicator {
+  position: absolute;
+  z-index: 10;
+  /* for user turn indicator */
+  bottom: -65px;
+  /* for computer turn indicator */
+  /* bottom: 120px; */
+  left: 100%;
+  width: 25px;
+  height: 25px;
+  background: var(--user-accent-color);
+  border-radius: 50%;
+  opacity: 1;
+  animation: blink 750ms linear forwards infinite;
+}
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
+.gameBlock {
+  position: absolute;
+  top: 28vh;
+  width: 95%;
+  height: 70vh;
+  /* border: 2px solid green; */
+}
+
+.compDisplay::before {
+  content: "Computer";
+  position: absolute;
+  padding: 10px;
+  top: -30px;
+  border-radius: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  background-color: var(--accent-color);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.compDisplay {
+  position: absolute;
+  top: 5vh;
+  left: 50px;
+  width: 50%;
+  padding: 1em;
+  text-align: center;
+  border-radius: 30px;
+  border: 4px solid var(--accent-color);
+  margin-bottom: 3em;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.compUpdate {
+  font-size: 1.5em;
+}
+.total-box {
+  position: absolute;
+  top: 0;
+  right: 20%;
+  transform: translateX(50%);
+  /* border: 2px solid blue; */
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgb(180, 180, 180);
+  padding: 2em 5em;
+  text-align: center;
+}
+.total {
+  font-size: 3.5rem;
+}
+.total-number {
+  font-size: 8rem;
+}
+.options::before {
+  content: "You";
+  position: absolute;
+  padding: 10px;
+  top: -40px;
+  border-radius: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  background-color: var(--user-accent-color);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.options {
+  position: absolute;
+  border-radius: 30px;
+  top: 30vh;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 3em;
+  border: 4px solid var(--user-accent-color);
+  cursor: pointer;
+}
+.options > * {
+  border-radius: 20px;
+  margin: 30px 0px;
+  padding: 3% 7%;
+  font-size: 3em;
+  background: var(--user-accent-color);
+  color: white;
+  box-shadow: 0px 0px 10px rgb(172, 172, 172);
+}
+.authorLink {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 5px;
+  right: 15vw;
+  width: 100px;
+}
+.authorLink img {
+  width: 50px;
+  margin: 10px;
+}
+.authorLink a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 620px) {
+  .result-container{
+    width: 80%;
+    top: 90vh;
+  }
+  .heading-container {
+    position: absolute;
+    top: 5vh;
+    left: 50vw;
+    transform: translateX(-50%);
+  }
+  .header-btns {
+    position: absolute;
+    top: 27vh;
+    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .header-btns > * {
+    transform: scale(0.9);
+  }
+  .turn-indicator {
+    display: none;
+  }
+  .gameBlock {
+    position: absolute;
+    top: 45vh;
+  }
+  .compDisplay {
+    width: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .compDisplay::before {
+    width: auto;
+  }
+  .total-box {
+    position: absolute;
+    top: 46vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+  }
+  .options {
+    width: 330px;
+    position: absolute;
+    top: 103vh;
+    left: 37%;
+    transform: translateX(-50%);
+  }
+  .authorLink {
+    position: absolute;
+    top: 150vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
