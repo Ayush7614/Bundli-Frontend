@@ -3,6 +3,7 @@ const APIURL = 'https://api.github.com/users/'
 const main = document.getElementById('main')
 const form = document.getElementById('form')
 const search = document.getElementById('search')
+const btn = document.getElementById('arrow')
 
 async function getUser(username) {
     try {
@@ -76,6 +77,17 @@ function addReposToCard(repos) {
 }
 
 form.addEventListener('submit', (e) => {
+    e.preventDefault()
+
+    const user = search.value
+
+    if(user) {
+        getUser(user)
+
+        search.value = ''
+    }
+})
+btn.addEventListener('click', (e) => {
     e.preventDefault()
 
     const user = search.value
