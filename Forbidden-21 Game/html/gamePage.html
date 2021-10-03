@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Forbidden 21 Game</title>
+    <link rel="stylesheet" href="../css/gamePageStyles.css" />
+  </head>
+  <body>
+    <div class="result-container"><h1>You have <span class="user-result">WON!</span></h1>
+      <h3 class="result-desc">Try 'hard' level to conquer The Forbidden 21 game.</h3>
+      <div class="result-btns">
+        <div class="result-exit-btn"><a href="index.html">exit</a></div>
+        <div class="result-replay-btn"><a href="getDifficulty.html">replay</a></div>
+      </div>
+    </div>
+    <div class="header-wrapper">
+      <div class="heading-container">
+        <h1 class="heading">
+          <span class="first-text">The Forbidden</span
+          ><span class="mid-num">21</span>
+        </h1>
+      </div>
+      <div class="header-btns">
+        <div class="level-indicator">Easy</div>
+        <div class="exit-btn"><a class="exit" href="index.html">exit</a></div>
+      </div>
+    </div>
+    <section class="gameBlock">
+      <div class="compDisplay">
+        <div class="turn-indicator"></div>
+        Computer chose <span class="compUpdate">_</span>
+      </div>
+      <div class="total-box">
+        <h1 class="total">Total</h1>
+        <h1 class="total-number">0</h1>
+      </div>
+      <div class="options">
+        <div class="option-1">1</div>
+        <div class="option-2">2</div>
+        <div class="option-3">3</div>
+        <div class="option-4">4</div>
+      </div>
+      <div class="authorLink">
+        <img src="../img/github_icon.png" alt="">
+        <h1><a href="https://github.com/NerdyVisky" target="_blank">NerdyVisky</a></h1>
+      </div>
+    </section>
+      <script defer src="../js/gameLogic.js"></script>
+  </body>
+</html>
