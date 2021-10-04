@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            font-family: helvetica, sans-serif;
+            margin: 0 auto;
+            max-width: 600px;
+            background: #232323;
+        }
+
+        div {
+            height: 200px;
+            background-size: cover;
+            position: relative;
+            margin: 40px 0 0 0;
+            border-radius: 12px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        h1 {
+            font-family: 'Londrina Shadow', cursive;
+            text-align: center;
+            font-size: 75px;
+            color: #aaaaaa;
+            margin: 60px 0 0 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #bbbbbb;
+            margin: 0px 0 70px 0;
+        }
+
+        p {
+            color: rgba(255, 255, 255, 1);
+            background: black;
+            background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+            background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+            background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+            padding: 10px;
+            line-height: 28px;
+            text-align: justify;
+            position: absolute;
+            bottom: 0;
+            margin: 0;
+            height: 30px;
+            width: 580px;
+            transition: height .5s;
+            -webkit-transition: height .5s;
+            -moz-transition: height .5s;
+        }
+
+        small {
+            opacity: 0;
+        }
+
+        .show-description p {
+            height: 150px;
+        }
+
+        .show-description small {
+            opacity: 1;
+        }
+
+        .first {
+            background-image: url("http://www.crowdedkitchen.com/wp-content/uploads/2020/08/polenta-with-mushrooms.jpg");
+        }
+
+        .second {
+            background-image: url("https://sonomamarket.net/media/images/10/03/beef-lasagna-square.jpg");
+        }
+
+        .dessert {
+            background-image: url("https://littlespicejar.com/wp-content/uploads/2019/06/The-Easiest-Eggless-Tiramisu-14-720x720.jpg");
+        }
+
+        .price {
+            float: right;
+        }
+
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 50px;
+                margin-top: 20px;
+                line-height: 40px;
+            }
+
+            h2 {
+                font-size: 20px;
+                margin: 20px 0 30px 0;
+            }
+
+            div {
+                margin: 20px 12px 0 12px;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 24px;
+            }
+
+            small {
+                font-size: 16px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Taste of Rome</h1>
+    <h2>an Italian eatery</h2>
+    <div class="first">
+        <p>Polenta <span class="price">$14</span><br />
+            <small>A stone-ground corn that is whisked into boiling water or broth, in a copper pot, until thick. It has butter, black pepper, and parmesan mixed in. </small>
+        </p>
+    </div>
+
+    <div class="second">
+        <p>Lasagna <span class="price">$22</span><br />
+            <small>In this classic dish from Naples, lasagne noodles are layered with tomato or meat sauce, and ricotta cheese, topped with mozzarella cheese and baked.</small>
+        </p>
+    </div>
+
+    <div class="dessert">
+        <p>Tiramisu <span class="price">$8</span><br />
+            <small>Made from ladyfinger sponge cookies soaked in espresso and rum and layered with a whipped
+            mixture of eggs, sugar, mascarpone cheese, and topped with cocoa.</small>
+        </p>
+    </div>
+
+    <script>
+        $('div').on('click', function () {
+            $(this).toggleClass('show-description');
+        });
+    </script>
+</body>
