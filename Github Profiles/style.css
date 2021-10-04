@@ -18,6 +18,7 @@ body {
 }
 
 .user-form {
+  display: flex;
   width: 100%;
   max-width: 700px;
 }
@@ -43,6 +44,16 @@ body {
 
 .user-form input:focus {
   outline: none;
+}
+
+#arrow{
+  height: 65px;
+  width: 55px;
+  padding-bottom: 10px;
+  margin-left: -60px;
+}
+#arrow:hover{
+  cursor: pointer;
 }
 
 .card {
