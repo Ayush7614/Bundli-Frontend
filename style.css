@@ -1,0 +1,33 @@
+.container{
+    border: 2px solid black;
+    padding-right: 20%;
+    padding-left: 25%;
+    padding-top:25% ;
+    padding-bottom:25% ;
+    border-radius: 20px;
+    background-color: black;
+
+}
+span{
+    font-size: 50px;
+    font-weight: bolder;
+    color: aliceblue;
+    
+}
+*{
+    background-color: black;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+#heading{
+    padding-top: 52px;
+    margin: auto;
+   text-align: center;
+   justify-content: center;
+}
+
+#heading h1{
+    font-size:400%;
+}
+
