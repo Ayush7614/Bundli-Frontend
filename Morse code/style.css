@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|fire");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  background: url(./img/output-onlinegiftools.gif);
+  font-family: "Monstserrat", sans-serif;
+  background-color: black;
+}
+
+textarea {
+  font-size: large;
+  font-weight: bold;
+  width: 80%;
+  height: 10vh;
+  display: block;
+  margin-left: 10%;
+  padding: 10px;
+}
+#btn-translate {
+  margin: 0 auto;
+  display: block;
+  background-color: brown;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+#btn-translate:hover {
+  background-color: #ffb6c1;
+  color: white;
+}
+
+#output {
+  background-color: yellowgreen;
+  height: 10vh;
+  border: 3px solid whitesmoke;
+  width: 80%;
+  margin-left: 10%;
+  padding: 1rem;
+  display: block;
+  font-size: x-large;
+}
+
+p {
+  font-size: 60px;
+  text-align: center;
+}
+.neon {
+  animation: neonAnim 2s alternate-reverse infinite;
+  color: #00ff24;
+  font-family: Cursive;
+  font-size: 72px;
+}
+@keyframes neonAnim {
+  from {
+    text-shadow: 0 0 40px rgba(0, 255, 36, 0.7), 0 0 70px rgba(0, 255, 36, 0.7),
+      0 0 130px rgba(0, 255, 36, 0.7);
+  }
+  to {
+    text-shadow: 0 0 35px rgba(0, 255, 36, 0.7), 0 0 50px rgba(0, 255, 36, 0.7),
+      0 0 90px rgba(0, 255, 36, 0.7);
+  }
+}
