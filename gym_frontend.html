@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fitness</title>
+    <link rel="stylesheet" href="project(gym).css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        margin: auto;
+        padding: 0;
+        display: block;
+        background: url('man-1282232_1920.jpg');
+        color: white;
+        height: auto;
+        width: auto;
+        font-family: 'Baloo Paaji 2', cursive;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .left {
+        position: absolute;
+        left: 20px;
+        top: 15px;
+        display: inline-block;
+        /* border: 2px red solid; */
+    }
+
+    .left img {
+        width: 70px;
+        filter: invert(100%);
+        padding: 6px 20px;
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    .right {
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        display: inline-block;
+        /* border: 2px green solid; */
+
+    }
+
+    .center {
+        display: block;
+        width: 580px;
+        margin: 12px auto;
+        /* border: 2px yellow solid; */
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 5px 10px;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: whitesmoke;
+        text-decoration: none;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: black;
+        background-color: white;
+        padding: 1px 10px;
+        border-radius: 15px;
+    }
+
+    .btn {
+        margin: 9px 10px;
+        color: white;
+        background-color: black;
+        font-size: 15px;
+        border-radius: 13px;
+        border: 3px solid whitesmoke;
+        padding: 3px 8px;
+        font-family: 'Baloo Paaji 2', cursive;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: whitesmoke;
+        color: black;
+        border: 1px black thin;
+
+    }
+
+    .container {
+        border: 8px double white;
+        display: block;
+        width: 23%;
+        padding: 17px 12px;
+        margin: 120px 25px;
+        border-radius: 35px;
+
+    }
+    .container input{
+        font-family: 'Baloo Paaji 2', cursive;
+        font-size: 15px;
+        padding: 1px 5px;
+        margin: 5px 12px;
+        border: none;
+        border-radius: 7px;
+    }
+</style>
+
+<body>
+    <header>
+
+        <div class="left">
+            <img src="logo_gym1.png" alt="">
+            <div>
+                Big Muscle
+            </div>
+
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">BMI Calculator</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Contact Us </button>
+            <button class="btn">E-Mail Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <form action="noaction.php">
+            <h1>
+                Register For Free Demo
+            </h1>
+            <div>
+                <input type="text" class="from_group" placeholder="Enter Your Name">
+            </div>
+            <div>
+                <input type="number" class="from_group" placeholder="Enter Your Age">
+            </div>
+            <div>
+                <input type="test" class="from_group" placeholder="Enter Your Email">
+            </div>
+            <div>
+                Male : <input type="radio" class="from_group"> &nbsp;
+                Female : <input type="radio" class="from_group"> &nbsp;
+                Other : <input type="radio" class="from_group">
+            </div>
+            <div>
+                <button class="btn">Submit</button>
+            </div>
+    </div>
+    </form>
+</body>
+
+</html>
