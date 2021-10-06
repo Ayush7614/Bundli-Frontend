@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'black ops one', sans-serif;
+  color: #eee;
+  background-color: #222;
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  font-size: 2rem;
+}
+
+/* ELEMENTS STYLE */
+h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+.number-main {
+  display: flex;
+  justify-content: center;
+}
+
+.number {
+  background: #eee;
+  color: #333;
+  font-size: 8rem;
+  width: 15rem;
+  padding: 3rem 0rem;
+  text-align: center;
+
+  transform: translate(0%, 50%);
+}
+
+.header-line-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 25px;
+}
+
+.between {
+  font-size: 3rem;
+  margin-top: 25px;
+}
+
+.again {
+  margin-top: 25px;
+}
+
+.guess {
+  background: none;
+  border: 4px solid #eee;
+  font-family: inherit;
+  color: inherit;
+  font-size: 8rem;
+  padding: 2.5rem;
+  width: 25rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.space-div {
+  margin-top: 80px;
+}
+
+.btn {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 3rem;
+  font-family: inherit;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 1rem;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.message {
+  margin-bottom: 4rem;
+  height: 3rem;
+  font-size: 3rem;
+}
+.message-2 {
+  margin-bottom: 4rem;
+  height: 3rem;
+  font-size: 3rem;
+}
+
+.label-score {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.score,
+.label-highscore,
+.highscore {
+  font-size: 3rem;
+}
+
+/* ==================== Media Queries ==================== */
+@media only screen and (min-width: 322px) and (max-width: 502px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  main {
+    height: auto;
+  }
+
+  .between {
+    font-size: 2.8rem;
+    margin: 20px auto 5px auto;
+  }
+
+  .number {
+    transform: translate(0%, 0%);
+
+    font-size: 5rem;
+    width: 10rem;
+    padding: 1rem 0rem;
+  }
+
+  header {
+    height: 32vh;
+  }
+
+  .message {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .message-2 {
+    margin-bottom: 2rem;
+  }
+  .space-div {
+    margin-top: 87px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  p {
+    font-size: 25px !important;
+  }
+
+  main {
+    height: auto;
+  }
+
+  .between {
+    font-size: 2.5rem;
+    margin: 20px auto 5px auto;
+  }
+
+  .number {
+    transform: translate(0%, 0%);
+
+    font-size: 5rem;
+    width: 10rem;
+    padding: 1rem 0rem;
+  }
+
+  header {
+    height: 32vh;
+  }
+
+  .message {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .message-2 {
+    margin-bottom: 2rem;
+  }
+  .space-div {
+    margin-top: 87px;
+  }
+}
