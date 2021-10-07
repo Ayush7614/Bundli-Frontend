@@ -1,0 +1,298 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    font-size: 15px;
+    background-color: #F1F4F5;
+  }
+  
+  
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --primaryColor: #000;
+    --secondaryColor: #fff;
+  }
+  /* Navbar */
+  /* sticky-Navbar */
+  /* this is main-parent in which navbar is included that's why it's working */
+  .wrapper {
+     
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index:1;
+    
+  }
+  
+  /* if you set the sticky position here then it will not work because it's not a main-parent */
+  .navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #dcb0ff;
+    padding: 0 30px 0 30px;
+    /* position: -webkit-sticky;
+        position: sticky;
+        top: 0; */
+    box-shadow: 0px 1.5px 12px blueviolet;
+    
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(122, 63, 218);
+    font-size: 1.5rem;
+  }
+  
+  .nav-item:hover {
+    background-color: white;
+  }
+  
+  .nav-item:hover a {
+    color: #6a696c;
+  }
+  
+  .logo,
+  .logoIcon {
+    width: 110px;
+    vertical-align: middle;
+  }
+  
+  
+  /* search bar */
+  .navbar__search-container {
+    align-self: center;
+  }
+  
+  form input[type="text"] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 1.2rem;
+    border: none;
+  }
+  .navbar__search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: -72px;
+    background: #ddd;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background: #ccc;
+  }
+
+  .contentWrapper {
+      display: flex;
+      justify-content: center;
+  }
+
+  .singlePost {
+     max-width: 767px;
+     width: 100%;
+     /* height: 100vh; */
+      background-color: var(--secondaryColor);
+  }
+  /* basicInfo */
+  .singlePost__post {
+    width: 767px;
+  }
+  .singlePost__imgDiv, .singlePost__title > a {
+    text-decoration: none;
+  }
+  .singlePost__heading {
+    width: 390px;
+    height: 90px;
+  }
+  .singlePost__avatarImg {
+    width: 50px;
+  }
+  .singlePost__img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 0 none;
+    border-radius: 1000px;
+    cursor: pointer;
+  }
+  .singlePost__featureImg,
+  .singlePost__imgDiv {
+    width: 767px;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-size: cover;
+    
+  }
+  
+ 
+  .singlePost__title {
+    height: 40px;
+    padding: 1.5rem;
+  }
+  .singlePost__description {
+    color: #64717c;
+    font-weight: bold;
+    line-height: 1.6rem;
+    font-size: 2rem;
+  }
+  
+ 
+  
+  .singlePost__heading {
+    display: flex;
+    padding: 1.429rem;
+  }
+  .singlePost__heading > div {
+    margin-right: 25px;
+  }
+  
+  .singlePost__href {
+    text-decoration: none;
+  }
+  
+  .singlePost__avatarInfo > * {
+    margin: 1px 3px 8px 0px;
+  }
+
+  /* content */
+  .singlePost__content {
+      margin: 4rem 2rem 2rem 2rem;
+      font-family: Roboto, sans-serif;
+      font-size: 1.0900rem;
+      font-weight: 400;
+      line-height: 1.57142857;
+      color: #31363b;
+  }
+
+  .singlePost__image {
+      max-width: 100%;
+      width: 767px;
+      
+  }
+  
+
+  /* aside */
+.aside {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 15px;
+  color: rgba(69, 69, 69, 0.9);
+  line-height: 1.8rem;
+  font-size: 1rem;
+  position: relative;
+  background: #fff;
+}
+
+.aside__h2 {
+  text-align: center;
+}
+
+.aside__h3 {
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+  margin-top: 3em;
+  line-height: 1.5rem;
+}
+.aside__h3:hover {
+  color: blueviolet;
+}
+
+.aside__icons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+
+  cursor: pointer;
+}
+
+.aside__icons i:hover {
+  color: blueviolet;
+}
+.aside__h4 {
+  text-align: center;
+  margin-top: 1rem;
+}
+  /* media-query */
+
+  /* mobile */
+@media all and (max-width: 767px) {
+    .contentWrapper {
+        display: block;
+    }
+    .singlePost {
+        width: 100%;
+      }
+      .singlePost__description {
+        color: #64717c;
+        font-weight: bold;
+        line-height: 1.6rem;
+        font-size: 1rem;
+      }
+      
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-item a {
+      font-size: 1.1rem;
+    }
+    /* aside */
+    .mainWrapper {
+      display: flex;
+      flex-wrap: wrap;
+     
+    }
+    
+  }
+  
+  /* tablet */
+  @media all and (min-width: 768px) and (max-width: 1199px) {
+    /* search-bar */
+  
+    .navbar__search-container {
+      margin-left: -7rem;
+    }
+    form input[type="text"] {
+      font-size: 0.9rem;
+    }
+    .navbar__search-container button {
+      font-size: 0.9rem;
+    }
+ 
+  }
+  
+  /* desktop */
+  @media all and (min-width: 1200px) {
+  }
