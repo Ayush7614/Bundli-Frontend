@@ -1,10 +1,15 @@
-.container {
+.hidden{
+  visibility: hidden;
+  position: absolute;
+}
+.container-fluid {
   width: 70%;
   margin: auto;
   text-align: center;
 }
 
 .dice {
+  margin-top: 30px;
   text-align: center;
   display: inline-block;
 
@@ -28,8 +33,34 @@ p {
   font-family: 'Indie Flower', cursive;
 }
 
-img {
-  width: 80%;
+.button{
+  margin-top: 40px;
+  font-size: 3rem;
+}
+
+.dice-img {
+  width: 40%;
+}
+
+.gif{
+  width: 40%;
+}
+
+@media (max-width: 1000px){
+  h1{
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #4ECCA3;
+  }
+  .dice-img {
+    text-align: center;
+    width: 50%;
+  }
+  .gif{
+    width: 90%;
+  }
 }
 
 footer {
