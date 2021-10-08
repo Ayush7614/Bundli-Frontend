@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" {{ url_for('static' , filename='css/style.css') }} ">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href=" {{ url_for('static' , filename='images/logo.png')}} ">
+    {% block title %} {% endblock title %}
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-5" href="/">GoTo Blog Saver</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-white px-5" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" href="/posts">Posts</a>
+                    </li>
+                    <li class="nav-item dropdown active mx-2">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Resources and Websites
+                        </a>
+                        <ul class="dropdown-menu active bg-dark bg-light" aria-labelledby="navbarDropdown">
+                            <li><a style="text-decoration:none" class="dropdown-item bg-dark text-white active"
+                                    href="https://www.pexels.com/" target="_blank">Pexels</a></li>
+                            <li><a style="text-decoration:none" class="dropdown-item bg-dark text-white active"
+                                    href="https://unsplash.com/" target="_blank">Unsplash</a></li>
+                            <li><a style="text-decoration:none" class="dropdown-item bg-dark text-white active"
+                                    href="https://in.pinterest.com/" target="_blank">Pintrest</a></li>
+                            <li><a style="text-decoration:none" class="dropdown-item bg-dark text-white active"
+                                    href="https://hashnode.com/" target="_blank">HashNode</a></li>
+                            <li><a style="text-decoration:none" class="dropdown-item bg-dark text-white active"
+                                    href="https://dev.to/" target="_blank">Dev</a></li>
+                            <li><a style="text-decoration:none" class="dropdown-item bg-dark text-white active"
+                                    href="https://medium.com/" target="_blank">Medium</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" href="/about" tabindex="-1" aria-disabled="true">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        {% block body %} {% endblock body %}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
