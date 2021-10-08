@@ -2,23 +2,22 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  width: 100vw;
   overflow: hidden;
-  margin: 0;
-  padding: 20px;
-  background-image: url("h2.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 1280px 609px;
+  background-image: url("https://images.unsplash.com/photo-1509909756405-be0199881695?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80");
+  background-repeat: no-repeat; 
+  background-size: cover;
   position: relative;
 }
 
@@ -29,9 +28,8 @@ body {
   padding: 30px 20px;
   text-align: center;
   max-width: 100%;
-  width: 600px;
-  margin-right: 500px;
-margin-bottom: 50px;
+  width: 650px;
+  margin: 0 auto;
   position: relative;
 }
 
@@ -42,9 +40,9 @@ h3 {
 }
 
 .joke {
-  font-size: 30px;
+  font-size: 1.6rem;
   letter-spacing: 1px;
-  line-height: 40px;
+  line-height: 1.8;
   margin: 50px auto;
   max-width: 600px;
 }
@@ -59,6 +57,10 @@ h3 {
   padding: 14px 40px;
   font-size: 16px;
   cursor: pointer;
+}
+
+.btn:hover {
+  background: linear-gradient(#f1776f, #f55549);
 }
 
 .btn:active {
