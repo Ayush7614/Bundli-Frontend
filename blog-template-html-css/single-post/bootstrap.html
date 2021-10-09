@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Single-post-Bootstrap</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script
+    src="https://kit.fontawesome.com/fc31dedf63.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <!-- Wrapper -->
+    <div class="wrapper">
+     
+
+        <header class="header">
+          <!-- Navbar -->
+
+          <nav class="navbar">
+            <a href="../index.html" class="logo">
+              <i
+                style="color: #000;"
+                class="fab fa-pied-piper-pp logoIcon fa-5x"
+              ></i>
+            </a>
+            <div class="navbar__search-container">
+              <form action="#">
+                <input type="text" placeholder="Search.." name="Quick Search" />
+                <button type="submit"><i class="fas fa-search"></i></button>
+              </form>
+            </div>
+            <ul class="nav-links">
+              <li class="nav-item">
+                <a class="navBar__item" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="navBar__item" href="../pages/posts.html">Post</a>
+              </li>
+              <li class="nav-item">
+                <a class="navBar__item" href="../pages/dashboard.html">Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="navBar__item" href="../pages/login.html">Login</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+    </div>
+    <!-- End Wrapper -->
+
+    <!-- contentWrapper -->
+    <div class="contentWrapper">
+        <!-- singlePost -->
+        <div class="singlePost">
+            <!-- basicInfo -->
+            <div class="singlePost__post">
+                <div class="singlePost__heading">
+                  <div class="singlePost__avatarImg">
+                    <img class="singlePost__img" src="../img/headingimg.jpg" alt="writer" />
+                  </div>
+                  <div class="singlePost__avatarInfo">
+                    <h3 class="singlePost__h3">
+                      Nandu Singh
+                    </h3>
+                    <a class="singlePost__href" href="#">2 Days ago</a>
+                  </div>
+                </div>
+                <div class="singlePost__imgDiv">
+                  
+                  <img class="singlePost__featureImg" src="../img/featureImg.jpg" alt="" />
+                </div>
+                <div class="singlePost__title">
+                  <p class="singlePost__description">
+                    What's new in Bootstrap 5 and when Bootstrap 5 release date?
+                  </p>
+                </div>
+              </div>
+                <!-- basicInfo -->
+                 <!-- End-singlePost -->
+        <div class="singlePost__content">
+            <h3>DEMO Layout:</h3>
+            <p class="singlePost__prg">
+                <b>Bootstrap</b> is one of the open source that many developers love, including me. So what do we expect of the new changes when <b>Bootstrap 5</b> is released?
+                <br /> <br />
+
+                <b> Bootstrap 5: jQuery will be removed.</b>
+                <br /> <br />
+                jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+                <br /> <br />
+                
+                However, with the trend of writing Single Page App with React, Angular, Vue..., jQuery has not been popular anymore. So Bootstrap 5 will completely remove jQuery.
+                <br /> <br />
+                
+                Bootstrap 5 remaining to do after the jQuery removal #28342
+                <br /> <br />
+                
+                <b>Responsive font sizes with RFS v9 implementation</b>
+                <br /> <br />
+                In Bootstrap 5, we’ve enabled responsive font sizes by default, allowing text to scale more naturally across device and viewport sizes.
+                <br /> <br />
+                
+               <b style="font-weight: 900;"> Features:</b>
+                <br /> <br />
+                <ul>
+               <li> Responsive font sizes are now enabled by default</li>
+               <li>Utility API integration</li>
+               <li>Fluid rescaling is also applied to the spacing utilities (option can be disabled)</li>
+               <li>Drop .font-size-sm, .font-size-base, .font-size-lg and .font-size-xl utilities</li>
+               <li>New .text-sm, .text-base, .text-lg and .text-xl utilities</li>
+            </ul>
+                <br /> <br />
+                Bootstrap’s side project RFS is a unit resizing engine which was initially developed to resize font sizes (hence its abbreviation for Responsive Font Sizes). Nowadays RFS is capable of rescaling most CSS properties with unit values like margin, padding, border-radius, or even box-shadow.
+                <br /> <br />
+                
+                The mechanism automatically calculates the appropriate values based on the dimensions of the browser viewport. It will be compiled into calc() functions with a mix of rem and viewport units to enable the responsive scaling behavior.
+                <br /> <br />
+                
+                <b>Using the mixins</b>
+                <br />
+                The rfs() mixin has shorthands for font-size, margin, margin-top, margin-right, margin-bottom, margin-left, padding, padding-top, padding-right, padding-bottom, and padding-left. See the example below for source Sass and compiled CSS.
+                <br /> <br />
+                <code><pre>
+                .title {
+                  @include font-size(4rem);
+                }
+                .title {
+                  font-size: calc(1.525rem + 3.3vw);
+                }
+                <br /> <br />
+                @media (max-width: 1200px) {
+                  .title {
+                    font-size: 4rem;
+                  }
+                }
+                <br />
+                Any other property can be passed to the rfs() mixin like this:
+                <br />
+                
+                .selector {
+                  @include rfs(4rem, border-radius);
+                }
+                <br />
+                !important can also just be added to whatever value you want:
+                
+                .selector {
+                  @include padding(2.5rem !important);
+                }
+                <br /> <br />
+                </pre></code>
+               <b> Using the functions</b>
+                <br /> <br />
+                When you don’t want to use the includes, there are also two functions:<br />
+                <br /> <br />
+                <ul>
+                <li>rfs-value() converts a value into a rem value if a px value is passed, in other cases it returns the same result.</li>
+                <li>rfs-fluid-value() returns the fluid version of a value if the property needs rescaling.</li>
+                <br /> <br />
+            </ul>
+                In this example, we use one of Bootstrap’s built-in responsive breakpoint mixins to only apply styling below the lg breakpoint.
+                <br /> <br />
+                <code><pre>
+                .selector {
+                  @include media-breakpoint-down(lg) {
+                     padding: rfs-fluid-value(2rem);
+                     font-size: rfs-fluid-value(1.125rem);
+                  }
+                }
+                @media (max-width: 991.98px) {
+                  .selector {
+                    padding: calc(1.325rem + 0.9vw);
+                    font-size: 1.125rem; /* 1.125rem is small enough, so RFS won't<br /> rescale this */
+                  }
+                }
+        &lt;!-- Full screen modal --&gt;
+         &lt;button type="button" class="btn btn-primary"
+              data-toggle="modal" data-target=".bd-example-modal-fullscreen"
+        &gt;Full screen modal&lt;/button&gt;
+                    
+        &lt;div class="modal fade bd-example-modal-fullscreen" tabindex="-1"<br /> role="dialog"
+         aria-labelledby="myFullModalLabel" aria-hidden="true"&gt;
+        &lt;div class="modal-dialog modal-xl-fullscreen"&gt;
+         &lt;div class="modal-content"&gt;
+           ...
+      &lt;/div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+     </code></pre>
+                <br /> <br />
+                <b>Bootstrap 5 grid</b>
+                <br /> <br />
+                <b>Set gutter width in rem instead of px</b>
+                <br /> <br />
+                The gutter width is now 2rem instead of 30px. This way we 'll be able to use the spacing utilities to align things with the grid.
+                <br /> <br />
+                
+                Fixes #27072
+                <br /> <br />
+                <b>Change approach on how column paddings are set</b>
+                <br /> <br />
+                The col classes were extended lead to this list of 60 selectors in v4. By using .row > *, we can simplify this a lot. This change will apply paddings to all children of .row. Specificity won't be influenced by this change.
+                <br /> <br />
+                
+                <b>Columns: switch to width instead of flex-basis and max-width</b>
+                <br /> <br />
+                Just using width has the benefit the .col-* classes can be used without the need of a .row class. This is also how the primer works.
+                <br /> <br />
+                
+                This also provides a solution for sizing utilities #21943. Because we only set paddings to direct children of .rows, the cols won't have any padding whenever they're not in a .row.
+                <br /> <br />
+                Closes #28312
+                <br /> <br />
+                Closes #29505
+                <br /> <br />
+                <b>More control over gutter widths & vertical gutters</b>
+                <br /> <br />
+                This PR introduces new responsive gutter classes. There are 3 types of gutter classes available:
+                <br /> <br />
+                <ul>
+                <li>gx-* classes control the horizontal/column gutter width</li>
+                <li>gy-* classes control the vertical/row gutter width</li>
+                <li>g-* classes control the horizontal & vertical gutter width</li>
+            </ul>
+                <br /> <br />
+                These gutter classes can be added to the .row and influence the negative margins on the row and the padding on the columns.
+                <br /> <br />
+                Responsive variants are also available to get control per breakpoint. With this change we might consider ditching (or disable by default) the negative margins which increase our filesize quite a lot.
+                <br /> <br />
+                <b>How do the gutters work?</b>
+                <br /> <br />
+                The way the gutters are set in horizontal direction is kept the same as in v4 (negative margins on the row and paddings on the columns). The vertical gutters work a little different. Margin is added to the top of each column and to counteract the top margin, a negative margin is added to the row. We use margins instead of paddings to prevent overlapping issues (like we have with the horizontal paddings).
+                <br /> <br />
+                <b>Better nesting support</b>
+                <br /> <br />
+                In v4, .rows couldn't be nested, once you tried to add a .row to a .col-*, the margins and paddings caused some conflicts. By removing the paddings & margins form nested rows (.row > .row), we can nest rows in a more flexible way.
+                <br /> <br />
+                <b>List styles removed by default</b>
+                @include list-unstyled() is added to the .rows by default. This way, you won't need to add .list-unstyled to <b class="row">s.
+                    <br /> <br />
+               <b> Removal of</b> .form-row
+                <br />
+                .form-rows had a smaller gutter width, but since we now have the gutter classes, we can use them for even more control over the gutter widths.
+                
+                <b>Removal of</b></b>> .form-inline
+                <br />
+                .form-inline is removed in favor of the more flexible grid. The children can now be wrapped in .col-md-auto divs when needed. With the gutter classes, we can have easier control over the vertical spacing instead of using the responsive margin utilities.
+                <br /> <br />
+                Remove position: relative from cols
+                <br />
+                Closes #25254
+                <br />
+                Closes #26512
+                <br /> <br />
+                Removal of card decks
+                We currently have as well card decks as the grid system, but our grid offers more responsive control, so there's not really a reason to keep the decks.
+                <br />
+                Removal of .list-inline
+                The grid also covers this case.
+                <br />
+                Remove global box-sizing reset from bootstrap-grid.css
+                <br />
+                In bootstrap-grid.css, box-sizing was inherited which introduces this issue: #22872. On the other hand, setting the global box-sizing behaviour can introduce unexpected behaviour for custom CSS. By only adding box-sizing to the columns, we only apply the box-sizing to the elements where it's needed.
+                <br /> <br />
+                <b>Navbar optimizations</b><br />
+                    <ul>
+                <li>Remove redundant display: inline-block from flex children</li>
+                <li>Remove line-height: inherit; which is the default value of line-height</li>
+                <li>Use flex shorthand</li>
+                <li>Improve background shorthand</li>
+                <li>Fix removed brand margin caused by requiring containers in navbars</li>
+            </ul>
+                <br /> <br />
+                <b>When Bootstrap 5 release date?</b>
+                <br /> <br />
+                Not sure which day is certain, but with the workload completed, Bootstrap 5 is likely to be released sometime in Q4 2020. Let's wait.
+               
+            </p>
+            <img class="singlePost__image" src="../img/singlePost.png" alt="bootstrap-5">
+            <h4 class="aside__h4">Share:</h4>
+            <div class="aside__icons">
+          <i class="fab fa-facebook-square fa-2x"></i>
+          <i class="fab fa-twitter fa-2x"></i>
+          <i class="fab fa-youtube fa-2x"></i>
+            </div>
+        </div>
+        <!-- related-post -->
+        <div class="aside">
+            <h2 class="aside__h2">Related Posts</h2>
+            <h3 class="aside__h3">
+              What's new in Bootstrap 5 and when Bootstrap 5 release date?
+            </h3>
+            <h3 class="aside__h3">
+              7 GitHub Repos You Need To Know For Web Development & Cod..
+            </h3>
+            <h3 class="aside__h3">
+              10 Important Things Front-End Developers Should Learn in ...
+            </h3>
+            <h3 class="aside__h3">
+              APIs for Beginners - What is an API? How to use an API?
+            </h3>
+            <h3 class="aside__h3">
+              20 Fastest Methods to Easily identify Array's Operation i...
+            </h3>
+            <h3 class="aside__h3">
+              Top 10 NodeJS Frameworks For Developers in 2020
+            </h3>
+            <h3 class="aside__h3">
+              Flutter Tutorial : How to Build a Flutter Website in 10 ...
+            </h3>
+            <h3 class="aside__h3">MVVM Design Pattern in Flutter</h3>
+            <h3 class="aside__h3">
+              Learn to Create API in Nodejs | Tutorial for Beginners
+            </h3>
+        <!-- End-relatedPost -->
+        <!-- END-SinglePost--content -->
+                   
+        </div>
+       
+    </div>
+    <!--End- contentWrapper -->
+</body>
+</html>
