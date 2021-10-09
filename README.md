@@ -772,6 +772,11 @@ You can refer to the following articles on the basics of Git and Github and also
   <p align="center">
      <a href="https://github.com/imsushan12"><img src= "./Goto-Blogs/output.png"/></a>
   </p>
+  
+ ### 116. Are You Palindromic
+  <p align="center">
+     <a href="https://github.com/anjali1102"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/are you palindrome.png"/></a>
+  </p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
