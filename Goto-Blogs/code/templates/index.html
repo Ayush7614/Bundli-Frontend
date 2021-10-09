@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>Home</title>
+{% endblock title %}
+
+
+{% block body %}
+
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">GoTo Blog Saver</h1>
+        <div class="row">
+            <div class="col-5"><img src="https://startbootstrap.com/assets/img/freepik/content-pana.svg" height="500px"
+                    width="450px" alt="Home Page Image"></div>
+            <div class="col-7">
+                <div class="jumbotron my-5">
+                    <h6 class="display-6 text-center my-3">Welcome!</h6>
+                    <p class="lead">Welcome to the GoTo Blog Saver. Here bloggers can Save, Edit and Delete their posts.
+                        It is built to save the time of bloggers. You can write down all your ideas, edit them on one go
+                        and save them for later publishing.
+                    </p>
+                    <p class="lead text-center">
+                        <a class="btn btn-success btn-lg mx-3 my-3" href="https://github.com/imsushant12/Python-Projects/tree/master/GoTo%20Blogs%20Flask%20App" role="button"
+                            target="_blank">GoTo GitHub Repo</a>
+                        <a class="btn btn-warning btn-lg mx-3 my-3" href="/posts" role="button">GoTo Blog Posts</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+</body>
+{% endblock body %}

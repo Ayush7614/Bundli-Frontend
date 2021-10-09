@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>Posts</title>
+{% endblock title %}
+
+<!-- Creating a form for the user to add posts -->
+{% block body %}
+
+<body>
+    <div class="container text-center my-4">
+        <h1 style="display:inline">All Posts</h1>
+        <a style="display:inline" class="btn btn-success float-end" href="/posts/new"> +New Post</a>
+        <hr>
+
+    </div>
+    {% for post in posts %}
+    <div class="container mt-3">
+        <h4>Title: {{ post.title }}</h4>
+
+        {% if post.author %}
+        <small>Written by: {{ post.author }} on {{post.date_posted}}</small>
+        {% else %}
+        <small>Written by: Anonymous on {{post.date_posted}}</small>
+        {% endif %}
+
+        <p class="my-3" style="white-space:pre-wrap">{{ post.content }}</p>
+
+
+        <div class="container mt-3">
+            <a class="btn btn-primary" href='/posts/edit/{{post.id}}' role="button">Edit</a>
+            <a class="btn btn-danger" href='/posts/delete/{{post.id}}' role="button">Delete</a>
+        </div>
+    </div>
+    <hr>
+    {% endfor %}
+</body>
+{% endblock body %}
