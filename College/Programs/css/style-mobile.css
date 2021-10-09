@@ -1,0 +1,144 @@
+body,
+input,
+textarea,
+select {
+    line-height: 1.75em;
+    font-size: 9pt;
+    letter-spacing: 0;
+}
+
+body {
+    padding-top: 44px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.5em;
+}
+
+section,
+article {
+    clear: both;
+    margin: 2em 0 2em 0 !important;
+}
+
+section> :first-child,
+article> :first-child {
+    margin-top: 0 !important;
+}
+
+section:first-child,
+article:first-child {
+    margin-top: 0 !important;
+}
+
+#titleBar {
+    background: #25a5c7;
+}
+
+#titleBar .title a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+#titleBar .title p {
+    display: none;
+}
+
+#titleBar .toggle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 60px;
+}
+
+#titleBar .toggle:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 40px;
+    border-radius: 4px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    color: #FFF !important;
+}
+
+#titleBar .toggle:after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    color: #FFF !important;
+    left: 15px;
+    top: 15px;
+    background: url('images/mobileUI-site-nav-opener-bg.svg') 0px 0px no-repeat;
+    opacity: 1;
+}
+
+#titleBar .toggle:active:after {
+    opacity: 0.5;
+}
+
+#navPanel {
+    background: #101214;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #888;
+    letter-spacing: 2px;
+    font-size: 1em;
+}
+
+#navPanel .link {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    height: 44px;
+    line-height: 44px;
+    border: 0;
+    border-top: solid 1px #202122;
+    padding: 0 1em 0 1em;
+}
+
+
+/* Main Wrapper */
+
+#wrapper {
+    padding: 1.5em 1em 0em 1em
+}
+
+
+/* Welcome */
+
+#welcome {}
+
+#welcome .content {}
+
+#welcome section {
+    padding: 0em 2em;
+}
+
+
+/* Page Wrapper */
+
+#page-wrapper {}
+
+#page-wrapper section {
+    padding: 0em 2em 3em 2em;
+}
+
+#header {
+    display: none;
+}

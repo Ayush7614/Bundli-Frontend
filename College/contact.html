@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <link rel="stylesheet" href="css/contact.min.css">
+</head>
+<div class="container">
+    <h1 class="brand"><span>Contact US-</span>LEC</h1>
+    <div><a style="color:brown" href="index.html">Go to Home</a></div>
+    <div class="wrapper">
+        <div class="company-info">
+            <h3>Contact Via:</h3>
+            <ul>
+                <li><i class="fa fa-road"></i>Bhalwari-Rupandehi</li>
+                <li><i class="fa fa-phone"></i> 071-561030</li>
+                <li><i class="fa fa-envelope"></i>lumbiniec@gmail.com</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h3>Email Us</h3>
+            <div class="alert">Your message has been sent</div>
+            <form id="contactForm">
+                <p>
+                    <label>Name</label>
+                    <input type="text" name="name" id="name" required>
+                </p>
+                <p>
+                    <label>Company</label>
+                    <input type="text" name="company" id="company">
+                </p>
+                <p>
+                    <label>Email Address</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <p>
+                    <label>Phone Number</label>
+                    <input type="text" name="phone" id="phone">
+                </p>
+                <p class="full">
+                    <label>Message</label>
+                    <textarea name="message" rows="5" id="message"></textarea>
+                </p>
+                <p class="full">
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+<script src="js/contact.js"></script>
+
+<!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+    (function() {
+        var options = {
+            facebook: "1974510779516261", // Facebook page ID
+            call_to_action: "Message us", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol,
+            host = "whatshelp.io",
+            url = proto + "//static." + host;
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function() {
+            WhWidgetSendButton.init(host, proto, options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /WhatsHelp.io widget -->
+<script src="js/sw.js"></script>
+</body>
+
+</html>

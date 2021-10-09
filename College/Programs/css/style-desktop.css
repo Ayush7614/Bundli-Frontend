@@ -1,0 +1,88 @@
+#header-wrapper {}
+
+.homepage #header-wrapper {}
+
+#header {
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    padding: 0 0 4em 0;
+    background-size: 60%;
+}
+
+
+/* Logo */
+
+#logo h1 a {
+    margin: 0em;
+    padding: 0em 0em 0em 0em;
+    letter-spacing: -.1em;
+    text-decoration: none;
+    font-size: 4em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#logo p {
+    padding: 0em 0em 0em .5em;
+    font-size: 1em;
+    color: #BDF2FF;
+}
+
+
+/* Menu */
+
+#menu {
+    overflow: hidden;
+}
+
+#nav ul {}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav a {
+    display: block;
+    float: left;
+    margin-right: 0.12em;
+    padding: 1em 1.5em;
+    background: #178EAE;
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #0C749C;
+    text-transform: uppercase;
+    font-size: .90em;
+    color: #FFFFFF;
+}
+
+#nav .current_page_item {
+    color: #FFFFFF;
+}
+
+#nav .current_page_item a {
+    color: #FFFFFF;
+}
+
+#menu a:hover {}
+
+
+/* Main Wrapper */
+
+#wrapper {}
+
+
+/* Welcome */
+
+#welcome {}
+
+#welcome .content {
+    overflow: hidden;
+    padding: 0em 3em 0em 3em;
+}
+
+#welcome a img {
+    display: block;
+    float: left;
+    margin-right: 2em;
+    width: 20%;
+}
