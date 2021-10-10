@@ -28,15 +28,48 @@ async function getRepos(username) {
     }
 }
 
+function addLoadingAnimation() {
+    const loadingHTML = `
+    <div class="loading">
+        <img src="./loading.svg" alt="">
+    </div>`
+
+    main.innerHTML = loadingHTML;
+}
+
+function convertDate(d) {
+        let today = new Date();
+
+        const dd = Math.abs(String(today.getDate()).padStart(2, '0') - d.slice(8, 10));
+        const mm = Math.abs(String(today.getMonth() + 1) - d.slice(5,7));
+        const yyyy = Math.abs(today.getFullYear() - d.slice(0, 4));
+
+        const totalDays = yyyy * 365 + mm * 12 + dd * 30;
+
+        return `Joined ${totalDays} days ago`;    
+}
+
 function createUserCard(user) {
+    const joinedDate = user.created_at ? convertDate(user.created_at) : '';
+    const location = user.location ? `From: ${user.location}` : '';
+    const userBio = user.bio ? `${user.bio}` : '';
+    const company = user.company ? `Company: ${user.company}` : '';
+
     const cardHTML = `
     <div class="card">
     <div>
-      <img src="${user.avatar_url}" alt="${user.name}" class="avatar">
+    <a class="user-link" target="_blank" href="${user.html_url}">
+        <img src="${user.avatar_url}" alt="${user.name}" class="avatar">
+    </a>
     </div>
     <div class="user-info">
-      <h2>${user.name}</h2>
-      <p>${user.bio}</p>
+      <h2>
+        <a class="user-link" target="_blank" href="${user.html_url}">${user.login}</a>
+      </h2>
+      <p>${joinedDate}</p>
+      <p>${location}</p>
+      <p>${userBio}</p>
+      <p>${company}</p>
       <ul>
         <li>${user.followers} <strong>Followers</strong></li>
         <li>${user.following} <strong>Following</strong></li>
@@ -47,7 +80,6 @@ function createUserCard(user) {
   </div>
     `
     main.innerHTML = cardHTML
-    
 }
 
 function createErrorCard(msg) {
@@ -64,7 +96,7 @@ function addReposToCard(repos) {
     const reposEl = document.getElementById('repos')
 
     repos
-        .slice(0, 5)
+        .slice(0, repos.length)
         .forEach(repo => {
             const repoEl = document.createElement('a')
             repoEl.classList.add('repo')
@@ -80,7 +112,7 @@ form.addEventListener('submit', (e) => {
     e.preventDefault()
 
     const user = search.value
-
+    addLoadingAnimation();
     if(user) {
         getUser(user)
 
@@ -91,7 +123,7 @@ btn.addEventListener('click', (e) => {
     e.preventDefault()
 
     const user = search.value
-
+    addLoadingAnimation();
     if(user) {
         getUser(user)
 
