@@ -28,7 +28,7 @@ How exactly output looks like -
 <br>
 
 <p align="center">
-  <img src="https://github.com/ayush-sleeping/Its-Nothing-don-t-open-it/blob/main/Snapshot%20of%20output.png" width="600px" />
+  <img src="https://github.com/ayush-sleeping/Its-Nothing-don-t-open-it/blob/main/Snapshot%20of%20output.png" width="1000px" />
 </p>
 <br>
 <br>
