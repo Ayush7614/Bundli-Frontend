@@ -1,0 +1,100 @@
+html,
+body {
+  cursor: none;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.bg {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.custom-cursor {
+  pointer-events: none;
+  position: fixed;
+  border-radius: 50%;
+  z-index: 999;
+}
+
+.cursor {
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+}
+
+.cursor-follower {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #000;
+}
+
+.cursor-white {
+  background-color: #fff;
+}
+
+.cursor-follow-white {
+  border: 2px solid #fff;
+}
+
+.cursor-transform {
+  background-color: transparent;
+}
+
+.cursor-follow-transform {
+  border: unset;
+  background-color: rgba(153, 153, 153, 0.4);
+}
+
+.btn {
+  --color: var(--itemColor, #fff);
+  --hoverColor: var(--itemColor, #000);
+
+  padding: 22px 36px;
+  border: 2px solid var(--color);
+
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+
+  background-color: transparent;
+  background-image: linear-gradient(to right, var(--color), var(--color) 50%, transparent 50%);
+  background-size: 210% 100%;
+
+  transition: all 0.5s cubic-bezier(0, 0, 0.23, 1);
+  background-position: 100%;
+  color: var(--color);
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  transition: all 0.5s cubic-bezier(0, 0, 0.23, 1);
+  background-position: 0%;
+  color: var(--hoverColor);
+}
+
+.bg-black .btn {
+  --color: #fff;
+  --hoverColor: #000;
+}
+
+.bg-white .btn {
+  --color: #000;
+  --hoverColor: #fff;
+}
