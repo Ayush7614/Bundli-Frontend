@@ -7,7 +7,7 @@ Truth_Table_Generator is built using HTML, CSS and Javascript.
 - It also updates the table dynamically as you type, so you don't have to waste time clicking a submit button.
 - It is intended for people building simple circuits with logic gates, to check to make sure their circuit will work the way they expect.
 - It runs completely in the browser and requires no server side support.
-- The parser supports operator precendence.
+- The parser supports operator precedence.
 
 ### Screenshot
 ![truth_table](https://user-images.githubusercontent.com/52855622/125729552-cf56432a-7677-42e2-925b-a5c6243e4bbb.png)

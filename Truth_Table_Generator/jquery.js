@@ -1295,7 +1295,7 @@ jQuery.fn.extend({
 					classNames = value.split( rspace );
 
 				while ( (className = classNames[ i++ ]) ) {
-					// check each className given, space seperated list
+					// check each className given, space separated list
 					state = isBool ? state : !self.hasClass( className );
 					self[ state ? "addClass" : "removeClass" ]( className );
 				}
@@ -2621,7 +2621,7 @@ var chunker = /((?:\((?:\([^()]+\)|[^()]+)+\)|\[(?:\[[^[\]]*\]|['"][^'"]*['"]|[^
 	baseHasDuplicate = true;
 
 // Here we check if the JavaScript engine is using some sort of
-// optimization where it does not always call our comparision
+// optimization where it does not always call our comparison
 // function. If that is the case, discard the hasDuplicate value.
 //   Thus far that includes Google Chrome.
 [0, 0].sort(function(){
@@ -4871,7 +4871,7 @@ jQuery.each( "ajaxStart ajaxStop ajaxComplete ajaxError ajaxSuccess ajaxSend".sp
 jQuery.extend({
 
 	get: function( url, data, callback, type ) {
-		// shift arguments if data argument was omited
+		// shift arguments if data argument was omitted
 		if ( jQuery.isFunction( data ) ) {
 			type = type || callback;
 			callback = data;
@@ -4896,7 +4896,7 @@ jQuery.extend({
 	},
 
 	post: function( url, data, callback, type ) {
-		// shift arguments if data argument was omited
+		// shift arguments if data argument was omitted
 		if ( jQuery.isFunction( data ) ) {
 			type = type || callback;
 			callback = data;
@@ -4933,7 +4933,7 @@ jQuery.extend({
 		// Create the request object; Microsoft failed to properly
 		// implement the XMLHttpRequest in IE7 (can't request local files),
 		// so we use the ActiveXObject when it is available
-		// This function can be overriden by calling jQuery.ajaxSetup
+		// This function can be overridden by calling jQuery.ajaxSetup
 		xhr: window.XMLHttpRequest && (window.location.protocol !== "file:" || !window.ActiveXObject) ?
 			function() {
 				return new window.XMLHttpRequest();
