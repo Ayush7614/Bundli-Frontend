@@ -37,6 +37,8 @@ function createUserCard(user) {
     <div class="user-info">
       <h2>${user.name}</h2>
       <p>${user.bio}</p>
+      <p>${user.location}</p>
+      <a target="_blank" href=${user.blog}>${user.blog}</a>
       <ul>
         <li>${user.followers} <strong>Followers</strong></li>
         <li>${user.following} <strong>Following</strong></li>
