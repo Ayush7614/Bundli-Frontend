@@ -1,0 +1,197 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #000000;
+    font-family: 'Comic Neue', cursive;
+    scroll-behavior: smooth;
+}
+.nav-menu{
+    padding: 10px;
+    border-bottom:1px solid whitesmoke;
+}
+.nav-menu img{
+    height:90px;
+    width:100px;
+}
+.nav-menu a{
+    color:whitesmoke;
+    text-decoration: none;
+    margin:5px;
+}
+.menu{
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: all .4s;
+}
+.menu:hover, .active{
+    color:#0f2394;
+}
+.bar1, .bar2, .bar3{
+    width:23px;
+    height:3px;
+    margin:5px;
+    transition:all .4s;
+}
+.navbar-toggler{
+    outline:none important;
+}
+header{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),
+    url(images/saveearth.jpg) no-repeat center center/cover;
+}
+.topnav{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    width:60%;
+    color: white;
+}
+.btn-primary{
+    background-color: black;
+    outline-style: solid;
+}
+.btn-primary:hover{
+    background-color:#0f2394;
+    outline-style: solid;
+}
+#aboutus{
+    background-color:#0f2394;
+}
+#aboutus h1{
+    color: #a1c6f0;
+    font-style: oblique;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 500;
+}
+#aboutus p{
+    color:#a1c6f0;
+    font-size: 18px;
+}
+.about-images{
+    position: relative;
+    left:5%;
+}
+.about-img{
+    position: absolute;
+    width:180px;
+    transition: all 2s ease;
+    opacity:0.9;
+}
+.img-1{
+    left:0%;
+    top:0%;
+}
+.img-2{
+    left:20%;
+    top:20%;
+    z-index:10;
+}
+.img-3{
+    left:40%;
+    top:45%;
+    height: 150px;
+}
+.img-4{
+    left:40%;
+    top:0%;
+}
+.img-5{
+    left:0%;
+    top:45%;
+    height: 150px;
+}
+.about-img:hover{
+    outline:10px solid wheat;
+    outline-offset:32px;
+    transform:scale(1.3) rotate(20deg);
+    z-index:30;
+    opacity:1;
+}
+#aim{
+    background-color:black;
+ }
+ .grid-container{
+     display: grid;
+     justify-content: center;
+     grid-template-areas: 'box1 box2';
+     grid-template-rows: auto auto;
+     grid-column-gap: 30px;
+     align-items: center;
+     align-content: center;
+     text-align: center;
+     color: #ebf0f5;
+ }
+ .grid-container i{
+     font-size:100px;
+ }
+ #contact{
+     background: url(images/bg.jpg);
+     color: black;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     padding: 2px;
+ }
+ footer{
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+}
+footer img{
+    padding:0.3em 0.7em;
+    transition:all .5s ease;
+    height:140px;
+    width:120px;
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:50px;
+}
+.carousel-item{
+    max-height: 500px;
+}
+h5{
+    font-size: 52px;
+}
+#helpus{
+    color: #1d6ea8;
+    background-color:#0f2394;
+}
+#helpus .col-md-6{
+    background-color: #ebf0f5;
+}
+.row h1{
+    font-size:45px;
+}  
+.flex-container{
+    background:linear-gradient(rgba(7, 7, 17, 0.6),rgba(2, 9, 29, 0.5)),
+    url(images/bg2.jpg) no-repeat center center/cover;
+}
+.flex-container h4{
+    text-align: left;
+}
+@media screen and (max-width:511px){
+    .grid-container{
+        display: grid;
+        justify-content: center;
+        grid-template-areas: "box1"  
+                             "box2";
+        grid-template-columns: auto auto;
+        grid-row-gap: 10px;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        color: #ebf0f5;
+        padding:2px;
+    }
+    .grid-container i{
+        font-size:70px;
+    }
+}
