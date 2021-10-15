@@ -778,6 +778,11 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/anjali1102"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/are you palindrome.png"/></a>
   </p>
 
+### 117. Binary Clock
+<p align="center">
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/rene-ph/Bundli-Frontend/blob/main/binary-clock/Binary.png" /></a></a>
+</p>
+
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
 ## Stargazers over time 🤗
