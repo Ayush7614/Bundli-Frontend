@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.input{
+    margin-top: 40px;
+    text-align: center; 
+}
+.input input{
+    padding: 10px;
+    font-size: 30px;
+    border: 2px solid grey;
+    width: 175px;
+}
+.input button{
+    margin-left: 30px;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+.input button:hover{
+    background-color: rgb(228, 228, 228);
+}
+h2{
+    margin-top: 40px;
+    text-align: center;
+}
