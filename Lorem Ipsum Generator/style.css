@@ -1,0 +1,54 @@
+body{
+  background-color:#004643;
+  font-family: 'Manrope', sans-serif;;
+  color: #FAF4D3;
+  text-align: center;
+}
+
+h3{
+    padding: 10px;
+    font-size: 1.4em;
+}
+
+article{
+    font-family: 'Manrope', sans-serif;
+    text-align: justify;
+    padding: 5px 0 50px 30px;
+    width: 500px;
+    height: 400px;
+    top: 50%;
+    left: 48%;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -220px;
+}
+
+.lorem-form{
+    padding: 10px 30px 50px 50px;
+    font-size: 1em;
+}
+
+.btn {
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #D1AC00;
+	padding: 8px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+}
+
+.btn:hover {
+	background: #0C1618;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+.lorem-text{
+  text-align: justify ;
+}
