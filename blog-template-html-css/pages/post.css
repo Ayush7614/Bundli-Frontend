@@ -1,0 +1,273 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    font-size: 15px;
+  }
+  
+  
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --primaryColor: #000;
+    --secondaryColor: #fff;
+  }
+  
+  /* sticky-Navbar */
+  /* this is main-parent in which navbar is included that's why it's working */
+  .wrapper {
+     
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index:1;
+    
+  }
+  
+  .mainWrapper {
+   /* z-index: -9999; */
+    display: flex;
+    
+    
+    /* flex-wrap: wrap; */
+  }
+  
+  /* if you set the sticky position here then it will not work because it's not a main-parent */
+  .navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #dcb0ff;
+    padding: 0 30px 0 30px;
+    /* position: -webkit-sticky;
+        position: sticky;
+        top: 0; */
+    box-shadow: 0px 1.5px 12px blueviolet;
+    
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(122, 63, 218);
+    font-size: 1.5rem;
+  }
+  
+  .nav-item:hover {
+    background-color: white;
+  }
+  
+  .nav-item:hover a {
+    color: #6a696c;
+  }
+  
+  .logo,
+  .logoIcon {
+    width: 110px;
+    vertical-align: middle;
+  }
+  
+  
+  /* search bar */
+  .navbar__search-container {
+    align-self: center;
+  }
+  
+  form input[type="text"] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 1.2rem;
+    border: none;
+  }
+  .navbar__search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: -72px;
+    background: #ddd;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background: #ccc;
+  }
+
+  .blog-h1{
+    text-align: center;
+    color: blueviolet;
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+  /* posts and sidebar */
+  
+  
+  .posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+  }
+  .posts__imgDiv, .posts__title > a {
+    text-decoration: none;
+  }
+  .posts > * {
+    margin: 1rem;
+  }
+  
+  .posts__post {
+    width: 390px;
+    height: 390px;
+    background-color: rgb(242, 178, 255);
+    box-shadow: 0px 1.5px 12px blueviolet;
+  }
+  .posts__heading {
+    width: 390px;
+    height: 90px;
+  }
+  .posts__avatarImg {
+    width: 50px;
+  }
+  .posts__img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 0 none;
+    border-radius: 1000px;
+  }
+  .posts__featureImg,
+  .posts__imgDiv {
+    width: 390px;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 220px;
+    /* background: #f6f5f5 url(img/featureImg.jpg) no-repeat center center; */
+    background-size: cover;
+    cursor: pointer;
+  }
+  
+  /* hover-effect on image */
+  /* Zoom In #1 */
+  .posts__imgDiv img  {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    
+   
+  }
+  .posts__imgDiv:hover img   {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    
+    
+    
+  }
+  .posts__title {
+    height: 40px;
+    padding: 1.5rem;
+    cursor: pointer;
+  }
+  .posts__description {
+    color: #64717c;
+    font-weight: bold;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+  }
+  
+  .posts__description:hover {
+    color: blueviolet;
+  }
+  
+  .posts__heading {
+    display: flex;
+    padding: 1.429rem;
+  }
+  .posts__heading > div {
+    margin-right: 25px;
+  }
+  
+  .posts__href {
+    text-decoration: none;
+  }
+  
+  .posts__avatarInfo > * {
+    margin: 1px 3px 8px 0px;
+  }
+    
+  /* mobile */
+  @media all and (max-width: 767px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-item a {
+      font-size: 1.1rem;
+    }
+    /* aside */
+    .mainWrapper {
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+    .posts {
+      display: flex;
+      flex-wrap: wrap;
+    }
+   
+  }
+  
+  /* tablet */
+  @media all and (min-width: 768px) and (max-width: 1199px) {
+    /* search-bar */
+  
+    .navbar__search-container {
+      margin-left: -7rem;
+    }
+    form input[type="text"] {
+      font-size: 0.9rem;
+    }
+    .navbar__search-container button {
+      font-size: 0.9rem;
+    }
+    /* aside */
+    .mainWrapper {
+      display: flex;
+    }
+    .posts {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+  }
+  
+  /* desktop */
+  @media all and (min-width: 1200px) {
+  }
+  

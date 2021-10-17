@@ -1,0 +1,79 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    font-size: 15px;
+    background-color: #F9F9F9;
+  }
+  
+  
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --primaryColor: #000;
+    --secondaryColor: #fff;
+  }
+  .wrapper{
+    background-color: var(--secondaryColor);
+    width: 450px;
+    height: 100%;
+    margin: 8rem auto;
+    padding: 30px;
+    box-shadow: 0px 1.5px 12px rgba(249, 249, 249, 0.699);
+}
+.wrapper__form {
+    display: flex;
+    flex-direction: column;
+    color:#424129;
+    
+}
+.wrapper__h1 {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.wrapper__label {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+.wrapper__input {
+  border-radius: 2px;
+  line-height: 1.6;
+  border: 1px solid #e6e9ec;
+  padding: .5rem .75rem;
+}
+.wrapper__checkBox {
+    font-size: 1.2rem;
+}
+.wrapper__register {
+  background: #2e91fc;
+  border-color: #2e91fc;
+  color: #fff;
+  border: 2px solid;
+  font-weight: bold;
+  border-radius: 2px;
+  white-space: normal;
+  padding: .8rem 1.875rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.wrapper__password {
+    display: flex;
+    flex-direction: column;
+}

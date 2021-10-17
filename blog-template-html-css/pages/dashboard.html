@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="dashboard.css" />
+    <script
+      src="https://kit.fontawesome.com/fc31dedf63.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Dashboard</title>
+  </head>
+  <body>
+      <div class="logo">
+        <i
+        style="color: #000;"
+        class="fab fa-pied-piper-pp logoIcon fa-5x"
+      ></i>
+      </div>
+      <!-- wrapper -->
+      <div class="wrapper">
+          <!-- Leftsidebar -->
+        <div class="wrapper__leftSidebar">
+            <a href="createPost.html">Create post</a>
+            <a href="#">All posts</a>
+            <a href="#">pages</a>
+            <a href="#">Media</a>
+            <a href="#">Themes</a>
+            <a href="#">User</a>
+            <a href="#">Setting</a>
+        </div>  
+        <!-- End-Leftsidebar -->
+
+        <!-- rightSidebar -->
+        <div class="wrapper__rightSidebar">
+            <div class="wrapper__chartsPost">
+                <div class="wrapper__chart">
+                  Daily Visitor:
+                  <progress value="40" max="100"></progress>
+                  Monthly Visitor:
+                  <progress value="65" max="100"></progress>
+                  Daily Progress: 
+                  <progress value="30" max="100"></progress>
+                </div>
+                <div class="wrapper__posts">
+                   Total Post:
+                   <div class="wrapper__total">
+                       100
+                   </div>
+                </div>
+            </div>
+            <!-- wrapperTable -->
+            <div class="wrapper__table">
+                <div class="wrapper__title">
+                    <h3 class="wrapper__h3">What's new in Bootstrap 5 and when Bootstrap 5 release date?</h3>
+                    <h3 class="wrapper__h3">APIs for Beginners - What is an API? How to use an API?</h3>
+                    <h3 class="wrapper__h3">7 GitHub Repos You Need To Know For Web Development & Cod...</h3>
+                </div>
+                <div class="wrapper__delete">
+                    <button>Delete</button>
+                    <button>Delete</button>
+                    <button>Delete</button>
+                </div>
+                <div class="wrapper__edit">
+                    <button>Edit</button>
+                    <button>Edit</button>
+                    <button>Edit</button>
+                </div>
+            </div>
+            <!-- End-wrapperTable -->
+        </div>
+        <!-- End-rightSidebar -->
+      </div>
+      <!-- End-wrapper -->
+  </body>
+</html>

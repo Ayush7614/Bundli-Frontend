@@ -1,0 +1,28 @@
+.Point .Active {
+    box-shadow: inset 0 0 50px #b1c3cf;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    display: inline-block;  
+    filter: blur(5px);
+}
+  
+.Active ~svg {
+    position: relative;
+    filter: brightness(125%);
+    left: -55px;
+    top: -4px;
+}
+
+.Point .Inactive {
+    width: 60px;
+    height: 60px;
+    display: inline-block;  
+}
+  
+.Inactive ~svg {
+    position: relative;
+    filter: brightness(60%);
+    left: -55px;
+    top: -4px;
+}

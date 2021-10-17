@@ -1,81 +1,67 @@
-var numberOfDrumButtons = document.querySelectorAll(".drum").length;
+// Dectecting Button Press
 
-for (var i = 0; i < numberOfDrumButtons; i++) {
+var numberOfButtons = document.querySelectorAll("button.drum").length;
 
-  document.querySelectorAll(".drum")[i].addEventListener("click", function() {
+for (var i = 0; i < numberOfButtons; i++) {
+    //this is just adding event listener to every button, as any button is clicked, we run the anonym. function !
 
-    var buttonInnerHTML = this.innerHTML;
+    document.querySelectorAll(".drum")[i].addEventListener("click", function () {   //Anonymous Function called when button clciked
 
-    makeSound(buttonInnerHTML);
-
-    buttonAnimation(buttonInnerHTML);
-
-  });
-
+        playMusic(this.innerHTML);  //button clciked known by detcting content inside HTML.
+        activeButtonStyle(this.innerHTML);
+    });
 }
 
-document.addEventListener("keypress", function(event) {
 
-  makeSound(event.key);
+//Detecting Keyboard Press
 
-  buttonAnimation(event.key);
-
+document.addEventListener("keydown", function (keyboardEvent) {
+    playMusic(keyboardEvent.key);
+    activeButtonStyle(keyboardEvent.key);
 });
 
 
-function makeSound(key) {
+//Detecting Key Press
 
-  switch (key) {
-    case "w":
-      var tom1 = new Audio("sounds/tom-1.mp3");
-      tom1.play();
-      break;
-
-    case "a":
-      var tom2 = new Audio("sounds/tom-2.mp3");
-      tom2.play();
-      break;
-
-    case "s":
-      var tom3 = new Audio('sounds/tom-3.mp3');
-      tom3.play();
-      break;
-
-    case "d":
-      var tom4 = new Audio('sounds/tom-4.mp3');
-      tom4.play();
-      break;
-
-    case "j":
-      var snare = new Audio('sounds/snare.mp3');
-      snare.play();
-      break;
-
-    case "k":
-      var crash = new Audio('sounds/crash.mp3');
-      crash.play();
-      break;
-
-    case "l":
-      var kick = new Audio('sounds/kick-bass.mp3');
-      kick.play();
-      break;
-
-
-    default: console.log(key);
-
-  }
+function playMusic(buttonClicked) {
+    switch (buttonClicked) {
+        case "w":
+            var music = new Audio('sounds/tom-1.mp3');
+            music.play();
+            break;
+        case "a":
+            var music = new Audio('sounds/tom-2.mp3');
+            music.play();
+            break;
+        case "s":
+            var music = new Audio('sounds/tom-3.mp3');
+            music.play();
+            break;
+        case "d":
+            var music = new Audio('sounds/tom-4.mp3');
+            music.play();
+            break;
+        case "j":
+            var music = new Audio('sounds/snare.mp3');
+            music.play();
+            break;
+        case "k":
+            var music = new Audio('sounds/crash.mp3');
+            music.play();
+            break;
+        case "l":
+            var music = new Audio('sounds/kick-bass.mp3');
+            music.play();
+        default:
+            console.log("No command found for: " + buttonClicked);
+    }
 }
 
+// Active Button Animation
 
-function buttonAnimation(currentKey) {
-
-  var activeButton = document.querySelector("." + currentKey);
-
-  activeButton.classList.add("pressed");
-
-  setTimeout(function() {
-    activeButton.classList.remove("pressed");
-  }, 100);
+function activeButtonStyle(keyPressed) {
+    var buttonPress = document.querySelector("." + keyPressed);
+    buttonPress.classList.add("pressed");                                       //adds pressed styke
+    setTimeout(function () { buttonPress.classList.remove("pressed"); }, 100);    //removes pressed style after 1sec
 
 }

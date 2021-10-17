@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: #eee;
+    background: #222;
+  }
+  
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  input {
+    width: 3em;
+    font-size: 2em;
+    color: #377;
+    background: inherit;
+    border: none;
+    border-bottom: 5px solid #377;
+  } input:hover {
+    border: none;
+    border-bottom: 5px solid #377;
+  }
+  
+  #binary {
+    font-family: monospace;
+    font-size: 2em;
+    color: #793;
+  }
