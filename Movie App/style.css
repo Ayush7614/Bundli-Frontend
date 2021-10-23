@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 :root {
   --primary-color: #22254b;
   --secondary-color: #373b69;
@@ -21,7 +21,11 @@ header {
   justify-content: flex-end;
   background-color: var(--secondary-color);
 }
-
+.head{
+  font-size: 3rem;
+  font-family: 'Acme', sans-serif;
+  color: #fff;
+}
 .search {
   background-color: transparent;
   border: 2px solid var(--primary-color);
