@@ -1,25 +1,39 @@
-var decimalInput = document.querySelector("#number");
-var display = document.querySelector("#binary");
-
-//Convert input to binary
-function makeBinary(n) {
-    let output = '';
-    if (n != 0) {
-        let dividend = n;
-        while (dividend != 0) {
-            output = (dividend % 2) + output;
-            dividend = Math.floor(dividend / 2);
-        }
-    } else { output = "0"; }
-    return output;
-}
-
-//Update display
-function updateDisplay() {
-    display.textContent = makeBinary(Math.abs(decimalInput.value));
-}
-
-
-decimalInput.addEventListener("change", updateDisplay);
-decimalInput.addEventListener("click", updateDisplay);
-
+function decToBinaryConvert() {
+	     
+		 var binary = "";
+		 var bitvalue = document.getElementById("bit").value;
+		 var decimal_number = document.getElementById("decimal").value;
+		 
+		 for(i=0;i<bitvalue;i++)
+		 { 
+		 
+		    
+		     var remainder = decimal_number % 2;
+			 
+			 if(remainder == 0)
+			 { 
+			     binary = binary + "0";
+				 
+		     }
+			 else 
+			 {
+			     binary = binary + "1";
+				 
+			 }
+			
+			decimal_number = Math.trunc(decimal_number/2);
+			
+	    }
+		
+		var binaryStr1 = binary.split("");
+		var binaryStr2 = binaryStr1.reverse();
+		var binaryStrFinal = binaryStr2.join("");
+	      document.getElementById("bin").value = binaryStrFinal;
+	 
+	 }
+	 function decToBinaryReset() {
+	 
+	 document.getElementById("decimal").value = "";
+	  document.getElementById("bit").value = "";
+	   document.getElementById("bin").value = "";
+	 }
