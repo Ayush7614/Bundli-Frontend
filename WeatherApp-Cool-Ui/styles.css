@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('/WeatherApp-Cool-Ui/bg.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.app-main {
+    width: 60vh;
+    margin: 100px auto;
+    background-color: rgba(240, 248, 255, 0.6);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+.app-main > * {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.6);
+    border: none;
+    outline: none;
+    color: #582233;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 10px;
+    text-align: center;
+    margin: 20px 4px;
+    text-transform: capitalize;
+    font-family: inherit;
+}
+
+.input-box:focus {
+    background-color: rgba(255, 255, 255);
+}
+
+#get-btn {
+    background-color: coral;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+#get-btn:hover {
+    background-color: lightcoral;
+}
+
+.weather-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #582233;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 25vh;
+    display: none;
+}
+
+.location-details {
+    font-weight: bold;
+}
+
+.weather-status {
+    padding: 20px;
+}
+
+.temp {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(0,0, 0, 0.3);
+}
+
+.min-max,
+.weather {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    overflow-y: hidden;
+  }
+
+  .temp {
+    font-size: 34px;
+    text-align: center;
+  }
+}
