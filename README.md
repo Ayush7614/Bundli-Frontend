@@ -785,7 +785,7 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ### 118. Image Gallery
 <p align="center">
-    <a href="https://aritra777.github.io/Art-Gallary/"><img src="./Image-Gallery/Fine_Arts.png" /></a>
+    <a href="https://aritra777.github.io/Art-Gallary/" target="_blank"><img src="./Image-Gallery/Fine_Arts.png" /></a>
 </p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
