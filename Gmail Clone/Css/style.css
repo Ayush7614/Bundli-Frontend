@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header_left img{
+  object-fit: contain;
+  height: 80px;
+  margin-left: 5px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+}
+.header_left span{
+    padding: 10px;
+    cursor: pointer;
+}
+.header_middle{
+    display: flex;
+    flex: 0.7;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+.material-icons{
+    color: gray;
+}
+.header_middle input {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: medium;
+    background-color: transparent;
+}
+.header_right{
+    display: flex;
+    padding-right: 20px;
+}
+.header_right span {
+    padding: 10px;
+    cursor: pointer;
+}
+.sidebar{
+    flex: 0.3;
+    max-width: 300;
+    padding-right: 20px;
+}
+/*--------------------------------------*/
+#customBtn {
+    display: inline-block;
+    background: #fff;
+    color: #444;
+  }
+#customBtn:hover {
+    cursor: pointer;
+}
+span.icon {
+   background: transparent 9px 50% no-repeat;
+   display: inline-block;
+   width: 25px;
+   height: 5px;
+}
+  span.buttonText {
+    display: inline-block;
+    font-size: 14px;
+}
+/*-------------------------------------*/
+.sidebar_compose{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: grey;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: rgb(185, 234, 252);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border:none;
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+}
+Button{
+    font-size: 18px;
+}
+.sidebar_compose .material-icons{
+    margin-right: 6px;
+}
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    color: #818181;
+    text-decoration: none;
+}
+.sidebarOption .material-icons{
+    padding: 5px;
+}
+.sidebarOption h3{
+    flex:1;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+h4{
+    margin-left: 5px;
+    color: grey;
+}
+.sidebarOption:hover,
+.sidebarOption:hover h3,
+.sidebarOption:hover .material-icons,
+.sidebarOption_active,
+.sidebarOption_active h3,
+.sidebarOption_active .material-icons{
+    background-color: #fcecec;
+    color: #c04b37;
+    font-weight: 800;
+}
+
+.sidebar_footer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.footerIcons  .material-icons{
+    margin: 7px;
+    cursor: pointer;
+}
+/*--------------------------------*/
+.main_body{
+    display: flex;
+    height: 100vh;
+}
+body{
+    height: 100vh;
+    overflow-y: hidden;
+}
+.emailList{
+    flex: 1;
+    overflow:scroll;
+}
+.emailList_settings{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    background-color: #fff;
+    z-index: 999;
+    padding: 8px;
+}
+.emailList_settingsLeft{
+    display: flex;
+    align-items: center;
+}
+.emailList_settings .material-icons{
+    margin: 5px;
+    cursor: pointer;
+}
+.section{
+    display: flex;
+    align-items: center;
+    border-bottom-width: 2px;
+    padding: 15px;
+    min-width: 200px;
+    cursor: pointer;
+    color: grey;
+    border-width: 0;
+}
+.emailList_sections{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+    z-index: 999;
+}
+.section_selected {
+    background-color: whitesmoke;
+    border-width: 3px;
+    color: red;
+    border-bottom: 3px solid red;
+}
+.section{
+    text-decoration: none;
+}
+.section_selected .material-icons{
+    color: red;
+}
+.section:hover{
+    background-color: whitesmoke;
+    border-width: 3px;
+}
+.section h4{
+    font-size: 14px;
+    margin-left: 15px;
+}
+.emailRow_options{
+    display: flex;
+    align-items: center;
+}
+
+.emailRow_options .material-icons, input{
+    margin: 5px;
+}
+.emailRow {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+    z-index: 999;
+}
+.emailRow:hover {
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0 4px 4px -2px rgba(0,0,0,0.24);
+}
+.emailRow_message {
+    display: flex;
+    flex:0.8;
+    align-items: center;
+    font-size: 13px;
+}
+.emailRow_message h4{
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.emailRow_title{
+    flex: 0.3;
+    font-size: 13px;
+}
+.emailRow_time{
+    padding-right: 15px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.emailRow_description{
+    font-weight: 400;
+    color: grey;
+}
