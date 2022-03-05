@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <!------------Google font icon cdn--------------------------->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="Css/style.css">
+        <!----------------------------------------------------------->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+        <script src="https://apis.google.com/js/api:client.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        <title>Gmail Clone UI</title>
+    </head>
+<body>
+    <!--------header starts--------------->
+    <div class="header">
+        <div class="header_left">
+            <span class="material-icons">
+                menu
+            </span>
+            <img src="Images/GmailIcon.png" alt="">
+        </div>
+        <div class="header_middle">
+            <span class="material-icons">search</span>
+            <input type="text" placeholder="Search Mail">
+            <span class="material-icons">arrow_drop_down</span>
+        </div>
+        <div class="header_right">
+            <span class="material-icons">help_outline</span>
+            <span class="material-icons">settings</span>
+            <span class="material-icons">apps</span>
+            <div id="gSignInWrapper">
+                    <div id="customBtn" class="customGPlusSignIn">
+                      <span class="icon">&nbsp;
+                        <i class="fa-brands fa-google"></i>
+                      </span>
+                      <span class="buttonText"></span>
+                    </div>
+                </div>
+            <div id="name"></div> 
+         </div>
+        </div>   
+    </div>
+    <!--------------content----------------------------------->
+    <div class="main_body">
+        <div class="sidebar">
+            <button  class="sidebar_compose" id="button">
+                <span class="material-icons">mode</span>
+                Compose
+            </button>
+            <a class="sidebarOption sidebarOption_active" href="#">
+                <span class="material-icons">inbox</span>
+                <h3>Inbox</h3>
+            </a>
+            <a class="sidebarOption" href="#">
+                <span class="material-icons">star</span>
+                <h3>Starred</h3>
+            </a>
+            <a class="sidebarOption" href="#">
+                <span class="material-icons">access_time</span>
+                <h3>Snoozed</h3>
+            </a>
+            <a class="sidebarOption" href="#">
+                <span class="material-icons">label_important</span>
+                <h3>Important</h3>
+            </a>
+            <a class="sidebarOption" href="#">
+                <span class="material-icons">near_me</span>
+                <h3>Sent</h3>
+            </a>
+            <a class="sidebarOption" href="#">
+                <span class="material-icons">note</span>
+                <h3>Drafts</h3>
+            </a>
+            <a class="sidebarOption" href="#">
+                <span class="material-icons">expand_more</span>
+                <h3>More</h3>
+            </a>
+            <h4>Meet</h4>
+            <a class="sidebarOption" href="#">
+                <span class="material-icons">videocam</span>
+                <h3>New Meeting</h3>
+            </a>
+            <a class="sidebarOption" href="#">
+                <span class="material-icons">keyboard</span>
+                <h3>Join a meeting</h3>
+            </a>
+            <div class="sidebar_footer">
+                <div class="footerIcons">
+                    <span class="material-icons">person</span>
+                    <span class="material-icons">chat</span>
+                </div>
+            </div>
+        </div>
+        <!----------------------------------------->
+        <div class="emailList">
+            <div class="emailList_settings">
+                <div class="emailList_settingsLeft">
+                    <input type="checkbox">
+                    <span class="material-icons">arrow_drop_down</span>
+                    <span class="material-icons">redo</span>
+                    <span class="material-icons">more_vert</span>
+                </div>
+                <div class="emailList_settingsRight">
+                    <span class="material-icons">chevron_left</span>
+                    <span class="material-icons">chevron_right</span>
+                </div>
+            </div>
+            <!------------------------------------>
+            <div class="emailList_sections">
+                <a class="section section_selected" href="#">
+                     <span class="material-icons">inbox</span>
+                     <h4>Primary</h4>
+                </a>
+                <a class="section" href="#">
+                    <span class="material-icons">people</span>
+                    <h4>Social</h4>
+               </a>
+               <a class="section" href="#">
+                <span class="material-icons">local_offer</span>
+                <h4>Promotions</h4>
+           </a>
+        </div>
+        <!----------------------------------->
+        <div class="emailList_list">
+            <div class="emailRow">
+                <div class="emailRow_options">
+                    <input type="checkbox">
+                    <span class="material-icons">star_border</span>
+                    <span class="material-icons">label_important</span>
+                </div>
+                <h3 class="emailRow_title">
+                    Youtube
+                </h3>
+                <div class="emailRow_message">
+                    <h4>Hurray! You finished this project.
+                        <span class="emailRow_describe">
+                            Looking forward to next project.
+                        </span>
+                    </h4>
+                </div>
+                <p class="emailRow_time">
+                    1:04am
+                </p>
+            </div>
+            <!----------------------------------------------->
+            <div class="emailRow">
+                <div class="emailRow_options">
+                    <input type="checkbox">
+                    <span class="material-icons">star_border</span>
+                    <span class="material-icons">label_important</span>
+                </div>
+                <h3 class="emailRow_title">
+                    Youtube
+                </h3>
+                <div class="emailRow_message">
+                    <h4>Hurray! You finished this project.
+                        <span class="emailRow_describe">
+                            Looking forward to next project.
+                        </span>
+                    </h4>
+                </div>
+                <p class="emailRow_time">
+                    1:04am
+                </p>
+            </div>
+            <!----------------------------------------------->
+            <div class="emailRow">
+                <div class="emailRow_options">
+                    <input type="checkbox">
+                    <span class="material-icons">star_border</span>
+                    <span class="material-icons">label_important</span>
+                </div>
+                <h3 class="emailRow_title">
+                    Youtube
+                </h3>
+                <div class="emailRow_message">
+                    <h4>Hurray! You finished this project.
+                        <span class="emailRow_describe">
+                            Looking forward to next project.
+                        </span>
+                    </h4>
+                </div>
+                <p class="emailRow_time">
+                    1:04am
+                </p>
+            </div>
+            <!----------------------------------------------->
+            <div class="emailRow">
+                <div class="emailRow_options">
+                    <input type="checkbox">
+                    <span class="material-icons">star_border</span>
+                    <span class="material-icons">label_important</span>
+                </div>
+                <h3 class="emailRow_title">
+                    Youtube
+                </h3>
+                <div class="emailRow_message">
+                    <h4>Hurray! You finished this project.
+                        <span class="emailRow_describe">
+                            Looking forward to next project.
+                        </span>
+                    </h4>
+                </div>
+                <p class="emailRow_time">
+                    1:04am
+                </p>
+            </div>
+            <!----------------------------------------------->
+            <div class="emailRow">
+                <div class="emailRow_options">
+                    <input type="checkbox">
+                    <span class="material-icons">star_border</span>
+                    <span class="material-icons">label_important</span>
+                </div>
+                <h3 class="emailRow_title">
+                    Youtube
+                </h3>
+                <div class="emailRow_message">
+                    <h4>Hurray! You finished this project.
+                        <span class="emailRow_describe">
+                            Looking forward to next project.
+                        </span>
+                    </h4>
+                </div>
+                <p class="emailRow_time">
+                    1:04am
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="Js/script.js" type="text/javascript"></script>
+    <script>startApp();</script>
+</body>
+</html>
