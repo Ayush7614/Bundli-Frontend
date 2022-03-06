@@ -783,6 +783,11 @@ You can refer to the following articles on the basics of Git and Github and also
     <a href="https://github.com/Ayush7614"><img src="https://github.com/rene-ph/Bundli-Frontend/blob/main/binary-clock/Binary.png" /></a></a>
 </p>
 
+### 118. Image Gallery
+<p align="center">
+    <a href="https://aritra777.github.io/Art-Gallary/" target="_blank"><img src="./Image-Gallery/Fine_Arts.png" /></a>
+</p>
+
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
 ## Stargazers over time 🤗
