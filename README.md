@@ -790,8 +790,8 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ### 119. Google Search Engine Clone
 <p align="center">
-     <a href="https://github.com/gurjeetsinghvirdee/Google-Clone"><img src="../Bundli-Frontend/Google-Search-Engine-Clone/src/Images/Screenshot%20(696).png"></a>
-     </a>
+     <a href="https://github.com/gurjeetsinghvirdee/Google-Clone"><img src="https://github.com/gurjeetsinghvirdee/Bundli-Frontend/blob/google-clone/Google-Search-Engine-Clone/src/Images/Screenshot%20(696).png">
+    </a>
 </p>
 
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
