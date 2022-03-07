@@ -1,8 +1,8 @@
 ## Google Search Engine Clone with React Js using Google Api
 
-<img src="../../Bundli-Frontend/Google-Search-Engine-Clone/src/Images/Screenshot%20(696).png">
+<img src="https://github.com/gurjeetsinghvirdee/Bundli-Frontend/blob/google-clone/Google-Search-Engine-Clone/src/Images/Screenshot%20(696).png">
 
-<img src="../../Bundli-Frontend/Google-Search-Engine-Clone/src/Images/Screenshot%20(697).png">
+<img src="https://github.com/gurjeetsinghvirdee/Bundli-Frontend/blob/google-clone/Google-Search-Engine-Clone/src/Images/Screenshot%20(697).png">
 
 
 ### Deployed Version 
