@@ -16,8 +16,8 @@ html {
     -webkit-box-sizing: inherit;
     -moz-box-sizing: inherit;
     box-sizing: inherit;
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
   }
   
   :root {
