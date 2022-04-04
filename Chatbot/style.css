@@ -1,0 +1,245 @@
+body{
+    height: 100vh;
+    margin: 0%;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputtype{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 88%;
+}
+.png{
+    margin-left: 6px;
+    cursor: pointer;
+}
+.content{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    overflow-y:scroll;
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(250,250,255);
+}
+.content::-webkit-scrollbar{
+    width: 0px;
+}
+.content::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+input[type="text"]{
+    border: solid 0;
+    height: 40px;
+    width: 220px;
+    border-radius: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 6px;
+    caret-color: grey;
+    padding: 5px;
+    font-weight: 900;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    outline: 0;
+    color: #000000;
+}
+.bot{
+    height: 32px;
+    width: 32px;
+    margin-left: 5px;
+}
+.next{
+    background-color: rgb(250,250,255);
+    height: 40px;
+}
+.tex::before{
+    position: absolute;
+    content: '';
+    top: 65%;
+    left: 13.8%;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    animation-name: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+@keyframes glow{
+    from{
+
+    }
+    to{
+        background-color:#8C41F0;
+    }
+}
+.top{
+    position: relative;
+    height: 50px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background:linear-gradient(90deg,#8642EE,#AD39F7)
+}
+.tex{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 15px;
+    cursor:default;
+}
+.dots{
+    margin-left: 110px;
+    cursor: pointer;
+}
+.window{
+    position: relative;
+    height: 390px;
+    background-color: #E8EEF2;
+    width: 270px;
+    border-radius: 15px;
+}
+.msgloading{
+    position: relative;
+    width: 70px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 20px;
+    background-color: rgb(230,230,238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.msgloading::before{
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    /* height: 10px;
+    width: 10px;
+    border-radius: 50%; */
+     height: 0px;
+    width: 0px;
+    transform: rotate(90deg);
+border-bottom: 10px solid rgb(230, 230, 238); 
+ border-right: 10px solid #FAFAFF; 
+    background-color: rgb(230, 230, 238);
+}
+.ball{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(222,225,233);
+    border-radius: 50%;
+}
+.dis{
+    opacity: 0;
+}
+.ball1{
+    animation-name: change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.ball2{
+    animation-name: change;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.message{
+    position: relative;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    display: inline-block;
+    /* margin: 7px 7px; */
+    margin: 7px 30px 7px 7px;
+    border-radius: 10px;
+    background-color: #ebebeb;
+
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #353638;
+    font-weight: 800;
+}
+.need{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.madi{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.user{
+    position: relative;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    /* display: inline-block; */
+    margin: 7px 7px;
+    border-radius: 10px;
+    background: linear-gradient(150deg,#9731DE,#7342E7);
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: whitesmoke;
+    font-weight: 800;
+}
+.user::after{
+    content:'';
+    position: absolute;
+    top: 100%;
+    /* left: 70.1%; */
+    right: 17%;
+    /* height: 10px;
+    width: 10px;
+    border-radius: 50%; */
+     height: 0px;
+    width: 0px;
+    transform: rotate(180deg);
+border-bottom: 10px solid #7342E7; 
+ border-right: 10px solid #FAFAFF; 
+    background-color: rgba(58, 58, 66, 0.336);
+
+}
+.message::before{
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    /* height: 10px;
+    width: 10px;
+    border-radius: 50%; */
+     height: 0px;
+    width: 0px;
+    transform: rotate(90deg);
+border-bottom: 10px solid #ebebeb; 
+ border-right: 10px solid #FAFAFF; 
+    background-color: rgba(58, 58, 66, 0.336);
+}
+.ball3{
+    animation-name: change;
+    animation-duration: 2s;
+    animation-delay: .8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+@keyframes change{
+    from{
+
+    }
+    to{
+        background-color: #969A9B;
+    }
+}
+/* small changes done inside lets see if git can detect it */
