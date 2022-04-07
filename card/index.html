@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expanding Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="head">Click on the Header to Expand the Card</h1>
+   <div class="card">
+    <section class="cardHeader">
+        <span class="AvatarContainer">
+            <span class="Avatar"><img class="Avatar"src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img" ></span>
+        </span>
+        <span class="cardTextContainer">
+            <div class="cardTitle"></div>
+            <div class="cardText"></div>
+          </span>     
+    </section>
+    <section class="nonSharedContent">
+        <section class="SquaresContainer">
+            <span class="Square">
+                <img src="https://images.unsplash.com/photo-1643268394409-1b24f19b4371?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="img"  height="120px" width="120px">
+            </span>
+            <span class="Square">  <img src="https://images.unsplash.com/photo-1508976594853-a50fce4ad397?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="img" height="120px" width="120px"></span>
+            <span class="Square">  <img src="https://images.unsplash.com/photo-1648579668234-8f4ad17d5f8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="img" height="120px" width="120px"></span>
+            <span class="Square">  <img src="https://images.unsplash.com/photo-1647249696855-a59fb79ed943?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="img" height="120px" width="120px"></span>
+        </section>
+        <div class="greyLine"></div>
+        <div class="greyLine"></div>
+        <div class="greyLine"></div>
+        <div class="greyLine"></div>
+    </section>
+</div>
+ 
+
+ <script>
+    const allCardsHeaders = document.getElementsByClassName("cardHeader");
+    for(header of allCardsHeaders) {
+        header.addEventListener("click", clickCard);
+    }
+
+    function clickCard(e) {
+        this.parentElement.classList.toggle('cardActive');
+    }
+</script>   
+</body>
+</html>
