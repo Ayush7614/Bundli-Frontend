@@ -1,0 +1,292 @@
+body{
+    text-align: center;
+    background-color: rgb(59, 57, 57);
+    color: #fff;
+}
+h1{
+    margin: 30px 0 0;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+ 
+
+/*-----------------------------------------------------------------Score Board----------------------------------------------------------------*/
+
+.score-board{
+  margin: 30px auto;
+  text-align: left;
+}
+
+.score-board .stars{
+  margin: 0;
+	padding: 0;
+  display: inline-block;
+  margin-right: 20px;
+ 
+}
+
+.score-board .stars li {
+	list-style: none;
+	display: inline-block;
+
+}
+
+.score-board .restart {
+  float: right;
+  font-size: 1.2rem;
+	cursor: pointer;
+  
+}
+
+.fa-star {
+	color: #FFD700;
+}
+
+.time {
+	display: inline-block;
+	margin: 0 1rem;
+}
+
+
+/* ----------------------------------------------------------flip the deck when hovered---------------------------------------------------- */
+
+  .deck {
+    width: 85%;
+    background: #220719;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 3em;
+  }
+  
+  .deck .card {
+    height: 3.7rem;
+    width: 3.7rem;
+    margin: 0.2rem 0.2rem;
+    background: #141214;
+    border: 3px solid rgb(168, 168, 71);
+    font-size: 0;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+  }
+  
+  .deck .card.open {
+    transform: rotateY(0);
+    background: #19ecec;
+    cursor: default;
+    animation-name: flipy;
+    -webkit-backface-visibility: visible ;
+    backface-visibility: visible;
+    animation-duration: .75s;
+  }
+  
+  .deck .card.show {
+    font-size: 4.5rem;
+  }
+  
+  .deck .card.match {
+    cursor: default;
+    background: #14d32d;
+    font-size: 4.5rem;
+    animation-name: matched;
+    -webkit-backface-visibility: visible ;
+    backface-visibility: visible;
+    animation-duration: .75s;
+  }
+  
+  .deck .card.unmatched {
+    animation-name: unmatched;
+    font-size: 4.5rem;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    animation-duration: .75s;
+    background: #e2043b;
+  }
+  
+  .deck .card.disabled {
+    pointer-events: none;
+    opacity: 0.9;
+  }
+ 
+  
+  /* ---------------------------------------------------- Animations on the deck card------------------------------------------------------ */
+  @keyframes flipy {
+    from {
+      transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+      animation-timing-function: ease-in;
+      opacity: 0;
+    }
+  
+    40% {
+      transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+      animation-timing-function: ease-in;
+    }
+  
+    60% {
+      transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+      opacity: 1;
+    }
+  
+    80% {
+      transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    }
+  
+    to {
+      transform: perspective(400px);
+    }
+  }
+  
+  @keyframes matched {
+    0% {
+      transform: scale(1,1);
+    }
+
+     50%, 75%{
+      transform: scale(1.2, 1.2);
+    }
+
+    100%{
+      transform: scale(1,1);
+    }
+  }
+ 
+  @keyframes unmatched {
+    0% {
+      transform: scale(1,1);
+    }
+
+     50%, 75%{
+      transform: scale(1.2, 1.2);
+    }
+
+    100%{
+      transform: scale(1,1);
+    }
+  }
+ 
+
+  /* ---------------------------------------------------------Styles for congratulations modal------------------------------------------------*/
+
+
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+  
+.popup {
+	margin: 70px auto;
+	padding: 20px;
+	background: #ffffff;
+	border-radius: 5px;
+	width: 85%;
+	position: relative;
+	transition: all 5s ease-in-out;
+  color: #141214;
+	
+}
+  
+.popup h2 {
+	margin-top: 0;
+	color: #333;
+	
+}
+
+.popup .close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+.popup .close:hover {
+	color: #f72020;
+}
+
+.popup .content-1,
+.content-2 {
+	max-height: 30%;
+	overflow: auto;
+	text-align: center;
+}
+
+.show {
+  visibility: visible;
+  opacity: 100;
+}
+
+#starRating li {
+	display: inline-block;
+}
+
+#play-again {
+	background-color: #141214;
+	padding: 0.7rem 1rem;
+	font-size: 1.1rem;
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #ffffff;
+	border-radius: 5px;
+}
+  /* ----------------------------------------------------------  Size of the screen ---------------------------------------------------------*/
+  @media (max-width: 320px) {
+    .deck {
+      width: 85%;
+    }
+  
+    .deck .card {
+      height: 4.7rem;
+      width: 4.7rem;
+    }
+  }
+  
+  
+  /* For Tablets and larger screens
+  ****************/
+  
+  @media (min-width: 768px) {
+    .container {
+      font-size: 22px;
+    }
+  
+    .deck {
+      width: 660px;
+      height: 680px;
+    }
+  
+    .deck .card {
+      height: 125px;
+      width: 125px;
+    }
+  
+  }
