@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Web Design & Web Development in Guildford, Surrey. Creating Wordpress, Wix, Squarespace Websites or coding websites from scratch." />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@LauraToddDesign">
+    <meta name="twitter:creator" content="@LauraToddDesign">
+    <meta name="twitter:title" content="How quickly can you match the pairs!">
+    <meta name="twitter:description" content="Find the matching school-themed items in the fastest time you can">
+    <meta name="twitter:image" content="https://www.lauratodddesign.com/twitterCards/pairs.jpg">
+    <meta name="image" property="og:image" content="https://www.lauratodddesign.com/twitterCards/pairs.jpg">
+    <title>Laura Todd Web Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159648583-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-159648583-1');
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+    </style>
+
+</head>
+<body>
+        <div id="pairsMainGame">
+            <a class="backBtn" href="https://www.lauratodd.dev">< Back to Main Site</a>
+            <h1 id="rpstitle">Pairs</h1>
+            <h3 class="score">
+                <div>Timer: <span id="timer">0</span>
+                </div>
+                <div>Best Time: <span id="bestTime">0</span>
+                </div>
+            </h3>
+            <main class="pairsMain">
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img1"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img2"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img3"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img4"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img5"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img6"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img7"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img8"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img9"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img10"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img11"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img12"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img13"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img14"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img15"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img16"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img17"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img18"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img19"></div>
+            </div>
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"><img id="img20"></div>
+            </div>
+            </main>
+            <h3 class="pairsInstructions">Match the pairs as quickly as you can. Your time starts when you flip the first card</h3>
+            
+            <div id="pairsModal">
+                <div id="resultsCon">
+                    <p id="pairsResult"></p>
+                    <p id="highScore"></p>
+                    <button id="resetBtn">Play again</button>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="pairs.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+</body>
+</html>

@@ -1,0 +1,288 @@
+﻿@font-face {
+	font-family: 'Work Sans', sans-serif;
+	src: url('WorkSans-Medium.ttf') format('truetype');
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.backBtn {
+	padding: 4px;
+	border-radius: 5px;
+	color: white;
+	background-color: #2B53B8;
+	text-decoration: none;
+	width: 190px;
+	height: 40px;
+	text-align: center;
+	grid-row: 2 / 3;
+	grid-column: 2 / 3;
+	border: none;
+	font-size: 1.15em;
+	font-family: 'Work Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+  
+#rpstitle {
+	text-align: center;
+	grid-row: 1 / 2;
+	grid-column: 1 / 5;
+	margin-bottom: 0;
+}
+
+.score {
+	text-align: right;
+	grid-row: 2 / 3;
+	grid-column: 1 / 5;
+	font-size: 1.25em;
+	margin: 0;
+}
+
+.score span {
+	color: #0063B2FF;
+	margin: 0 20px;
+	width: 20px;
+}
+
+
+#rpsmodal {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 77777;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+	position: fixed;  
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #A8D9F8;
+}
+
+#resultsCon {
+	text-align: center;
+}
+
+#resetBtn {
+	font-family:  'Work Sans', sans-serif;
+	font-size: 2em;
+	padding: 0.25em 0.75em;
+	background-color: #FEDE00;
+	cursor: pointer;
+	border-radius: 8px;
+	border: none;
+}
+
+#resetBtn:hover {
+	background-color: #0063B2FF;
+}
+
+#pairsMainGame {
+	z-index: 0;
+	display: grid;
+	grid-template-columns: 1em 1fr 1fr 1em;
+	grid-template-rows: auto;
+	background-color: #A8D9F8;
+	grid-column: 1 / 6;
+	grid-row: 2 / 3;
+	color: black;
+	border-radius: 1em;
+	margin: 10px 10px 10px 10px;	
+	min-height: calc(100vh - 20px);
+	min-height: -o-calc(100vh - 20px); 
+	min-height: -webkit-calc(100vh - 20px); 
+	min-height: -moz-calc(100vh - 20px);
+}
+
+.pairsMain {
+	grid-column: 2 / 4;
+	grid-row: 3 / 4;
+	display: grid;
+	grid-gap: 10px 5%;
+	grid-template-columns: repeat(5, 1fr);
+	margin: 5px 16%;
+}
+
+.back {
+	background-color: #6AB8EE;
+	border-radius: 1.5em;
+	text-align: center;
+	z-index: 10;
+	border: 5px solid #EBEBEB;
+	height: 100%;
+}
+
+.front {
+	background-color: #B4F8C8;
+	border-radius: 1.5em;
+	text-align: center;  
+	z-index: -1;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+	border: 5px solid #EBEBEB;
+}
+
+.front img {
+	width: 90%;
+}
+
+.card {
+	display: grid;
+	perspective: 1000px;
+	height: 125px;
+	width: 100px;
+	justify-self: center;
+	cursor: pointer;
+}
+
+.front {
+	transform: rotateY(180deg);
+}
+
+.front, .back {
+	grid-row: 1 / 2;
+	grid-column: 1 / 2;
+	-webkit-backface-visibility: hidden; /* Safari */
+	backface-visibility: hidden;
+	width: 90px;
+	height: 115px;
+}
+
+.flipCard {
+	transform: rotateY(180deg);
+	transition: transform 1s ease-in-out;
+	transform-style: preserve-3d;
+}
+
+.returnCard {
+	transform: rotateY(0deg);
+	transition: transform 1s ease-in-out;
+	transform-style: preserve-3d;
+}
+
+.pairsInstructions {
+	grid-row: 4 / 5;
+	grid-column: 2 / 4;
+	text-align: center;
+}
+
+#pairsModal {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 77777;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;  
+	color: #A8D9F8;
+}
+
+#pairsResult {
+	font-size: 2em;
+}
+
+.highScoreAnimate {
+	animation: textResize 2.5s linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes textResize {
+	from {
+		font-size: 0.25em;
+	}
+	to {
+		font-size: 4em;
+	}
+}
+
+@media only screen and (min-width: 34em) and (max-width: 65em) {
+
+	.pairsMain {
+		margin: 5px 0;
+		grid-gap: 10px 3%;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(5, 1fr);
+	}
+
+	.score {
+		margin: 0 0 20px 0;
+	}
+
+	.card {
+		height: 150px;
+		width: 120px;
+	}
+
+	.front, .back {
+		height: 140px;
+		width: 110px;
+	}
+
+}
+
+@media screen and (max-width: 34em) {
+	#rpsWrapper {
+		grid-template-rows: 1fr 1fr 1fr 6.5em;
+	}
+
+	.backBtn {
+		width: 165px;
+		height: 40px;
+		font-size: 1em;
+	}
+
+	#rpstitle {
+		margin-bottom: 20px;
+	}
+
+	.score {
+		font-size: 1em;
+	}
+
+	#pairsMainGame {
+		grid-template-columns: 0.5em 1fr 1fr 0.5em;
+	}
+
+	.pairsMain {
+		margin: 30px 0;
+		grid-gap: 10px 3%;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(5, 1fr);
+	}
+
+	.card {
+		height: 75px;
+		width: 60px;
+	}
+
+	.front, .back {
+		border-radius: 0.75em;
+		height: 65px;
+		width:50px;
+	}
+
+	#pairsResult {
+		font-size: 1.5em;
+	}
+
+
+}
