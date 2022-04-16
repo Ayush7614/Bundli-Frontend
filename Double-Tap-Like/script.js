@@ -8,7 +8,7 @@ loveMe.addEventListener("click", (e) => {
   if (clickTime === 0) {
     clickTime = new Date().getTime();
   } else {
-    if (new Date().getTime - clickTime < 800) {
+    if (new Date().getTime() - clickTime < 800) {
       createHeart(e);
       clickTime = 0;
     } else {
@@ -29,7 +29,7 @@ const createHeart = (e) => {
   const topOffset = e.target.offsetTop;
 
   const xInside = x - leftOffset;
-  const yInside = y - leftOffset;
+  const yInside = y - topOffset;
 
   heart.style.top = `${yInside}px`;
   heart.style.left = `${xInside}px`;
