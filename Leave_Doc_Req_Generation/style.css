@@ -1,0 +1,57 @@
+body
+{
+    background-image: url("image.jpg");
+}
+
+h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #131313;
+}
+
+.button {
+    padding: 16px 48px;
+    background: none;
+    border: 2px solid #131313;
+    color: #131313;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: #ff7a00;
+    top: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+    z-index: -1;
+  }
+  
+  .button:hover::before {
+    width: 100%;
+  }
+  
+  .button:hover {
+    color: #fff;
+  }
+
+  #btn1
+  {
+      margin-left: 600px;
+  }
+  #btn2
+  {
+      margin-left: 575px;
+  }
+
+  a
+  {
+      color: #131313;
+      text-decoration: none;
+  }
