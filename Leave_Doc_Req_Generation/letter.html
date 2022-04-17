@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Letter Generator</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <link rel="icon" type="image/x-icon" href="letter.ico">
+    
+</head>
+
+<body>
+    <div class="letterbody">
+        <h1 class="main_head">Leave Letter Format</h1><br>
+        <form action="#" method="post">
+                Enter your name: <input type="text" name="fullname" required><br><br>
+                Enter the receiver's e-mail address: <input type="email" name="to" placeholder="example@domain.com" required><br><br>
+                Enter reciever's name: <input type="text" name="fullname_reciever" required><br><br>
+                Enter initial date: <input type="date" name="initialdate"><br><br>
+                Enter final date: <input type="date" name="finaldate"><br><br>
+                Enter the subject: <input type="text" name="subject" value="Request for leave" required><br><br>
+                Enter the body of the letter:<br>
+                <textarea id="body" name="body" rows="8" cols="10"  required></textarea><br><br>
+                <button type="button" class="hint_button" onclick="leaveLetterPrefill()">Press for Hint</button><br><br>
+                <button type="button" class="download_button" onclick="get_pdf()">Download</button><br><br>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+</body>
+
+
+</html>

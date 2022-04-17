@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document request Letter Generator</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <link rel="icon" type="image/x-icon" href="doc.ico">
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+</head>
+<body>
+    <div class="letterbody">
+        <h1 class="main_head">Document Request Letter</h1><br>
+        <form action="#" method="post">
+            Enter your name: <input type="text" name="fullname" required><br><br>
+            Enter the receiver's e-mail address: <input type="email" name="to" placeholder="example@domain.com" required><br><br>
+            Enter reciever's name: <input type="text" name="fullname_reciever" required><br><br>
+            Enter the documents required with comma's: <input type="text" placeholder="adhaar card, marks card" name="documents" required><br><br>
+            Enter the subject: <input type="text" name="subject" value="Request for documents" required><br><br>
+            Enter the body of the letter:<br>
+            <textarea id="body" name="body" rows="8" cols="10" required></textarea><br><br>
+            <button type="button" onclick="requestDocsPrefill()" class="hint_button">Tap for a hint about format</button><br><br>
+            <button type="button" onclick="get_pdf()" class="download_button">Download</button><br><br>
+        </form>
+       
+    </div>
+</body>
+</html> 
