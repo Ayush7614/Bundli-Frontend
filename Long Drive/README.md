@@ -16,7 +16,7 @@
 
 <h2> Preview </h2>
 <p align="center">
-<img src="https://i.postimg.cc/bJ7prP9K/car.gif" /> 
+<img src="https://i.postimg.cc/bJ7prP9K/car.gif"  alt="page-demo-gif"/> 
 </p>
 
 <hr>
