@@ -1,0 +1,339 @@
+*{
+  margin: 0;
+  padding: 0;
+background:black;
+}
+
+.headline{
+  position:absolute;
+  top:30vh;
+  left:30vw;
+  background-color:rgb(165, 198, 59);
+  width:200px;
+  height:100px;
+  border-radius:150px 150px 0 0; 
+  border:7px solid black;
+  transform: rotate(-75deg);
+   box-shadow:0px 5px 1px 1px green,
+             0px 5px 5px 1px lightgreen,
+             0px 5px 10px 1px green,
+             0px 5px 15px 1px lightgreen,
+             0px 5px 20px 1px green,
+             0px 5px 25px 1px lightgreen;
+}
+.head_detail{
+position:absolute;
+
+  background-color:rgb(178, 214, 64);
+  width:200px;
+  height:100px;
+  border-radius:150px 150px 10px 10px;
+transform:scale(0.9);
+}
+
+.eye{
+ position:relative;
+  top:50px;
+  left:40px;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background:rgb(56, 105, 160);
+  border:5px solid black;
+  
+}
+.eye_1{
+  top:30px;
+  left:130px;
+}
+.bodyline{
+  position:relative;
+  top:9vh;
+  left:-0.5vw;
+  width:200px;
+  height:170px;
+  background-color:rgb(165, 198, 59);
+  border-radius:0 0 30px 30px;
+  border:7px solid black;
+  box-shadow:0px 5px 1px 1px green,
+             0px 5px 5px 1px lightgreen,
+             0px 5px 10px 1px green,
+             0px 5px 15px 1px lightgreen,
+             0px 5px 20px 1px green,
+             0px 5px 25px 1px lightgreen;
+  
+}
+.body_detail{
+ position:absolute;
+left:65%;
+  width:32px;
+  height:150px;
+  background-color:rgb(178, 214, 64);
+  border-radius:0 0 10px 10px;
+}
+.bd2{
+position:absolute;
+left:40px;
+width:20px;
+
+}
+.bd3{
+position:absolute;
+left:-30px;
+width:20px;
+}
+
+.hand{
+  position:relative;
+  bottom:50px;
+  right:10px;
+  width:40px;
+  height:120px;
+  background:rgb(165, 198, 59);
+  border:7px solid black;
+  border-radius:30px 30px;
+  transform: rotate(-50deg);
+  transform-origin:bottom right;
+   box-shadow:0px 5px 1px 1px green,
+             0px 5px 5px 1px lightgreen,
+             0px 5px 10px 1px green,
+             0px 5px 15px 1px lightgreen,
+             0px 5px 20px 1px green,
+             0px 5px 25px 1px lightgreen;
+   
+}
+.hand_detail{
+position:relative;
+left:10px;
+top:3px;
+  width:25px;
+  height:100px;
+  background:rgb(178, 214, 64);
+  border-radius:30px 30px;  
+}
+.jetpack{
+  position:absolute;
+  left:220px;
+  bottom:10px;
+  background-color:white;
+  height:170px;
+  width:70px;
+  border-radius:50px 50px 30px 30px;
+  border:7px solid black;
+   box-shadow:0px 5px 1px 3px gray,
+             0px 5px 5px 3px white,
+             0px 5px 10px 3px gray,
+             0px 5px 15px 3px white,
+             0px 5px 20px 3px gray,
+             0px 5px 25px 3px white;
+}
+
+.fire{
+  position: absolute;
+  left:220px;
+  top:165px;
+  background-color:red;
+  width:60px;
+  height:70px;
+  position:absolute;
+  border-radius:50% 50% 0 50%;
+  transform:rotate(35deg);
+  border:7px solid black;
+  animation-name: fire;
+animation-duration: 3s;
+  animation-iteration-count:infinite;
+   box-shadow:0px 5px 5px 1px orange,
+             0px 5px 10px 1px red,
+             0px 5px 15px 1px yellow,
+             0px 5px 20px 1px orange,
+             0px 5px 25px 1px red;
+  
+}
+.fire2{
+ position:relative;
+  left:227px;
+  top:39px;
+  background-color:rgb(240, 120, 33);
+  width:60px;
+  height:70px;
+  border-radius:50% 50% 0 50%;
+  transform:scale(0.8) rotate(35deg);
+animation-name: fire_2;
+animation-duration: 3s;
+  animation-iteration-count:infinite;
+}
+.fire3{
+position:relative;
+  left:227px;
+  top:-35px;
+  background-color:rgb(244, 229, 84);
+  width:60px;
+  height:70px;
+  border-radius:50% 50% 0 50%;
+  transform:scale(0.5) rotate(35deg);
+animation-name: fire_3;
+animation-duration: 3s;
+  animation-iteration-count:infinite;
+}
+.fire4{
+position:relative;
+  left:225px;
+  top:-112px;
+  background-color:#ffff;
+  width:60px;
+  height:70px;
+  border-radius:50% 50% 0 50%;
+  transform:scale(0.3) rotate(35deg);
+animation-name: fire_4;
+animation-duration: 3s;
+  animation-iteration-count:infinite;
+}
+
+.legs{
+  position:absolute;
+  top:171px;
+  right:110px;
+  width:40px;
+  height:75px;
+  background:rgb(178, 214, 64);
+  border:7px solid black;
+  border-radius:0 0 30px 30px;
+   box-shadow:0px 5px 1px 1px green,
+             0px 5px 5px 1px lightgreen,
+             0px 5px 10px 1px green,
+             0px 5px 15px 1px lightgreen,
+             0px 5px 20px 1px green,
+             0px 5px 25px 1px lightgreen;
+}
+.leg_1{
+  position:absolute;
+  top:171px;
+  right:40px;
+}
+.antena{
+   position:absolute;
+  top:-35px;
+  right:10px;
+  width:40px;
+  height:12px;
+  background:rgb(178, 214, 64);
+  border:7px solid black;
+  border-radius:30px 30px;
+  transform: rotate(-69deg);
+   animation-name: antena2;
+animation-duration: 3s;
+  animation-iteration-count:infinite;
+   box-shadow:0px 5px 1px 1px green,
+             0px 5px 5px 1px lightgreen,
+             0px 5px 10px 1px green,
+             0px 5px 15px 1px lightgreen,
+             0px 5px 20px 1px green,
+             0px 5px 25px 1px lightgreen;
+}
+.antena_1{
+  transform: rotate(69deg);
+  top:-35px;
+  left:10px;
+  animation-name: antena1;
+animation-duration: 3s;
+  animation-iteration-count:infinite; 
+  animation-delay:1.5s;
+}
+.jetpack_line{
+background-color:red;
+  height:40px;
+  width:72px;
+position:absolute;
+top:50px;
+right:-1px;
+
+}
+.jet_detail{
+position:relative;
+left:10px;
+  background-color:rgb(242, 242, 242);
+  height:165px;
+  width:40px;
+
+  border-radius:50px 50px 30px 30px;
+
+
+}
+.line_detail{
+position:relative;
+left:10px;
+background:rgb(237, 28, 36);
+height:40px;
+width:40px;
+}
+.hand_ani{
+animation-name: hand_move;
+animation-duration: 3s;
+  animation-iteration-count:infinite; 
+}
+
+@keyframes hand_move{
+0% {transform: rotate(-30deg);}
+50% {transform: rotate(-50deg);}
+100% {transform: rotate(-30deg);}
+}
+@keyframes antena2 {
+0% {transform: rotate(-30deg);}
+50% {transform: rotate(-50deg);}
+100% {transform: rotate(-30deg);}
+
+}
+@keyframes antena1{
+0% {transform: rotate(50deg);}
+50% {transform: rotate(30deg);}
+100% {transform: rotate(50deg);}
+}
+@keyframes fire{
+0%{transform:scale(1);}
+50%{transform:scale(1.2);}
+100%{transform:scale(1);}
+}
+@keyframes fire_2{
+0%{transform:scale(0.8);}
+50%{transform:scale(1);}
+100%{transform:scale(0.8);}
+}
+@keyframes fire_3{
+0%{transform:scale(0.5);}
+50%{transform:scale(0.8);}
+100%{transform:scale(0.5);}
+}
+@keyframes fire_4{
+0%{transform:scale(0.3);}
+50%{transform:scale(0.5);}
+100%{transform:scale(0.3);}
+}
+
+/* cloud animation */
+* { background:#C0DEED}
+#cloud {
+position:fixed;
+top:0px;left:0px;
+width:100%;
+height:100%;
+text-align:center;
+margin:0px;
+padding:0px;
+background-color:#021f2d;
+background: url(./cloud_bg.png) center top repeat-x;
+padding-top:100px;
+padding-bottom:10px;
+  width: 100%;
+  height: 135px;
+  animation: cloud_move 10s linear infinite;
+}
+
+@keyframes cloud_move {
+  from {
+    background-position: 100% 0;
+  }
+
+  to {
+    background-position: 0 0;
+  };
+}
