@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before 
+{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body 
+{
+
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code 
+{
+
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+
+}
+
+@keyframes go-up 
+{
+
+  0% {
+
+    transform: translateY(0) scale(0);
+
+  }
+
+  100% {
+
+    transform: translateY(-150%) scale(-1);
+
+  }
+}
