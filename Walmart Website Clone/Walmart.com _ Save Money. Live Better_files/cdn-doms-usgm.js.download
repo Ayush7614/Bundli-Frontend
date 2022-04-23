@@ -1,0 +1,1 @@
+window.TB_CDN_Config = window.TB_CDN_Config || { DomainList: ['ak-us.wal.co', 'zy-us.wal.co', 'us.tb.wal.co', 'cf-us.wal.co', 'fa-us.wal.co'], DynamicDomainList: ['ak-us-dyn.wal.co', 'us-dyn.tb.wal.co', 'cf-us-dyn.wal.co', 'zy-us-dyn.wal.co', 'i5-opt-v0.wal.co', 'i5-opt-v1.wal.co', 'i5-opt-pulsar.wal.co', 'fa-us-dyn.wal.co'], BeaconHost: 'beacon.walmart.com' };
