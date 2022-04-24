@@ -1,0 +1,139 @@
+
+#first{
+  background-color: #f5d782;
+  color:black;
+  padding-right: 0px;
+}
+.dog{
+  padding-top: 20px;
+  padding-right: 60px;
+  width:400px;
+  height: 280px;
+ margin-left: 10px;
+}
+.cat{
+  padding-top: 20px;
+  padding-right: 60px;
+  padding-bottom: 2px;
+  width:400px;
+  height: 280px;
+ margin-left: 10px;
+}
+h1{
+  font-family:"Montserrat-Black";
+  font-size: 3.3rem;
+  line-height:1.5;
+  color: black;
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+.container-fluid{
+  padding: 3% 5%;
+}
+.navbar{
+  padding: 0 0 2.5rem;
+}
+.nav-item{
+  padding: 0px 18px;
+}
+.nav-link{
+  font-family:"Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black!important;
+}
+.down-btn{
+  margin:4% 3% 5% 0%;
+}
+.para-second{
+  padding: 4% 15% 3%;
+  text-align: center;
+  font-size: 20px;
+}
+.icon1{
+  color: #fb743e;
+  margin-bottom: 1rem;
+}
+.icon2{
+  color: #fb743e;
+  margin-bottom: 1rem;
+}
+.icon3{
+  color: #fb743e;
+  margin-bottom: 1rem;
+}
+.icon4{
+  color: #fb743e;
+  margin-bottom: 1rem;
+}
+.icon1:hover{
+  color:black;
+}
+.icon2:hover{
+  color:red;
+}
+.icon3:hover{
+  color:#00917c;
+}
+.icon4:hover{
+  color:#c7753d;
+}
+#third{
+
+  text-align:center;
+  background-color: #94ebcd;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#four{
+  padding-top: 30px;
+  text-align:center;
+}
+#fifth{
+  padding-top: 30px;
+  text-align:center;
+}
+.dropdownMenuButton1{
+    margin:4% 3% 5% 0%;
+}
+.dropdownMenuButton2{
+    margin:4% 3% 5% 0%;
+}
+.dropdownMenuButton3{
+    margin:4% 3% 5% 0%;
+}
+.co{
+  font-size: 30px;
+  text-align: center;
+  background-color: #b8b5ff;
+  padding:15px;
+}
+#sixth{
+  text-align:center;
+  margin:5% 4% 5% 5%;
+  font-family: 'Dancing Script', cursive;
+}
+#seven{
+  padding: 4%;
+  text-align:center;
+  background-color: #b8b5ff
+}
+.h1{
+  border-radius: 2px;
+  width:20%;
+}
+.s1{
+  margin:2% 1% 5% 0%;
+}
+.s2{
+  margin:3% 20% 0% 0%;
+
+}
+.conbut{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
