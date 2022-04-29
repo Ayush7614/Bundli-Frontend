@@ -1,0 +1,121 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 40px;
+}
+
+.hamburger {
+  position: relative;
+  z-index: 99;
+}
+
+.hamburger-closed {
+  visibility: hidden;
+  @media (max-width: $tablet) {
+    visibility: visible;
+  }
+}
+
+.nav-open .hamburger-closed {
+  visibility: hidden;
+}
+
+.hamburger-open {
+  visibility: hidden;
+  position: absolute;
+  transform: translateX(2px);
+}
+
+.nav-open .hamburger-open {
+  visibility: hidden;
+
+  @media (max-width: $tablet) {
+    visibility: visible;
+    position: absolute;
+  }
+}
+
+//mobile nav slideout
+.nav-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 24px;
+  line-height: 3em;
+  background: hsla(120, 0%, 0.5, 0.9);
+
+  @supports (backdrop-filter: blur(40px)) {
+    background: none;
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+  }
+  overflow: hidden;
+  @media (max-width: $tablet) {
+    bottom: 0;
+    padding-top: 100px;
+    left: 40%;
+    transform: translateX(100%);
+    visibility: visible;
+    transition: transform 350ms ease-out;
+  }
+  //TABLET
+  @media (min-width: $tablet) {
+    visibility: visible;
+    backdrop-filter: none;
+    flex-direction: row;
+    gap: 2.2em;
+    padding-right: 50px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+// // pseudo element needed to apply blur
+// .nav-menu::before {
+//   content: "";
+//   position: absolute;
+//   width: 100%;
+//   filter: blur(8px);
+//   //background: red;
+//   //background: hsl(0 0% 100% / 0.1);
+//   background: inherit;
+//   //backdrop-filter: blur(1rem);
+//   top: 0;
+//   left: 0;
+// }
+
+.nav-open .nav-menu {
+  //visibility: hidden;
+  @media (max-width: $tablet) {
+    visibility: visible;
+    position: absolute;
+    transform: translateX(0%);
+  }
+}
+
+li {
+  font-family: "BarlowCondensed-Thin";
+  font-size: var(--fs-nav-text);
+  letter-spacing: 2.7px;
+  font-stretch: ultra-condensed;
+  & a {
+    color: white;
+    text-decoration: none;
+  }
+  &:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 24px;
+    cursor: pointer;
+    @media (max-width: $tablet) {
+      text-underline-offset: 8px;
+    }
+  }
+}

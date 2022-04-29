@@ -1,0 +1,43 @@
+.body-index {
+  //mobile
+  background-image: url("../assets/home/background-home-mobile.jpg");
+  //desktop
+  @media (min-width: $desktop) {
+    background-image: url("../assets/home/background-home-desktop.jpg");
+  }
+  //tablet
+  @media (min-width: $mobile) and (max-width: $desktop) {
+    background-image: url("../assets/home/background-home-tablet.jpg");
+  }
+}
+
+@media (min-width: $desktop) {
+  .desktop-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 100px auto 0px auto;
+  }
+}
+
+.home-pre-title {
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+.home-content {
+  max-width: 465px;
+  margin: 0 auto;
+}
+
+.home-explore-btn {
+  color: black;
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  padding-top: 62px;
+  margin: 60px auto 0px auto;
+}
+.home-explore-btn:hover {
+  box-shadow: 0px 0px 0px 40px rgba(255, 255, 255, 0.1);
+}

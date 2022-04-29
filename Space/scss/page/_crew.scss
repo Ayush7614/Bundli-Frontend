@@ -1,0 +1,141 @@
+.body-crew {
+  //mobile
+  background-image: url("../assets/crew/background-crew-mobile.jpg");
+
+  //desktop
+  @media (min-width: $desktop) {
+    background-image: url("../assets/crew/background-crew-desktop.jpg");
+  }
+  //tablet
+  @media (min-width: $mobile) and (max-width: $desktop) {
+    background-image: url("../assets/crew/background-crew-tablet.jpg");
+  }
+}
+
+.crew-image {
+  margin: 0 auto;
+  height: 220px;
+}
+.crew-list {
+  display: flex;
+  margin: 30px auto;
+  justify-content: space-between;
+  width: 130px;
+  & li {
+    background-color: rgba(225, 225, 225, 0.3);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  & li:hover {
+    background-color: rgba(225, 225, 225, 0.6);
+  }
+}
+body .crew-list .myCustomActive {
+  background-color: rgba(225, 225, 225, 1);
+}
+
+.role {
+  color: rgba(225, 225, 225, 0.5);
+  font-size: 16px;
+}
+.name {
+  margin-bottom: 5px;
+}
+
+@media (min-width: $tablet) and (max-width: $desktop) {
+  .crew-greeting {
+    text-align: start;
+    margin-bottom: 15px;
+  }
+}
+
+///////////////////////tablet////////////////////////
+@media (min-width: $mobile) and (max-width: $desktop) {
+  .hr-line {
+    visibility: hidden;
+  }
+  .container-change-order {
+    display: flex;
+    flex-flow: column;
+    & #rest-content {
+      order: 1;
+      & .role {
+        font-size: 20px;
+      }
+      & .name {
+        font-size: 28px;
+      }
+      & .bio {
+        font-size: 13px;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+    }
+    & .crew-list {
+      order: 2;
+    }
+    & #imageLink {
+      order: 4;
+      display: flex;
+      justify-content: center;
+
+      & .crew-image-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+
+        & .crew-image {
+          height: 85%;
+        }
+      }
+    }
+  }
+}
+///////////////////////desktop////////////////////////
+@media (min-width: $desktop) {
+  .crew-greeting {
+    text-align: start;
+    margin-left: 90px;
+  }
+  .container-change-order {
+    margin: 0px 90px;
+    // position: absolute;
+    // bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    #imageLink {
+      grid-column: 2/3;
+      grid-row: 1/4;
+    }
+    .crew-image {
+      height: 500px;
+    }
+    .crew-list {
+      grid-column: 1/2;
+      grid-row: 3/4;
+      margin-left: 0px;
+    }
+    .hr-line {
+      position: relative;
+      top: -165px;
+      width: 600px;
+      height: 1px;
+      margin-left: 0px;
+    }
+    #rest-content {
+      text-align: start;
+      .role {
+        font-size: 23px;
+      }
+
+      .name {
+        font-size: 45px;
+      }
+      .bio {
+        font-size: 14px;
+        max-width: 400px;
+      }
+    }
+  }
+}
