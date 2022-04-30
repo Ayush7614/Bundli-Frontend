@@ -1,0 +1,89 @@
+/* fonts */
+@font-face {
+  font-family: "Barlow-Black";
+  src: url("../fonts/Barlow/Barlow-Black.ttf");
+  font-weight: black;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow-Regular";
+  src: url("../fonts/Barlow/Barlow-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow-Thin";
+  src: url("../fonts/Barlow/Barlow-Thin.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BarlowCondensed-Thin";
+  src: url("../fonts/Barlow_Condensed/BarlowCondensed-Thin.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BarlowCondensed-Bold";
+  src: url("../fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bellefair";
+  src: url("../fonts/Bellefair/Bellefair-Regular.ttf");
+}
+
+$desktop: 1440px;
+$tablet: 768px;
+$mobile: 375px;
+
+:root {
+  /* font families */
+  --ff-primary: "Bellefair";
+  --ff-secondary: "Barlow-Regular";
+  --ff-tertiary: "BarlowCondensed-Thin";
+  /* colours */
+  --clr-White: hsl(0, 0%, 100%);
+  --clr-black: hsl(230, 35%, 7%);
+  --soft-blue: hsl(231, 77%, 90%);
+
+  /* font sizes */
+  --fs-h1: 150px;
+  --fs-h2: 100px;
+  --fs-h3: 56px;
+  --fs-h4: 20px;
+  --fs-h5: 28px;
+  --fs-p: 18px;
+  --fs-sub-head-1: 28px;
+  --fs-sub-head-2: 14px;
+  --fs-nav-text: 16px;
+
+  /* border radius */
+  --br: 0.5rem;
+
+  /* left and right side padding */
+  //   --side-border-padding: 1.5rem;
+  //   --desk-side-border-padding: 5rem;
+
+  @media (max-width: $tablet) {
+    --fs-h2: 80px;
+    --fs-h3: 40px;
+    --fs-h4: 20px;
+    --fs-h5: 20px;
+    --fs-p: 16px;
+    --fs-nav-text: 14px;
+  }
+  @media (max-width: $mobile) {
+    --fs-h1: 80px;
+    --fs-h2: 56px;
+    --fs-h3: 33px;
+    --fs-h4: 16px;
+    --fs-h5: 16px;
+    --fs-p: 13px;
+  }
+  @media (min-width: $mobile) and (max-width: 545px) {
+    --fs-h1: 80px;
+  }
+}

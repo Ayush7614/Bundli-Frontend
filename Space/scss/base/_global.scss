@@ -1,0 +1,74 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Barlow-Regular";
+  color: var(--clr-White);
+  text-transform: uppercase;
+  text-align: center;
+  overflow-x: hidden;
+  //desktop
+  @media (min-width: $desktop) {
+    margin: 20px 39px 0px 39px;
+  }
+  //tablet
+  @media (min-width: $mobile) and (max-width: $desktop) {
+    margin: 20px 39px 0px 39px;
+  }
+  @media (max-width: $mobile) {
+    margin: 24px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--ff-primary);
+  font-weight: 100;
+}
+h1 {
+  font-size: var(--fs-h1);
+}
+h2 {
+  font-size: var(--fs-h2);
+}
+h3 {
+  font-size: var(--fs-h3);
+}
+h4 {
+  font-size: var(--fs-h4);
+}
+h5 {
+  font-family: var(--ff-tertiary);
+  font-size: var(--fs-h5);
+  letter-spacing: 1px;
+}
+.subheading1 {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-sub-head-1);
+}
+.subheading2 {
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-sub-head-2);
+}
+p {
+  font-family: "Barlow-Thin";
+  font-size: var(--fs-p);
+  line-height: 25px;
+  text-transform: none;
+}
+.nav-span {
+  font-family: "BarlowCondensed-Bold";
+  @media (min-width: $tablet) {
+    visibility: hidden;
+    position: absolute;
+  }
+  @media (min-width: $desktop) {
+    visibility: visible;
+    position: static;
+  }
+}
+.grey-fade {
+  color: rgba(225, 225, 225, 0.5);
+  font-family: var(--ff-tertiary);
+}

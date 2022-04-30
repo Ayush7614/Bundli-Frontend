@@ -1,0 +1,75 @@
+.body-destination {
+  //mobile
+  background-image: url("../assets/destination/background-destination-mobile.jpg");
+  //desktop
+  @media (min-width: $desktop) {
+    background-image: url("../assets/destination/background-destination-desktop.jpg");
+  }
+  //tablet
+  @media (min-width: $mobile) and (max-width: $desktop) {
+    background-image: url("../assets/destination/background-destination-tablet.jpg");
+  }
+}
+
+//////////////tablet///////////////
+@media (min-width: $tablet) and (max-width: $desktop) {
+  .destination-greeting {
+    text-align: start;
+  }
+}
+////////this keeps the planet the right size as the screen grows//////
+.planet-image-container {
+  .planet-img {
+    margin: 0 auto;
+    width: 50%;
+    max-width: 350px;
+  }
+  //desktop
+  @media (min-width: $tablet) {
+    height: 380px;
+  }
+  //tablet
+  @media (min-width: $mobile) and (max-width: $tablet) {
+    height: 200px;
+    .planet-img {
+      max-width: 170px;
+    }
+  }
+  //mobile
+  @media (max-width: $mobile) {
+    height: 180px;
+    .planet-img {
+      min-width: 140px;
+    }
+  }
+}
+.planet-list {
+  display: flex;
+  justify-content: space-around;
+  & li {
+    font-size: var(--fs-h5);
+  }
+}
+.planet-name {
+  margin-top: 15px;
+}
+.destination-line {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: $tablet) {
+  .info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+  }
+  .info-titles {
+    margin-top: 0px;
+    //font-size: 16px;
+  }
+}
+
+.info-titles {
+  margin-bottom: 5px;
+}
