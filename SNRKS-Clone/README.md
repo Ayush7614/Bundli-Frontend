@@ -4,9 +4,9 @@ This is a Clone of SNRKS Website
 ### Deployment
 | Environment | Link |
 |-------------|------|
-| GitHub Pages | [GitHub Pages](https://kumar-laxmi.github.io/Puma-Clone/) |
-| Vercel Preview | [Vercel Preview](https://puma-clone-gs9f1ehzj-kumar-laxmi.vercel.app/) |
-| Vercel Production | [Vercel Production](https://puma-clone-gs9f1ehzj-kumar-laxmi.vercel.app/)
+| GitHub Pages | [GitHub Pages](https://kumar-laxmi.github.io/SNRKS-Clone/) |
+| Vercel Preview | [Vercel Preview](https://snrks-clone-giwtzrvca-kumar-laxmi.vercel.app/) |
+| Vercel Production | [Vercel Production](https://snrks-clone-giwtzrvca-kumar-laxmi.vercel.app/)
 
 ### Technology Stack
 #### Languages:
