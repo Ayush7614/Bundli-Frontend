@@ -239,9 +239,7 @@ Back to top button
   }
 }
 
-/**
-* Mobile Navigation 
-*/
+
 .mobile-nav-toggle {
   color: #222;
   font-size: 28px;
@@ -535,49 +533,6 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
-}
-
-
-#get-started {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-}
-#get-started .feature-block {
-  background: #fff none repeat scroll 0 0;
-  padding: 30px 20px;
-  transition: all 0.5s ease-in-out 0s;
-}
-#get-started .feature-block img {
-  height: 60px;
-  margin-bottom: 30px;
-  width: 60px;
-}
-@media (max-width: 991px) {
-  #get-started .feature-block {
-    margin-bottom: 30px;
-  }
-}
-#get-started .feature-block:hover {
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
-  transition: all 0.5s ease-in-out 0s;
-}
-#get-started .feature-block h4 {
-  margin-bottom: 20px;
-}
-#get-started .feature-block p {
-  margin-bottom: 20px;
-}
-#get-started .feature-block a {
-  color: #505050;
-  font-size: 12px;
-  font-weight: 600;
-  text-decoration: none;
-  text-transform: capitalize;
-  transition: 0.3s;
-}
-#get-started .feature-block a:hover {
-  color: #7284d8;
 }
 
 
