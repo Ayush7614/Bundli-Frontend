@@ -1,4 +1,4 @@
-<h1>Glassmorphism Online Portfolio </h1>
+<h1>Glassmorphism Portfolio UI</h1>
 
 <h2>Overview</h2>
 
@@ -12,4 +12,5 @@
 Screenshots:
 
 
+![Portfolio](https://user-images.githubusercontent.com/72568715/167245104-194386eb-5d79-46b7-a593-837fa8ad44dc.PNG)
 
