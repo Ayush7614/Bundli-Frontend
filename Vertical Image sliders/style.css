@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+height: 100vh;
+}
+
+.mainSlider{
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.dark {
+    background: linear-gradient(290deg,#040404,#000000,#656565);
+    background-size: 180% 180%;
+    animation: gradient-animation 6s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.left-slide{
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: transform 1s ease-in-out ; 
+}
+
+.left-slide > div{
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-slide h1{
+    margin-top: -30px;
+    margin-bottom: 10px;
+    font-size: 12rem;
+}
+
+.heki
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      transform: rotate(-90deg);
+      
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.right-slide{
+    height: 100%;
+    position: absolute;
+    left: 35%;
+    width: 65%;
+    top: 0;
+    transition: transform 1s ease-in-out;
+}
+
+.right-slide > div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+button{
+border: none;
+cursor: pointer;
+font-size: 16px;
+padding: 15px;
+}
+
+
+button:focus{
+    outline: none;
+}
+
+.buttons button {
+    position: absolute;
+}
+
+.mainSlider .buttons .down-button{
+    transform: translateY(-100%);
+}
+
+.down-button{
+    position: absolute;
+    left: 35%;
+    height: 50rem;
+    width: 40rem;
+    background-color: rgb(36, 132, 216);
+    opacity: 0;
+}
+
+.up-button{
+    background-color: rgb(61, 101, 136);
+    position: absolute;
+    right: 0;
+    height: 50rem;
+    width: 62.3rem;
+    opacity: 0;
+}
+.watermark {
+    background-color: transparent;
+    font-size:20px;
+    z-index: 104;
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.watermark a{
+    color: white;
+text-decoration: none;
+}
