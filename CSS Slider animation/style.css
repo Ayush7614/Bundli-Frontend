@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-attachment: fixed;
+  background-image: url(InconsequentialCluelessGreendarnerdragonfly-size_restricted.gif);
+  height: 100vh;
+  background-repeat: no-repeat;
+  /* background-position: fill; */
+  background-size: cover;
+  
+}
+.wrapper .outer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .card{
+  /* background: rgb(212, 159, 159); */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: #000000;  /* fallback for old browsers */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 430px;
+  border-radius: 40px 20px 0px 40px;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+  pointer-events: none;
+  position: absolute;
+  opacity: 0;
+  justify-content: space-between;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  animation-delay: calc(3s * var(--delay));
+  animation: animate 15s linear infinite;
+color: #bea2e7;
+
+  
+}
+.outer:hover .card{
+  animation-play-state: paused;
+}
+.wrapper .card:last-child{
+  animation-delay: calc(-3s * var(--delay));
+}
+@keyframes animate {
+  0%{
+    opacity: 0;
+    transform: translateY(100%) scale(0.5);
+  }
+  5%, 20%{
+    opacity: 0.4;
+    transform: translateY(100%) scale(0.7);
+  }
+  25%, 40%{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0%) scale(1);
+  }
+  45%, 60%{
+    opacity: 0.4;
+    transform: translateY(-100%) scale(0.7);
+  }
+  65%, 100%{
+    opacity: 0;
+    transform: translateY(-100%) scale(0.5);
+  }
+}
+.card .content{
+  display: flex;
+  align-items: center;
+}
+.wrapper .card .img{
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  position: absolute;
+  background: #fff;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  padding: 5px;
+  left: -5px;
+}
+.card .img img{
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100%;
+}
+.card .details{
+  margin-left: 80px;
+}
+.details span{
+  font-size: 18px;
+  font-weight: 600;
+}
+.card a{
+  background: linear-gradient(to bottom, #6c2fc7 0%, #071b2f 100%);
+  padding: 7px 18px;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.card a:hover{
+  transform: scale(0.94);
+}
