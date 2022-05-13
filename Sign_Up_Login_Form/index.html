@@ -16,7 +16,7 @@
                 <h1>Create Account</h1>
                 <div class="social-container">
                     <a href="#" class="social github_oauth"><i class="fab fa-github"></i></a>
-                    <a href="#" class="social google_oauth"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social google_oauth" id="googleBtn"><i class="fab fa-google"></i></a>
                 </div>
                 <span>or use your email for registration</span>
                 <input type="text" placeholder="Name" />
@@ -30,7 +30,7 @@
                 <h1>Sign in</h1>
                 <div class="social-container">
                     <a href="#" class="social github_oauth"><i class="fab fa-github"></i></a>
-                    <a href="#" class="social google_oauth"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social google_oauth" id="googleBtn"><i class="fab fa-google"></i></a>
                 </div>
                 <span>or use your account</span>
                 <input type="text" placeholder="Email" class="sign_in_username" />
@@ -67,5 +67,46 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
 </body>
+
+<script type="module">
+    
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+  import {getAuth,GoogleAuthProvider,signInWithPopup} from "https://www.gstatic.com/firebasejs/9.8.1/firebase-auth.js"
+  const firebaseConfig = {
+    apiKey: "AIzaSyBR3tpCouAr-e290e1dGk6C49VXkID3VA8",
+    authDomain: "bundli.firebaseapp.com",
+    projectId: "bundli",
+    storageBucket: "bundli.appspot.com",
+    messagingSenderId: "822361242361",
+    appId: "1:822361242361:web:fb7b763d40f8f6e86f8028"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+
+  
+  document.getElementById('googleBtn').addEventListener('click', (e) => {
+        e.preventDefault();
+        const provider = new GoogleAuthProvider();
+        signInWithPopup(auth, provider)
+        .then((result) => {
+            const credential = GoogleAuthProvider.credentialFromResult(result);
+            const token = credential.accessToken;
+            const user = result.user;
+            alert('success');
+            // ...
+        }).catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+           
+            const email = error.email;
+            const credential = GoogleAuthProvider.credentialFromError(error);
+            alert(errorMessage);
+        });
+    })
+
+    
+</script>
+
 
 </html>
