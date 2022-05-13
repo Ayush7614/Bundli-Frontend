@@ -22,10 +22,10 @@
                     <a href="#" class="social google_oauth" id="googleBtn"><i class="fab fa-google"></i></a>
                 </div>
                 <span>or use your email for registration</span>
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
-                <button>Sign Up</button>
+                <!-- <input type="text" placeholder="Name" /> -->
+                <input type="email" id="email" placeholder="Email" />
+                <input type="password" id="password" placeholder="Password" />
+                <button id="signUpBtn">Sign Up</button>
             </form>
         </div>
         <div class="form-container sign-in-container">
@@ -36,10 +36,10 @@
                     <a href="#" class="social google_oauth" id="SigngoogleBtn"><i class="fab fa-google"></i></a>
                 </div>
                 <span>or use your account</span>
-                <input type="text" placeholder="Email" class="sign_in_username" />
-                <input type="password" placeholder="Password" class="sign_in_password" />
+                <input type="text" id="signedEmail" placeholder="Email" class="sign_in_username" />
+                <input type="password" id="signedPsd" placeholder="Password" class="sign_in_password" />
                 <a href="#">Forgot your password?</a>
-                <button class="sign_in">Sign In</button>
+                <button class="sign_in" id="signInBtn">Sign In</button>
             </form>
         </div>
         <div class="overlay-container">
@@ -74,7 +74,16 @@
 <script type="module">
     
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
-  import {getAuth,GoogleAuthProvider,signInWithPopup,GithubAuthProvider,onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-auth.js"
+  import {
+    getAuth,
+    GoogleAuthProvider,
+    signInWithPopup,
+    GithubAuthProvider,
+    onAuthStateChanged,
+    createUserWithEmailAndPassword,
+    signInWithEmailAndPassword 
+} from "https://www.gstatic.com/firebasejs/9.8.1/firebase-auth.js"
+
   const firebaseConfig = {
     apiKey: "AIzaSyBR3tpCouAr-e290e1dGk6C49VXkID3VA8",
     authDomain: "bundli.firebaseapp.com",
@@ -167,13 +176,54 @@
         });
     })
 
+    document.getElementById('signUpBtn').addEventListener('click', (e) => {
+        e.preventDefault();
+        const auth = getAuth();
+        var email = document.getElementById('email').value
+        var password = document.getElementById('password').value
+        createUserWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+            const user = userCredential.user;
+            console.log(user)
+            alert('successs');
+        })
+        .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            console.log(errorMessage)
+        });
+    })
+
+    document.getElementById('signInBtn').addEventListener('click',(e) => {
+        const auth = getAuth();
+        var email = document.getElementById('signedEmail').value;
+        var password = document.getElementById('signedPsd').value;
+        signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+            const user = userCredential.user;
+            alert('Welcome Back')
+        })
+        .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            alert(errorMessage)
+        });
+    })
+
+
+
+
     const auth = getAuth();
     const user = auth.currentUser;
     onAuthStateChanged(auth,(user)=> {
         if (user) {
             console.log(user.photoURL)
-            document.getElementById('user').innerHTML = "Welcome, "+user.displayName;
-            document.getElementById('useravatar').src = user.photoURL
+            if(user.displayName === null){
+                document.getElementById('user').innerHTML = "Welcome, "+user.email;
+            }else{
+                document.getElementById('user').innerHTML = "Welcome, "+user.displayName;
+                document.getElementById('useravatar').src = user.photoURL
+            }
         }
 });
 
