@@ -10,12 +10,15 @@
 </head>
 
 <body>
+    <img id="useravatar" src="" alt="" style="border-radius:100px ; width:50px" />
+    <h2 id="user" style="color:white;">Welcome</h2>
     <div class="container" id="container">
+        
         <div class="form-container sign-up-container">
             <form>
                 <h1>Create Account</h1>
                 <div class="social-container">
-                    <a href="#" class="social github_oauth"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social github_oauth" id="githubBtn"><i class="fab fa-github"></i></a>
                     <a href="#" class="social google_oauth" id="googleBtn"><i class="fab fa-google"></i></a>
                 </div>
                 <span>or use your email for registration</span>
@@ -29,8 +32,8 @@
             <form>
                 <h1>Sign in</h1>
                 <div class="social-container">
-                    <a href="#" class="social github_oauth"><i class="fab fa-github"></i></a>
-                    <a href="#" class="social google_oauth" id="googleBtn"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social github_oauth" id="SigngithubBtn"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social google_oauth" id="SigngoogleBtn"><i class="fab fa-google"></i></a>
                 </div>
                 <span>or use your account</span>
                 <input type="text" placeholder="Email" class="sign_in_username" />
@@ -71,7 +74,7 @@
 <script type="module">
     
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
-  import {getAuth,GoogleAuthProvider,signInWithPopup} from "https://www.gstatic.com/firebasejs/9.8.1/firebase-auth.js"
+  import {getAuth,GoogleAuthProvider,signInWithPopup,GithubAuthProvider,onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-auth.js"
   const firebaseConfig = {
     apiKey: "AIzaSyBR3tpCouAr-e290e1dGk6C49VXkID3VA8",
     authDomain: "bundli.firebaseapp.com",
@@ -82,19 +85,19 @@
   };
 
   const app = initializeApp(firebaseConfig);
-  const auth = getAuth(app);
+  
 
   
   document.getElementById('googleBtn').addEventListener('click', (e) => {
         e.preventDefault();
         const provider = new GoogleAuthProvider();
+        const auth = getAuth();
         signInWithPopup(auth, provider)
         .then((result) => {
             const credential = GoogleAuthProvider.credentialFromResult(result);
             const token = credential.accessToken;
             const user = result.user;
-            alert('success');
-            // ...
+            alert(user.displayName+" has Logged In");
         }).catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;
@@ -104,6 +107,75 @@
             alert(errorMessage);
         });
     })
+
+    document.getElementById('SigngoogleBtn').addEventListener('click', (e) => {
+        e.preventDefault();
+        const provider = new GoogleAuthProvider();
+        const auth = getAuth();
+        signInWithPopup(auth, provider)
+        .then((result) => {
+            const credential = GoogleAuthProvider.credentialFromResult(result);
+            const token = credential.accessToken;
+            const user = result.user;
+            alert(user.displayName+" has Logged In");
+        }).catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+           
+            const email = error.email;
+            const credential = GoogleAuthProvider.credentialFromError(error);
+            alert(errorMessage);
+        });
+    })
+
+   
+    document.getElementById('githubBtn').addEventListener('click',(e) => {
+        e.preventDefault();
+        const provider = new GithubAuthProvider();
+        const auth = getAuth();
+        signInWithPopup(auth, provider)
+        .then((result) => {
+            const credential = GithubAuthProvider.credentialFromResult(result);
+            const token = credential.accessToken;
+            const user = result.user;
+            alert(user.displayName+" has Logged In")
+        }).catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            const email = error.email;
+            const credential = GithubAuthProvider.credentialFromError(error);
+            alert(errorMessage)
+        });
+    })
+
+    document.getElementById('SigngithubBtn').addEventListener('click',(e) => {
+        e.preventDefault();
+        const provider = new GithubAuthProvider();
+        const auth = getAuth();
+        signInWithPopup(auth, provider)
+        .then((result) => {
+            const credential = GithubAuthProvider.credentialFromResult(result);
+            const token = credential.accessToken;
+            const user = result.user;
+            alert(user.displayName+" has Logged In")
+        }).catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            const email = error.email;
+            const credential = GithubAuthProvider.credentialFromError(error);
+            alert(errorMessage)
+        });
+    })
+
+    const auth = getAuth();
+    const user = auth.currentUser;
+    onAuthStateChanged(auth,(user)=> {
+        if (user) {
+            console.log(user.photoURL)
+            document.getElementById('user').innerHTML = "Welcome, "+user.displayName;
+            document.getElementById('useravatar').src = user.photoURL
+        }
+});
 
     
 </script>
