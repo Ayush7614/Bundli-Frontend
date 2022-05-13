@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.section-main {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url("https://images.pexels.com/photos/5691695/pexels-photo-5691695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.section-main h1 {
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 80px;
+    color: #fff;
+}
+
+header {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    transition: 0.6s;
+}
+
+header .brand {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+header .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .menu a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 30px;
+    padding: 0 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+    color: #fff;
+}
+
+header .menu a:hover {
+    color: grey;
+}
+
+header .btn {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.section-one {
+    min-height: 100vh;
+    padding: 20px 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+.section-one h2 {
+    font-size: 25px;
+}
+.section-one p {
+    font-size: 15px;
+    margin: 30px 0;
+    color: grey;
+}
+
+header.sticky {
+    background: rgb(3, 76, 94);
+    padding: 15px 100px;
+}
+
+
+
+@media (max-width:1060px) {
+    header .btn {
+        display: block;
+    }
+    header .menu {
+        position: fixed;
+        background: rgb(3,76,94);
+        flex-direction: column;
+        min-width: 400px;
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        padding: 80px 50px;
+        transition: 0.5s;
+        transition-property: right;
+    }
+    header .menu .close-btn {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 25px;
+    }
+    header .menu a {
+        display: block;
+        font-size: 20px;
+        margin: 20px;
+        padding: 0 15px;
+    }
+    header .menu.active {
+        right: 0;
+
+    }
+}
+
+@media(max-width: 630px) {
+    .section-main h1 {
+        font-size: 50px;
+        line-height: 60px;
+
+    }
+}
