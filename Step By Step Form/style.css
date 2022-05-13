@@ -1,0 +1,263 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  margin: 0;
+  padding: 1.5em;
+  background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/small_tiles.png);
+	background-color: #fff;
+	background-size:  8px 8px, 8px 8px;
+	background-position: center, center;
+	background-image: linear-gradient(#ebf4f9 1px, transparent 1px),linear-gradient(90deg, #ebf4f9 1px, transparent 1px);
+}
+.simple-form {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #fff;
+  padding: 1.2em;
+  box-shadow: 0 0 0.1em rgba(0, 0, 0, 0.3);
+  border-radius: 0.3em;
+}
+.simple-form .form-step-headers {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.simple-form .form-step-headers .step-header {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: #140F2D;
+  color: white;
+  margin: 0 1em 1.1em 0;
+  padding: 1em;
+  border-radius: 0.2em;
+  cursor: pointer;
+  line-height: 1.8em;
+}
+.simple-form .form-step-headers .step-header.active {
+  background-color: #3F88C5;
+  cursor: default;
+}
+.simple-form .form-step-headers .step-header.active::after {
+  border-top-color: #3F88C5;
+}
+.simple-form .form-step-headers .step-header.valid .step-number {
+  opacity: 0.4;
+  margin-left: 0.3em;
+}
+.simple-form .form-step-headers .step-header.valid .step-status i {
+  opacity: 0.9;
+}
+.simple-form .form-step-headers .step-header .step-number {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.simple-form .form-step-headers .step-header .step-name {
+  margin-left: 0.5em;
+}
+.simple-form .form-step-headers .step-header .step-status {
+  font-size: 1.8em;
+  display: flex;
+  align-items: center;
+}
+.simple-form .form-step-headers .step-header .step-status i {
+  font-size: 1em;
+  opacity: 0.2;
+}
+.simple-form .form-step-headers .step-header::after {
+  content: "";
+  border: 0.9em solid #140F2D;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  position: absolute;
+  bottom: -1.6em;
+  width: 1.5em;
+  height: 1.5em;
+  left: 42%;
+}
+.simple-form .form-step {
+  background-color: #fff;
+  padding: 1.2em;
+  box-shadow: 0 0 0.1em rgba(0, 0, 0, 0.3);
+  border-radius: 0.3em;
+  font-size: 1em;
+}
+.simple-form .form-step .form-step-banner {
+  border-bottom: 0.1em solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.simple-form .form-fields {
+  display: flex;
+  flex-flow: row wrap;
+}
+.simple-form .form-field {
+  display: flex;
+  min-width: 50%;
+  flex-flow: row wrap;
+  margin-bottom: 0.5em;
+}
+.simple-form .form-field .input-label {
+  width: 100%;
+  font-size: 0.8em;
+  margin: 0.5em 0.5em 0.5em 0.2em;
+  min-width: 6em;
+  font-weight: bold;
+}
+.simple-form .form-field .input-label .optional {
+  margin-left: 0.5em;
+  font-size: 0.8em;
+}
+.simple-form .form-field .form-input-container {
+  display: flex;
+  flex-flow: row nowrap;
+  flex-grow: 1;
+}
+.simple-form .form-field .validation {
+  font-size: 0.7em;
+  margin-left: 0.5em;
+}
+.simple-form .form-field .validation .error {
+  color: red;
+}
+.simple-form .form-field .validation .success {
+  color: green;
+}
+.simple-form .form-field .validation .validation-message {
+  margin-top: 0.8em;
+}
+.simple-form .form-field input {
+  flex-grow: 1;
+  min-width: 12em;
+  max-width: 22em;
+  height: 2.4em;
+  border: 0.1em solid #cccccc;
+  border-radius: 0.5em;
+  box-shadow: inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.0745098);
+  color: #555555;
+  line-height: 2.4em;
+  padding: 0.5em 1em 0.5em 1em;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.15s, 0.15s;
+  transition-property: border-color, box-shadow;
+  transition-timing-function: ease-in-out, ease-in-out;
+}
+.simple-form .form-field input[type=number] {
+  line-height: 1em;
+}
+.simple-form .form-field textarea {
+  width: 80%;
+  min-height: 5em;
+}
+.simple-form .form-field input:focus, .simple-form .form-field textarea:focus {
+  outline-color: transparent;
+  border-color: #3F88C5;
+}
+.simple-form .form-submitter {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1em;
+}
+.simple-form .form-submitter .submit-status {
+  margin-right: 1em;
+  font-size: 0.9em;
+}
+.simple-form .form-submitter .submit-status .error {
+  color: red;
+}
+.simple-form .form-submitter .submit-status .success {
+  color: green;
+}
+.simple-form .form-submitter .submit-btn {
+  border: none;
+  box-shadow: none;
+  background-color: #140F2D;
+  color: white;
+  font-size: 1.1em;
+  padding: 0.8em 1em 0.8em 1em;
+  cursor: pointer;
+  border-radius: 0.2em;
+  letter-spacing: 0.1em;
+}
+.simple-form .form-submitter .submit-btn:hover {
+  background-color: #3F88C5;
+}
+
+@media (max-width: 700px) {
+  .simple-form {
+    flex-flow: row nowrap !important;
+    padding-bottom: 5em;
+  }
+  .simple-form .form-step-headers {
+    flex-flow: column nowrap !important;
+  }
+  .simple-form .form-step-headers .step-header {
+    padding: 1em;
+    min-width: 10em;
+    align-items: center;
+  }
+  .simple-form .form-step-headers .step-header::after {
+    display: none;
+  }
+  .simple-form .form-step .form-field {
+    width: 100% !important;
+  }
+  .simple-form .form-step .form-field input, .simple-form .form-step .form-field textarea {
+    width: 90% !important;
+  }
+  .simple-form .form-submitter {
+    width: 100% !important;
+    position: absolute;
+    bottom: 1em;
+    right: 1.2em;
+  }
+}
+@media (max-width: 550px) {
+  .simple-form {
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+  }
+  .simple-form .form-step-headers .step-header {
+    min-width: 1em;
+    justify-content: center;
+  }
+  .simple-form .form-step-headers .step-header .step-name {
+    display: none;
+  }
+  .simple-form .form-submitter {
+    right: 0 !important;
+  }
+  .simple-form .form-submitter .submit-status {
+    display: none;
+  }
+  .simple-form .form-submitter .submit-btn {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .simple-form {
+    flex-flow: column nowrap !important;
+  }
+  .simple-form .form-step-headers {
+    flex-flow: row nowrap !important;
+  }
+  .simple-form .form-step-headers .step-header {
+    padding: 0.2em !important;
+    min-width: 2em;
+    margin-bottom: 0.5em !important;
+  }
+  .simple-form .form-step-headers .step-header .step-status {
+    font-size: 1em;
+  }
+  .simple-form .form-step-headers .step-header .step-number {
+    font-size: 1.2em;
+  }
+}
