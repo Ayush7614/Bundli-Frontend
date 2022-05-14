@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+body {
+    min-height: 100vh;
+    background: url(Images/Background.png);
+    background-size: cover;
+}
+
+.portfolio-main {
+    min-height: 100vh;
+    background: linear-gradient(153.28deg, rgba(255,255,255,0.4) 1.19%, rgba(255,255,255,255,0)100%);
+    backdrop-filter: blur(42px);
+}
+.container {
+    width: 100%;
+    padding: 0 200px;
+}
+header {
+    padding-top: 35px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-bar ul {
+    padding: 0;
+    margin: 0;
+}
+.navigation-bar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.navigation-bar ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #292423;
+    text-transform: capitalize;
+    transition: all 0.3s;
+}
+.navigation-bar ul li a:hover {
+    opacity: 0.5;
+}
+.navigation-bar ul li.hire-btn {
+    margin-left: 130px !important;
+}
+.navigation-bar ul li.hire-btn a {
+    padding: 10px 32px;
+    background: #fff;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.navigation-bar ul li.hire-btn a:hover {
+    background-color: #292423;
+    color: #fff;
+    opacity: 1;
+}
+.main-content-wrapper {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-left span {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #292423;
+    margin-bottom: 10px;
+}
+.col-left h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #292423;
+    line-height: 41px;
+    margin-bottom: 15px;
+}
+.col-left p {
+    width: 85%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 145%;
+    color: #292423;
+    margin-bottom: 20px;
+    letter-spacing: 0.01em;
+}
+a.btn-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 25px;
+    background: #292423;
+    width: 190px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 35px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+}
+a.btn-main:hover {
+    background: #fff;
+    color: #292423;
+}
+a.btn-main span {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background: #35343d;
+    border-radius: 50px;
+    margin: 0 0 0 12px;
+    transition: all 0.3s;
+    text-align: center;
+}
+a.btn-main span img {
+    max-width: 0 0 7px 0;
+}
+a.btn-main:hover span {
+    background: #ccc;
+}
+
+/* -----experience-----------------*/
+.experience-section {
+    width: 100%;
+    padding: 40px 40px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+}
+.experience-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience-inner .col h3 {
+    font-size: 25px;
+    color: #292423;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.experience-inner .col p {
+    font-size: 16px;
+    color: #292423;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+@media(max-width:768px) {
+    header {
+        padding-top: 15px;
+    }
+    .container {
+        padding: 0 20px;
+    }
+    .main-content-wrapper {
+        margin-top: 50px;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .portfolio-main {
+        height: auto;
+    }
+    .col-left {
+        margin-top: 50px;
+    }
+    .col-left span {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .col-left h1 {
+        font-size: 30px;
+    }
+    .col-left p {
+        width: 100%;
+    }
+    a.btn-main span img {
+        margin: 0 0 4px 0;
+    }
+    .experience-section {
+        margin-top: 50px;
+        padding: 0;
+        background: transparent;
+    }
+    .experience-inner .col {
+        padding: 40px 40px;
+        background: rgba(255,255,255,0.2);
+        backdrop-filter: blur(24px);
+        border-radius: 10px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .experience-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    .container {
+        padding: 0 60px;
+    }
+}
+
+/* ----------toggle bar --------*/
+.toggle-bar {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.toggle-bar span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #292423;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+@media(min-width:1200px) {
+    .toggle-bar{
+        display: none;
+    }
+}
+
+@media (max-width:1200px) {
+    .navigation-bar {
+        display: none;
+    }
+    .navigation-bar {
+        position: absolute;
+        top: 79px;
+        left: 0;
+        right: 0;
+        width: 90%;
+        margin: auto;
+        background: rgba(255,255,255,0.2);
+        backdrop-filter: blur(24px);
+        border-radius: 10px;
+        text-align: center;
+        z-index: 2;
+    }
+    .navigation-bar ul {
+        padding: 10px 0 20px;
+    }
+    .navigation-bar ul li {
+        padding: 10px 30px;
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+    .navigation-bar ul li.hire-btn {
+        margin-left: 0 !important;
+    }
+    .navigation-bar ul li.hire-btn a{
+        background-color: #292423;
+        color: #fff;
+    }
+}
+@media(min-width:1200px) {
+    .navigation-bar{
+        display: block !important; 
+    }
+}
