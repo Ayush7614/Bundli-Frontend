@@ -811,6 +811,11 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/pranjay-poddar/Bundli-Frontend/tree/main/PayPal_PaymentGateway"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/main/PayPal_PaymentGateway/public/paypal.gif" alt="paypal payment gateway"></a>
 </p>
+
+### 123. Covid Tracker
+<p align="center">
+     <a href="https://github.com/pranjay-poddar/Bundli-Frontend/tree/covidtracker/covid-tracker"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/covidtracker/covid-tracker/public/covidtracker.png"></a>
+</p>
  
 ## Stargazers over time 🤗
 
