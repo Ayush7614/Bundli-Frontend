@@ -806,6 +806,11 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://kumar-laxmi.github.io/Wikipedia-Clone/"><img src="./Wikipedia-Clone/img/ScreenShot.png" alt="Wikipedia-Clone"></a>
 </p>
+
+### 122. Paypal Payment Gateway
+<p align="center">
+     <a href="https://github.com/pranjay-poddar/Bundli-Frontend/tree/main/PayPal_PaymentGateway"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/main/PayPal_PaymentGateway/public/paypal.gif" alt="paypal payment gateway"></a>
+</p>
  
 ## Stargazers over time 🤗
 
