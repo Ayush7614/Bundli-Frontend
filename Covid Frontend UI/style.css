@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+	align-self: center;
+	background-color: #222222;
+	display: flex;
+	font-family: 'Rubik', sans-serif;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.container {
+	display: grid;
+	grid-auto-flow: dense;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	margin: 40px;
+	max-width: 100%;
+	position: relative;
+}
+
+.container .box {
+	background-color: #333333;
+	color: #ffffff;
+	display: grid;
+	font-size: 20px;
+	padding: 20px;
+	place-items: center;
+	text-align: center;
+	transition: background-color 0.5s ease;
+}
+
+.container .box:nth-child(1) {
+	grid-column: span 2;
+	grid-row: span 1;
+}
+
+.container .box:nth-child(2) {
+	grid-column: span 1;
+	grid-row: span 2;
+}
+
+.container .box:nth-child(4) {
+	grid-column: span 1;
+	grid-row: span 2;
+}
+
+.container .box:nth-child(5) {
+	grid-column: span 3;
+	grid-row: span 1;
+}
+
+.container .box:hover,
+.container .box:focus,
+.container .box:active {
+	background-color: #e91e63;
+}
+
+.container .box img {
+	margin-bottom: 10px;
+	max-width: 100px;
+	position: relative;
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+		grid-template-rows: repeat(auto, auto);
+	}
+	
+	.container .box {
+		grid-column: unset !important;
+		grid-row: unset !important;
+	}
+}
