@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="Images/logo.png" class="logo" alt="">
+        <div class="searchbar">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="users-options">
+            <span><i class="fa-solid fa-video"></i>&nbsp;</span>
+            <span> <i class="fa-solid fa-bars"> </i> &nbsp; </span>
+            <div class="users-profile">
+                <span> <i class="fa-regular fa-user"></i> </span>
+            </div>
+        </div>
+    </nav>
+    <div class="sidebars">
+        <a href="#" class="links active"><img src="Images/home.png" alt="">home</a>
+        <a href="#" class="links"><img src="Images/Explore.png" alt="">explore</a>
+        <a href="#" class="links"><img src="Images/video1.png" alt="">subscription</a>
+    <hr class="seperator">
+        <a href="#" class="links"><img src="Images/resume.png" alt="">library</a>
+        <a href="#" class="links"><img src="Images/history.png" alt="">history</a>
+        <a href="#" class="links"><img src="Images/video1.png" alt="">your videos</a>
+        <a href="#" class="links"><img src="Images/watch later.png" alt="">watch Later</a>
+        <a href="#" class="links"><img src="Images/liked.png" alt="">like video</a>
+        <a href="#" class="links"><img src="Images/arrow.png" alt="">show more</a>
+    </div>
+    <div class="filters">
+        <button class="filter-options active">all</button>
+        <button class="filter-options">Recruitment</button>
+        <button class="filter-options">web development</button>
+        <button class="filter-options">Python</button>
+        <button class="filter-options">Entertainment</button>
+        <button class="filter-options">Movies</button>
+        <button class="filter-options">Javascript</button>
+        <button class="filter-options">Artificial intelligence</button>
+        <button class="filter-options">Machine learning</button>
+        <button class="filter-options">Trending</button>
+    </div>
+    <div class="video-container"></div>
+<script src="https://apis.google.com/js/api.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
