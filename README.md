@@ -763,17 +763,17 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/mahesh-143"><img src="Frontend Developer portfolio site/PreviewImages/home-page-desktop-1.png"/></a>
   </p>
   
- ### 114. JS-Keyboard 
-  <p align="center">
+### 114. JS-Keyboard 
+ <p align="center">
      <a href="https://github.com/Ayush7614"><img src= "https://github.com/pranjay-poddar/Bundli-Frontend/blob/js_keyboard/Screenshots/js-keyboard.PNG"/></a>
-  </p>
+ </p>
 
- ### 115. Blogs Saving WebApp - GoTo Blogs 
-  <p align="center">
+### 115. Blogs Saving WebApp - GoTo Blogs 
+ <p align="center">
      <a href="https://github.com/imsushan12"><img src= "./Goto-Blogs/output.png"/></a>
-  </p>
+ </p>
   
- ### 116. Are You Palindromic
+### 116. Are You Palindromic
   <p align="center">
      <a href="https://github.com/anjali1102"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/are you palindrome.png"/></a>
   </p>
@@ -799,8 +799,6 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://babyelias.github.io/GST_Calculator/"><img src="https://github.com/BabyElias/GST_Calculator/blob/main/imagee.PNG">
     </a>
 </p>
-> **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
-
 
 ### 121. Wikipedia Clone
 <p align="center">
