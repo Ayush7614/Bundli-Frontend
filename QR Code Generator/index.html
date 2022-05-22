@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
+    <header class="masthead" style="background-image:url('assets/img/intro-bg.jpg');">
+        <div class="intro-body">
+            <div class="container">
+
+                <div class="mx-auto">
+                    <h1 class="brand-heading">Hello There! </h1>
+                    <p class="intro-text">Enter text or link to generate QR code</p>
+                </div>
+
+                <div class="inputDiv">
+
+                    <input type="text" name="text" required id="input" class="mx-3 my-3 myin"
+                        placeholder="Enter Text">
+                    <button type="submit" id="submit" onclick="generateQR()" class="btn btn-primary mx-3 myin myBtn">Generate
+                        QR</button>
+
+                </div>
+                <div class="qr my-3">
+                    <div id="qrcode-2" class="my-3"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="map-clean"></div>
+    <footer>
+        <div class="container text-center">
+            <h6 class="h5 heartbeat">Made With 💗 by <a href="https://github.com/MR-DHRUV" target="_blank"
+                    rel="noopener noreferrer">Dhruv</a></h6>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript">
+
+        const generateQR = () => {
+            let mytext = document.getElementById('input').value;
+            if (mytext) {
+                document.getElementById("qrcode-2").innerHTML = '';
+                var qrcode = new QRCode(document.getElementById("qrcode-2"), {
+                    text: mytext,
+                    width: 128,
+                    height: 128,
+                    colorDark: "#000000",
+                    colorLight: "#ffffff",
+                    correctLevel: QRCode.CorrectLevel.H
+                });
+                const source = document.getElementById('#qrcode-2 img')[0].src
+                console.log(source);
+                document.getElementById('mydownload').href = source;
+            }
+            else {
+                alert("Please Enter Some Text")
+            }
+        }
+
+    </script>
+
+</body>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/grayscale.js"></script>
+<script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
+</html>
