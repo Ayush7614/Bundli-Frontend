@@ -27,23 +27,23 @@ Bundli-Frontend is a repo which contains different code of frontend Development 
 
 You can refer to the following articles on the basics of Git and Github and also contact the Project Mentors, in case you are stuck:
 
-- [Watch this video to get started, if you have no clue about open source](https://youtu.be/SL5KKdmvJ1U)
-- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
-- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
-- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
-- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+-   [Watch this video to get started, if you have no clue about open source](https://youtu.be/SL5KKdmvJ1U)
+-   [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+-   [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
+-   [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
+-   [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
 ## 💥 How to Contribute?
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-- Take a look at the Existing [Issues](https://github.com/Ayush7614/Bundli-Frontend/issues) or create your own Issues!
-- Wait for the Issue to be assigned to you after which you can start working on it.
-- Fork the Repo and create a Branch for any Issue that you are working upon.
-- Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
-- Add Screenshots to help us know what this Script is all about.
-- Having difficulty in contributing? Read the [Contribution Guide](https://github.com/Ayush7614/Bundli-Frontend/blob/main/CONTRIBUTING.md) for a detailed explanation.
+-   Take a look at the Existing [Issues](https://github.com/Ayush7614/Bundli-Frontend/issues) or create your own Issues!
+-   Wait for the Issue to be assigned to you after which you can start working on it.
+-   Fork the Repo and create a Branch for any Issue that you are working upon.
+-   Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
+-   Add Screenshots to help us know what this Script is all about.
+-   Having difficulty in contributing? Read the [Contribution Guide](https://github.com/Ayush7614/Bundli-Frontend/blob/main/CONTRIBUTING.md) for a detailed explanation.
 
 ## 💻 Languages used in this project
 
@@ -497,7 +497,7 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/566c4d6785c8e4ad5d6ef52f7cd2f8d33ca6c211/Screenshots/Form.png" /></a>
 </p>
- 
+
 ### 72. Split_screen_effect
 
 <p align="center">
@@ -527,8 +527,9 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="./Screenshots/piano.png" /></a>
   </p>
-  
-### 77.Expand Button Animation 
+
+### 77.Expand Button Animation
+
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/d0fcdd0da519dcad33427be87a64a577198feb56/Screenshots/Expand_button.gif" /></a>
   </p>
@@ -538,7 +539,7 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Space%20invader/Images/Output50.png" /></a>
  </p>
- 
+
 ### 79. Calculator
 
 <table>
@@ -555,7 +556,7 @@ You can refer to the following articles on the basics of Git and Github and also
   </td>
  </tr>
 </table>
-  
+
 ### 80.Loading Animation
 
 <p align="center">
@@ -568,32 +569,30 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Shopping_Cart/sh%E2%80%ADopping_cart.png" /></a>
 </p>
 
-
 ### 82. Background Image Slider
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Backgroung%20Image%20Slider/Images/Output.gif" /></a>
 </p>
 
-### 83. Typewriter Animation 
+### 83. Typewriter Animation
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/5400cc23f08bf66ea2758c679ef3fb71ae007ad6/Screenshots/typewriter.gif" /></a>
 </p>
-  
+
 ### 84. Testimonials_Slider
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Testimonials_Slider/testimonials.png" /></a>
 </p>
 
-  
 ### 85. Rainbow Strip Buttons
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="./Screenshots/rainbow-button.gif" /></a>
   </p>
-  
+
 ### 86. Pong Game
 
 <p align="center">
@@ -612,7 +611,7 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="./Screenshots/card-hover-effect.gif" /></a>
 </p>
 
-### 89. Background Changer 
+### 89. Background Changer
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/0a930bd3c4b6fcd7d7ed7db3fd7228cb4579c15c/Screenshots/background-changer.gif" /></a>
@@ -648,7 +647,7 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/scroller/Screenshots/scroller.PNG " /></a>
 </p>
 
-### 95. Navbar Bubble Animation 
+### 95. Navbar Bubble Animation
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/4536954375c44f3ca9e0063127c4871acae7722d/Screenshots/Bubble-Navbar.gif" /></a>
@@ -659,7 +658,7 @@ You can refer to the following articles on the basics of Git and Github and also
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Harikrishnaa3131/Bundli-Frontend/blob/main/Speech%20Synthesizer/Images/Output65.png" /></a>
   </p>
-  
+
 ### 97. Charts
 
 <p align="center">
@@ -672,10 +671,8 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/thejaswin123/Bundli-Frontend/blob/main/Truth_Table_Generator/truth_table.png"/></a>
 </p>
 
-
-
-
 =======
+
 ### 99. 2048 Game
 
 <p align="center">
@@ -718,110 +715,123 @@ You can refer to the following articles on the basics of Git and Github and also
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/286d5e0b4a50467f646aca0c2e97009dc0ead9c0/Water%20Drop%20Effect/image.png"/></a>
 </p>
 
-  ### 106. Angular Bootstrap Route
+### 106. Angular Bootstrap Route
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/angular-route/Screenshots/Angular-Route.PNG"/></a>
   </p>
-  
+
 ### 107. Speak Number Guess
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="./Screenshots/speaknumberguess.png" /></a>
 </p>
 
- ### 108. Card with Glowing Border
+### 108. Card with Glowing Border
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/892ddbadee5ec6c3b929a0e14738042704f63664/Card%20with%20Glowing%20Border/image.png"/></a>
   </p>
-  
- ### 109. Animated Service-Cards
+
+### 109. Animated Service-Cards
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/service-card/Screenshots/service-cards.PNG"/></a>
   </p>
-  
- ### 110. Upside Left Animated Navbar
+
+### 110. Upside Left Animated Navbar
 
 <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/upside-navbar/Screenshots/upside-navbar.PNG"/></a>
   </p>
-  
- ### 111. Image hover Effect 
+
+### 111. Image hover Effect
+
   <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/siddhi-244/Bundli-Frontend/blob/3e1071c76f22efcac3306efd87525fc50bfcfd3a/Screenshots/Img_hover.jpg"/></a>
   </p>
 
- ### 112. Social-Media Footer
+### 112. Social-Media Footer
+
   <p align="center">
      <a href="https://github.com/Ayush7614"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/social-footer/Screenshots/social-footer.PNG"/></a>
   </p>
-  
- ### 113. Social-Media Footer
+
+### 113. Social-Media Footer
+
   <p align="center">
      <a href="https://github.com/mahesh-143"><img src="Frontend Developer portfolio site/PreviewImages/home-page-desktop-1.png"/></a>
   </p>
-  
- ### 114. JS-Keyboard 
+
+### 114. JS-Keyboard
+
   <p align="center">
      <a href="https://github.com/Ayush7614"><img src= "https://github.com/pranjay-poddar/Bundli-Frontend/blob/js_keyboard/Screenshots/js-keyboard.PNG"/></a>
   </p>
 
- ### 115. Blogs Saving WebApp - GoTo Blogs 
+### 115. Blogs Saving WebApp - GoTo Blogs
+
   <p align="center">
      <a href="https://github.com/imsushan12"><img src= "./Goto-Blogs/output.png"/></a>
   </p>
-  
- ### 116. Are You Palindromic
+
+### 116. Are You Palindromic
+
   <p align="center">
      <a href="https://github.com/anjali1102"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/Screenshots/are you palindrome.png"/></a>
   </p>
 
 ### 117. Binary Clock
+
 <p align="center">
     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/binary-clock/Binary.PNG" alt="Binary Clock" /></a></a>
 </p>
 
 ### 118. Image Gallery
+
 <p align="center">
     <a href="https://aritra777.github.io/Art-Gallary/" target="_blank"><img src="./Image-Gallery/Fine_Arts.png" /></a>
 </p>
 
 ### 119. Google Search Engine Clone
+
 <p align="center">
      <a href="https://github.com/gurjeetsinghvirdee/Google-Clone"><img src="https://github.com/gurjeetsinghvirdee/Bundli-Frontend/blob/google-clone/Google-Search-Engine-Clone/src/Images/Screenshot%20(696).png">
     </a>
 </p>
 
 ### 120. GST Calculator
+
 <p align="center">
      <a href="https://babyelias.github.io/GST_Calculator/"><img src="https://github.com/BabyElias/GST_Calculator/blob/main/imagee.PNG">
     </a>
 </p>
 > **_Need help? Feel free to contact me @ [ayushknj3@gmail.com](mailto:ayushknj3@gmail.com?Subject=Bundli-Frontend)_**
 
-
 ### 121. Wikipedia Clone
+
 <p align="center">
      <a href="https://kumar-laxmi.github.io/Wikipedia-Clone/"><img src="./Wikipedia-Clone/img/ScreenShot.png" alt="Wikipedia-Clone"></a>
 </p>
 
 ### 122. Paypal Payment Gateway
+
 <p align="center">
      <a href="https://github.com/pranjay-poddar/Bundli-Frontend/tree/main/PayPal_PaymentGateway"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/main/PayPal_PaymentGateway/public/paypal.gif" alt="paypal payment gateway"></a>
 </p>
 
 ### 123. Covid Tracker
+
 <p align="center">
      <a href="https://github.com/pranjay-poddar/Bundli-Frontend/tree/covidtracker/covid-tracker"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/covidtracker/covid-tracker/public/covidtracker.png"></a>
 </p>
 
-### 123. Task Tracker
+### 124. React Quiz App
+
 <p align="center">
-     <a href="https://github.com/pranjay-poddar/Bundli-Frontend/blob/task/Task-Tracker"><img src="https://github.com/pranjay-poddar/Bundli-Frontend/blob/task/Task-Tracker/tasktracker.png"></a>
+     <a href="https://github.com/piyusha2001/quiz-app"><img src="https://github.com/piyusha2001/Bundli-Frontend/tree/piyusha-issue775/Screenshots/react_quiz_app"></a>
 </p>
- 
+
 ## Stargazers over time 🤗
 
 [![Stargazers over time](https://starchart.cc/Ayush7614/Bundli-Frontend.svg)](https://starchart.cc/Ayush7614/Bundli-Frontend)
