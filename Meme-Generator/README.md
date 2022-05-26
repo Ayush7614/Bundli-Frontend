@@ -4,7 +4,7 @@
 
 - Clone the repository or download the project
 - cd into the project directory
-- Run npm install to install all the required dependendies
+- Run npm install to install all the required dependencies
 - Use npm start to run the project in your local machine and Open http://localhost:3000 to view it in your browser.
 
 This project is already deployed. You can visit the link for demo:-
