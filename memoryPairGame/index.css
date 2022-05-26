@@ -1,0 +1,74 @@
+#title{
+    text-transform: capitalize;
+    color:gray;
+}
+.title{
+    text-transform: capitalize;
+    color:gray;
+}
+.btn-yellow{
+    background-color: yellow;
+}
+.btn-green{
+    background-color: green;
+}
+.btn-blue{
+    background-color: blue;
+}
+.btn-red{
+    background-color:red;
+}
+.btnk{
+    display: block;
+    padding: 60px 90px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.kt{
+    float: right;
+}
+
+
+
+@media only screen and (max-width:403px) {
+    .btnk{
+        padding: 50px 40px;
+    }
+    #score{
+        padding: 10px 10px;
+        font-size: 25px;
+    }
+}
+
+
+.btnsw-yellow{
+    background-color: rgba(255, 255, 0, 0.7);
+    border: 10px solid rgba(0, 0, 0, 0.616);
+}
+.btnsw-green{
+    background-color: rgba(0, 128, 0, 0.7);
+    border: 10px solid rgba(0, 0, 0, 0.616);
+}
+.btnsw-blue{
+    background-color: rgba(0, 0, 255, 0.7);
+    border: 10px solid rgba(0, 0, 0, 0.616);
+}
+.btnsw-red{
+    background-color:rgba(255, 0, 0, 0.7);
+    border: 10px solid rgba(0, 0, 0, 0.616);
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
+
+  #score{
+    display: block;
+    color:gold;
+    padding: 24px 30px;
+    background: #333;
+    border: 2px solid yellow;
+    border-radius: 15px;
+}
