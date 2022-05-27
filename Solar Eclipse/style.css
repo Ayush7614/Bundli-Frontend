@@ -1,0 +1,206 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-animation: 10s linear light infinite;
+          animation: 10s linear light infinite;
+}
+body:after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  color: #fff;
+  background: currentcolor;
+  box-shadow: 30px -100px, 50px -30px, 100px -140px, 180px -240px, 130px 100px, 170px -30px, 200px -40px, 120px -40px, 230px 10px, 270px -30px, 200px -10px, 220px -80px;
+}
+body:before {
+  content: "";
+  position: absolute;
+  right: 0%;
+  top: 20%;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  color: #fff;
+  background: currentcolor;
+  box-shadow: -230px -150px, -150px -60px, -200px -40px, -180px -340px, -130px 100px, -170px -30px, -340px -40px, -320px -240px, -230px 10px, -270px -30px, -110px -10px, -220px -180px;
+}
+
+.sun {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #FFEE58;
+  box-shadow: 0 0 50px #FFA726;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.moon {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #ECEFF1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 10;
+  overflow: hidden;
+  box-shadow: -10px 5px 50px #B0BEC5 inset;
+  -webkit-animation: 10s moonWalk linear infinite;
+          animation: 10s moonWalk linear infinite;
+  transform-origin: 50% 50%;
+}
+.moon:after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  top: 70%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #B0BEC5;
+  background: currentcolor;
+  -webkit-animation: 10s spin linear infinite alternate;
+          animation: 10s spin linear infinite alternate;
+  box-shadow: -30px -100px 0 2px, 50px -30px 0 -8px, 50px -140px 0 -2px, 150px -140px 0 0px, 150px -40px 0 -10px, 150px -15px 0 0px, 240px 15px 0 2px, 280px -100px 0 2px, 300px -20px 0 -4px;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes spin {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+@-webkit-keyframes moonWalk {
+  0% {
+    transform: translateX(150%) scale(0.8);
+    z-index: 10;
+  }
+  20% {
+    transform: translateX(5%) scale(1);
+    z-index: 10;
+  }
+  35% {
+    transform: translateX(-5%) scale(1);
+    z-index: 10;
+  }
+  50% {
+    transform: translateX(-150%) scale(0.8);
+    z-index: 10;
+  }
+  51% {
+    transform: translateX(-150%) scale(0.8);
+    z-index: 1;
+  }
+  70% {
+    transform: translateX(0) scale(0.5);
+    z-index: 1;
+  }
+  85% {
+    transform: translateX(100%) scale(0.5);
+    z-index: 1;
+  }
+  99% {
+    transform: translateX(150%) scale(0.8);
+    z-index: 1;
+  }
+  100% {
+    transform: translateX(150%) scale(0.8);
+    z-index: 10;
+  }
+}
+@keyframes moonWalk {
+  0% {
+    transform: translateX(150%) scale(0.8);
+    z-index: 10;
+  }
+  20% {
+    transform: translateX(5%) scale(1);
+    z-index: 10;
+  }
+  35% {
+    transform: translateX(-5%) scale(1);
+    z-index: 10;
+  }
+  50% {
+    transform: translateX(-150%) scale(0.8);
+    z-index: 10;
+  }
+  51% {
+    transform: translateX(-150%) scale(0.8);
+    z-index: 1;
+  }
+  70% {
+    transform: translateX(0) scale(0.5);
+    z-index: 1;
+  }
+  85% {
+    transform: translateX(100%) scale(0.5);
+    z-index: 1;
+  }
+  99% {
+    transform: translateX(150%) scale(0.8);
+    z-index: 1;
+  }
+  100% {
+    transform: translateX(150%) scale(0.8);
+    z-index: 10;
+  }
+}
+@-webkit-keyframes light {
+  0%, 10% {
+    background-color: #fff;
+  }
+  20% {
+    background-color: #111;
+  }
+  35% {
+    background-color: #111;
+  }
+  45% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+@keyframes light {
+  0%, 10% {
+    background-color: #fff;
+  }
+  20% {
+    background-color: #111;
+  }
+  35% {
+    background-color: #111;
+  }
+  45% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
