@@ -5,6 +5,9 @@ Bundli-Frontend is a open source project which contains different code of fronte
 <p align="center">
     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/images/screenshot-hacktoberfest.digitalocean.com-2021.10.02-02_32_15.png" />
     </a>
+    <a href="https://github.com/Ayush7614">
+        <img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/images/GS_logo_White.png" width="500" height="140"/>
+    </a>
 
 <img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/poster/Animated-Poster.gif" alt="Poster" />
 
