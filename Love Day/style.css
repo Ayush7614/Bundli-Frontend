@@ -1,0 +1,110 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+*:focus {
+	outline: 0;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+	background: url('https://images.pexels.com/photos/776636/pexels-photo-776636.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') #ffffff center center / cover no-repeat fixed;
+	overflow: hidden;
+}
+
+.text {
+	font: bold 5em 'Maiden Orange', sans-serif;
+	line-height: 100vh;
+	perspective: 1000px;
+	text-align: center;
+}
+
+.letters {
+	-webkit-background-clip: text;
+	-webkit-animation: round 2s infinite;
+	        animation: round 2s infinite;
+	background-image: url('https://images.pexels.com/photos/776636/pexels-photo-776636.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+	background-position-x: center;
+	background-position-y: 390px;
+	color: rgba(0, 0, 0, 0);
+	display: inline-block;
+	transform-origin: 50% 50% -25px;
+	transform-style: preserve-3d;
+}
+
+.letters:nth-child(2) {
+	-webkit-animation-delay: 0.2s;
+	        animation-delay: 0.2s;
+}
+
+.letters:nth-child(3) {
+	-webkit-animation-delay: 0.3s;
+	        animation-delay: 0.3s;
+}
+
+.letters:nth-child(4) {
+	-webkit-animation-delay: 0.4s;
+	        animation-delay: 0.4s;
+}
+
+.letters:nth-child(5) {
+	-webkit-animation-delay: 0.5s;
+	        animation-delay: 0.5s;
+}
+
+.letters:nth-child(6) {
+	-webkit-animation-delay: 0.6s;
+	        animation-delay: 0.6s;
+}
+
+.letters:nth-child(7) {
+	-webkit-animation-delay: 0.7s;
+	        animation-delay: 0.7s;
+}
+
+.letters:nth-child(8) {
+	-webkit-animation-delay: 0.8s;
+	        animation-delay: 0.8s;
+}
+
+.letters:nth-child(9) {
+	-webkit-animation-delay: 0.9s;
+	        animation-delay: 0.9s;
+}
+
+@-webkit-keyframes round {
+	0% {
+		filter: grayscale(100%);
+		transform: rotateX(-360deg);
+	}
+
+	70% {
+		transform: rotateX(0deg);
+	}
+}
+
+@keyframes round {
+	0% {
+		filter: grayscale(100%);
+		transform: rotateX(-360deg);
+	}
+
+	70% {
+		transform: rotateX(0deg);
+	}
+}
+
+@media screen and (max-width: 760px) {
+	body {
+		background-position-x: 20%;
+	}
+
+	.text {
+		font-size: 3em;
+	}
+}
