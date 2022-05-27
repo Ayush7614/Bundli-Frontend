@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Animated Glow</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:wght@400,600,700&display=swap"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="text">
+	<h2>
+		Dragon
+	</h2>
+</div>
+
+<svg>
+	<filter id="fire">
+		<feTurbulence id="turbulence" baseFrequency="0.1 0.1" numOctaves="2" seed="3">
+			<animate 
+		 		attributeName="baseFrequency"
+				dur="10s"
+			  values="0.1 0.1;0.12 0.2"
+				repeatCount="indefinite"
+		  >
+		  </animate>
+		</feTurbulence>
+
+		<feDisplacementMap in="SourceGraphic" scale="25"></feDisplacementMap>
+	</filter>
+</svg>
+<!-- partial -->
+  
+</body>
+</html>
