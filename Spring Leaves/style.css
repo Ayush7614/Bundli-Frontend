@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+section {
+	align-items: center;
+	background-image: radial-gradient(
+											#333333,
+											#000000
+										);
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+section h2 {
+	color: #ffffff;
+	font-size: 8rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+section .set {
+	height: 100%;
+	left: 0;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+section .set.set2 {
+	filter: blur(2px);
+	transform: rotateY(180deg) scale(1.5);
+}
+
+section .set.set3 {
+	filter: blur(4px);
+	transform: rotateY(180deg) scale(0.8);
+}
+
+section .set div {
+	-webkit-animation-name: animate;
+	        animation-name: animate;
+	-webkit-animation-timing-function: linear;
+	        animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	display: block;
+	opacity: 0;
+	position: absolute;
+	top: -10%;
+	transform: rotateZ(0) translateX(20px);
+}
+
+section .set div:nth-child(1) {
+	-webkit-animation-delay: -7s;
+	        animation-delay: -7s;
+	-webkit-animation-duration: 15s;
+	        animation-duration: 15s;
+	left: 20%;
+}
+
+section .set div:nth-child(2) {
+	-webkit-animation-delay: -5s;
+	        animation-delay: -5s;
+	-webkit-animation-duration: 20s;
+	        animation-duration: 20s;
+	left: 50%;
+}
+
+section .set div:nth-child(3) {
+	-webkit-animation-duration: 20s;
+	        animation-duration: 20s;
+	left: 70%;
+}
+
+section .set div:nth-child(4) {
+	-webkit-animation-delay: -5s;
+	        animation-delay: -5s;
+	-webkit-animation-duration: 15s;
+	        animation-duration: 15s;
+	left: 0;
+}
+
+section .set div:nth-child(5) {
+	-webkit-animation-delay: -10s;
+	        animation-delay: -10s;
+	-webkit-animation-duration: 18s;
+	        animation-duration: 18s;
+	left: 85%;
+}
+
+section .set div:nth-child(6) {
+	-webkit-animation-duration: 12s;
+	        animation-duration: 12s;
+	left: 0;
+}
+
+section .set div:nth-child(7) {
+	-webkit-animation-duration: 14s;
+	        animation-duration: 14s;
+	left: 15%;
+}
+
+section .set div:nth-child(8) {
+	-webkit-animation-duration: 15s;
+	        animation-duration: 15s;
+	left: 60%;
+}
+
+@-webkit-keyframes animate {	
+	10% {
+		opacity: 1;
+	}
+	
+	20% {
+		transform: rotateZ(45deg) translateX(-20px);
+	}
+	
+	40% {
+		transform: rotateZ(90deg) translateX(-20px);
+	}
+	
+	60% {
+		transform: rotateZ(180deg) translateX(20px);
+	}
+	
+	80% {
+		transform: rotateZ(180deg) translateX(-20px);
+	}
+	
+	100% {
+		top: 110%;
+		transform: rotateZ(225deg) translateX(-20px);
+	}
+}
+
+@keyframes animate {	
+	10% {
+		opacity: 1;
+	}
+	
+	20% {
+		transform: rotateZ(45deg) translateX(-20px);
+	}
+	
+	40% {
+		transform: rotateZ(90deg) translateX(-20px);
+	}
+	
+	60% {
+		transform: rotateZ(180deg) translateX(20px);
+	}
+	
+	80% {
+		transform: rotateZ(180deg) translateX(-20px);
+	}
+	
+	100% {
+		top: 110%;
+		transform: rotateZ(225deg) translateX(-20px);
+	}
+}
+
+@media screen and (max-width: 990px) {
+	section h2 {
+		font-size: 9rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	section h2 {
+		font-size: 6rem;
+	}
+	
+	section .set div img {
+		width: 100px;
+		heigth: 100px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	section h2 {
+		font-size: 4rem;
+	}
+	
+	section .set div img {
+		width: 75px;
+		heigth: 50px;
+	}
+}
