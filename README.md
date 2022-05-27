@@ -11,7 +11,7 @@ Bundli-Frontend is a open source project which contains different code of fronte
 
 <img src="https://github.com/Ayush7614/Bundli-Frontend/blob/main/poster/Animated-Poster.gif" alt="Poster" />
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Ayush7614/Bundli-Frontend?color=yellow)
+![GitHub repo size](https://img.shields.io/github/repo-size/Ayush7614/Bundli-Frontend?color=yellow&style=for-the-badge)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
