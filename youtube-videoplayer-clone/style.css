@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.video-container{
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    background-color: black;
+}
+.video-container.theatre,
+.video-container.full-screen{
+    max-width: initial;
+    width: 100%;
+}
+.video-container.theatre{
+    max-height: 90vh;
+}
+.video-container.full-screen {
+    max-width: initial;
+    width: 100%;
+    max-height: 100vh;
+}
+video{
+    width: 100%;
+}
+.video-controls-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    color: white;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+}
+.video-container:hover, .video-controls-container:hover,
+.video-container:focus-within .video-controls-container
+.video-container.paused .video-controls-container{
+    opacity: 1;
+}
+.video-controls-container .controls{
+    display: flex;
+    margin: 0 0.5rem;
+    align-items: center;
+    padding: 0.25rem;
+}
+.video-controls-container .controls button{
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    opacity: 0.85;
+    transition: opacity 150ms ease-in-out;
+}
+.video-controls-container .controls button:hover{
+    opacity: 1;
+}
+
+.video-container.paused .pause-icon{
+    display: none;
+}
+.video-container:not(.paused) .play-icon {
+    display: none;
+}
+.video-container.theatre .tall {
+    display: none;
+}
+
+.video-container:not(.theatre) .wide {
+    display: none;
+}
+.video-container.full-screen .open {
+    display: none;
+}
+
+.video-container:not(.full-screen) .close {
+    display: none;
+}
+
+.volume-high-icon,
+.volume-low-icon,
+.volume-muted-icon {
+    display: none;
+}
+
+.video-container[data-volume-level="high"] .volume-high-icon {
+    display: block;
+}
+
+.video-container[data-volume-level="low"] .volume-low-icon {
+    display: block;
+}
+
+.video-container[data-volume-level="muted"] .volume-muted-icon {
+    display: block;
+}
+
+.volume-container {
+    display: flex;
+    align-items: center;
+}
+
+.volume-slider {
+    width: 0;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: width 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.volume-container:hover .volume-slider,
+.volume-slider:focus-within {
+    width: 100px;
+    transform: scaleX(1);
+}
+
+.duration-container {
+    display: flex;
+    align-items: center;
+    margin: 0 .25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-grow: 1;
+}
