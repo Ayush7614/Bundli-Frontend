@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <!-- 2-footer-newsletter -->
+ <!-- preview in tailwindcss-playground -->
+ <!-- https://play.tailwindcss.com/7eRjJDPacR?layout=preview -->
+ <section class="px-8 py-20 bg-indigo-700">
+               
+    <div class="flex flex-col justify-items-center lg:flex-row lg:justify-between">
+        <div>
+          <h1 class="pb-2 text-3xl font-extrabold text-white uppercase">Want quick updates and news?</h1>
+          <p class="text-2xl text-white opacity-60 ">Sign up for our newsletter to stay up to date</p>
+      </div>
+        <form class="mt-4 lg:mt-0">
+          
+            <input  class="p-3 text-base text-gray-500 bg-white border-2 border-black rounded w-72 sm:w-96 " placeholder="Enter your Email " />
+            <input class="px-4 py-3 text-lg text-white bg-indigo-500 rounded cursor-pointer hover:bg-indigo-900" type="submit" value="Start free trial">
+            <p class="mt-2 text-sm text-white opacity-50">We care about protection of your data. Read our <span><a class="uderline" href="https://csstail.com">privacy policy.</a></span></p>
+        </form>
+    </div>
+  </section>
+  
+</body>
+</html>
