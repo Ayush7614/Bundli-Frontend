@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+<!-- 2-heroSection-newsletter -->
+ <!-- preview in tailwindcss-playground -->
+ <!-- https://play.tailwindcss.com/zJPIJbT9sN?layout=preview -->
+ <section class="px-8 py-32 bg-indigo-600">
+               
+    <div class="flex flex-col items-center justify-center">
+     
+          <h1 class="text-3xl font-extrabold text-white ">Get Notified when we are launching</h1>
+          <p class="pt-4 pb-6 text-lg text-center text-white opacity-60 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae vel sequi odit laboriosam hic et assumenda.<br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      
+        <form class="">
+          
+            <input  class="p-3 text-base text-gray-500 bg-white border-2 border-black rounded w-72 sm:w-96 " placeholder="Enter your Email " />
+            <input class="px-4 py-3 text-lg text-white bg-indigo-500 rounded cursor-pointer hover:bg-indigo-900" type="submit" value="Notify me">
+        </form>
+    </div>
+  </section>
+  
+</body>
+</html>
