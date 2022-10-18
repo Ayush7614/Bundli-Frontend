@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Popup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main"> 
+        <button type="submit" class="btn" onclick="openPopup()" >Hello world</button>
+            <div class="wraper" id="popup">
+                <img src="404-tick.png" alt="Hi">
+                <h2>Thank You</h2>
+                <p>You are added<br>We will contact you Soon</p>
+                <button type="button" onclick="closePopup()" >Ok</button>
+
+
+
+            </div>
+    </div>
+    <script>
+        var navLinks = document.getElementById("popup");
+            function openPopup()
+            {
+                navLinks.style.visibility = "visible";
+                navLinks.style.transform= "translate(-50%, -50px)scale(1)";
+                navLinks.style.top="40%";
+            }
+    
+            function closePopup()
+            {
+                navLinks.style.visibility = "hidden";
+                navLinks.style.transform= "translate(-50%, -50px)scale(0.1)";
+                navLinks.style.top="-200%";
+            }
+    </script>
+</body>
+</html>
